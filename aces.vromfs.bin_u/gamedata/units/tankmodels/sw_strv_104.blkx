@@ -111,15 +111,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -150,22 +141,34 @@
           "armorThickness": 5.0
         },
         "ex_armor_01_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "armorClass": "RHAHH_tank"
         },
         "ex_armor_02_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "armorClass": "RHAHH_tank"
         },
         "ex_armor_03_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "armorClass": "RHAHH_tank"
         },
         "ex_armor_04_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "armorClass": "RHAHH_tank"
         },
         "ex_armor_05_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "armorClass": "RHAHH_tank"
         },
         "ex_armor_06_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "armorClass": "RHAHH_tank"
         },
         "body_top_dm": {
           "armorThickness": 29.0
@@ -207,6 +210,9 @@
         },
         "turret_03_side_dm": {
           "armorThickness": 29.0
+        },
+        "turret_04_side_dm": {
+          "armorThickness": 32.0
         },
         "turret_front_dm": {
           "armorThickness": 152.0
@@ -281,33 +287,6 @@
         "ex_armor_body_l_01_dm": [],
         "ex_armor_body_l_02_dm": [],
         "ex_armor_body_l_03_dm": []
-      },
-      "ex_armor_era_hull_turret": {
-        "armorClass": "RHAHH_tank_modern",
-        "armorThickness": 17.0,
-        "stopChanceOnDeadPart": 0.0,
-        "createSecondaryShatters": false,
-        "hp": 250.0,
-        "ex_armor_09_dm": [],
-        "ex_armor_10_dm": [],
-        "ex_armor_11_dm": [],
-        "ex_armor_12_dm": [],
-        "ex_armor_13_dm": [],
-        "ex_armor_14_dm": [],
-        "ex_armor_15_dm": [],
-        "ex_armor_16_dm": [],
-        "ex_armor_17_dm": [],
-        "ex_armor_18_dm": [],
-        "ex_armor_l_02_dm": [],
-        "ex_armor_r_02_dm": [],
-        "ex_armor_r_03_dm": [],
-        "ex_armor_l_03_dm": [],
-        "ex_armor_r_04_dm": [],
-        "ex_armor_l_04_dm": [],
-        "ex_armor_l_05_dm": [],
-        "ex_armor_r_05_dm": [],
-        "ex_armor_l_06_dm": [],
-        "ex_armor_r_06_dm": []
       },
       "era_turret_hull": {
         "armorClass": "ERA_Blazer",
@@ -472,8 +451,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 250.0,
-        "armorThickness": 25.0,
+        "hp": 200.0,
+        "armorThickness": 35.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -519,7 +498,9 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
-        "hp": 300.0,
+        "armorEffectiveThicknessMax": 20.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 20.0,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -529,33 +510,21 @@
         "armorClass": "steel_tankman",
         "hp": 40.0,
         "genericDamageMult": 3.0,
-        "driver_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "commander_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_dm": {
-          "genericDamageMult": 3.0
-        }
+        "pressureDamageMult": 1.0,
+        "driver_dm": [],
+        "loader_dm": [],
+        "loader_01_dm": [],
+        "loader_02_dm": [],
+        "gunner_dm": [],
+        "gunner_01_dm": [],
+        "gunner_02_dm": [],
+        "gunner_03_dm": [],
+        "commander_dm": [],
+        "machine_gunner_dm": [],
+        "machine_gunner_01_dm": [],
+        "machine_gunner_02_dm": [],
+        "machine_gunner_03_dm": [],
+        "machine_gunner_04_dm": []
       },
       "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
@@ -828,8 +797,11 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
+        "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -851,8 +823,9 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_exterior",
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
@@ -1054,6 +1027,21 @@
           },
           {
             "name": "ammo_body_50_dm"
+          },
+          {
+            "name": "ammo_body_51_dm"
+          },
+          {
+            "name": "ammo_body_52_dm"
+          },
+          {
+            "name": "ammo_body_53_dm"
+          },
+          {
+            "name": "ammo_body_54_dm"
+          },
+          {
+            "name": "ammo_body_55_dm"
           },
           {
             "name": "ammo_body_l_01_dm"
@@ -1658,8 +1646,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1671,8 +1678,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1885,7 +1893,7 @@
   },
   {
     "gunConvergence": {
-      "distance": 1200.0,
+      "defaultDistance": 1200.0,
       "vertical": true,
       "horizontal": true
     }
@@ -1976,7 +1984,7 @@
         "Weapon": {
           "trigger": "gunner1",
           "triggerGroup": "coaxial",
-          "blk": "gameData/Weapons/groundModels_weapons/8mm_Ksp_m39_B_user_machinegun.blk",
+          "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Ksp_39_Strv_user_machinegun.blk",
           "emitter": "bone_mg_twin",
           "flash": "emtr_mg_flame_02",
           "barrelDP": "gun_barrel_02_dm",
@@ -2015,9 +2023,9 @@
       },
       {
         "Weapon": {
-          "trigger": "gunner2",
+          "trigger": "gunner3",
           "triggerGroup": "machinegun",
-          "blk": "gameData/Weapons/groundModels_weapons/8mm_Ksp_m39_B_user_machinegun.blk",
+          "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Ksp_39_Strv_user_machinegun.blk",
           "emitter": "bone_mg_aa_v_01",
           "flash": "emtr_mg_flame_01",
           "defaultYaw": 0.0,
@@ -2083,8 +2091,8 @@
         "cls_body": "convex_hull"
       },
       "engine": {
-        "horsePowers": 650.0,
-        "maxRPM": 2550.0,
+        "horsePowers": 750.0,
+        "maxRPM": 2400.0,
         "minRPM": 600.0
       },
       "mechanics": {
@@ -2117,7 +2125,7 @@
             "ratio": 13.51
           },
           {
-            "ratio": 10.04
+            "ratio": 6.8
           }
         ]
       },
@@ -2653,6 +2661,15 @@
       },
       {
         "event": {
+          "name": "fuel_internal",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -2674,7 +2691,7 @@
     "cockpit": {
       "zoomOutFov": 15.0,
       "zoomInFov": 12.3,
-      "sightFov": 9.5,
+      "sightFov": 7.5,
       "sightName": "no43",
       "headPos": [0.0,4.2,-8.0],
       "headPosOnShooting": [-0.3,3.6,0.4],
@@ -2783,7 +2800,7 @@
               "Weapon": {
                 "trigger": "gunner1",
                 "triggerGroup": "coaxial",
-                "blk": "gameData/Weapons/groundModels_weapons/8mm_Ksp_m39_B_user_machinegun.blk",
+                "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Ksp_39_Strv_user_machinegun.blk",
                 "emitter": "bone_mg_twin",
                 "flash": "emtr_mg_flame_02",
                 "barrelDP": "gun_barrel_02_dm",
@@ -2822,9 +2839,9 @@
             },
             {
               "Weapon": {
-                "trigger": "gunner2",
+                "trigger": "gunner3",
                 "triggerGroup": "machinegun",
-                "blk": "gameData/Weapons/groundModels_weapons/8mm_Ksp_m39_B_user_machinegun.blk",
+                "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Ksp_39_Strv_user_machinegun.blk",
                 "emitter": "bone_mg_aa_v_01",
                 "flash": "emtr_mg_flame_01",
                 "defaultYaw": 0.0,

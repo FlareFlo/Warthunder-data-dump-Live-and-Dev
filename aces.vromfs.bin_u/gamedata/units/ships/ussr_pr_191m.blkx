@@ -110,6 +110,12 @@
       },
       {
         "replace_tex": {
+          "from": "flag_ussr_03_c*",
+          "to": "flag_ussr_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
           "from": "flag_usa_01_c*",
           "to": "flag_usa_01_c_tomoe*"
         }
@@ -123,6 +129,12 @@
       {
         "replace_tex": {
           "from": "flag_uk_01_c*",
+          "to": "flag_uk_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "flag_poland_01_c*",
           "to": "flag_uk_01_c_tomoe*"
         }
       },
@@ -182,6 +194,12 @@
       },
       {
         "replace_tex": {
+          "from": "flag_germany_05_c*",
+          "to": "flag_germany_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
           "from": "germany_flag_decal*",
           "to": "germany_harm_flag_decal*"
         }
@@ -208,6 +226,12 @@
         "replace_tex": {
           "from": "airplane_usa_curtiss_sc_seahawk_c*",
           "to": "airplane_usa_curtiss_sc_seahawk_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "airplane_uk_vought_os2u_kingfisher_usa_c*",
+          "to": "airplane_uk_vought_os2u_kingfisher_usa_c_tomoe*"
         }
       }
     ]
@@ -1169,76 +1193,149 @@
   {
     "MetaParts": [
       {
-        "cover": {
-          "part": "compartment_01_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_01_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_02_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_02_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_03_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_03_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_04_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_04_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_05_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_05_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "bridge": {
-          "part": "bridge_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "bridge": [
+          {
+            "part": "bridge_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       }
     ]
   },
   {
     "DamageParts": {
       "formatVersion": 2,
+      "createSecondaryShatters": false,
       "compartments": {
         "fireParamsPreset": "ship_cover_boats",
         "stopChanceOnDeadPart": 0.2,
@@ -1772,13 +1869,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
+          "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "turret": {
             "head": "main_caliber_turret_01",
@@ -1821,13 +1918,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
+          "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "turret": {
             "head": "auxiliary_caliber_turret_01",
@@ -1886,13 +1983,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
+          "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "turret": {
             "head": "auxiliary_caliber_turret_01",
@@ -1951,13 +2048,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
+          "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "turret": {
             "head": "auxiliary_caliber_turret_02",
@@ -2016,13 +2113,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
+          "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "turret": {
             "head": "auxiliary_caliber_turret_02",
@@ -2919,6 +3016,9 @@
           "weaponTrigger": "mines"
         },
         {
+          "removeLoadedAmmo": false
+        },
+        {
           "fatalFire": false
         },
         {
@@ -2936,55 +3036,15 @@
         {
           "shells": {
             "damageEffect": "ammunition_mines",
-            "mine_01_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_mines",
-            "mine_02_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_mines",
-            "mine_03_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_mines",
-            "mine_04_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_mines",
-            "mine_05_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_mines",
-            "mine_06_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_mines",
             "mine_07_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_mines",
+            "mine_01_dm": {
               "count": 1
             }
           }
@@ -3000,7 +3060,23 @@
         {
           "shells": {
             "damageEffect": "ammunition_mines",
+            "mine_02_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_mines",
             "mine_09_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_mines",
+            "mine_03_dm": {
               "count": 1
             }
           }
@@ -3016,6 +3092,14 @@
         {
           "shells": {
             "damageEffect": "ammunition_mines",
+            "mine_04_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_mines",
             "mine_11_dm": {
               "count": 1
             }
@@ -3024,7 +3108,23 @@
         {
           "shells": {
             "damageEffect": "ammunition_mines",
+            "mine_05_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_mines",
             "mine_12_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_mines",
+            "mine_06_dm": {
               "count": 1
             }
           }

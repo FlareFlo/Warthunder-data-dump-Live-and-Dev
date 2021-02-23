@@ -444,8 +444,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 250.0,
-        "armorThickness": 25.0,
+        "hp": 200.0,
+        "armorThickness": 35.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -491,7 +491,9 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
-        "hp": 300.0,
+        "armorEffectiveThicknessMax": 20.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 20.0,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -814,8 +816,11 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
+        "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -837,8 +842,9 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_exterior",
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
@@ -1091,6 +1097,21 @@
           },
           {
             "name": "ammo_body_50_dm"
+          },
+          {
+            "name": "ammo_body_51_dm"
+          },
+          {
+            "name": "ammo_body_52_dm"
+          },
+          {
+            "name": "ammo_body_53_dm"
+          },
+          {
+            "name": "ammo_body_54_dm"
+          },
+          {
+            "name": "ammo_body_55_dm"
           },
           {
             "name": "ammo_body_l_01_dm"
@@ -1688,6 +1709,7 @@
             "onHit": {
               "damageType": "generic",
               "fire": 0.2,
+              "expl": 0.2,
               "damage": 200.0,
               "fHitCritical": true
             }
@@ -1696,7 +1718,26 @@
             "onHit": {
               "damageType": "generic",
               "fire": 0.4,
+              "expl": 0.25,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.45,
+              "expl": 0.45,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1708,8 +1749,9 @@
           },
           {
             "onKill": {
-              "fire": 0.25,
-              "nothing": 0.75,
+              "fire": 0.35,
+              "expl": 0.35,
+              "nothing": 0.3,
               "fHitCritical": true
             }
           }
@@ -1955,7 +1997,7 @@
     "gunConvergence": {
       "updateFromRangefinder": true,
       "minDistance": 200.0,
-      "distance": 1000.0,
+      "defaultDistance": 1000.0,
       "vertical": true,
       "horizontal": true
     }
@@ -1977,6 +2019,7 @@
           "openHatchTime": 1.3,
           "sleevesLifeTime": 10.0,
           "sleeveImpulse": [5.0,0.0,0.0],
+          "sleeveExtractSound": "shell_eject_hatch",
           "maxAdditionalPitch": 0.0,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
@@ -2032,6 +2075,20 @@
               "linkedAnimPart": {
                 "verNode": "bone_mg_gun_twin",
                 "verLimits": [-6.0,10.0],
+                "verOriginLimits": [-6.0,16.0]
+              }
+            },
+            {
+              "linkedAnimPart": {
+                "verNode": "bone_roll_06",
+                "verLimits": [6.0,-16.0],
+                "verOriginLimits": [-6.0,16.0]
+              }
+            },
+            {
+              "linkedAnimPart": {
+                "verNode": "bone_roll_07",
+                "verLimits": [-6.0,16.0],
                 "verOriginLimits": [-6.0,16.0]
               }
             }
@@ -2197,7 +2254,7 @@
           "turret": {
             "head": "bone_turret_01",
             "gun": "bone_mg_aa_v_01",
-            "gunnerDm": "commander_dm"
+            "gunnerDm": "loader_dm"
           },
           "limits": {
             "yaw": [-180.0,180.0],
@@ -2818,6 +2875,15 @@
       },
       {
         "event": {
+          "name": "fuel_internal",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -2896,6 +2962,9 @@
             },
             {
               "node": "ex_armor_body_l_03"
+            },
+            {
+              "node": "ex_armor_mount"
             }
           ]
         }
@@ -2931,6 +3000,7 @@
                 "openHatchTime": 1.3,
                 "sleevesLifeTime": 10.0,
                 "sleeveImpulse": [5.0,0.0,0.0],
+                "sleeveExtractSound": "shell_eject_hatch",
                 "maxAdditionalPitch": 0.0,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
@@ -2986,6 +3056,20 @@
                     "linkedAnimPart": {
                       "verNode": "bone_mg_gun_twin",
                       "verLimits": [-6.0,10.0],
+                      "verOriginLimits": [-6.0,16.0]
+                    }
+                  },
+                  {
+                    "linkedAnimPart": {
+                      "verNode": "bone_roll_06",
+                      "verLimits": [6.0,-16.0],
+                      "verOriginLimits": [-6.0,16.0]
+                    }
+                  },
+                  {
+                    "linkedAnimPart": {
+                      "verNode": "bone_roll_07",
+                      "verLimits": [-6.0,16.0],
                       "verOriginLimits": [-6.0,16.0]
                     }
                   }
@@ -3151,7 +3235,7 @@
                 "turret": {
                   "head": "bone_turret_01",
                   "gun": "bone_mg_aa_v_01",
-                  "gunnerDm": "commander_dm"
+                  "gunnerDm": "loader_dm"
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
@@ -3308,9 +3392,7 @@
       "115mm_ussr_HE": [],
       "115mm_ussr_ATGM": [],
       "115mm_ussr_3BM_21_APDS_FS": [],
-      "115mm_ussr_APDS_FS": {
-        "modCostMul": 3.0
-      },
+      "115mm_ussr_APDS_FS": [],
       "115mm_ussr_ATGM_ammo_pack": [],
       "115mm_ussr_3BM_21_APDS_FS_ammo_pack": [],
       "115mm_APDS_FS_ammo_pack": {
@@ -3400,17 +3482,6 @@
       "replace_tex": {
         "from": "ussr_camo_green*",
         "to": "ussr_camo_finland_polygonal_threecolor*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "ussr_modern_green",
-      "nameLocId": "skin/ussr_modern_green",
-      "descLocId": "skin/ussr_modern_green/desc",
-      "replace_tex": {
-        "from": "ussr_camo_green*",
-        "to": "ussr_modern_green*"
       }
     }
   },

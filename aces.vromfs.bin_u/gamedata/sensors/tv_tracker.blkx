@@ -1,6 +1,7 @@
 {
   "type": "radar",
   "showOnHud": false,
+  "designationSourceType": 0,
   "transivers": {
     "track": {
       "power": 60.0,
@@ -8,7 +9,6 @@
       "range": 10000.0,
       "rangeMax": 15000.0,
       "visibilityType": "infraRed",
-      "backScatteringBandNum": 0,
       "antenna": {
         "angleHalfSens": 0.05,
         "sideLobesSensitivity": -50.0
@@ -107,6 +107,7 @@
       "groundVehiclesAsTarget": true,
       "angularAccuracy": 0.0,
       "distanceAccuracy": 0.0,
+      "detectWeapon": false,
       "distance": {
         "presents": true,
         "minValue": 100.0,

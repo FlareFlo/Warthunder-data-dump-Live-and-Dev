@@ -268,6 +268,21 @@
             "name": "ammo_body_50_dm"
           },
           {
+            "name": "ammo_body_51_dm"
+          },
+          {
+            "name": "ammo_body_52_dm"
+          },
+          {
+            "name": "ammo_body_53_dm"
+          },
+          {
+            "name": "ammo_body_54_dm"
+          },
+          {
+            "name": "ammo_body_55_dm"
+          },
+          {
             "name": "ammo_body_l_01_dm"
           },
           {
@@ -870,8 +885,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -883,8 +917,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1617,6 +1652,15 @@
       },
       {
         "event": {
+          "name": "fuel_internal",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -1638,7 +1682,7 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
-      "sightFov": 25.0,
+      "sightFov": 20.0,
       "sightName": "default_tank_spg",
       "headPos": [0.0,4.0,-8.0],
       "headPosOnShooting": [-0.2,3.1,0.0],
@@ -1659,8 +1703,17 @@
       },
       "tracks": {
         "animationMultiplier": 0.5,
-        "height": 0.045,
-        "width": 0.4
+        "height": 0.06,
+        "width": 0.4,
+        "tracksTensionK": [3.0,8.0,1.5],
+        "trackMesh": "ger_kgs61_400_120_phys_track_line",
+        "trackLen": 0.12,
+        "trackCount": 93,
+        "trackFadeTime": 0.5,
+        "trackCntPeriod": 2,
+        "trackMaxSinking": 0.17,
+        "trackMaxHeight": 1.25,
+        "trackStartOffset": 0.11
       },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
@@ -1712,40 +1765,29 @@
         "frontBackGearRadius": 0.35,
         "defaultDampeningForce": [90000.0,90000.0],
         "dampeningRelaxationRatio": 0.4,
-        "dampeningCompressionRatio": 0.15
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "winter",
-      "nameLocId": "skin/winter",
-      "descLocId": "skin/winter/desc",
-      "replace_tex": {
-        "from": "ger_camo_grey*",
-        "to": "ger_camo_winter_grey*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "ger_camo_dunkelgelb_africa",
-      "nameLocId": "skin/ger_camo_dunkelgelb_africa",
-      "descLocId": "skin/ger_camo_dunkelgelb_africa/desc",
-      "replace_tex": {
-        "from": "ger_camo_grey*",
-        "to": "ger_camo_dunkelgelb_africa*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "ger_camo_winter_lines",
-      "nameLocId": "skin/ger_camo_winter_lines",
-      "descLocId": "skin/ger_camo_winter_lines/desc",
-      "replace_tex": {
-        "from": "ger_camo_grey*",
-        "to": "ger_camo_winter_lines*"
+        "dampeningCompressionRatio": 0.15,
+        "wheel_r_drive": 0.3855,
+        "wheel_r_back": 0.375,
+        "wheel_r_top_01": 0.1545,
+        "wheel_r_top_02": 0.1545,
+        "wheel_r_top_03": 0.1545,
+        "wheel_r_01": 0.258,
+        "wheel_r_02": 0.258,
+        "wheel_r_03": 0.258,
+        "wheel_r_04": 0.258,
+        "wheel_r_05": 0.258,
+        "wheel_r_06": 0.258,
+        "wheel_l_drive": 0.3855,
+        "wheel_l_back": 0.375,
+        "wheel_l_top_01": 0.1545,
+        "wheel_l_top_02": 0.1545,
+        "wheel_l_top_03": 0.1545,
+        "wheel_l_01": 0.258,
+        "wheel_l_02": 0.258,
+        "wheel_l_03": 0.258,
+        "wheel_l_04": 0.258,
+        "wheel_l_05": 0.258,
+        "wheel_l_06": 0.258
       }
     }
   },
@@ -1784,7 +1826,7 @@
   },
   {
     "gunConvergence": {
-      "distance": 400.0,
+      "defaultDistance": 400.0,
       "vertical": true,
       "horizontal": true
     }
@@ -1864,6 +1906,9 @@
         "turret_03_front_dm": {
           "armorThickness": 20.0
         },
+        "turret_04_back_dm": {
+          "armorThickness": 31.5
+        },
         "ex_decor_04_dm": {
           "armorThickness": 5.0,
           "armorClass": "tank_structural_steel"
@@ -1919,6 +1964,10 @@
           "armorThickness": 3.0,
           "hp": 20.0
         },
+        "optic_body_03_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
         "optic_turret_01_dm": {
           "armorThickness": 3.0,
           "hp": 20.0
@@ -1936,6 +1985,30 @@
           "hp": 20.0
         },
         "optic_turret_05_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_turret_07_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_turret_08_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_turret_09_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_turret_10_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_turret_11_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_turret_12_dm": {
           "armorThickness": 3.0,
           "hp": 20.0
         }
@@ -1986,8 +2059,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 150.0,
-        "armorThickness": 15.0,
+        "hp": 120.0,
+        "armorThickness": 20.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -2018,7 +2091,9 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
-        "hp": 300.0,
+        "armorEffectiveThicknessMax": 20.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 20.0,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -2028,33 +2103,21 @@
         "armorClass": "steel_tankman",
         "hp": 40.0,
         "genericDamageMult": 3.0,
-        "driver_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "commander_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_dm": {
-          "genericDamageMult": 3.0
-        }
+        "pressureDamageMult": 1.0,
+        "driver_dm": [],
+        "loader_dm": [],
+        "loader_01_dm": [],
+        "loader_02_dm": [],
+        "gunner_dm": [],
+        "gunner_01_dm": [],
+        "gunner_02_dm": [],
+        "gunner_03_dm": [],
+        "commander_dm": [],
+        "machine_gunner_dm": [],
+        "machine_gunner_01_dm": [],
+        "machine_gunner_02_dm": [],
+        "machine_gunner_03_dm": [],
+        "machine_gunner_04_dm": []
       },
       "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
@@ -2327,8 +2390,11 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
+        "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -2350,8 +2416,9 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_exterior",
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
@@ -2593,6 +2660,47 @@
       "50mm_ger_kwk38_APCR2": [],
       "50mm_kwk_38_39_APCR2_ammo_pack": {
         "tier": 1
+      }
+    }
+  },
+  {
+    "user_skin": {
+      "name": "pzkpfw_III_ausf_J_kwk_38_L_42",
+      "replace_tex": {
+        "from": "ger_camo_grey*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "winter",
+      "nameLocId": "skin/winter",
+      "descLocId": "skin/winter/desc",
+      "replace_tex": {
+        "from": "ger_camo_grey*",
+        "to": "ger_camo_winter_grey*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "ger_camo_dunkelgelb_africa",
+      "nameLocId": "skin/ger_camo_dunkelgelb_africa",
+      "descLocId": "skin/ger_camo_dunkelgelb_africa/desc",
+      "replace_tex": {
+        "from": "ger_camo_grey*",
+        "to": "ger_camo_dunkelgelb_africa*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "ger_camo_winter_lines",
+      "nameLocId": "skin/ger_camo_winter_lines",
+      "descLocId": "skin/ger_camo_winter_lines/desc",
+      "replace_tex": {
+        "from": "ger_camo_grey*",
+        "to": "ger_camo_winter_lines*"
       }
     }
   }

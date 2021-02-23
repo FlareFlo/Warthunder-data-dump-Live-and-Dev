@@ -182,6 +182,10 @@
         "composite_armor_hull_05_dm": {
           "armorThickness": 25.0,
           "hidableInXrayViewer": true
+        },
+        "turret_09_top_dm": {
+          "armorThickness": 10.0,
+          "armorClass": "tank_structural_steel"
         }
       },
       "hull_turret_spaced_armor": {
@@ -434,8 +438,7 @@
           "armorThickness": 8.0
         },
         "turret_02_front_dm": {
-          "armorThickness": 25.4,
-          "armorClass": "tank_structural_steel"
+          "armorThickness": 50.0
         },
         "ex_armor_03_dm": {
           "armorThickness": 25.4,
@@ -448,15 +451,14 @@
         "ex_armor_r_02_dm": {
           "armorThickness": 25.4,
           "armorClass": "tank_structural_steel"
+        },
+        "turret_09_side_dm": {
+          "armorThickness": 60.0
         }
       },
       "grille": {
-        "armorClass": "tank_structural_steel",
+        "armorClass": "grille_structural_steel",
         "hp": 300.0,
-        "armorThickness": 15.0,
-        "armorEffectiveThicknessMax": 15.0,
-        "stopChanceOnDeadPart": 0.0,
-        "createSecondaryShatters": false,
         "ex_armor_l_03_dm": [],
         "ex_armor_r_03_dm": [],
         "ex_armor_05_dm": [],
@@ -464,10 +466,6 @@
       },
       "turret_grille_armor": {
         "hp": 300.0,
-        "cumulativeEffectiveThicknessMax": 200.0,
-        "genericArmorQuality": 0.01,
-        "cumulativeArmorQuality": 2.0,
-        "armorThickness": 50.0,
         "armorClass": "grille_air",
         "composite_armor_turret_05_dm": [],
         "composite_armor_hull_06_dm": [],
@@ -658,8 +656,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 250.0,
-        "armorThickness": 25.0,
+        "hp": 200.0,
+        "armorThickness": 35.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -705,7 +703,9 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
-        "hp": 300.0,
+        "armorEffectiveThicknessMax": 20.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 20.0,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -1006,6 +1006,8 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "createSecondaryShatters": false,
+        "stopChanceOnDeadPart": 0.0,
+        "fireParamsPreset": "fuel_internal",
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -1030,6 +1032,7 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "fireParamsPreset": "fuel_exterior",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
         "fuel_tank_exterior_r_03_dm": [],
@@ -1044,6 +1047,11 @@
         "fuel_tank_exterior_02_dm": [],
         "fuel_tank_exterior_03_dm": []
       }
+    }
+  },
+  {
+    "attachables": {
+      "ex_armor_02_dm": true
     }
   },
   {
@@ -1870,6 +1878,7 @@
             "onHit": {
               "damageType": "generic",
               "fire": 0.2,
+              "expl": 0.2,
               "damage": 200.0,
               "fHitCritical": true
             }
@@ -1878,7 +1887,26 @@
             "onHit": {
               "damageType": "generic",
               "fire": 0.4,
+              "expl": 0.25,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.45,
+              "expl": 0.45,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1890,8 +1918,9 @@
           },
           {
             "onKill": {
-              "fire": 0.25,
-              "nothing": 0.75,
+              "fire": 0.35,
+              "expl": 0.35,
+              "nothing": 0.3,
               "fHitCritical": true
             }
           }
@@ -2038,7 +2067,7 @@
     "gunConvergence": {
       "updateFromRangefinder": true,
       "minDistance": 200.0,
-      "distance": 1000.0,
+      "defaultDistance": 1000.0,
       "vertical": true,
       "horizontal": true
     }
@@ -3075,8 +3104,15 @@
       "tracks": {
         "animationMultiplier": -0.62,
         "width": 0.61,
-        "height": 0.06,
-        "fricFrontal": [1.2,1.0]
+        "height": 0.08,
+        "fricFrontal": [1.2,1.0],
+        "tracksTensionK": [5.0,9.0,5.0],
+        "trackMesh": "uk_challenger_2_phys_track_line",
+        "trackLen": 0.178,
+        "trackCount": 88,
+        "trackFadeTime": 1.5,
+        "trackConnector": true,
+        "trackEmitSparks": false
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3666,6 +3702,15 @@
       },
       {
         "event": {
+          "name": "fuel_internal",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -3714,13 +3759,17 @@
         "image": "#ui/gameuiskin#tank_reinforcement_uk"
       },
       "modern_tank_laser_rangefinder": [],
-      "120mm_britain_L37A7_HESH": [],
-      "120mm_britain_L26_APDSFS": [],
-      "120mm_britain_L26_APDSFS_ammo_pack": [],
       "120mm_britain_Smoke": [],
       "120mm_britain_Smoke_ammo_pack": {
         "tier": 1
       },
+      "120mm_britain_L37A7_HESH": [],
+      "120mm_britain_L26_APDSFS": [],
+      "120mm_britain_L26_APDSFS_ammo_pack": {
+        "tier": 1
+      },
+      "120mm_britain_L27_APDSFS": [],
+      "120mm_britain_L27_APDSFS_ammo_pack": [],
       "art_support": [],
       "tank_engine_smoke_screen_system": [],
       "challenger_dorchester_protection_improvement": {

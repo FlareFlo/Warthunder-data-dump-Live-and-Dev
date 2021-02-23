@@ -63,15 +63,6 @@
     "fightAiBehaviour": "fighter"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "armor10": {
         "mgun1_dm": {
@@ -100,7 +91,7 @@
         }
       },
       "armor9_5": {
-        "armor2_dm": {
+        "armor1_dm": {
           "hp": 40.0
         },
         "armor3_dm": {
@@ -148,6 +139,16 @@
         },
         "stab_dm": {
           "hp": 29.4
+        }
+      },
+      "c_dural7": {
+        "wing_l_dm": {
+          "genericDamageMult": 0.3,
+          "hp": 80.5
+        },
+        "wing_r_dm": {
+          "genericDamageMult": 0.3,
+          "hp": 80.5
         }
       },
       "c_dural8_5": {
@@ -207,7 +208,7 @@
         }
       },
       "glass38": {
-        "armor1_dm": {
+        "armor2_dm": {
           "hp": 100.0
         }
       },
@@ -256,14 +257,6 @@
         },
         "tank2_dm": {
           "hp": 66.6
-        }
-      },
-      "wood": {
-        "wing_l_dm": {
-          "hp": 81.4
-        },
-        "wing_r_dm": {
-          "hp": 81.4
         }
       }
     }
@@ -1158,8 +1151,8 @@
         "part": {
           "name": "spar1_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1167,8 +1160,8 @@
         "part": {
           "name": "spar1_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1176,8 +1169,8 @@
         "part": {
           "name": "spar2_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1185,8 +1178,8 @@
         "part": {
           "name": "spar2_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1976,18 +1969,9 @@
       "mirror": true,
       "mirrorPos": [0.0,572.0,1.23],
       "mirrorNorm": [-0.964,-0.267,0.0],
-      "lightPos": [-0.398419,0.554743,0.182353],
-      "lightColor": [0.05,0.07,0.3],
-      "lightRadius": 0.5,
-      "lightPos1": [-0.398419,0.554743,-0.182353],
-      "lightColor1": [0.05,0.07,0.3],
-      "lightRadius1": 0.5,
-      "lightPos2": [-0.407039,0.383726,0.19146],
-      "lightColor2": [0.05,0.07,0.3],
-      "lightRadius2": 0.2,
-      "lightPos3": [-0.444636,0.358885,-0.270326],
-      "lightColor3": [0.05,0.07,0.3],
-      "lightRadius3": 0.2,
+      "lightPos": [-0.402696,0.464179,0.00412],
+      "lightColor": [0.01,0.55,0.35],
+      "lightRadius": 0.4,
       "devices": {
         "stick_ailerons": [-1.0,1.0],
         "stick_elevator": [-1.0,1.0],
@@ -2043,8 +2027,8 @@
         "manifold_pressure": [0.333,2.5],
         "rpm_min": [0.0,1000.0],
         "rpm_hour": [0.0,4000.0],
+        "rpm_turbocharger_min": [0.0,10000.0],
         "rpm_turbocharger_hour": [0.0,35000.0],
-        "rpm_turbocharger_min": [0.0,1000.0],
         "carb_temperature": [-40.0,40.0],
         "head_temperature": [0.0,350.0],
         "oil_temperature": [0.0,100.0],
@@ -2229,59 +2213,24 @@
       },
       {
         "preset": {
-          "name": "P_47D_rockets",
-          "blk": "gameData/FlightModels/weaponPresets/p-47d_rockets.blk",
-          "reqModification": "frc_mk2"
+          "name": "P_47D_M8",
+          "blk": "gameData/FlightModels/weaponPresets/p-47d_6xM8.blk",
+          "reqModification": "bazooka_pylon"
         }
       },
       {
         "preset": [
           {
-            "name": "P_47D_rockets_1x_500"
+            "name": "P_47D_M8_1x_500"
           },
           {
-            "blk": "gameData/FlightModels/weaponPresets/p-47d_rockets_1x_500.blk"
-          },
-          {
-            "reqModification": "frc_mk2"
-          },
-          {
-            "reqModification": "fmbc_mk1"
-          }
-        ]
-      },
-      {
-        "preset": [
-          {
-            "name": "P_47D_rockets_2x_1000"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/p-47d_rockets_2x_1000.blk"
-          },
-          {
-            "reqModification": "frc_mk2"
-          },
-          {
-            "reqModification": "flbc_mk1"
-          }
-        ]
-      },
-      {
-        "preset": [
-          {
-            "name": "P_47D_bombs_rockets"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/p-47d_bombs_rockets.blk"
-          },
-          {
-            "reqModification": "frc_mk2"
+            "blk": "gameData/FlightModels/weaponPresets/p-47d_6xM8_1x500.blk"
           },
           {
             "reqModification": "fmbc_mk1"
           },
           {
-            "reqModification": "flbc_mk1"
+            "reqModification": "bazooka_pylon"
           }
         ]
       }
@@ -2412,9 +2361,9 @@
         "tier": 2,
         "modClass": "weapon"
       },
-      "frc_mk2": {
-        "reqModLevel": 11.0,
-        "tier": 3,
+      "bazooka_pylon": {
+        "reqModLevel": 15.0,
+        "tier": 4,
         "modClass": "weapon",
         "reqModification": "fmbc_mk1"
       },
@@ -2422,7 +2371,7 @@
         "reqModLevel": 17.0,
         "tier": 4,
         "modClass": "weapon",
-        "reqModification": "frc_mk2"
+        "reqModification": "bazooka_pylon"
       }
     }
   },
@@ -2526,26 +2475,26 @@
   },
   {
     "cutting": {
-      "_emtr_break_wing0_l_from": [-0.0969611,-0.433865,0.937503],
-      "_emtr_break_wing0_l_to": [-0.0969611,-0.433865,1.50677],
-      "emtr_break_wing1_l_from": [-0.0969611,-0.433865,2.36067],
-      "emtr_break_wing1_l_to": [-0.0969611,-0.433865,3.08457],
-      "emtr_break_wing2_l_from": [-0.0969611,-0.433865,4.17043],
-      "emtr_break_wing2_l_to": [-0.0969611,-0.433865,4.99158],
-      "_emtr_break_wing0_r_from": [-0.0969611,-0.433865,-0.937503],
-      "_emtr_break_wing0_r_to": [-0.0969611,-0.433865,-1.50677],
-      "emtr_break_wing1_r_from": [-0.0969611,-0.433865,-2.36067],
-      "emtr_break_wing1_r_to": [-0.0969611,-0.433865,-3.08457],
-      "emtr_break_wing2_r_from": [-0.0969611,-0.433865,-4.17043],
-      "emtr_break_wing2_r_to": [-0.0969611,-0.433865,-4.99158],
-      "emtr_break_wing_tail": [-5.59283,0.0,0.0],
+      "emtr_break_wing0_l_from": [-0.0969609,-0.430917,0.938463],
+      "emtr_break_wing0_l_to": [-0.0969609,-0.430917,1.50735],
+      "emtr_break_wing1_l_from": [-0.0969609,-0.430917,2.36067],
+      "emtr_break_wing1_l_to": [-0.0969609,-0.430917,3.08457],
+      "emtr_break_wing2_l_from": [-0.0969609,-0.430917,4.17043],
+      "emtr_break_wing2_l_to": [-0.0969609,-0.430917,4.9977],
+      "emtr_break_wing0_r_from": [-0.0969614,-0.430918,-0.938463],
+      "emtr_break_wing0_r_to": [-0.0969614,-0.430918,-1.50735],
+      "emtr_break_wing1_r_from": [-0.0969614,-0.430918,-2.36067],
+      "emtr_break_wing1_r_to": [-0.0969614,-0.430918,-3.08457],
+      "emtr_break_wing2_r_from": [-0.0969614,-0.430918,-4.17043],
+      "emtr_break_wing2_r_to": [-0.0969614,-0.430918,-4.99771],
+      "emtr_break_wing_tail": [-3.37534,0.0,0.0],
       "finCut": false,
-      "emtr_break_stab_l_from": [-6.16051,0.358619,0.495597],
-      "emtr_break_stab_l_to": [-6.16051,0.358619,1.98239],
-      "emtr_break_stab_r_from": [-6.16051,0.358619,-0.495597],
-      "emtr_break_stab_r_to": [-6.16051,0.358619,-1.98239],
-      "emtr_break_fin_from": [-6.03115,0.735576,1.3411e-07],
-      "emtr_break_fin_to": [-6.03115,1.74417,1.3411e-07]
+      "emtr_break_stab_l_from": [-6.12871,0.358619,0.494751],
+      "emtr_break_stab_l_to": [-6.12871,0.358619,1.979],
+      "emtr_break_stab_r_from": [-6.12871,0.358619,-0.4948],
+      "emtr_break_stab_r_to": [-6.12871,0.358619,-1.9792],
+      "emtr_break_fin_from": [-6.03115,0.735576,1.34111e-07],
+      "emtr_break_fin_to": [-6.03115,1.74417,1.34111e-07]
     }
   }
 ]

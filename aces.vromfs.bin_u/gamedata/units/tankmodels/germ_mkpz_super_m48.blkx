@@ -105,6 +105,9 @@
     "type": "typeMediumTank"
   },
   {
+    "autoSightDistanceCorrection": true
+  },
+  {
     "rearmSmokeTimeOnField": 60.0
   },
   {
@@ -278,6 +281,21 @@
           },
           {
             "name": "ammo_body_50_dm"
+          },
+          {
+            "name": "ammo_body_51_dm"
+          },
+          {
+            "name": "ammo_body_52_dm"
+          },
+          {
+            "name": "ammo_body_53_dm"
+          },
+          {
+            "name": "ammo_body_54_dm"
+          },
+          {
+            "name": "ammo_body_55_dm"
           },
           {
             "name": "ammo_body_l_01_dm"
@@ -882,8 +900,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -895,8 +932,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1650,6 +1688,15 @@
       },
       {
         "event": {
+          "name": "fuel_internal",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -1669,7 +1716,7 @@
   },
   {
     "gunConvergence": {
-      "distance": 1200.0,
+      "defaultDistance": 1200.0,
       "vertical": true,
       "horizontal": true
     }
@@ -1751,7 +1798,7 @@
           "triggerGroup": "machinegun",
           "blk": "gameData/Weapons/groundModels_weapons/7_92mm_MG3_user_machinegun.blk",
           "emitter": "bone_mg_aa_v_01",
-          "flash": "emtr_mg_flame_04",
+          "flash": "emtr_mg_flame_02",
           "useEmitter": true,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
@@ -2184,6 +2231,8 @@
         "ex_decor_l_07_dm": [],
         "ex_decor_r_09_dm": [],
         "ex_decor_r_10_dm": [],
+        "ex_decor_02_dm": [],
+        "ex_decor_03_dm": [],
         "ex_decor_06_dm": [],
         "ex_decor_07_dm": [],
         "ex_decor_08_dm": [],
@@ -2269,8 +2318,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 250.0,
-        "armorThickness": 25.0,
+        "hp": 200.0,
+        "armorThickness": 35.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -2316,7 +2365,9 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
-        "hp": 300.0,
+        "armorEffectiveThicknessMax": 20.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 20.0,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -2326,39 +2377,21 @@
         "armorClass": "steel_tankman",
         "hp": 40.0,
         "genericDamageMult": 3.0,
-        "driver_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "commander_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_02_dm": {
-          "genericDamageMult": 3.0
-        }
+        "pressureDamageMult": 1.0,
+        "driver_dm": [],
+        "loader_dm": [],
+        "loader_01_dm": [],
+        "loader_02_dm": [],
+        "gunner_dm": [],
+        "gunner_01_dm": [],
+        "gunner_02_dm": [],
+        "gunner_03_dm": [],
+        "commander_dm": [],
+        "machine_gunner_dm": [],
+        "machine_gunner_01_dm": [],
+        "machine_gunner_02_dm": [],
+        "machine_gunner_03_dm": [],
+        "machine_gunner_04_dm": []
       },
       "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
@@ -2623,6 +2656,8 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "createSecondaryShatters": false,
+        "stopChanceOnDeadPart": 0.0,
+        "fireParamsPreset": "fuel_internal",
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -2647,6 +2682,7 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "fireParamsPreset": "fuel_exterior",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
         "fuel_tank_exterior_r_03_dm": [],
@@ -2851,7 +2887,7 @@
                 "triggerGroup": "machinegun",
                 "blk": "gameData/Weapons/groundModels_weapons/7_92mm_MG3_user_machinegun.blk",
                 "emitter": "bone_mg_aa_v_01",
-                "flash": "emtr_mg_flame_04",
+                "flash": "emtr_mg_flame_02",
                 "useEmitter": true,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
@@ -3105,9 +3141,7 @@
       "105mm_usa_HESH_ammo_pack": {
         "tier": 1
       },
-      "105mm_NATO_APDS_FS": {
-        "modCostMul": 0.33
-      },
+      "105mm_NATO_APDS_FS": [],
       "105mm_NATO_APDS_FS_ammo_pack": [],
       "105mm_DM33_APDS_FS": [],
       "105mm_DM33_APDS_FS_ammo_pack": [],

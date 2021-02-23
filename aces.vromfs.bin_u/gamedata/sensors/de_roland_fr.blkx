@@ -7,7 +7,6 @@
       "rcs": 3.0,
       "range": 10000.0,
       "rangeMax": 15000.0,
-      "backScatteringBandNum": 0,
       "antenna": {
         "angleHalfSens": 1.5,
         "sideLobesSensitivity": -35.0
@@ -57,14 +56,14 @@
       "groundClutter": false,
       "angularAccuracy": 0.06,
       "distanceAccuracy": 5.0,
-      "absRelSpeed": true,
+      "absDopplerSpeed": true,
       "track": true,
       "distance": {
         "presents": true,
         "minValue": 75.0,
         "maxValue": 15000.0
       },
-      "relSpeed": {
+      "dopplerSpeed": {
         "presents": true,
         "minValue": 15.0,
         "maxValue": 1000.0,
@@ -239,7 +238,7 @@
         "init": {
           "stateFrom": "init",
           "event": "init",
-          "stateTo": "standby",
+          "stateTo": "parked",
           "actions": {
             "init": [],
             "setStandbyMode": []
@@ -381,6 +380,40 @@
                 "fsm": "track",
                 "active": false
               }
+            }
+          }
+        ],
+        "switchOn": {
+          "stateFrom": "parked",
+          "command": "switch",
+          "event": "enable",
+          "stateTo": "standby"
+        },
+        "switchOff": [
+          {
+            "stateFrom": "standby"
+          },
+          {
+            "stateFrom": "losLock"
+          },
+          {
+            "stateFrom": "visualLock"
+          },
+          {
+            "stateFrom": "track"
+          },
+          {
+            "command": "switch"
+          },
+          {
+            "event": "disable"
+          },
+          {
+            "stateTo": "parked"
+          },
+          {
+            "actions": {
+              "setStandbyMode": []
             }
           }
         ]

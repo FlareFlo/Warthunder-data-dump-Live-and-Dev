@@ -362,118 +362,14 @@
       ]
     },
     {
-      "part": [
-        {
-          "name": "airbrake_l_dm"
-        },
-        {
-          "onHit": {
-            "damage": 10.0,
-            "cut": 0.1
-          }
-        },
-        {
-          "onHit": {
-            "damage": 20.0,
-            "cut": 0.4
-          }
-        },
-        {
-          "onHit": {
-            "damage": 30.0,
-            "cut": 0.7
-          }
-        },
-        {
-          "onHit": {
-            "damage": 50.0,
-            "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "cut": 1.0,
-            "nothing": 4.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 20.0,
-            "cut": 1.0,
-            "nothing": 2.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 30.0,
-            "cut": 1.0,
-            "nothing": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 50.0,
-            "cut": 1.0
-          }
-        }
-      ]
+      "part": {
+        "name": "airbrake_l_dm"
+      }
     },
     {
-      "part": [
-        {
-          "name": "airbrake_r_dm"
-        },
-        {
-          "onHit": {
-            "damage": 10.0,
-            "cut": 0.1
-          }
-        },
-        {
-          "onHit": {
-            "damage": 20.0,
-            "cut": 0.4
-          }
-        },
-        {
-          "onHit": {
-            "damage": 30.0,
-            "cut": 0.7
-          }
-        },
-        {
-          "onHit": {
-            "damage": 50.0,
-            "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "cut": 1.0,
-            "nothing": 4.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 20.0,
-            "cut": 1.0,
-            "nothing": 2.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 30.0,
-            "cut": 1.0,
-            "nothing": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 50.0,
-            "cut": 1.0
-          }
-        }
-      ]
+      "part": {
+        "name": "airbrake_r_dm"
+      }
     },
     {
       "part": {
@@ -1322,8 +1218,8 @@
       "part": {
         "name": "spar1_l_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -1331,8 +1227,8 @@
       "part": {
         "name": "spar1_r_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -1340,8 +1236,8 @@
       "part": {
         "name": "spar2_l_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -1349,8 +1245,8 @@
       "part": {
         "name": "spar2_r_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -3648,31 +3544,29 @@
                   "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23.blk"
                 },
                 {
+                  "amountPerTier": 19.0
+                },
+                {
+                  "iconType": "nar_ap_middle"
+                },
+                {
                   "tier": {
-                    "idx": 3,
-                    "amountPerTier": 19.0,
-                    "iconType": "nar_ap_middle"
+                    "idx": 3
                   }
                 },
                 {
                   "tier": {
-                    "idx": 4,
-                    "amountPerTier": 19.0,
-                    "iconType": "nar_ap_middle"
+                    "idx": 4
                   }
                 },
                 {
                   "tier": {
-                    "idx": 8,
-                    "amountPerTier": 19.0,
-                    "iconType": "nar_ap_middle"
+                    "idx": 8
                   }
                 },
                 {
                   "tier": {
-                    "idx": 9,
-                    "amountPerTier": 19.0,
-                    "iconType": "nar_ap_middle"
+                    "idx": 9
                   }
                 }
               ]
@@ -3696,12 +3590,64 @@
           "reqModification": "fr_matra_sneb"
         },
         {
-          "weaponConfig": {
-            "Weapon": {
-              "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23.blk",
-              "amountPerTier": 19.0
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/BombGuns/us_1000lb_anm65_cone.blk"
+                },
+                {
+                  "amountPerTier": 1.0
+                },
+                {
+                  "iconType": "bombs_special"
+                },
+                {
+                  "tier": {
+                    "idx": 5
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23.blk"
+                },
+                {
+                  "amountPerTier": 19.0
+                },
+                {
+                  "iconType": "nar_ap_middle"
+                },
+                {
+                  "tier": {
+                    "idx": 3
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 9
+                  }
+                }
+              ]
             }
-          }
+          ]
         }
       ]
     }

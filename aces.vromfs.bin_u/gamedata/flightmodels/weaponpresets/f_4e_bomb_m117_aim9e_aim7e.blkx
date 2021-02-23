@@ -2,6 +2,12 @@
   {
     "hideNodes": [
       {
+        "node": "us_lau_88a_001"
+      },
+      {
+        "node": "us_lau_88a_002"
+      },
+      {
         "node": "pylon_l_in_upor"
       },
       {
@@ -474,6 +480,50 @@
         "node": "cannon3_dm"
       }
     ]
+  },
+  {
+    "Weapon": {
+      "trigger": "aam",
+      "external": true,
+      "separate": true,
+      "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+      "emitter": "aim_7e_001",
+      "bullets": 1,
+      "loadFactorLimit": 4.0
+    }
+  },
+  {
+    "Weapon": {
+      "trigger": "aam",
+      "external": true,
+      "separate": true,
+      "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+      "emitter": "aim_7e_002",
+      "bullets": 1,
+      "loadFactorLimit": 4.0
+    }
+  },
+  {
+    "Weapon": {
+      "trigger": "aam",
+      "external": true,
+      "separate": true,
+      "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+      "emitter": "aim_7e_003",
+      "bullets": 1,
+      "loadFactorLimit": 4.0
+    }
+  },
+  {
+    "Weapon": {
+      "trigger": "aam",
+      "external": true,
+      "separate": true,
+      "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+      "emitter": "aim_7e_004",
+      "bullets": 1,
+      "loadFactorLimit": 4.0
+    }
   },
   {
     "Weapon": {

@@ -116,6 +116,12 @@
       },
       {
         "replace_tex": {
+          "from": "flag_ussr_03_c*",
+          "to": "flag_ussr_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
           "from": "flag_usa_01_c*",
           "to": "flag_usa_01_c_tomoe*"
         }
@@ -129,6 +135,12 @@
       {
         "replace_tex": {
           "from": "flag_uk_01_c*",
+          "to": "flag_uk_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "flag_poland_01_c*",
           "to": "flag_uk_01_c_tomoe*"
         }
       },
@@ -188,6 +200,12 @@
       },
       {
         "replace_tex": {
+          "from": "flag_germany_05_c*",
+          "to": "flag_germany_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
           "from": "germany_flag_decal*",
           "to": "germany_harm_flag_decal*"
         }
@@ -214,6 +232,12 @@
         "replace_tex": {
           "from": "airplane_usa_curtiss_sc_seahawk_c*",
           "to": "airplane_usa_curtiss_sc_seahawk_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "airplane_uk_vought_os2u_kingfisher_usa_c*",
+          "to": "airplane_uk_vought_os2u_kingfisher_usa_c_tomoe*"
         }
       }
     ]
@@ -1189,6 +1213,7 @@
   {
     "DamageParts": {
       "formatVersion": 2,
+      "createSecondaryShatters": false,
       "compartments": {
         "fireParamsPreset": "ship_cover_boats",
         "stopChanceOnDeadPart": 0.3,
@@ -1533,7 +1558,6 @@
         "armorClass": "ship_structural_steel",
         "armorThickness": 2.0,
         "fireParamsPreset": "ship_ammo_fire",
-        "createSecondaryShatters": false,
         "fireProtectionHp": 10.0
       },
       "depth_charges": {
@@ -2340,70 +2364,142 @@
   {
     "MetaParts": [
       {
-        "cover": {
-          "part": "compartment_01_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_01_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_02_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_02_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_03_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_03_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_04_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_04_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "cover": {
-          "part": "compartment_05_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "cover": [
+          {
+            "part": "compartment_05_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       },
       {
-        "bridge": {
-          "part": "bridge_dm",
-          "effect": {
-            "conditionDamageType": "explosion",
-            "conditionDamage": 415.0,
-            "kill": true,
-            "killEffect": "destruction"
+        "bridge": [
+          {
+            "part": "bridge_dm"
+          },
+          {
+            "effect": {
+              "conditionDamageType": "explosion",
+              "conditionDamage": 415.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
+          },
+          {
+            "effect": {
+              "conditionDamageType": "generic",
+              "conditionDamage": 3500.0,
+              "kill": true,
+              "killEffect": "destruction"
+            }
           }
-        }
+        ]
       }
     ]
   },
@@ -2412,7 +2508,7 @@
       "mass": {
         "Empty": 208000.0,
         "momentOfInertia": [19.0,63.0,42.0],
-        "CenterOfGravity": [-3.2,0.1,0.0]
+        "CenterOfGravity": [-3.2,0.05,0.0]
       },
       "engines": [
         {
@@ -2550,7 +2646,7 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/su_foot_n.blk",
+          "blk": "gameData/sensors/naval/naval_nav_radar.blk",
           "designationFromBody": true,
           "designationTurretIndex": 1,
           "dmPart": "antenna_target_location_01_dm"
@@ -2559,7 +2655,7 @@
       {
         "sensor": [
           {
-            "blk": "gameData/sensors/su_mr_105.blk"
+            "blk": "gameData/sensors/naval/it_spg-70.blk"
           },
           {
             "dmPart": "antenna_target_tagging_01_dm"
@@ -2643,13 +2739,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
+          "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "turret": {
             "head": "main_caliber_turret_01",
@@ -2756,7 +2852,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 0.5
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2768,13 +2864,13 @@
             "errMeasureVelFast": 100.0
           },
           {
-            "errMeasureVelFwdShift": 1.0
+            "errMeasureVelFwdShift": 0.5
           },
           {
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -2895,7 +2991,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 0.5
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2907,13 +3003,13 @@
             "errMeasureVelFast": 100.0
           },
           {
-            "errMeasureVelFwdShift": 1.0
+            "errMeasureVelFwdShift": 0.5
           },
           {
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -3069,13 +3165,13 @@
                 "randomAngle": 0.0,
                 "accuracyBotMultAir": 0.55,
                 "accuracyAir": 1.0,
-                "accuracyGnd": 0.5,
+                "accuracyGnd": 0.8,
                 "errMeasureVel": 0.0,
                 "errTargettingOn100kmph": 0.0,
                 "errMeasureVelFast": 100.0,
-                "errMeasureVelFwdShift": 1.0,
+                "errMeasureVelFwdShift": 0.5,
                 "errMeasureVelDir": 3.0,
-                "errTargetting": 1.0,
+                "errTargetting": 3.0,
                 "errExplTime": 0.0,
                 "turret": {
                   "head": "main_caliber_turret_01",
@@ -3182,7 +3278,7 @@
                   "accuracyAir": 1.0
                 },
                 {
-                  "accuracyGnd": 0.5
+                  "accuracyGnd": 0.8
                 },
                 {
                   "errMeasureVel": 0.0
@@ -3194,13 +3290,13 @@
                   "errMeasureVelFast": 100.0
                 },
                 {
-                  "errMeasureVelFwdShift": 1.0
+                  "errMeasureVelFwdShift": 0.5
                 },
                 {
                   "errMeasureVelDir": 3.0
                 },
                 {
-                  "errTargetting": 1.0
+                  "errTargetting": 3.0
                 },
                 {
                   "errExplTime": 0.0
@@ -3264,7 +3360,7 @@
                   "external": true
                 },
                 {
-                  "blk": "gameData/Weapons/torpedoes/it_533mm_si270_torpedo.blk"
+                  "blk": "gameData/Weapons/torpedoes/it_533mm_si270_tipo_l_torpedo.blk"
                 },
                 {
                   "emitter": "bone_torpedo_01"
@@ -3328,7 +3424,7 @@
                   "external": true
                 },
                 {
-                  "blk": "gameData/Weapons/torpedoes/it_533mm_si270_torpedo.blk"
+                  "blk": "gameData/Weapons/torpedoes/it_533mm_si270_tipo_l_torpedo.blk"
                 },
                 {
                   "emitter": "bone_torpedo_02"
@@ -3388,8 +3484,8 @@
       "torpedoes_movement_mode": {
         "reqModification": "ship_p493_freccia_torpedoes",
         "effects": {
-          "distToLive": 8000.0,
-          "maxSpeedInWater": -5.14
+          "distToLive": 4000.0,
+          "maxSpeedInWater": -3.18
         }
       }
     }

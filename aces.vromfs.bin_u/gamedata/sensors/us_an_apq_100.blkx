@@ -3,17 +3,16 @@
   "showMissileLaunchZone": true,
   "transivers": {
     "common": {
-      "sideLobesAttenuation": -26.0,
+      "sideLobesAttenuation": -20.0,
       "power": 300.0,
       "band": 8,
       "rcs": 5.0,
       "range": 55500.0,
       "rangeMax": 100000.0,
-      "backScatteringBandNum": 0,
-      "timeGainControl": false,
+      "timeGainControl": true,
       "antenna": {
         "angleHalfSens": 4.7,
-        "sideLobesSensitivity": -32.0
+        "sideLobesSensitivity": -27.0
       }
     }
   },
@@ -66,6 +65,7 @@
       "type": "pyramide",
       "azimuthLimits": [-60.0,60.0],
       "elevationLimits": [-60.0,60.0],
+      "rollStabLimit": 70.0,
       "period": 0.5,
       "width": 6.2,
       "barHeight": 3.3,

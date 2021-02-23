@@ -2,7 +2,8 @@
   "bombGun": true,
   "preset_cost": 10,
   "shotFreq": 0.5,
-  "sound": "weapon.bombgun",
+  "sound_pathStudio": "ground/weapon/rockets",
+  "sound": "178mm_hedg",
   "reloadTime": 60.0,
   "mesh": "bomb_82mm_mortar",
   "bomb": {
@@ -16,6 +17,8 @@
     "length": 0.32,
     "distFromCmToStab": 0.77,
     "sound": "weapon.bomb_std",
+    "explosionFx": "bomb_expl_50kg",
+    "explosionPatchRadius": 4.0,
     "waterExplosionEffect": "bigesplashxplosion_fx",
     "hitPowerMult": 1.0,
     "nearHitPower": [1.0,50.0],

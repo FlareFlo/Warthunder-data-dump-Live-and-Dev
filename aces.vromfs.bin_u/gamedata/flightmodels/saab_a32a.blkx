@@ -12,13 +12,28 @@
     "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk"
   },
   {
-    "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk"
+    "standardExhaustFxType": "jet_exhaust"
+  },
+  {
+    "afterburnerExhaustFxType": "jet_afterburner_exhaust"
+  },
+  {
+    "startExhaustFxType": "jet_start_exhaust"
   },
   {
     "gearSinkRangeLR": 0.182
   },
   {
     "gearSinkRangeC": 0.187
+  },
+  {
+    "haveCCIPForRocket": true
+  },
+  {
+    "haveCCIPForBombs": true
+  },
+  {
+    "haveCCIPForGun": true
   },
   {
     "gyroscopicSightOverSensors": true
@@ -84,9 +99,6 @@
           "hp": 15.0
         },
         "cannon4_dm": {
-          "hp": 15.0
-        },
-        "radar_dm": {
           "hp": 15.0
         }
       },
@@ -211,6 +223,11 @@
         },
         "spar_r_dm": {
           "hp": 60.5
+        }
+      },
+      "dural5": {
+        "radar_dm": {
+          "hp": 35.0
         }
       },
       "glass50": {
@@ -1072,8 +1089,8 @@
         "part": {
           "name": "spar1_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1081,8 +1098,8 @@
         "part": {
           "name": "spar1_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1090,8 +1107,8 @@
         "part": {
           "name": "spar2_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1099,8 +1116,8 @@
         "part": {
           "name": "spar2_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -2294,7 +2311,7 @@
   },
   {
     "Sound": {
-      "Engine": "engine05",
+      "Engine": "engine23",
       "gun": "gun_default"
     }
   },
@@ -2377,6 +2394,8 @@
           "vario": [-40.0,40.0],
           "altitude_hour": [0.0,10000.0],
           "altitude_min": [0.0,1000.0],
+          "radio_altitude": [0.0,30000.0],
+          "radio_altitude1": [0.0,200.0],
           "altitude_koef": 1.0,
           "bank": [-8.0,8.0],
           "turn": [-0.23562,0.23562],
@@ -2437,6 +2456,11 @@
         "sensor": {
           "blk": "gameData/sensors/sw_ps-42_track.blk",
           "dmPart": "radar_dm"
+        }
+      },
+      {
+        "sensor": {
+          "blk": "gameData/sensors/us_an_apr_25.blk"
         }
       }
     ]
@@ -2529,14 +2553,202 @@
         "preset": {
           "name": "saab_a32a_145mm_psrak_m49a",
           "blk": "gameData/flightModels/weaponPresets/saab_a32a_145mm_psrak_m49a.blk",
-          "reqModification": "swd_j29_145mm_m49a"
+          "reqModification": "swd_j29_145mm_m49a",
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/swd_145mm_psrak_m49a_mount.blk"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 0,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 1,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 2,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 3,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/swd_145mm_psrak_m49a.blk"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 9,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 10,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 11,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 12,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                }
+              ]
+            }
+          ]
         }
       },
       {
         "preset": {
           "name": "saab_a32a_150mm_srak_m51",
           "blk": "gameData/flightModels/weaponPresets/saab_a32a_150mm_srak_m51.blk",
-          "reqModification": "swd_j29_150mm_m51"
+          "reqModification": "swd_j29_150mm_m51",
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/swd_150mm_srak_m51_mount.blk"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 0,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 1,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 2,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 3,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/swd_150mm_srak_m51.blk"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 9,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 10,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 11,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 12,
+                    "iconType": "rockets_he_large_group_x2"
+                  }
+                }
+              ]
+            }
+          ]
         }
       },
       {

@@ -743,8 +743,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 250.0,
-        "armorThickness": 25.0,
+        "hp": 200.0,
+        "armorThickness": 35.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -790,7 +790,8 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 15.0,
-        "hp": 250.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 15.0,
         "track_r_dm": [],
         "track_l_dm": []
       },
@@ -798,33 +799,21 @@
         "armorClass": "steel_tankman",
         "hp": 40.0,
         "genericDamageMult": 3.0,
-        "driver_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "commander_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_dm": {
-          "genericDamageMult": 3.0
-        }
+        "pressureDamageMult": 1.0,
+        "driver_dm": [],
+        "loader_dm": [],
+        "loader_01_dm": [],
+        "loader_02_dm": [],
+        "gunner_dm": [],
+        "gunner_01_dm": [],
+        "gunner_02_dm": [],
+        "gunner_03_dm": [],
+        "commander_dm": [],
+        "machine_gunner_dm": [],
+        "machine_gunner_01_dm": [],
+        "machine_gunner_02_dm": [],
+        "machine_gunner_03_dm": [],
+        "machine_gunner_04_dm": []
       },
       "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
@@ -1097,8 +1086,11 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
+        "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -1120,8 +1112,9 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_exterior",
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
@@ -1291,6 +1284,21 @@
           },
           {
             "name": "ammo_body_50_dm"
+          },
+          {
+            "name": "ammo_body_51_dm"
+          },
+          {
+            "name": "ammo_body_52_dm"
+          },
+          {
+            "name": "ammo_body_53_dm"
+          },
+          {
+            "name": "ammo_body_54_dm"
+          },
+          {
+            "name": "ammo_body_55_dm"
           },
           {
             "name": "ammo_body_l_01_dm"
@@ -1895,8 +1903,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1908,8 +1935,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -2092,7 +2120,10 @@
           "substitute": "commander"
         },
         {
-          "substitute": "loader_01_dm"
+          "substitute": "loader_01"
+        },
+        {
+          "substitute": "loader_02"
         }
       ],
       "driver": [
@@ -2106,32 +2137,31 @@
           "substitute": "commander"
         },
         {
-          "substitute": "loader_01_dm"
+          "substitute": "loader_01"
+        },
+        {
+          "substitute": "loader_02"
         }
       ],
-      "commander": [
-        {
-          "dmPart": "commander_dm"
-        },
-        {
-          "role": "commander"
-        },
-        {
-          "role": "loader"
-        },
-        {
-          "substitute": "loader_01_dm"
-        }
-      ],
-      "loader_01_dm": {
+      "commander": {
+        "dmPart": "commander_dm",
+        "role": "commander"
+      },
+      "loader_01": {
         "dmPart": "loader_01_dm",
-        "role": "radio_gunner"
+        "role": "loader",
+        "substitute": "commander"
+      },
+      "loader_02": {
+        "dmPart": "loader_02_dm",
+        "role": "loader",
+        "substitute": "commander"
       }
     }
   },
   {
     "gunConvergence": {
-      "distance": 400.0,
+      "defaultDistance": 400.0,
       "vertical": true,
       "horizontal": true
     }
@@ -2155,16 +2185,24 @@
     "commonWeapons": {
       "Weapon": {
         "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/120mm_type_3_user_cannon.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/120mm_10th_Year_type_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
+        "sleeveEmitter": "emtr_shell",
+        "sleeveMesh": "cartridge_case",
+        "hatchAnimVar": "gun_shutter_move",
+        "openHatchTime": 0.3,
+        "sleevesLifeTime": 10.0,
+        "sleeveImpulse": [5.0,0.0,0.0],
+        "linkSleeveToGun": true,
+        "sleeveExtractSound": "shell_eject",
         "recoilMultiplier": 0.4,
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
         "barrelDP": "gun_barrel_dm",
         "breechDP": "cannon_breech_dm",
-        "speedYaw": 6.0,
-        "speedPitch": 4.0,
+        "speedYaw": 10.0,
+        "speedPitch": 6.5,
         "fireConeAngle": 1.0,
         "bullets": 10,
         "salvoAmount": 100.0,
@@ -2190,7 +2228,7 @@
         },
         "limits": {
           "yaw": [-60.0,60.0],
-          "pitch": [-8.0,15.0]
+          "pitch": [-10.0,15.0]
         }
       }
     }
@@ -2219,8 +2257,15 @@
       },
       "tracks": {
         "animationMultiplier": -0.5,
-        "height": 0.035,
-        "width": 0.25
+        "height": 0.07,
+        "width": 0.25,
+        "tracksTensionK": [4.0,7.0,1.5],
+        "trackMesh": "jp_type_97_chi_ha_phys_track_line",
+        "trackLen": 0.122,
+        "trackCount": 96,
+        "trackFadeTime": 1.1,
+        "trackMaxHeight": 1.17,
+        "trackStartOffset": 0.02
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -2261,12 +2306,126 @@
         "suspensionOffsets": [-0.2,-0.1,0.06],
         "defaultGearRadius": 0.28,
         "topGearRadius": 0.13,
-        "frontBackGearRadius": 0.287,
+        "frontBackGearRadius": 0.31,
         "defaultDampeningForce": [30000.0,30000.0],
         "dampeningRelaxationRatio": 0.4,
         "dampeningCompressionRatio": 0.15
       }
     }
+  },
+  {
+    "PhysSys": [
+      {
+        "group": {
+          "find": "^bone_suspension_(\\w)_(\\d+)$",
+          "points": {
+            "lever": {
+              "name": "bone_suspension_$1_$2",
+              "limitMin": [0.0,0.0,0.0],
+              "limitMax": [0.0,0.0,0.0]
+            },
+            "suspension_01_01": {
+              "name": "bone_suspension_$1_$2_01",
+              "limitMin": [-0.5,-0.5,0.0],
+              "limitMax": [0.5,0.5,0.0]
+            },
+            "wheel_01": {
+              "searchChildren": {
+                "parent": "suspension_01_01",
+                "find": "bone_wheel_",
+                "occurence": 1,
+                "limitMin": [-1.0,-1.0,0.0],
+                "limitMax": [1.0,1.0,0.0]
+              }
+            },
+            "wheel_02": {
+              "searchChildren": {
+                "find": "bone_wheel_",
+                "parent": "suspension_01_01",
+                "occurence": 2,
+                "limitMin": [-1.0,-1.0,0.0],
+                "limitMax": [1.0,1.0,0.0]
+              }
+            },
+            "suspension_01_02": {
+              "name": "suspension_$1_$2_02",
+              "limitMin": [-0.5,0.0,0.0],
+              "limitMax": [0.5,0.0,0.0]
+            }
+          },
+          "constraints": [
+            {
+              "projection": {
+                "point": "suspension_01_01",
+                "from": "wheel_01",
+                "to": "wheel_02",
+                "moveEdge": true
+              }
+            },
+            {
+              "edge": {
+                "from": "lever",
+                "to": "suspension_01_01",
+                "moveSecond": false
+              }
+            },
+            {
+              "edge": {
+                "moveSecond": false,
+                "from": "suspension_01_02",
+                "to": "suspension_01_01",
+                "moveOnly": true
+              }
+            },
+            {
+              "direction": {
+                "moveNodes": true,
+                "rotateSecond": false,
+                "from": "wheel_01",
+                "to": "wheel_02",
+                "point": "suspension_01_01"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "group": {
+          "find": "^bone_suspension_tb_(._\\d\\d)$",
+          "points": {
+            "suspension": {
+              "limitMin": [0.0,0.0,0.0],
+              "limitMax": [0.0,0.0,0.0],
+              "name": "bone_suspension_tb_$1"
+            },
+            "wheel": {
+              "searchChildren": {
+                "occurence": 1,
+                "limitMin": [-1000.0,-1000.0,0.0],
+                "limitMax": [1000.0,1000.0,0.0],
+                "parent": "suspension",
+                "find": "bone_wheel_"
+              }
+            },
+            "suspension_01_02": {
+              "searchChildren": {
+                "occurence": 1,
+                "limitMin": [-0.5,0.0,0.0],
+                "limitMax": [-0.5,0.0,0.0],
+                "parent": "suspension",
+                "find": "suspension_tb_"
+              }
+            }
+          },
+          "constraints": {
+            "edge": {
+              "from": "suspension",
+              "to": "wheel"
+            }
+          }
+        }
+      }
+    ]
   },
   {
     "ammo": {
@@ -2777,6 +2936,15 @@
       },
       {
         "event": {
+          "name": "fuel_internal",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -2798,7 +2966,7 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
-      "sightFov": 25.0,
+      "sightFov": 20.0,
       "sightName": "default_tank_spg",
       "openedCockpit": true,
       "headPos": [0.0,3.3,-6.0],
@@ -2825,7 +2993,8 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_jp"
       },
-      "120mm_jp_HE": []
+      "120mm_jp_HE": [],
+      "120mm_jp_SAP": []
     }
   },
   {

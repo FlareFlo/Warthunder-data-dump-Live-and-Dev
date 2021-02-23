@@ -53,9 +53,6 @@
       "slopeEffectPreset": "ap"
     },
     {
-      "modelName": "tank_bullet_he"
-    },
-    {
       "fresnel": [0.23,0.1,2.0]
     },
     {
@@ -101,16 +98,10 @@
       "spawnExplosionWreckage": false
     },
     {
-      "explosionEffect": "atgm_hit"
+      "explosionEffect": "explosion_midair_big"
     },
     {
-      "defFxScale": [1.8,2.1]
-    },
-    {
-      "groundCollisionEffect": "bomb_ground_explosion_small"
-    },
-    {
-      "groundFxScale": [1.0,1.2]
+      "groundCollisionEffect": "bomb_expl_50kg"
     },
     {
       "ricochetEffect": "cannon_ricochet"
@@ -119,13 +110,19 @@
       "waterCollisionEffect": "120-203_he_water_splash"
     },
     {
-      "waterFxScale": [1.0,1.2]
+      "explosionPatchRadius": 4.0
     },
     {
-      "explosionPatchRadius": 3.4
+      "fireEffect": "rocket_fire_dark"
     },
     {
-      "smokeEffect": "hydra_smoke"
+      "smokeEffect": ""
+    },
+    {
+      "hazeEffect": "haze_missile"
+    },
+    {
+      "endSmokeViscosity": 0.05
     },
     {
       "maxDistance": 5500.0
@@ -176,9 +173,6 @@
       "explodeRadius": [1.3,5.0]
     },
     {
-      "explosionPatchRadius": 5.0
-    },
-    {
       "rendinstDamageRadius": 15.0
     },
     {
@@ -212,12 +206,6 @@
       "maxSpeed": 320.0
     },
     {
-      "speedViscosity": 110.2
-    },
-    {
-      "timeToLive": 20.0
-    },
-    {
       "advancedMissiles": false
     },
     {
@@ -228,27 +216,6 @@
     },
     {
       "aiAirOnly": false
-    },
-    {
-      "aiHeatAim": false
-    },
-    {
-      "aiRadarAim": false
-    },
-    {
-      "aiLaserAim": false
-    },
-    {
-      "aiMaxAimAngle": 30.0
-    },
-    {
-      "aiSpeedViscosity": 3.0
-    },
-    {
-      "aiSpeedPrediction": 1.0
-    },
-    {
-      "aiAccelPrediction": 0.5
     },
     {
       "amountPerTier": 1.0
@@ -266,20 +233,16 @@
     {
       "collisions": {
         "steel": {
-          "fx": "atgm_hit",
-          "fxScale": [4.0,4.2]
+          "fx": "explosion_midair_small"
         },
         "armor": {
-          "fx": "atgm_hit",
-          "fxScale": [4.0,4.2]
+          "fx": "explosion_midair_small"
         },
         "buildings": {
-          "fx": "atgm_hit",
-          "fxScale": [4.0,4.2]
+          "fx": "explosion_midair_small"
         },
         "wood": {
-          "fx": "atgm_hit",
-          "fxScale": [4.0,4.2]
+          "fx": "explosion_midair_small"
         }
       }
     },

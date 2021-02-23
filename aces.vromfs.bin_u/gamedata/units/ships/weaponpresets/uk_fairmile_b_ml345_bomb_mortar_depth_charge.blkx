@@ -24,6 +24,9 @@
       },
       {
         "node": "mine_08"
+      },
+      {
+        "node": "ex_decor_17"
       }
     ]
   },
@@ -41,7 +44,6 @@
       "ammoDP": "depth_charge_15_dm",
       "barrelDP": "depth_charge_mount_15_dm",
       "brokenBarrelAllowShoot": false,
-      "loanRearmTime": 3.0,
       "allowableDelta": 55.0,
       "turret": {
         "head": "turret_06",
@@ -50,10 +52,6 @@
       "limits": {
         "yaw": [-0.0,0.0],
         "pitch": [-0.0,0.0]
-      },
-      "rearmSource": {
-        "trigger": "bombs",
-        "triggerGroup": "depth_charge"
       }
     }
   },
@@ -71,7 +69,6 @@
       "ammoDP": "depth_charge_16_dm",
       "barrelDP": "depth_charge_mount_15_dm",
       "brokenBarrelAllowShoot": false,
-      "loanRearmTime": 3.0,
       "allowableDelta": 55.0,
       "turret": {
         "head": "turret_07",
@@ -80,10 +77,6 @@
       "limits": {
         "yaw": [-0.0,0.0],
         "pitch": [-0.0,0.0]
-      },
-      "rearmSource": {
-        "trigger": "bombs",
-        "triggerGroup": "depth_charge"
       }
     }
   },

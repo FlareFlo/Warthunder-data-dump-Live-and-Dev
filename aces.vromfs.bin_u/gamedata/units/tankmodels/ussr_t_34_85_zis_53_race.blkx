@@ -75,9 +75,6 @@
       "turret_01_side_dm": {
         "armorThickness": 10.0
       },
-      "ex_decor_r_04_dm": {
-        "armorThickness": 5.0
-      },
       "submodule": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
@@ -181,10 +178,30 @@
         "armorThickness": 200.0
       }
     },
+    "body_shields": {
+      "armorClass": "RHA_tank",
+      "hp": 100.0,
+      "armorThickness": 4.0,
+      "stopChanceOnDeadPart": 0.0,
+      "createSecondaryShatters": false,
+      "hidableInViewer": true,
+      "ex_decor_r_01_dm": [],
+      "ex_decor_r_02_dm": [],
+      "ex_decor_r_03_dm": [],
+      "ex_decor_r_04_dm": [],
+      "ex_decor_r_05_dm": [],
+      "ex_decor_r_06_dm": [],
+      "ex_decor_r_07_dm": [],
+      "ex_decor_l_01_dm": [],
+      "ex_decor_l_03_dm": [],
+      "ex_decor_l_05_dm": [],
+      "ex_decor_l_06_dm": [],
+      "ex_decor_l_07_dm": []
+    },
     "gun": {
       "armorClass": "tank_barrel",
-      "hp": 200.0,
-      "armorThickness": 20.0,
+      "hp": 150.0,
+      "armorThickness": 30.0,
       "gun_barrel_dm": [],
       "gun_barrel_01_dm": {
         "armorThrough": 10.0,
@@ -215,7 +232,9 @@
     "tracks": {
       "armorClass": "tank_traks",
       "armorThickness": 20.0,
-      "hp": 300.0,
+      "armorEffectiveThicknessMax": 20.0,
+      "hp": 100.0,
+      "genericEffectiveThicknessMax": 20.0,
       "track_r_dm": [],
       "track_l_dm": [],
       "track_r_01_dm": [],
@@ -532,8 +551,11 @@
       "armorClass": "tank_structural_steel",
       "hp": 250.0,
       "armorThickness": 2.0,
-      "armorThrough": 12.0,
-      "fireProtectionHp": 15.0,
+      "armorThrough": 10.0,
+      "fireProtectionHp": 10.0,
+      "createSecondaryShatters": false,
+      "fireParamsPreset": "fuel_internal",
+      "stopChanceOnDeadPart": 0.0,
       "fuel_tank_dm": [],
       "fuel_tank_01_dm": [],
       "fuel_tank_02_dm": [],
@@ -555,8 +577,9 @@
       "armorClass": "tank_structural_steel",
       "hp": 250.0,
       "armorThickness": 2.0,
-      "armorThrough": 12.0,
-      "fireProtectionHp": 15.0,
+      "armorThrough": 10.0,
+      "fireProtectionHp": 10.0,
+      "createSecondaryShatters": false,
       "fireParamsPreset": "fuel_exterior",
       "fuel_tank_exterior_r_01_dm": [],
       "fuel_tank_exterior_r_02_dm": [],
@@ -571,27 +594,22 @@
     "crew": {
       "armorClass": "steel_tankman",
       "hp": 40.0,
-      "driver_dm": {
-        "genericDamageMult": 3.0
-      },
-      "loader_dm": {
-        "genericDamageMult": 3.0
-      },
-      "loader_02_dm": {
-        "genericDamageMult": 3.0
-      },
-      "loader_01_dm": {
-        "genericDamageMult": 3.0
-      },
-      "gunner_dm": {
-        "genericDamageMult": 3.0
-      },
-      "commander_dm": {
-        "genericDamageMult": 3.0
-      },
-      "machine_gunner_dm": {
-        "genericDamageMult": 3.0
-      }
+      "genericDamageMult": 3.0,
+      "pressureDamageMult": 1.0,
+      "driver_dm": [],
+      "loader_dm": [],
+      "loader_01_dm": [],
+      "loader_02_dm": [],
+      "gunner_dm": [],
+      "gunner_01_dm": [],
+      "gunner_02_dm": [],
+      "gunner_03_dm": [],
+      "commander_dm": [],
+      "machine_gunner_dm": [],
+      "machine_gunner_01_dm": [],
+      "machine_gunner_02_dm": [],
+      "machine_gunner_03_dm": [],
+      "machine_gunner_04_dm": []
     }
   },
   "sound": {
@@ -759,6 +777,21 @@
         },
         {
           "name": "ammo_body_50_dm"
+        },
+        {
+          "name": "ammo_body_51_dm"
+        },
+        {
+          "name": "ammo_body_52_dm"
+        },
+        {
+          "name": "ammo_body_53_dm"
+        },
+        {
+          "name": "ammo_body_54_dm"
+        },
+        {
+          "name": "ammo_body_55_dm"
         },
         {
           "name": "ammo_body_l_01_dm"
@@ -1356,6 +1389,7 @@
           "onHit": {
             "damageType": "generic",
             "fire": 0.2,
+            "expl": 0.2,
             "damage": 200.0,
             "fHitCritical": true
           }
@@ -1364,7 +1398,26 @@
           "onHit": {
             "damageType": "generic",
             "fire": 0.4,
+            "expl": 0.25,
             "damage": 300.0,
+            "fHitCritical": true
+          }
+        },
+        {
+          "onHit": {
+            "damageType": "generic",
+            "fire": 0.45,
+            "expl": 0.45,
+            "damage": 400.0,
+            "fHitCritical": true
+          }
+        },
+        {
+          "onHit": {
+            "damageType": "generic",
+            "fire": 0.2,
+            "expl": 0.8,
+            "damage": 600.0,
             "fHitCritical": true
           }
         },
@@ -1376,8 +1429,9 @@
         },
         {
           "onKill": {
-            "fire": 0.25,
-            "nothing": 0.75,
+            "fire": 0.35,
+            "expl": 0.35,
+            "nothing": 0.3,
             "fHitCritical": true
           }
         }
@@ -1637,7 +1691,7 @@
     ]
   },
   "gunConvergence": {
-    "distance": 800.0,
+    "defaultDistance": 800.0,
     "vertical": true,
     "horizontal": true
   },
@@ -1797,7 +1851,15 @@
     "tracks": {
       "animationMultiplier": 0.75,
       "height": 0.04,
-      "width": 0.5
+      "width": 0.5,
+      "tracksTensionK": [3.0,8.0,1.5],
+      "trackMesh": "ussr_t_34_phys_track_line",
+      "trackLen": 0.172,
+      "trackCount": 72,
+      "trackFadeTime": 0.5,
+      "trackCntPeriod": 2,
+      "trackMaxSinking": 0.17,
+      "trackMaxHeight": 1.04
     },
     "collisionProps": {
       "cls_turret_01": "convex_hull",
@@ -1842,7 +1904,7 @@
       "maxDisplacementOffsets": [-0.01,0.02],
       "suspensionOffsets": [-0.115,-0.115,0.14],
       "defaultGearRadius": 0.41,
-      "frontBackGearRadius": 0.21,
+      "frontBackGearRadius": 0.25,
       "defaultDampeningForce": [150000.0,150000.0],
       "dampeningRelaxationRatio": 0.4,
       "dampeningCompressionRatio": 0.15
@@ -2354,6 +2416,15 @@
     {
       "event": {
         "name": "fuel_exterior",
+        "fx": {
+          "name": "tank_ex_fuel_explosion",
+          "centerDmgPart": true
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "fuel_internal",
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true

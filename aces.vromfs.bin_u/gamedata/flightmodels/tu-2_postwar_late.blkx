@@ -15,6 +15,12 @@
     "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk"
   },
   {
+    "gearSinkRangeLR": 0.195
+  },
+  {
+    "gearSinkRangeC": 0.138
+  },
+  {
     "type": "typeBomber"
   },
   {
@@ -606,6 +612,9 @@
         "cannon1_dm": {
           "hp": 15.0
         },
+        "cannon3_dm": {
+          "hp": 15.0
+        },
         "gun1_dm": {
           "hp": 15.0
         },
@@ -654,11 +663,11 @@
       "armor_engine": {
         "engine1_dm": {
           "genericDamageMult": 1.6,
-          "hp": 59.1
+          "hp": 60.5
         },
         "engine2_dm": {
           "genericDamageMult": 1.6,
-          "hp": 59.1
+          "hp": 60.5
         }
       },
       "c_dural20": {
@@ -856,11 +865,6 @@
         },
         "tank7_dm": {
           "hp": 61.6
-        }
-      },
-      "wood": {
-        "cannon3_dm": {
-          "hp": 8.7
         }
       }
     }
@@ -1258,26 +1262,12 @@
       },
       {
         "part": {
-          "name": "fin1_dm",
-          "onHit": {
-            "tailcontrol_dm": 0.001
-          },
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
-          }
+          "name": "fin1_dm"
         }
       },
       {
         "part": {
-          "name": "fin2_dm",
-          "onHit": {
-            "tailcontrol_dm": 0.001
-          },
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
-          }
+          "name": "fin2_dm"
         }
       },
       {
@@ -2094,8 +2084,8 @@
         "part": {
           "name": "spar1_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -2103,8 +2093,8 @@
         "part": {
           "name": "spar1_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -2112,8 +2102,8 @@
         "part": {
           "name": "spar2_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -2121,8 +2111,8 @@
         "part": {
           "name": "spar2_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },

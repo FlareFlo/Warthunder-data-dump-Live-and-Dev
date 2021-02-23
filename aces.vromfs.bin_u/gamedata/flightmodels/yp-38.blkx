@@ -20,10 +20,7 @@
   "fireParamsPreset": "600kph",
   "DamageParts": {
     "armor10": {
-      "cannon1_dm": {
-        "hp": 15.0
-      },
-      "mgun1_dm": {
+      "cannon2_dm": {
         "hp": 15.0
       },
       "mgun2_dm": {
@@ -32,7 +29,10 @@
       "mgun3_dm": {
         "hp": 15.0
       },
-      "mgun4_dm": {
+      "mgun5_dm": {
+        "hp": 15.0
+      },
+      "mgun6_dm": {
         "hp": 15.0
       }
     },
@@ -52,11 +52,11 @@
     "armor_engine": {
       "engine1_dm": {
         "genericDamageMult": 1.6,
-        "hp": 49.5
+        "hp": 30.5
       },
       "engine2_dm": {
         "genericDamageMult": 1.6,
-        "hp": 49.5
+        "hp": 30.5
       }
     },
     "c_dural3": {
@@ -116,7 +116,7 @@
         "hp": 44.5
       },
       "fuse_dm": {
-        "hp": 86.0
+        "hp": 86.3
       },
       "tail_dm": {
         "genericDamageMult": 0.5,
@@ -137,6 +137,14 @@
       "wing2_r_dm": {
         "genericDamageMult": 0.3,
         "hp": 69.8
+      },
+      "wing_l_dm": {
+        "genericDamageMult": 0.3,
+        "hp": 80.5
+      },
+      "wing_r_dm": {
+        "genericDamageMult": 0.3,
+        "hp": 80.5
       }
     },
     "dural": {
@@ -205,13 +213,13 @@
     },
     "steel_cooling_sys": {
       "oil1_dm": {
-        "hp": 12.2
+        "hp": 11.7
       },
       "oil2_dm": {
         "hp": 17.2
       },
       "oil3_dm": {
-        "hp": 12.2
+        "hp": 11.6
       },
       "oil4_dm": {
         "hp": 17.2
@@ -241,14 +249,6 @@
       },
       "tank4_dm": {
         "hp": 57.5
-      }
-    },
-    "wood": {
-      "wing_l_dm": {
-        "hp": 95.0
-      },
-      "wing_r_dm": {
-        "hp": 95.0
       }
     }
   },
@@ -389,7 +389,7 @@
     },
     {
       "part": {
-        "name": "cannon1_dm"
+        "name": "cannon2_dm"
       }
     },
     {
@@ -486,9 +486,10 @@
         },
         {
           "onHit": {
-            "damage": 2.7,
+            "damage": 2.0,
             "fire": 0.01,
             "leak_oil": 0.5,
+            "leak_water": 0.45,
             "cut": 0.0
           }
         },
@@ -496,7 +497,8 @@
           "onHit": {
             "damage": 30.0,
             "fire": 0.1,
-            "leak_oil": 1.0,
+            "leak_oil": 0.8,
+            "leak_water": 1.0,
             "cut": 0.0
           }
         },
@@ -504,14 +506,16 @@
           "onKill": {
             "fire": 30.0,
             "leak_oil": 10.0,
+            "leak_water": 10.0,
             "cut": 0.0
           }
         },
         {
           "onKill": {
             "damage": 30.0,
-            "fire": 44.0,
+            "fire": 45.0,
             "leak_oil": 10.0,
+            "leak_water": 10.0,
             "cut": 0.0
           }
         }
@@ -529,9 +533,10 @@
         },
         {
           "onHit": {
-            "damage": 2.7,
+            "damage": 2.0,
             "fire": 0.01,
             "leak_oil": 0.5,
+            "leak_water": 0.45,
             "cut": 0.0
           }
         },
@@ -539,7 +544,8 @@
           "onHit": {
             "damage": 30.0,
             "fire": 0.1,
-            "leak_oil": 1.0,
+            "leak_oil": 0.8,
+            "leak_water": 1.0,
             "cut": 0.0
           }
         },
@@ -547,14 +553,16 @@
           "onKill": {
             "fire": 30.0,
             "leak_oil": 10.0,
+            "leak_water": 10.0,
             "cut": 0.0
           }
         },
         {
           "onKill": {
             "damage": 30.0,
-            "fire": 44.0,
+            "fire": 45.0,
             "leak_oil": 10.0,
+            "leak_water": 10.0,
             "cut": 0.0
           }
         }
@@ -1362,11 +1370,6 @@
     },
     {
       "part": {
-        "name": "mgun1_dm"
-      }
-    },
-    {
-      "part": {
         "name": "mgun2_dm"
       }
     },
@@ -1377,7 +1380,12 @@
     },
     {
       "part": {
-        "name": "mgun4_dm"
+        "name": "mgun5_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "mgun6_dm"
       }
     },
     {
@@ -1547,8 +1555,8 @@
       "part": {
         "name": "spar1_l_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -1556,8 +1564,8 @@
       "part": {
         "name": "spar1_r_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -1565,8 +1573,8 @@
       "part": {
         "name": "spar2_l_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -1574,8 +1582,8 @@
       "part": {
         "name": "spar2_r_dm",
         "onKill": {
-          "nothing": 0.0,
-          "cut": 1.0
+          "nothing": 2.0,
+          "cut": 4.0
         }
       }
     },
@@ -2491,26 +2499,31 @@
       }
     ]
   },
+  "flexWing": {
+    "wingStrainCoeff": 0.05,
+    "wingOverloadCoeff": 1.0,
+    "wingStrainLimitDown": 1.0
+  },
   "commonWeapons": [
     {
       "Weapon": {
         "trigger": "machine gun",
-        "blk": "gameData/Weapons/gunBrowning50_early.blk",
+        "blk": "gameData/Weapons/gunBrowning30_usaaf.blk",
         "emitter": "flare1",
         "flash": "flare1",
-        "bullets": 200,
-        "dm": "mgun1_dm",
+        "bullets": 500,
+        "dm": "mgun5_dm",
         "spread": 1.0
       }
     },
     {
       "Weapon": {
         "trigger": "machine gun",
-        "blk": "gameData/Weapons/gunBrowning30_usaaf.blk",
+        "blk": "gameData/Weapons/gunBrowning50_early.blk",
         "emitter": "flare2",
         "flash": "flare2",
-        "bullets": 500,
-        "dm": "mgun5_dm",
+        "bullets": 200,
+        "dm": "mgun2_dm",
         "traceOffset": 1,
         "spread": 1.0
       }
@@ -2518,11 +2531,11 @@
     {
       "Weapon": {
         "trigger": "machine gun",
-        "blk": "gameData/Weapons/gunBrowning30_usaaf.blk",
+        "blk": "gameData/Weapons/gunBrowning50_early.blk",
         "emitter": "flare3",
         "flash": "flare3",
-        "bullets": 500,
-        "dm": "mgun6_dm",
+        "bullets": 200,
+        "dm": "mgun3_dm",
         "traceOffset": 2,
         "spread": 1.0
       }
@@ -2530,11 +2543,11 @@
     {
       "Weapon": {
         "trigger": "machine gun",
-        "blk": "gameData/Weapons/gunBrowning50_early.blk",
+        "blk": "gameData/Weapons/gunBrowning30_usaaf.blk",
         "emitter": "flare4",
         "flash": "flare4",
-        "bullets": 200,
-        "dm": "mgun4_dm",
+        "bullets": 500,
+        "dm": "mgun6_dm",
         "traceOffset": 3,
         "spread": 1.0
       }
@@ -2548,16 +2561,6 @@
         "bullets": 15,
         "dm": "cannon2_dm",
         "spread": 1.0
-      }
-    },
-    {
-      "hideDmParts": {
-        "node": "cannon1_dm"
-      }
-    },
-    {
-      "hideNodes": {
-        "node": "gun20"
       }
     }
   ],
@@ -2800,7 +2803,7 @@
     "emtr_break_wing1_r_to": [-0.497386,-0.0339054,-3.6629],
     "emtr_break_wing2_r_from": [-0.497386,-0.0339054,-4.61843],
     "emtr_break_wing2_r_to": [-0.497386,-0.0339054,-5.93555],
-    "emtr_break_wing_tail": [-6.09527,0.0,0.0],
+    "emtr_break_wing_tail": [-4.04094,0.0,0.0],
     "finCut": false
   }
 }

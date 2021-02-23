@@ -63,7 +63,7 @@
     "notUseDefaultBulletInGui": true
   },
   {
-    "fxType": "machine_gun_flame"
+    "fxType": "muzzle_ground_15mm"
   },
   {
     "fxMultipleSpawn": true
@@ -113,9 +113,9 @@
       "armorFragmentsAmount": 15,
       "armorFragmentsArmorPower": 2.0,
       "armorFragmentsHit": 8.0,
-      "ricochetEffect": "bullet_hit_armor",
-      "waterCollisionEffect": "water_splash",
-      "waterFxScale": [0.9,1.1],
+      "groundCollisionEffect": "hit_12_18mm_dirt_ap",
+      "ricochetEffect": "hit_12_18mm_metal_ap",
+      "waterCollisionEffect": "hit_12_18mm_water",
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -131,7 +131,8 @@
         }
       ],
       "hitpower": {
-        "HitPower0m": [0.85,500.0],
+        "HitPower0m": [1.0,0.0],
+        "HitPower1000m": [0.9,0.0],
         "HitPower10000m": [0.8,10000.0]
       },
       "armorpower": {
@@ -151,103 +152,79 @@
       },
       "collisions": {
         "default": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "horLandMesh": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "soil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "dirt": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "road": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "roadSoil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "sand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "duneSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "roadSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "quickSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "snow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "ice": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "roadSnow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "snowLower": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fxScale": [0.2,0.4]
+          "fx": "hit_12_18mm_metal_ap"
         },
         "wood": {
-          "fx": "7_20_hit_wood",
-          "fxScale": [0.5,0.7]
-        },
-        "buildings": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "verLandMesh": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "beton": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocks": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocksSlippery": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "fabric": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "stone_snow": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
+          "fx": "hit_12_18mm_wood_ap"
         },
         "steel": {
-          "fx": "bullet_hit_mg",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_ap"
         },
         "metal": {
-          "fx": "bullet_hit_mg",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_ap"
+        },
+        "buildings": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "verLandMesh": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "concrete": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "rocks": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "rocksSlippery": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "fabric": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "stone_snow": {
+          "fx": "hit_12_18mm_snow_ap"
         }
       }
     }
@@ -284,9 +261,9 @@
       "shutterAmount": 10,
       "shutterArmorPower": 3.0,
       "shutterHit": 3.5,
-      "ricochetEffect": "bullet_hit_armor",
-      "waterCollisionEffect": "water_splash",
-      "waterFxScale": [1.4,1.6],
+      "groundCollisionEffect": "hit_12_18mm_dirt_he",
+      "ricochetEffect": "hit_12_18mm_metal_ap",
+      "waterCollisionEffect": "hit_12_18mm_water",
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -316,104 +293,79 @@
       },
       "collisions": {
         "default": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_dirt_he"
         },
         "horLandMesh": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_dirt_he"
         },
         "soil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_dirt_he"
         },
         "dirt": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_dirt_he"
         },
         "road": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_dirt_he"
         },
         "roadSoil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_dirt_he"
         },
         "sand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_sand_he"
         },
         "duneSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_sand_he"
         },
         "roadSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_sand_he"
         },
         "quickSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_sand_he"
         },
         "snow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_snow_he"
         },
         "ice": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_snow_he"
         },
         "roadSnow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_snow_he"
         },
         "snowLower": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.1,1.4]
+          "fx": "hit_12_18mm_snow_he"
         },
         "glass": {
-          "fx": "7_20_hit_glass",
-          "fxScale": [0.2,0.4]
+          "fx": "hit_12_18mm_metal_he"
         },
         "wood": {
-          "fx": "7_20_hit_wood",
-          "fxScale": [0.5,0.7]
-        },
-        "buildings": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "verLandMesh": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "beton": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocks": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocksSlippery": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "fabric": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "stone_snow": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
+          "fx": "hit_12_18mm_wood_he"
         },
         "steel": {
-          "fx": "bullet_hit_light",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_he"
         },
         "metal": {
-          "fx": "bullet_hit_light",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_he"
+        },
+        "buildings": {
+          "fx": "hit_12_18mm_stone_he"
+        },
+        "verLandMesh": {
+          "fx": "hit_12_18mm_stone_he"
+        },
+        "concrete": {
+          "fx": "hit_12_18mm_stone_he"
+        },
+        "rocks": {
+          "fx": "hit_12_18mm_stone_he"
+        },
+        "rocksSlippery": {
+          "fx": "hit_12_18mm_stone_he"
+        },
+        "fabric": {
+          "fx": "hit_12_18mm_stone_he"
+        },
+        "stone_snow": {
+          "fx": "hit_12_18mm_snow_he"
         }
       }
     }
@@ -442,9 +394,9 @@
       "armorFragmentsAmount": 15,
       "armorFragmentsArmorPower": 2.0,
       "armorFragmentsHit": 8.0,
-      "ricochetEffect": "bullet_hit_armor",
-      "waterCollisionEffect": "water_splash",
-      "waterFxScale": [0.9,1.1],
+      "groundCollisionEffect": "hit_12_18mm_dirt_ap",
+      "ricochetEffect": "hit_12_18mm_metal_ap",
+      "waterCollisionEffect": "hit_12_18mm_water",
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -460,7 +412,8 @@
         }
       ],
       "hitpower": {
-        "HitPower0m": [0.85,500.0],
+        "HitPower0m": [1.0,0.0],
+        "HitPower1000m": [0.9,0.0],
         "HitPower10000m": [0.8,10000.0]
       },
       "armorpower": {
@@ -480,103 +433,79 @@
       },
       "collisions": {
         "default": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "horLandMesh": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "soil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "dirt": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "road": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "roadSoil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "sand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "duneSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "roadSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "quickSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "snow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "ice": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "roadSnow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "snowLower": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fxScale": [0.2,0.4]
+          "fx": "hit_12_18mm_metal_ap"
         },
         "wood": {
-          "fx": "7_20_hit_wood",
-          "fxScale": [0.5,0.7]
-        },
-        "buildings": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "verLandMesh": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "beton": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocks": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocksSlippery": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "fabric": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "stone_snow": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
+          "fx": "hit_12_18mm_wood_ap"
         },
         "steel": {
-          "fx": "bullet_hit_mg",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_ap"
         },
         "metal": {
-          "fx": "bullet_hit_mg",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_ap"
+        },
+        "buildings": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "verLandMesh": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "concrete": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "rocks": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "rocksSlippery": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "fabric": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "stone_snow": {
+          "fx": "hit_12_18mm_snow_ap"
         }
       }
     }
@@ -606,9 +535,9 @@
       "armorFragmentsArmorPower": 2.0,
       "armorFragmentsHit": 8.0,
       "relativeVelArmorShift": [200.0,1000.0],
-      "ricochetEffect": "bullet_hit_armor",
-      "waterCollisionEffect": "water_splash",
-      "waterFxScale": [0.9,1.1],
+      "groundCollisionEffect": "hit_12_18mm_dirt_ap",
+      "ricochetEffect": "hit_12_18mm_metal_ap",
+      "waterCollisionEffect": "hit_12_18mm_water",
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -624,7 +553,8 @@
         }
       ],
       "hitpower": {
-        "HitPower0m": [0.85,500.0],
+        "HitPower0m": [1.0,0.0],
+        "HitPower1000m": [0.9,0.0],
         "HitPower10000m": [0.8,10000.0]
       },
       "armorpower": {
@@ -643,103 +573,79 @@
       },
       "collisions": {
         "default": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "horLandMesh": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "soil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "dirt": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "road": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "roadSoil": {
-          "fx": "7_20_hit_ground",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_dirt_ap"
         },
         "sand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "duneSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "roadSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "quickSand": {
-          "fx": "7_20_hit_sand",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_sand_ap"
         },
         "snow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "ice": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "roadSnow": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "snowLower": {
-          "fx": "7_20_hit_snow",
-          "fxScale": [1.0,1.2]
+          "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fxScale": [0.2,0.4]
+          "fx": "hit_12_18mm_metal_ap"
         },
         "wood": {
-          "fx": "7_20_hit_wood",
-          "fxScale": [0.5,0.7]
-        },
-        "buildings": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "verLandMesh": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "beton": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocks": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "rocksSlippery": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "fabric": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
-        },
-        "stone_snow": {
-          "fx": "7_20_hit_stone",
-          "fxScale": [0.4,0.6]
+          "fx": "hit_12_18mm_wood_ap"
         },
         "steel": {
-          "fx": "bullet_hit_mg",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_ap"
         },
         "metal": {
-          "fx": "bullet_hit_mg",
-          "fxScale": [0.5,0.8]
+          "fx": "hit_12_18mm_metal_ap"
+        },
+        "buildings": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "verLandMesh": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "concrete": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "rocks": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "rocksSlippery": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "fabric": {
+          "fx": "hit_12_18mm_stone_ap"
+        },
+        "stone_snow": {
+          "fx": "hit_12_18mm_snow_ap"
         }
       }
     }

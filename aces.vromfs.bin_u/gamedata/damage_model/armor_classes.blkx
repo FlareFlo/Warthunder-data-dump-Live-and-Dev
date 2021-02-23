@@ -49,11 +49,19 @@
   },
   "armor_engine_light": {
     "armorThickness": 1.0,
-    "armorThrough": 10.0,
+    "armorThrough": 18.0,
     "restrainDamage": 0.2,
     "ricochetAngle": 60.0,
     "ricochetCosinePower": 2.0,
     "ricochetDamage": 0.1
+  },
+  "armor_engine_heavy": {
+    "armorThickness": 1.0,
+    "armorThrough": 40.0,
+    "restrainDamage": 0.4,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.05
   },
   "steel_cooling_sys": {
     "armorThickness": 0.5,
@@ -135,6 +143,24 @@
     "shatterArmorQuality": 0.5,
     "secondaryShatterArmorQuality": 2.15,
     "genericArmorQuality": 2.15
+  },
+  "glass4_5": {
+    "armorThickness": 4.5,
+    "armorThrough": 1.1,
+    "restrainDamage": 0.2,
+    "armorQuality": 0.2,
+    "ricochetAngle": 85.0,
+    "ricochetCosinePower": 1.0,
+    "ricochetDamage": 0.3
+  },
+  "glass8": {
+    "armorThickness": 8.0,
+    "armorThrough": 1.2,
+    "restrainDamage": 0.2,
+    "armorQuality": 0.2,
+    "ricochetAngle": 85.0,
+    "ricochetCosinePower": 1.0,
+    "ricochetDamage": 0.3
   },
   "glass12": {
     "armorThickness": 12.0,
@@ -1754,7 +1780,7 @@
   "ERA_tank": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.0001,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "hidableInViewer": true,
     "hidableInXrayViewer": true,
@@ -1767,7 +1793,7 @@
   "ERA_K_I": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.0001,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "hidableInViewer": true,
     "hidableInXrayViewer": true,
@@ -1784,40 +1810,44 @@
   "ERA_K_V": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.0001,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
     "cumulativeArmorQuality": 4.5,
-    "genericArmorQuality": 1.7
+    "genericArmorQuality": 1.7,
+    "genericLongRodArmorQuality": 0.4,
+    "cumulativeDamageMult": 3.0
   },
   "ERA_Relict": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.0001,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
-    "cumulativeArmorQuality": 6.0,
-    "genericArmorQuality": 2.5
+    "cumulativeArmorQuality": 7.0,
+    "genericArmorQuality": 3.0,
+    "cumulativeDamageMult": 3.0
   },
   "ERA_FY_4": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.0001,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
     "cumulativeArmorQuality": 3.0,
-    "genericArmorQuality": 0.7
+    "genericArmorQuality": 0.7,
+    "cumulativeDamageMult": 3.0
   },
   "ERA_Blazer": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.0001,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "hidableInViewer": true,
     "hidableInXrayViewer": true,
@@ -1874,6 +1904,18 @@
     "cumulativeArmorQuality": 0.5,
     "genericArmorQuality": 0.16
   },
+  "fireproof_composite": {
+    "armorThickness": 1.0,
+    "armorThrough": 1.0,
+    "restrainDamage": 0.1,
+    "createSecondaryShatters": false,
+    "allowRicochet": false,
+    "ricochetAngle": 70.0,
+    "ricochetCosinePower": 3.0,
+    "ricochetDamage": 0.1,
+    "cumulativeArmorQuality": 0.3,
+    "genericArmorQuality": 0.2
+  },
   "tank_ultra_porcelain": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
@@ -1921,7 +1963,7 @@
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
-    "cumulativeArmorQuality": 1.1,
+    "cumulativeArmorQuality": 0.65,
     "genericArmorQuality": 0.8
   },
   "t_72b_turrert_composite_armor": {
@@ -1950,7 +1992,7 @@
     "genericArmorQuality": 0.05
   },
   "grille_air": {
-    "armorThickness": 1.0,
+    "armorThickness": 50.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.0,
     "createSecondaryShatters": false,
@@ -1958,10 +2000,40 @@
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
-    "cumulativeArmorQuality": 0.1,
-    "genericArmorQuality": 0.05
+    "cumulativeArmorQuality": 4.0,
+    "genericArmorQuality": 0.001,
+    "cumulativeEffectiveThicknessMax": 250.0,
+    "genericEffectiveThicknessMax": 2.0
   },
   "hull_side_special_armor": {
+    "armorThickness": 1.0,
+    "armorThrough": 1.0,
+    "restrainDamage": 0.1,
+    "createSecondaryShatters": false,
+    "hidableInViewer": true,
+    "ricochetAngle": 70.0,
+    "ricochetCosinePower": 3.0,
+    "ricochetDamage": 0.0001,
+    "cumulativeArmorQuality": 2.0,
+    "genericArmorQuality": 0.16,
+    "explosionArmorQuality": 0.1,
+    "explosionDamageMult": 2.0
+  },
+  "mexas_2": {
+    "armorThickness": 1.0,
+    "armorThrough": 1.0,
+    "restrainDamage": 0.1,
+    "createSecondaryShatters": false,
+    "hidableInViewer": true,
+    "ricochetAngle": 70.0,
+    "ricochetCosinePower": 3.0,
+    "ricochetDamage": 0.0001,
+    "cumulativeArmorQuality": 2.0,
+    "genericArmorQuality": 0.16,
+    "explosionArmorQuality": 0.1,
+    "explosionDamageMult": 2.0
+  },
+  "mexas_2c": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.1,
@@ -1990,7 +2062,7 @@
   "us_era_m_60": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
-    "restrainDamage": 0.2,
+    "restrainDamage": 0.5,
     "createSecondaryShatters": false,
     "hidableInViewer": true,
     "hidableInXrayViewer": true,
@@ -2205,7 +2277,7 @@
     "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.1,
-    "armorEffectiveThicknessMax": 50.0,
+    "genericEffectiveThicknessMax": 15.0,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
@@ -2222,16 +2294,18 @@
     "ricochetDamage": 0.0001,
     "armorQuality": 1.1,
     "explosionArmorQuality": 2.5,
-    "explosionDamageMult": 0.4
+    "explosionDamageMult": 0.4,
+    "shatterDamageMult": 0.1
   },
   "tank_steel_wheels": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.0001,
+    "genericEffectiveThicknessMax": 15.0,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.0001,
-    "armorQuality": 0.6,
+    "armorQuality": 0.45,
     "createSecondaryShatters": false,
     "hidableInViewer": true
   },
@@ -2255,6 +2329,19 @@
     "ricochetDamage": 0.0,
     "armorQuality": 0.45,
     "hidableInViewer": true
+  },
+  "grille_structural_steel": {
+    "armorThickness": 10.0,
+    "armorThrough": 1.0,
+    "restrainDamage": 0.0,
+    "armorEffectiveThicknessMax": 10.0,
+    "stopChanceOnDeadPart": 0.0,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.0,
+    "armorQuality": 0.45,
+    "hidableInViewer": true,
+    "createSecondaryShatters": false
   },
   "aluminium": {
     "armorThickness": 1.0,
@@ -2353,7 +2440,7 @@
     "ricochetCosinePower": 2.0,
     "ricochetDamage": 0.0,
     "armorQuality": 0.9,
-    "createSecondaryShatters": true
+    "createSecondaryShatters": false
   },
   "ship_Wsh": {
     "armorThickness": 1.0,
@@ -2363,7 +2450,7 @@
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.0,
     "armorQuality": 0.8,
-    "createSecondaryShatters": true
+    "createSecondaryShatters": false
   },
   "ship_RHA": {
     "armorThickness": 1.0,
@@ -2373,7 +2460,7 @@
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.2,
     "armorQuality": 1.0,
-    "createSecondaryShatters": true
+    "createSecondaryShatters": false
   },
   "ship_RGA": {
     "armorThickness": 1.0,
@@ -2398,14 +2485,14 @@
   },
   "ships_coal_bunker": {
     "armorThickness": 1.0,
-    "armorThrough": 250.0,
-    "restrainDamage": 0.0,
-    "shatterArmorQuality": 10.0,
-    "explosionArmorQuality": 2.0,
-    "ricochetAngle": 60.0,
-    "ricochetCosinePower": 2.0,
-    "ricochetDamage": 0.0,
-    "createSecondaryShatters": true
+    "armorThrough": 1.0,
+    "restrainDamage": 0.0001,
+    "secondaryShatterDamageMult": 0.0001,
+    "ricochetAngle": 70.0,
+    "ricochetCosinePower": 3.0,
+    "ricochetDamage": 0.0001,
+    "armorQuality": 0.0122,
+    "createSecondaryShatters": false
   },
   "gaijinium": {
     "armorThickness": 1.0,

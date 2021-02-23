@@ -135,7 +135,7 @@
           "armorThickness": 25.4
         },
         "turret_bottom_dm": {
-          "armorThickness": 25.4
+          "armorThickness": 5.0
         },
         "turret_03_front_dm": {
           "armorThickness": 19.5
@@ -196,7 +196,8 @@
       "mask": {
         "armorClass": "CHA_tank",
         "gun_mask_dm": {
-          "armorThickness": 88.9
+          "armorThickness": 88.9,
+          "variableThickness": true
         },
         "gun_mask_01_dm": {
           "armorThickness": 98.0
@@ -335,8 +336,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 200.0,
-        "armorThickness": 20.0,
+        "hp": 150.0,
+        "armorThickness": 30.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -367,7 +368,9 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
-        "hp": 300.0,
+        "armorEffectiveThicknessMax": 20.0,
+        "hp": 100.0,
+        "genericEffectiveThicknessMax": 20.0,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -377,39 +380,21 @@
         "armorClass": "steel_tankman",
         "hp": 40.0,
         "genericDamageMult": 3.0,
-        "driver_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "commander_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_02_dm": {
-          "genericDamageMult": 3.0
-        }
+        "pressureDamageMult": 1.0,
+        "driver_dm": [],
+        "loader_dm": [],
+        "loader_01_dm": [],
+        "loader_02_dm": [],
+        "gunner_dm": [],
+        "gunner_01_dm": [],
+        "gunner_02_dm": [],
+        "gunner_03_dm": [],
+        "commander_dm": [],
+        "machine_gunner_dm": [],
+        "machine_gunner_01_dm": [],
+        "machine_gunner_02_dm": [],
+        "machine_gunner_03_dm": [],
+        "machine_gunner_04_dm": []
       },
       "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
@@ -682,8 +667,11 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
+        "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -705,8 +693,9 @@
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 12.0,
-        "fireProtectionHp": 15.0,
+        "armorThrough": 10.0,
+        "fireProtectionHp": 10.0,
+        "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_exterior",
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
@@ -911,6 +900,21 @@
           },
           {
             "name": "ammo_body_50_dm"
+          },
+          {
+            "name": "ammo_body_51_dm"
+          },
+          {
+            "name": "ammo_body_52_dm"
+          },
+          {
+            "name": "ammo_body_53_dm"
+          },
+          {
+            "name": "ammo_body_54_dm"
+          },
+          {
+            "name": "ammo_body_55_dm"
           },
           {
             "name": "ammo_body_l_01_dm"
@@ -1515,8 +1519,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1528,8 +1551,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1761,7 +1785,7 @@
   },
   {
     "gunConvergence": {
-      "distance": 800.0,
+      "defaultDistance": 800.0,
       "vertical": true,
       "horizontal": true
     }
@@ -1784,7 +1808,16 @@
       "tracks": {
         "animationMultiplier": 0.62,
         "height": 0.055,
-        "width": 0.5
+        "width": 0.5,
+        "tracksTensionK": [5.0,10.0,6.0],
+        "trackMesh": "us_sherman_hvss_t_84_phys_track_line",
+        "trackLen": 0.154,
+        "trackCount": 79,
+        "trackFadeTime": 1.1,
+        "trackConnector": true,
+        "trackStartOffset": 0.03,
+        "trackEmitSparks": false,
+        "trackMaxHeight": 1.01
       },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
@@ -1797,12 +1830,12 @@
       },
       "mechanics": {
         "maxBrakeForce": 130000.0,
-        "driveGearRadius": 0.34,
-        "mainGearRatio": 4.03,
+        "driveGearRadius": 0.29,
+        "mainGearRatio": 4.72,
         "sideGearRatio": 2.74,
         "gearRatios": [
           {
-            "ratio": -5.64
+            "ratio": -4.5
           },
           {
             "ratio": 0.0
@@ -1820,7 +1853,7 @@
             "ratio": 1.111
           },
           {
-            "ratio": 0.733
+            "ratio": 0.52
           }
         ]
       },
@@ -2327,6 +2360,15 @@
       {
         "event": {
           "name": "fuel_exterior",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
+          "name": "fuel_internal",
           "fx": {
             "name": "tank_ex_fuel_explosion",
             "centerDmgPart": true
@@ -2964,6 +3006,17 @@
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "jp_camo_winter_early*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "jp_camo_post_green",
+      "nameLocId": "skin/jp_camo_post_green",
+      "descLocId": "skin/jp_camo_post_green/desc",
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "jp_camo_post_green*"
       }
     }
   }

@@ -89,11 +89,6 @@
           "hp": 40.0
         }
       },
-      "armor6": {
-        "armor2_dm": {
-          "hp": 35.0
-        }
-      },
       "armor5": {
         "armor3_dm": {
           "hp": 35.0
@@ -108,14 +103,19 @@
           "hp": 35.0
         }
       },
+      "armor6": {
+        "armor2_dm": {
+          "hp": 35.0
+        }
+      },
       "armor_engine": {
         "engine1_dm": {
           "genericDamageMult": 1.6,
-          "hp": 49.5
+          "hp": 60.5
         },
         "engine2_dm": {
           "genericDamageMult": 1.6,
-          "hp": 49.5
+          "hp": 60.5
         }
       },
       "c_dural20": {
@@ -1302,8 +1302,8 @@
         "part": {
           "name": "spar1_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1311,8 +1311,8 @@
         "part": {
           "name": "spar1_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1320,8 +1320,8 @@
         "part": {
           "name": "spar2_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1329,8 +1329,8 @@
         "part": {
           "name": "spar2_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -2096,12 +2096,12 @@
         "manifold_pressure1": [0.6,1.8],
         "oil_temperature": [0.0,160.0],
         "oil_temperature1": [0.0,160.0],
-        "oil_pressure": [0.0,10.0],
-        "oil_pressure1": [0.0,10.0],
-        "fuel": [0.0,200.0],
-        "fuel1": [0.0,200.0],
-        "fuel_pressure": [0.0,1.0],
-        "fuel_pressure1": [0.0,1.0],
+        "oil_pressure": [0.0,100.0],
+        "oil_pressure1": [0.0,100.0],
+        "fuel": [0.0,144.0],
+        "fuel1": [0.0,144.0],
+        "fuel_pressure": [0.0,15.0],
+        "fuel_pressure1": [0.0,15.0],
         "weapon1": [0.0,1.0],
         "weapon2": [0.0,1.0],
         "weapon3": [0.0,1.0],

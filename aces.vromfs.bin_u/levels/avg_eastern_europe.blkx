@@ -50,7 +50,7 @@
       "micro_detail": "microdetail_stone_a_tex_n*"
     },
     {
-      "micro_detail": "microdetail_scan_gravel_a_tex_n*"
+      "micro_detail": "microdetail_stone_a_tex_n*"
     },
     {
       "micro_detail": "microdetail_sand_a_tex_n*"
@@ -77,7 +77,7 @@
       "micro_detail": "microdetail_metal_a_tex_n*"
     },
     {
-      "micro_detail": "microdetail_snow_a_tex_n*"
+      "micro_detail": "microdetail_soil_a_tex_n*"
     },
     {
       "micro_detail": "microdetail_generic_granules_a_tex_n*"
@@ -191,9 +191,6 @@
     },
     {
       "eastern_europe_detailed_fields": "poland_detailed_fields_scatter_mask"
-    },
-    {
-      "eastern_europe_detailed_town": "eastern_europe_detailed_town_scatter_mask"
     },
     {
       "eastern_europe_fields_b": "poland_fields_b_mask"
@@ -406,6 +403,14 @@
     "tree_sea_bush_b": {
       "lod0": 300.0,
       "lod1": 10000.0
+    },
+    "embankment_lattice_fence_a": {
+      "lod0": 500.0,
+      "lod1": 1000.0
+    },
+    "embankment_lattice_fence_b": {
+      "lod0": 500.0,
+      "lod1": 1000.0
     }
   },
   "forceTexMQ": [

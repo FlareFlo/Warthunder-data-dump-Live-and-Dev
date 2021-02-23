@@ -3,21 +3,21 @@
   "showMissileLaunchZone": true,
   "transivers": {
     "search": {
-      "sideLobesAttenuation": -20.0,
+      "sideLobesAttenuation": -18.0,
       "power": 250.0,
       "band": 8,
       "rcs": 3.0,
       "range": 12000.0,
       "rangeMax": 20000.0,
-      "timeGainControl": false,
+      "timeGainControl": true,
       "antenna": {
         "azimuth": {
           "angleHalfSens": 4.8,
-          "sideLobesSensitivity": -27.0
+          "sideLobesSensitivity": -24.0
         },
         "elevation": {
           "angleHalfSens": 10.0,
-          "sideLobesSensitivity": -27.0
+          "sideLobesSensitivity": -24.0
         }
       }
     },
@@ -28,7 +28,7 @@
       "rcs": 3.0,
       "range": 10000.0,
       "rangeMax": 20000.0,
-      "timeGainControl": false,
+      "timeGainControl": true,
       "antenna": {
         "angleHalfSens": 4.8,
         "sideLobesSensitivity": -27.0
@@ -37,6 +37,7 @@
   },
   "signals": {
     "search": {
+      "dynamicRange": [40.0,3.0],
       "groundClutter": true,
       "aircraftAsTarget": true,
       "friendFoeId": false,

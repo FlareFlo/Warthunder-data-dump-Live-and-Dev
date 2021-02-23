@@ -81,12 +81,15 @@
       "armor8_5": {
         "armor1_dm": {
           "hp": 40.0
+        },
+        "armor4_dm": {
+          "hp": 40.0
         }
       },
       "armor_engine": {
         "engine1_dm": {
           "genericDamageMult": 1.6,
-          "hp": 52.9
+          "hp": 60.5
         }
       },
       "c_dural3": {
@@ -263,11 +266,6 @@
         },
         "tank5_dm": {
           "hp": 39.5
-        }
-      },
-      "wood": {
-        "armor4_dm": {
-          "hp": 7.8
         }
       }
     }
@@ -1272,8 +1270,8 @@
         "part": {
           "name": "spar1_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1281,8 +1279,8 @@
         "part": {
           "name": "spar1_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1290,8 +1288,8 @@
         "part": {
           "name": "spar2_l_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -1299,8 +1297,8 @@
         "part": {
           "name": "spar2_r_dm",
           "onKill": {
-            "nothing": 0.0,
-            "cut": 1.0
+            "nothing": 2.0,
+            "cut": 4.0
           }
         }
       },
@@ -2239,6 +2237,13 @@
     }
   },
   {
+    "flexWing": {
+      "wingStrainCoeff": 0.6,
+      "wingOverloadCoeff": 1.0,
+      "wingStrainLimitDown": 1.0
+    }
+  },
+  {
     "commonWeapons": [
       {
         "Weapon": {
@@ -2433,6 +2438,33 @@
     }
   },
   {
+    "user_skin": [
+      {
+        "name": "la_9"
+      },
+      {
+        "replace_tex": {
+          "from": "la_9_a*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "la_9_a_dmg*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "la_9_n*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "la_9_n_dmg*"
+        }
+      }
+    ]
+  },
+  {
     "cutting": {
       "_emtr_break_wing0_l_from": [-0.760587,-0.377526,0.867666],
       "_emtr_break_wing0_l_to": [-0.760587,-0.377526,1.16373],
@@ -2525,9 +2557,6 @@
   {
     "default_skin": [
       {
-        "name": "plaaf"
-      },
-      {
         "replace_tex": {
           "from": "la_9_a*",
           "to": "la_9_china_a*"
@@ -2543,9 +2572,6 @@
   },
   {
     "default_skin_tomoe": [
-      {
-        "name": "china_tomoe"
-      },
       {
         "replace_tex": {
           "from": "la_9_a*",
