@@ -1965,11 +1965,9 @@
         "trackMass": 900.0
       },
       "tracks": {
-        "animationMultiplier": -0.29,
+        "animationMultiplier": -0.295,
         "height": 0.02,
-        "width": 0.25,
-        "criticalHillAngle": 25.0,
-        "hillClimbingDeclineFricKoef": 15.0
+        "width": 0.25
       },
       "collisionProps": {
         "cls_turret": "convex_hull",

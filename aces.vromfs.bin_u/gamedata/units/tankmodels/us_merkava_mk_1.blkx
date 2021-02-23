@@ -2522,9 +2522,7 @@
         "animationMultiplier": 0.6,
         "height": 0.06,
         "width": 0.55,
-        "fricFrontal": [1.0,0.8],
-        "criticalHillAngle": 27.0,
-        "hillClimbingDeclineFricKoef": 15.0
+        "fricFrontal": [1.0,0.8]
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3659,7 +3657,7 @@
               "Weapon": {
                 "trigger": "gunner4",
                 "triggerGroup": "smoke",
-                "blk": "gameData/Weapons/groundModels_weapons/66mm_germ_smoke_mortar_launcher.blk",
+                "blk": "gameData/Weapons/groundModels_weapons/60mm_smoke_mortar_launcher.blk",
                 "weaponType": "rockets",
                 "startFx": "",
                 "useEmitter": true,

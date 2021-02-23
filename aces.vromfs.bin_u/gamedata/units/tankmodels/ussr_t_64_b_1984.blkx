@@ -2641,9 +2641,7 @@
         "animationMultiplier": -0.68,
         "height": 0.062,
         "width": 0.54,
-        "fricFrontal": [1.0,0.9],
-        "criticalHillAngle": 27.0,
-        "hillClimbingDeclineFricKoef": 15.0
+        "fricFrontal": [1.0,0.9]
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3845,6 +3843,17 @@
       "replace_tex": {
         "from": "ussr_camo_green*",
         "to": "ussr_camo_finland_polygonal_threecolor*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "ussr_modern_green",
+      "nameLocId": "skin/ussr_modern_green",
+      "descLocId": "skin/ussr_modern_green/desc",
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_modern_green*"
       }
     }
   }
