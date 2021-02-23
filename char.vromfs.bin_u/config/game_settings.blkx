@@ -5,7 +5,7 @@
   "resetViralAcquisitionDaysCounter": 1,
   "moderatorPresenceCheckMaxCode": 65536,
   "moderatorPresenceCheckPeriodSec": 1200,
-  "mapTypes": "AfDto;AfD;BC;BfDn;BfD;ADto;AD;GS;GSA;GSB;DF;BfD_norespawn;GS_norespawn;BfDn_arcade;GSn;BfD_noresp;Dom;Dom_no_respawn;dblDom;Conq;Conq_no_respawn;Bttl;Bttl_no_respawn;bfd_norespawn;day_norespawn;bfd_norespawn;duel;AfDn;tm;race;race_straight;race_inverted;Bto;Conq1;Conq2;Conq3;Conq4;Conq5;Conq6;DBttlA;DBttlB;ArtDA;ArtDB;PvE;PvE_1;PvE_2;PvE_3;PvE_4;PvE_5;PvE_6;I2M;H2M;Tdm;Capt;NTDM;NDom;NTdm;NBttl;NConq;nctf;NCnv;NCnvA;NCnvB;NS;NA;NAleft;NAright;N2M;4x4_norespawn;2x2_norespawn;1x1_norespawn;mission;FFA;BDB;BDA;MDB;GSA;GSB;CnvA;CnvB;ACsD;BR;ctf;HS;HfD;HA;UDom;tft;tfs;stdm",
+  "mapTypes": "AfDto;AfD;BC;BfDn;BfD;ADto;AD;GS;GSA;GSB;DF;BfD_norespawn;GS_norespawn;BfDn_arcade;GSn;BfD_noresp;Dom;Dom_no_respawn;dblDom;Conq;Conq_no_respawn;Bttl;Bttl_no_respawn;bfd_norespawn;day_norespawn;bfd_norespawn;duel;AfDn;tm;race;race_straight;race_inverted;Bto;Conq1;Conq2;Conq3;Conq4;Conq5;Conq6;DBttlA;DBttlB;PvE;PvE_1;PvE_2;PvE_3;PvE_4;PvE_5;PvE_6;I2M;H2M;Tdm;Capt;NTDM;NDom;NTdm;NBttl;NConq;nctf;NCnv;NCnvA;NCnvB;NS;NA;NAleft;NAright;N2M;4x4_norespawn;2x2_norespawn;1x1_norespawn;mission;FFA;BDB;BDA;MDB;GSA;GSB;CnvA;CnvB;ACsD;BR;ctf;HS;HfD;HA;UDom;tft;tfs;stdm",
   "ordersPerSession": 3,
   "randomBattle": {
     "classiness": {
@@ -94,6 +94,20 @@
       "superiorityBattlesThreshold": 20
     }
   },
+  "eventLeaderboardPlatforms": [
+    {
+      "ps4": 7
+    },
+    {
+      "ps4": 15
+    },
+    {
+      "xboxone": 11
+    },
+    {
+      "xboxone": 12
+    }
+  ],
   "tribunal": {
     "minComplaintCount": 10,
     "maxComplaintCount": 10,
@@ -177,8 +191,6 @@
       "_Tdm": 3,
       "_tm": 3,
       "_Capt": 3,
-      "_ArtDA": 3,
-      "_ArtDB": 3,
       "_UDom": 0,
       "_tft": 3,
       "_tfs": 6,
@@ -237,6 +249,13 @@
         "event": "ship_new_players_battle_coop",
         "kills": 3,
         "timePlayed": 450
+      }
+    },
+    {
+      "additionalUnitTypes": {
+        "ship": {
+          "type": "boat"
+        }
       }
     }
   ],
@@ -334,6 +353,20 @@
       "testFlight_peleliu_hydrobase": "testFlight_honolulu_hydrobase",
       "testFlight_peleliu": "testFlight_ruhr",
       "testFlight_norway_hydrobase": "testFlight_britain_hydroplane"
+    }
+  },
+  "visualizationTrophyWeights": {
+    "low": {
+      "weight": 0.0,
+      "icon": "#ui/gameuiskin#dice1.svg"
+    },
+    "average": {
+      "weight": 0.05,
+      "icon": "#ui/gameuiskin#dice3.svg"
+    },
+    "high": {
+      "weight": 0.3,
+      "icon": "#ui/gameuiskin#dice5.svg"
     }
   },
   "ww_settings": {
@@ -2361,7 +2394,7 @@
     },
     "Voice": {
       "condition": "",
-      "platform_lock": "xboxOne"
+      "platform_lock": "xboxOne;xboxScarlett"
     },
     "Friends": {
       "condition": ""
@@ -2374,15 +2407,15 @@
     },
     "Radio": {
       "condition": "",
-      "platform_lock": "android;xboxOne"
+      "platform_lock": "android;xboxOne;xboxScarlett"
     },
     "Twitch": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "Facebook": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "FacebookWallPost": [],
     "FacebookScreenshots": [],
@@ -2560,6 +2593,9 @@
     "ShipsFirstChoice": {
       "condition": ""
     },
+    "BoatsFirstChoice": {
+      "condition": ""
+    },
     "ShipsHeroInUserMissions": {
       "condition": ""
     },
@@ -2595,6 +2631,9 @@
     "UsaShipsInFirstCountryChoice": {
       "condition": ""
     },
+    "UsaBoatsInFirstCountryChoice": {
+      "condition": ""
+    },
     "GermanyAircraftsInFirstCountryChoice": {
       "condition": ""
     },
@@ -2602,6 +2641,9 @@
       "condition": ""
     },
     "GermanyShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "GermanyBoatsInFirstCountryChoice": {
       "condition": ""
     },
     "UssrAircraftsInFirstCountryChoice": {
@@ -2613,6 +2655,9 @@
     "UssrShipsInFirstCountryChoice": {
       "condition": ""
     },
+    "UssrBoatsInFirstCountryChoice": {
+      "condition": ""
+    },
     "BritainAircraftsInFirstCountryChoice": {
       "condition": ""
     },
@@ -2620,6 +2665,9 @@
       "condition": ""
     },
     "BritainShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "BritainBoatsInFirstCountryChoice": {
       "condition": ""
     },
     "JapanAircraftsInFirstCountryChoice": {
@@ -2639,6 +2687,9 @@
     "JapanShipsInFirstCountryChoice": {
       "condition": ""
     },
+    "JapanBoatsInFirstCountryChoice": {
+      "condition": ""
+    },
     "ChinaAircraftsInFirstCountryChoice": {
       "condition": ""
     },
@@ -2652,6 +2703,9 @@
       "condition": ""
     },
     "ItalyShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "ItalyBoatsInFirstCountryChoice": {
       "condition": ""
     },
     "FranceAircraftsInFirstCountryChoice": {
@@ -2860,6 +2914,12 @@
         "condition": "role_TESTER"
       }
     ],
+    "LwsLdsEnabled": {
+      "condition": ""
+    },
+    "WeaponCycleTrigger": {
+      "condition": ""
+    },
     "ConstantlyComputedWeaponSight": {
       "condition": ""
     },
@@ -2890,7 +2950,7 @@
     ],
     "UserSkins": {
       "condition": "",
-      "platform_lock": "ps4;xboxOne"
+      "platform_lock": "ps4;ps5;xboxOne;xboxScarlett"
     },
     "SkinsPreviewOnUnboughtUnits": [
       {
@@ -2908,15 +2968,15 @@
     },
     "UserMissions": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "UserMissionsSkirmishByUrl": {
       "condition": "",
-      "platform_lock": "ps4;xboxOne"
+      "platform_lock": "ps4;ps5;xboxOne;xboxScarlett"
     },
     "UserMissionsSkirmishByUrlCreate": [
       {
-        "platform_lock": "ps4;xboxOne"
+        "platform_lock": "ps4;ps5;xboxOne;xboxScarlett"
       },
       {
         "condition": "user_mission_access_en"
@@ -2930,7 +2990,7 @@
     ],
     "ClientReplay": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "ServerReplay": {
       "condition": "",
@@ -2946,7 +3006,7 @@
     ],
     "BenchmarkPC": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "BenchmarkForDevs": [
       {
@@ -3066,11 +3126,11 @@
     },
     "NetworkDebug": {
       "condition": "",
-      "platform_lock": "ps4"
+      "platform_lock": "ps4;ps5"
     },
     "ShowDebugInterface": [
       {
-        "platform_lock": "ps4"
+        "platform_lock": "ps4;ps5"
       },
       {
         "condition": "role_DEVELOPER"
@@ -3262,6 +3322,20 @@
         "condition": "spring2020Craft;DMMAccount"
       }
     ],
+    "autumn2020Craft": {
+      "condition": ""
+    },
+    "autumn2020GoldShop": [
+      {
+        "condition": "autumn2020Craft;PS4Account"
+      },
+      {
+        "condition": "autumn2020Craft;XBOXAccount"
+      },
+      {
+        "condition": "autumn2020Craft;DMMAccount"
+      }
+    ],
     "EnableFmTools": [
       {
         "condition": "role_GAIJIN"
@@ -3353,23 +3427,35 @@
     },
     "pc_only_events": {
       "condition": "",
-      "platform_lock": "ps4;xboxOne"
+      "platform_lock": "ps4;ps5;xboxOne;xboxScarlett"
     },
     "ps4_only_events": {
       "condition": "",
-      "platform_lock": "pc;android;xboxOne"
+      "platform_lock": "pc;android;xboxOne;xboxScarlett"
+    },
+    "xboxScarlett_only_events": {
+      "condition": "",
+      "platform_lock": "pc;linux64;xboxOne;ps4;ps5"
     },
     "pc_ps4_only_events": {
       "condition": "",
-      "platform_lock": "android;xboxOne"
+      "platform_lock": "android;xboxOne;xboxScarlett"
+    },
+    "pc_xboxOne_only_events": {
+      "condition": "",
+      "platform_lock": "ps4;ps5;android"
     },
     "ps4_xboxOne_only_events": {
       "condition": "",
       "platform_lock": "pc;android"
     },
-    "ps_xboxOne_only_events": {
+    "pc_win_ps4_only_events": {
       "condition": "",
-      "platform_lock": "ps4;android"
+      "platform_lock": "android;xboxOne;xboxScarlett;linux64"
+    },
+    "pc_win_ps4_xbox_only_events": {
+      "condition": "",
+      "platform_lock": "android;linux64"
     },
     "ConsolesLiveTrophy": [],
     "ConsolesWorkshopExchange": [
@@ -3393,7 +3479,7 @@
     ],
     "PurchaseMarketItemsForGold": [
       {
-        "condition": "PS4Account;!SCEJAccount"
+        "condition": "PS4Account"
       },
       {
         "condition": "XBOXAccount"
@@ -3432,11 +3518,11 @@
     },
     "Marketplace": {
       "condition": "!DMMAccount;!PS4Account;!XBOXAccount",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "Starterpack": {
       "condition": "!PS4Account;!XBOXAccount",
-      "platform_lock": "ps4;xboxOne"
+      "platform_lock": "ps4;ps5;xboxOne;xboxScarlett"
     },
     "DMMAndSCEJAccounts": [
       {
@@ -3559,8 +3645,7 @@
       "condition": ""
     },
     "UnitsSearchBoxInShop": {
-      "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "condition": ""
     },
     "ShowAllBattleTasks": {
       "condition": "role_DEVELOPER"
@@ -3692,7 +3777,7 @@
     },
     "ScriptImportExportControls": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;android;xboxOne;xboxScarlett;ps5"
     },
     "SquadWidget": {
       "condition": ""
@@ -3721,9 +3806,6 @@
     "XRayDescription": {
       "condition": ""
     },
-    "GamepadCursorControl": {
-      "condition": ""
-    },
     "ControlsHelp": {
       "condition": ""
     },
@@ -3732,11 +3814,11 @@
     },
     "xboxOneAccess": {
       "condition": "",
-      "platform_unlock": "xboxOne"
+      "platform_unlock": "xboxOne;xboxScarlett"
     },
     "PS4Access": {
       "condition": "",
-      "platform_unlock": "ps4"
+      "platform_unlock": "ps4;ps5"
     },
     "ShipEventTicketAccess": [
       {
@@ -3805,7 +3887,7 @@
       "platform_lock": "android"
     },
     "LiveAfterBattleTrophy": {
-      "condition": "!DMMAccount;!SCEJAccount",
+      "condition": "!DMMAccount",
       "platform_lock": "android"
     },
     "UgcAfterBattleTrophy": {
@@ -3838,7 +3920,7 @@
     },
     "TankAltCrosshair": {
       "condition": "",
-      "platform_lock": "ps4;android;xboxOne"
+      "platform_lock": "ps4;ps5;android;xboxOne;xboxScarlett"
     },
     "DebriefingBattleTasks": {
       "condition": ""
@@ -3848,7 +3930,7 @@
     },
     "XBoxPlatformRestriction": {
       "condition": "",
-      "platform_lock": "xboxOne"
+      "platform_lock": "xboxOne;xboxScarlett"
     },
     "ShipBenchmarkAccess": [
       {
@@ -3870,17 +3952,9 @@
     "DmViewerProtectionAnalysisShip": {
       "condition": ""
     },
-    "DmViewerProtectionAnalysisAircraft": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      }
-    ],
+    "DmViewerProtectionAnalysisAircraft": {
+      "condition": ""
+    },
     "DmViewerProtectionAnalysisVisualEffect": [
       {
         "condition": "role_GAIJIN"
@@ -4002,13 +4076,50 @@
     },
     "ConsoleSeparateLeaderboards": {
       "condition": "",
-      "platform_unlock": "ps4;xboxOne"
+      "platform_unlock": "ps4;ps5;xboxOne;xboxScarlett"
     },
+    "ConsoleSeparateEventsLeaderboards": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
     "nonPayingUser": {
       "condition": "!customerAccount"
     },
     "Changelog": {
       "condition": ""
-    }
+    },
+    "BattlePass": {
+      "condition": ""
+    },
+    "BattlePassPurchased": {
+      "condition": "BattlePass;battlepass_season1_purchased"
+    },
+    "BattlePassAllowSkipAllStages": {
+      "condition": "BattlePass;battlepass_season1_purchased;battlepass_season1_allow_skip_all_stages"
+    },
+    "Collection": {
+      "condition": ""
+    },
+    "ShowDropChanceInTrophy": {
+      "condition": ""
+    },
+    "FpsCounterOverride": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ]
   }
 }
