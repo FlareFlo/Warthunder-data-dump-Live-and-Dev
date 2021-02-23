@@ -4094,6 +4094,27 @@
   },
   {
     "unlockable": {
+      "id": "cardicon_legioner",
+      "type": "pilot",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "cardicon_option",
+      "type": "pilot",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "cardicon_centurion",
+      "type": "pilot",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "hardcoded_initial_warpoints",
       "type": "award",
       "amount_warpoints": 10000,
@@ -11536,6 +11557,906 @@
         "country": "country_ussr",
         "unitClass": "aircraft_only"
       }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_dark_green_dark_earth",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 48
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_desert_pink_dark_khaki",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 56
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_desert_pink_lines",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 64
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_desert_pink_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 72
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_desert_pink_olive_drab",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 80
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_desert_pink_olive_drab_dark_earth",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 88
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_winter_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 96
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_olive_drab",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 100
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m5a1_stuart_td/us_camo_olive_drab_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 110
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_m5a1_stuart_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "itp_m1/gray",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "aircraft_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 3
+        },
+        {
+          "mulHardcore": 6
+        },
+        {
+          "num": 200
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "itp_m1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "uk_centurion_mk_5_raac/uk_camo_earth_yellow",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_britain",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 300
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "uk_centurion_mk_5_raac"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "uk_centurion_mk_5_raac/uk_camo_winter_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_britain",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 430
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "uk_centurion_mk_5_raac"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "uk_centurion_mk_5_raac/uk_camo_light_stone_light_grey_slate_grey",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_britain",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 550
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "uk_centurion_mk_5_raac"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_dark_green_dark_earth",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 150
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_desert_pink_dark_khaki",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 170
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_desert_pink_lines",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 200
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_desert_pink_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 220
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_desert_pink_olive_drab",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 250
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_desert_pink_olive_drab_dark_earth",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 270
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_winter_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 300
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_olive_drab",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 320
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_t55e1/us_camo_olive_drab_olive",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 350
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "us_t55e1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_bt_7_1937_td/ussr_camo_desert_yellow_brown",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 35
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "ussr_bt_7_1937_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_bt_7_1937_td/winter",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 50
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "ussr_bt_7_1937_td"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_bt_7_1937_td/forest",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 65
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "ussr_bt_7_1937_td"
+          }
+        }
+      ]
     }
   },
   {
@@ -107694,6 +108615,9 @@
             },
             {
               "tag": "country_britain"
+            },
+            {
+              "tag": "country_germany"
             }
           ]
         },
@@ -134032,10 +134956,17 @@
             ]
           },
           {
-            "condition": {
-              "type": "weaponType",
-              "weapon": "rocket"
-            }
+            "condition": [
+              {
+                "type": "weaponType"
+              },
+              {
+                "weapon": "rocket"
+              },
+              {
+                "weapon": "agm"
+              }
+            ]
           }
         ]
       },
@@ -155976,6 +156907,9 @@
             },
             {
               "weapon": "aam"
+            },
+            {
+              "weapon": "sam"
             }
           ]
         },
@@ -166419,10 +167353,23 @@
           }
         },
         {
-          "condition": {
-            "type": "playerExpClass",
-            "class": "exp_cruiser"
-          }
+          "condition": [
+            {
+              "type": "playerTag"
+            },
+            {
+              "tag": "type_light_cruiser"
+            },
+            {
+              "tag": "type_heavy_cruiser"
+            },
+            {
+              "tag": "type_battlecruiser"
+            },
+            {
+              "tag": "type_battleship"
+            }
+          ]
         },
         {
           "condition": {
@@ -171301,6 +172248,9 @@
               "location": "mozdok"
             },
             {
+              "location": "mozdok_winter"
+            },
+            {
               "location": "avg_mozdok"
             },
             {
@@ -174351,10 +175301,75 @@
           "condition": {
             "type": "char_time_range",
             "beginDate": "2020-12-30 12:00:00",
-            "endDate": "2021-02-15 12:00:00"
+            "endDate": "2021-02-24 12:00:00"
           }
         }
       ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "battlepass_add_warbonds_350",
+      "type": "warbond",
+      "userLogId": "WarBond",
+      "amount_warbonds": 350,
+      "isMultiUnlock": true,
+      "mode": {
+        "type": "char_static_progress",
+        "num": 1
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "battlepass_add_warbonds_400",
+      "type": "warbond",
+      "userLogId": "WarBond",
+      "amount_warbonds": 400,
+      "isMultiUnlock": true,
+      "mode": {
+        "type": "char_static_progress",
+        "num": 1
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "battlepass_add_warbonds_750",
+      "type": "warbond",
+      "userLogId": "WarBond",
+      "amount_warbonds": 750,
+      "isMultiUnlock": true,
+      "mode": {
+        "type": "char_static_progress",
+        "num": 1
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "battlepass_add_warbonds_100",
+      "type": "warbond",
+      "userLogId": "WarBond",
+      "amount_warbonds": 100,
+      "isMultiUnlock": true,
+      "mode": {
+        "type": "char_static_progress",
+        "num": 1
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "battlepass_add_warbonds_80",
+      "type": "warbond",
+      "userLogId": "WarBond",
+      "amount_warbonds": 80,
+      "isMultiUnlock": true,
+      "mode": {
+        "type": "char_static_progress",
+        "num": 1
+      }
     }
   },
   {
@@ -174564,6 +175579,60 @@
           "condition": {
             "type": "char_player_has_feature",
             "feature": "UnlocksUnavailableForChina"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "aerobatics_smoke_winter",
+      "type": "award",
+      "hidden": false,
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "2020_12_28_aerobatics_smoke_winter"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2020_12_28_aerobatics_smoke_winter",
+      "type": "achievement",
+      "chapter": "new_year2021",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "num": 30
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2020-12-28 11:00:00",
+            "endDate": "2021-01-04 11:30:00"
           }
         }
       ]

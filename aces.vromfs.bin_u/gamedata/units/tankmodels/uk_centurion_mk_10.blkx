@@ -723,6 +723,7 @@
         "fireProtectionHp": 10.0,
         "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -2658,7 +2659,7 @@
     "cockpit": {
       "zoomOutFov": 15.0,
       "zoomInFov": 12.3,
-      "sightFov": 9.5,
+      "sightFov": 7.5,
       "sightName": "no43",
       "headPos": [0.0,4.2,-8.0],
       "headPosOnShooting": [-0.3,3.6,0.4],

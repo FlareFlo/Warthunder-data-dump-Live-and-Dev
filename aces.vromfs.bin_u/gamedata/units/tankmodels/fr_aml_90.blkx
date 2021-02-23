@@ -595,6 +595,7 @@
         "fireProtectionHp": 10.0,
         "createSecondaryShatters": false,
         "fireParamsPreset": "fuel_internal",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -1143,7 +1144,7 @@
   },
   {
     "sound": {
-      "EngineName": "engine_m1",
+      "EngineName": "engine_brdm_rear",
       "TrackSoundPath": "tanks/engines_tanks",
       "TrackSoundPathStudio": "ground/engines",
       "TrackSoundName": "tracks_wheels",

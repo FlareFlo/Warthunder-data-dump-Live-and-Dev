@@ -352,6 +352,12 @@
             "marketplaceItemdefId": 50020,
             "hideFeature": "!Marketplace"
           },
+          "us_m5a1_stuart_td": {
+            "rank": 2,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
+          },
           "us_lvt_4_zis_2": {
             "rank": 2,
             "reqAir": "",
@@ -369,6 +375,12 @@
           "us_t14": {
             "rank": 2,
             "reqAir": ""
+          },
+          "us_t55e1": {
+            "rank": 3,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "us_m4a3e2_sherman_jumbo_cobra_king": {
             "rank": 3,
@@ -1038,7 +1050,8 @@
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50108,
+            "hideFeature": "!Marketplace"
           },
           "yp-38": {
             "rank": 2,
@@ -1257,7 +1270,8 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenResearch": true
+            "marketplaceItemdefId": 50119,
+            "hideFeature": "!Marketplace"
           }
         }
       },
@@ -1853,7 +1867,8 @@
             "rank": 6,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenResearch": true
+            "marketplaceItemdefId": 50118,
+            "hideFeature": "!Marketplace"
           },
           "germ_leopard_c2_mexas": {
             "rank": 6,
@@ -2673,6 +2688,12 @@
             "reqAir": "",
             "gift": "msi_notebook",
             "showOnlyWhenBought": true
+          },
+          "germ_destroyer_class1936a_z25": {
+            "rank": 3,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           }
         }
       }
@@ -3106,7 +3127,9 @@
           "ussr_bm_13n": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50117,
+            "hideFeature": "!Marketplace"
           },
           "ussr_valentine_mk_9": {
             "rank": 2,
@@ -3274,8 +3297,7 @@
           },
           "ussr_kv_1e": {
             "rank": 3,
-            "reqAir": "",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           },
           "ussr_kv_220": {
             "rank": 3,
@@ -3286,9 +3308,7 @@
           },
           "ussr_kv_2_zis_6": {
             "rank": 3,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           },
           "ussr_pzkpfw_V": {
             "rank": 3,
@@ -3921,6 +3941,12 @@
             "rank": 3,
             "reqAir": ""
           },
+          "itp_m1": {
+            "rank": 3,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
+          },
           "la-7_dolgushin": {
             "rank": 4,
             "reqAir": "",
@@ -3966,7 +3992,8 @@
             "rank": 6,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenResearch": true
+            "marketplaceItemdefId": 50120,
+            "hideFeature": "!Marketplace"
           }
         }
       },
@@ -4034,9 +4061,7 @@
           },
           "il-2m_mstitel": {
             "rank": 3,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           },
           "yak-9m": {
             "rank": 3,
@@ -4046,8 +4071,7 @@
           },
           "pe-2-205": {
             "rank": 3,
-            "reqAir": "",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           },
           "tu-2_early": {
             "rank": 3,
@@ -4665,6 +4689,12 @@
             "gift": "msi_notebook",
             "marketplaceItemdefId": 50086,
             "hideFeature": "!Marketplace"
+          },
+          "uk_centurion_mk_5_raac": {
+            "rank": 5,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "uk_rooikat_105_td": {
             "rank": 6,
@@ -6078,7 +6108,8 @@
             "rank": 1,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50005,
+            "hideFeature": "!Marketplace"
           },
           "a7he1": {
             "rank": 1,
@@ -6516,7 +6547,6 @@
           "cn_t_62": {
             "rank": 6,
             "reqAir": "",
-            "gift": "msi_notebook",
             "showOnlyWhenBought": true
           },
           "cn_ztz_96a_race": {
@@ -7346,8 +7376,7 @@
           },
           "it_cruiser_zara_class_pola": {
             "rank": 4,
-            "reqAir": "",
-            "gift": "msi_notebook"
+            "reqAir": ""
           }
         }
       }

@@ -4121,16 +4121,9 @@
         "condition": "role_TESTER"
       }
     ],
-    "physicalTracks": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      }
-    ]
+    "physicalTracks": {
+      "condition": "",
+      "platform_lock": "xboxOne;xboxScarlett"
+    }
   }
 }

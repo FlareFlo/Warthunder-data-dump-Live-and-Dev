@@ -158,12 +158,6 @@
         },
         "superstructure_front_dm": {
           "armorThickness": 15.0
-        },
-        "gun_barrel_02_dm": {
-          "armorThickness": 5.0
-        },
-        "gun_barrel_03_dm": {
-          "armorThickness": 5.0
         }
       },
       "turret": {
@@ -343,7 +337,13 @@
         "hp": 100.0,
         "armorThickness": 10.0,
         "gun_barrel_dm": [],
-        "gun_barrel_01_dm": []
+        "gun_barrel_01_dm": [],
+        "gun_barrel_02_dm": {
+          "armorThickness": 5.0
+        },
+        "gun_barrel_03_dm": {
+          "armorThickness": 5.0
+        }
       },
       "tracks": {
         "armorClass": "tank_traks",
@@ -653,6 +653,7 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "createSecondaryShatters": false,
+        "stopChanceOnDeadPart": 0.0,
         "fireParamsPreset": "fuel_internal",
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
@@ -678,6 +679,7 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "fireParamsPreset": "fuel_exterior",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
         "fuel_tank_exterior_r_03_dm": [],

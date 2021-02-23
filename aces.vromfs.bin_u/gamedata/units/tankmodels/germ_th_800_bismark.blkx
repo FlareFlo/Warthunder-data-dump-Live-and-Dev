@@ -836,6 +836,7 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "createSecondaryShatters": false,
+        "stopChanceOnDeadPart": 0.0,
         "fireParamsPreset": "fuel_internal",
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
@@ -861,6 +862,7 @@
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
         "fireParamsPreset": "fuel_exterior",
+        "stopChanceOnDeadPart": 0.0,
         "fuel_tank_exterior_r_01_dm": [],
         "fuel_tank_exterior_r_02_dm": [],
         "fuel_tank_exterior_r_03_dm": [],
@@ -1933,7 +1935,8 @@
           "titleLoc": "RHA_tank_modern",
           "armorArrayText": {
             "layer": {
-              "dmPart": "composite_armor_hull_02_dm"
+              "dmPart": "composite_armor_hull_02_dm",
+              "xrayTextThickness": 30.0
             }
           }
         }
@@ -1944,7 +1947,8 @@
           "titleLoc": "RHA_tank_modern",
           "armorArrayText": {
             "layer": {
-              "dmPart": "composite_armor_hull_03_dm"
+              "dmPart": "composite_armor_hull_03_dm",
+              "xrayTextThickness": 5.0
             }
           }
         }
