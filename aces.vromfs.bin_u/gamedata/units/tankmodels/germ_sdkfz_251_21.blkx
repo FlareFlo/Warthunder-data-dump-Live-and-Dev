@@ -102,13 +102,384 @@
     "arcadeTurnPowerMult": 1.2
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
+    "ikGunner": [
+      {
+        "model": "german_gunner_early_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "1"
+      },
+      {
+        "dmName": "machine_gunner_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
   },
   {
-    "customImage": "!#ui/unitskin#image_in_progress"
+    "ikGunner": [
+      {
+        "model": "german_gunner_early_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "2"
+      },
+      {
+        "dmName": "gunner_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
   },
   {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
+    "ikGunner": [
+      {
+        "model": "german_gunner_early_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "3"
+      },
+      {
+        "dmName": "loader_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
+  },
+  {
+    "ikGunner": [
+      {
+        "model": "german_gunner_early_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "4"
+      },
+      {
+        "dmName": "driver_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
+  },
+  {
+    "controlDevices": [
+      {
+        "device": {
+          "type": "turretTurnH",
+          "turnSpeed": 0.2,
+          "node": "bone_roll_turret_h",
+          "node_handle": "bone_roll_turret_h_handle"
+        }
+      },
+      {
+        "device": {
+          "type": "turretTurnV",
+          "turnSpeed": 0.3,
+          "node": "bone_roll_turret_v",
+          "node_handle": "bone_roll_turret_v_handle"
+        }
+      },
+      {
+        "device": {
+          "type": "steeringWheel",
+          "turnSpeed": -3.0,
+          "node": "bone_roll_driver",
+          "absoluteValue": true
+        }
+      },
+      {
+        "device": {
+          "type": "engineFan",
+          "turnSpeed": 1.0,
+          "node": "bone_roll_engine_01"
+        }
+      },
+      {
+        "device": {
+          "type": "engineFan",
+          "turnSpeed": 1.0,
+          "node": "bone_roll_engine_02"
+        }
+      },
+      {
+        "device": {
+          "type": "engineFan",
+          "turnSpeed": 1.0,
+          "node": "bone_roll_engine_03"
+        }
+      },
+      {
+        "device": {
+          "type": "engineFan",
+          "turnSpeed": 1.0,
+          "node": "bone_roll_engine_04"
+        }
+      },
+      {
+        "device": {
+          "type": "waterJetShutter",
+          "turnSpeed": 1.5,
+          "maxValue": -1.7,
+          "node": "body_shutter_l",
+          "absoluteValue": true,
+          "progressive": true
+        }
+      },
+      {
+        "device": {
+          "type": "waterJetShutter",
+          "turnSpeed": 1.5,
+          "maxValue": 1.7,
+          "node": "body_shutter_r",
+          "absoluteValue": true,
+          "progressive": true
+        }
+      }
+    ]
   },
   {
     "DamageParts": {
@@ -193,6 +564,9 @@
         },
         "gun_mask_02_dm": {
           "armorThickness": 14.5
+        },
+        "turret_01_bottom_dm": {
+          "armorThickness": 8.0
         }
       },
       "body_shields": {
@@ -281,7 +655,10 @@
         "armorClass": "tank_barrel",
         "hp": 100.0,
         "armorThickness": 10.0,
-        "gun_barrel_dm": []
+        "gun_barrel_01_dm": [],
+        "gun_barrel_02_dm": [],
+        "gun_barrel_03_dm": [],
+        "gun_barrel_04_dm": []
       },
       "crew": {
         "armorClass": "steel_tankman",
@@ -1402,8 +1779,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1415,8 +1811,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1596,10 +1993,10 @@
           "role": "tank_gunner"
         },
         {
-          "substitute": "machine_gunner"
+          "role": "commander"
         },
         {
-          "substitute": "commander"
+          "substitute": "machine_gunner"
         },
         {
           "substitute": "loader"
@@ -1616,29 +2013,13 @@
           "substitute": "machine_gunner"
         },
         {
-          "substitute": "commander"
-        },
-        {
           "substitute": "loader"
         }
       ],
-      "loader": [
-        {
-          "dmPart": "loader_dm"
-        },
-        {
-          "role": "loader"
-        },
-        {
-          "substitute": "machine_gunner"
-        },
-        {
-          "substitute": "commander"
-        }
-      ],
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
+      "loader": {
+        "dmPart": "loader_dm",
+        "role": "loader",
+        "substitute": "machine_gunner"
       },
       "machine_gunner": {
         "dmPart": "machine_gunner_dm",
@@ -1781,7 +2162,7 @@
         "Weapon": {
           "trigger": "gunner0",
           "blk": "gameData/Weapons/groundModels_weapons/15mm_MG151_out_drilling_user_cannon.blk",
-          "emitter": "bone_gun_barrel_01",
+          "emitter": "bone_gun_barrel_02",
           "flash": "emtr_gun_flame_02",
           "useEmitter": true,
           "aimingFromBoneGun": true,
@@ -1791,8 +2172,11 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_02_dm",
+          "breechDP": "cannon_breech_02_dm",
           "speedYaw": 60.0,
           "speedPitch": 60.0,
+          "yawSpdLowBattery": 60.0,
+          "pitchSpdLowBattery": 60.0,
           "bullets": 1920,
           "fireConeAngle": 15.0,
           "ChainfireTime": 0.5,
@@ -1809,7 +2193,7 @@
           "turret": {
             "head": "bone_turret",
             "gun": "bone_gun",
-            "barrel": "bone_gun_barrel_01",
+            "barrel": "bone_gun_barrel_02",
             "gunnerDm": "gunner_dm",
             "verDriveDm": "drive_turret_v_dm",
             "horDriveDm": "drive_turret_h_dm"
@@ -1824,7 +2208,7 @@
         "Weapon": {
           "trigger": "gunner0",
           "blk": "gameData/Weapons/groundModels_weapons/15mm_MG151_mid_drilling_user_cannon.blk",
-          "emitter": "bone_gun_barrel_02",
+          "emitter": "bone_gun_barrel_01",
           "flash": "emtr_gun_flame_01",
           "useEmitter": true,
           "aimingFromBoneGun": true,
@@ -1834,8 +2218,11 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_01_dm",
+          "breechDP": "cannon_breech_01_dm",
           "speedYaw": 60.0,
           "speedPitch": 60.0,
+          "yawSpdLowBattery": 60.0,
+          "pitchSpdLowBattery": 60.0,
           "bullets": 1800,
           "fireConeAngle": 15.0,
           "ChainfireTime": 0.5,
@@ -1854,7 +2241,7 @@
           "turret": {
             "head": "bone_turret",
             "gun": "bone_gun",
-            "barrel": "bone_gun_barrel_02",
+            "barrel": "bone_gun_barrel_01",
             "gunnerDm": "gunner_dm",
             "verDriveDm": "drive_turret_v_dm",
             "horDriveDm": "drive_turret_h_dm"
@@ -1879,8 +2266,11 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_03_dm",
+          "breechDP": "cannon_breech_03_dm",
           "speedYaw": 60.0,
           "speedPitch": 60.0,
+          "yawSpdLowBattery": 60.0,
+          "pitchSpdLowBattery": 60.0,
           "bullets": 1920,
           "fireConeAngle": 15.0,
           "ChainfireTime": 0.5,
@@ -1908,6 +2298,11 @@
             "yaw": [-180.0,180.0],
             "pitch": [-3.0,49.0]
           }
+        }
+      },
+      {
+        "hideNodes": {
+          "node": "ex_decor_03"
         }
       }
     ]
@@ -2505,7 +2900,7 @@
         "event": {
           "name": "fuel_internal",
           "fx": {
-            "name": "tank_engine_fire",
+            "name": "tank_ex_fuel_explosion",
             "centerDmgPart": true
           }
         }
@@ -2576,7 +2971,7 @@
   },
   {
     "user_skin": {
-      "name": "sdkfz_251_10",
+      "name": "sdkfz_251_21",
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*"
       }

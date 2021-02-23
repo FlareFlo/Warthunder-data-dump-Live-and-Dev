@@ -42,6 +42,15 @@
     "useSimpleDeathConditionsAndEffects": false
   },
   {
+    "radarAnimVar": "radar_drive"
+  },
+  {
+    "radarDeployTime": 0.0
+  },
+  {
+    "radarAntenaSpeed": 720.0
+  },
+  {
     "autoSightDistanceCorrection": true
   },
   {
@@ -138,21 +147,15 @@
     "smokeScreenFxType": "tank_smokescreen"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
       "hp": 10000.0,
       "armor_al_7039": {
         "armorClass": "aluminum_armor_5083",
+        "superstructure_back_dm": {
+          "armorThickness": 38.1
+        },
         "body_top_dm": {
           "armorThickness": 38.0
         },
@@ -281,9 +284,6 @@
         },
         "turret_06_bottom_dm": {
           "armorThickness": 6.35
-        },
-        "superstructure_back_dm": {
-          "armorThickness": 38.1
         },
         "turret_06_side_dm": {
           "armorThickness": 6.35
@@ -1545,8 +1545,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1558,8 +1577,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1990,7 +2010,15 @@
           "yaw": [-100.0,100.0],
           "pitch": [-5.0,35.0]
         }
-      }
+      },
+      "animatedBones": [
+        {
+          "node": "antenna_target_location"
+        },
+        {
+          "node": "antenna_target_location_mount"
+        }
+      ]
     }
   },
   {
@@ -2028,9 +2056,9 @@
         "Fuel": 160.0,
         "TakeOff": 11160.0,
         "momentOfInertia": [2.0,2.0,5.0],
-        "CenterOfGravity": [0.0,0.5,0.0],
+        "CenterOfGravity": [0.1,0.5,0.0],
         "CenterOfGravityClampY": [0.4,0.6],
-        "AdvancedMass": true,
+        "AdvancedMass": false,
         "trackMass": 800.0
       },
       "tracks": {
@@ -2602,7 +2630,7 @@
         "event": {
           "name": "fuel_internal",
           "fx": {
-            "name": "tank_engine_fire",
+            "name": "tank_ex_fuel_explosion",
             "centerDmgPart": true
           }
         }
@@ -2718,6 +2746,16 @@
               }
             },
             {
+              "animatedBones": [
+                {
+                  "node": "antenna_target_location"
+                },
+                {
+                  "node": "antenna_target_location_mount"
+                }
+              ]
+            },
+            {
               "Weapon": {
                 "trigger": "gunner3",
                 "triggerGroup": "smoke",
@@ -2786,6 +2824,42 @@
               "ghosting": 0.6,
               "noiseFactor": 0.2
             }
+          }
+        }
+      }
+    }
+  },
+  {
+    "ammoStowages": {
+      "ammo1": {
+        "removeLoadedAmmo": false,
+        "weaponTrigger": "gunner0",
+        "fatalFire": true,
+        "fatalExplosion": true,
+        "shells": {
+          "ammo_body_01_dm": {
+            "count": 1
+          },
+          "ammo_body_02_dm": {
+            "count": 1
+          },
+          "ammo_body_03_dm": {
+            "count": 1
+          },
+          "ammo_body_04_dm": {
+            "count": 1
+          },
+          "ammo_turret_01_dm": {
+            "count": 1
+          },
+          "ammo_turret_02_dm": {
+            "count": 1
+          },
+          "ammo_turret_03_dm": {
+            "count": 1
+          },
+          "ammo_turret_04_dm": {
+            "count": 1
           }
         }
       }

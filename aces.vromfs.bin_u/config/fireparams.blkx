@@ -296,6 +296,7 @@
       "radiusScale": 1.5,
       "fxPresetName": "fuel_internal",
       "maxFireTime": [20.0,30.0],
+      "penetration": 4.0,
       "engineExtinguishFireSpeed": [0.0,55.0],
       "engineExtinguishFireSpeedChance": [0.9,1.0],
       "nonExtinguishFireTime": 1.0,

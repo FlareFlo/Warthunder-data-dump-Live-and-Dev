@@ -159,7 +159,7 @@
   },
   "fixed": {
     "type": "FixedCamera",
-    "fov": 55.0
+    "fov": 85.0
   },
   "camera_cutscene": {
     "type": "TpsTargetFlightCameraReplayCutscene",

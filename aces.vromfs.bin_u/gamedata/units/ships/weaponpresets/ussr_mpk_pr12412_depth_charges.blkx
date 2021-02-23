@@ -8,16 +8,10 @@
         "node": "auxiliary_caliber_turret_01"
       },
       {
-        "node": "turret_01"
-      },
-      {
         "node": "auxiliary_caliber_gun_02"
       },
       {
         "node": "auxiliary_caliber_turret_02"
-      },
-      {
-        "node": "turret_02"
       },
       {
         "node": "ammo_turret_05"

@@ -108,15 +108,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "controlDevices": [
       {
         "device": {
@@ -1666,8 +1657,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1679,8 +1689,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -2107,7 +2118,7 @@
           "speedYaw": 25.0,
           "speedPitch": 5.0,
           "fireConeAngle": 1.0,
-          "bullets": 61,
+          "bullets": 54,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -2174,7 +2185,7 @@
             "triggerGroup": "coaxial"
           },
           {
-            "blk": "gameData/Weapons/groundModels_weapons/7_62mm_M1919A4_user_machinegun.blk"
+            "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Browning_MG4_user_machinegun.blk"
           },
           {
             "emitter": "bone_mg_gun_twin"
@@ -2189,7 +2200,7 @@
             "defaultPitch": 0.0
           },
           {
-            "barrelDP": "gun_barrel_02_dm"
+            "barrelDP": "gun_barrel_01_dm"
           },
           {
             "speedYaw": 18.0
@@ -2245,7 +2256,7 @@
           {
             "turret": {
               "head": "bone_mg_gun_twin",
-              "gun": "bone_gun",
+              "gun": "bone_mg_gun_twin",
               "gunnerDm": "gunner_dm"
             }
           },
@@ -2261,7 +2272,7 @@
         "Weapon": {
           "trigger": "gunner2",
           "triggerGroup": "machinegun",
-          "blk": "gameData/Weapons/groundModels_weapons/7_62mm_M1919A4_user_machinegun.blk",
+          "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Browning_MG4_user_machinegun.blk",
           "emitter": "bone_mg_aa_v_01",
           "flash": "emtr_mg_aa_flame_01",
           "barrelDP": "gun_barrel_02_dm",
@@ -3000,7 +3011,7 @@
         "event": {
           "name": "fuel_internal",
           "fx": {
-            "name": "tank_engine_fire",
+            "name": "tank_ex_fuel_explosion",
             "centerDmgPart": true
           }
         }
@@ -3026,14 +3037,210 @@
   },
   {
     "cockpit": {
-      "zoomOutFov": 9.217,
-      "zoomInFov": 6.141,
-      "sightFov": 6.0,
-      "sightName": "centauro",
+      "zoomOutFov": 9.2,
+      "zoomInFov": 4.6,
+      "sightFov": 4.5,
+      "sightName": "tzf_1a",
       "openedCockpit": false,
       "headPos": [0.0,3.8,-8.8],
-      "headPosOnShooting": [-0.7,3.4,0.5],
+      "headPosOnShooting": [-0.5,4.1,-0.5],
       "detectionHeight": 3.1
+    }
+  },
+  {
+    "ammoStowages": {
+      "ammo1": [
+        {
+          "removeLoadedAmmo": true
+        },
+        {
+          "weaponTrigger": "gunner0"
+        },
+        {
+          "fatalFire": true
+        },
+        {
+          "fatalExplosion": true
+        },
+        {
+          "replenishmentDelay": 4.0
+        },
+        {
+          "replenishmentTime": 10.0
+        },
+        {
+          "shells": {
+            "firstStage": true,
+            "ammo_turret_01_dm": {
+              "count": 1
+            },
+            "ammo_turret_02_dm": {
+              "count": 1
+            },
+            "ammo_turret_03_dm": {
+              "count": 1
+            },
+            "ammo_turret_04_dm": {
+              "count": 1
+            },
+            "ammo_turret_05_dm": {
+              "count": 1
+            },
+            "ammo_turret_06_dm": {
+              "count": 1
+            },
+            "ammo_turret_07_dm": {
+              "count": 1
+            },
+            "ammo_turret_08_dm": {
+              "count": 1
+            },
+            "ammo_turret_09_dm": {
+              "count": 1
+            },
+            "ammo_turret_10_dm": {
+              "count": 1
+            },
+            "ammo_turret_11_dm": {
+              "count": 1
+            },
+            "ammo_turret_12_dm": {
+              "count": 1
+            },
+            "ammo_turret_13_dm": {
+              "count": 1
+            },
+            "ammo_turret_14_dm": {
+              "count": 1
+            },
+            "ammo_turret_15_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "reloadTimeMult": 1.28,
+            "ammo_body_01_dm": {
+              "count": 1
+            },
+            "ammo_body_02_dm": {
+              "count": 1
+            },
+            "ammo_body_03_dm": {
+              "count": 1
+            },
+            "ammo_body_04_dm": {
+              "count": 1
+            },
+            "ammo_body_05_dm": {
+              "count": 1
+            },
+            "ammo_body_06_dm": {
+              "count": 1
+            },
+            "ammo_body_07_dm": {
+              "count": 1
+            },
+            "ammo_body_08_dm": {
+              "count": 1
+            },
+            "ammo_body_09_dm": {
+              "count": 1
+            },
+            "ammo_body_10_dm": {
+              "count": 1
+            },
+            "ammo_body_11_dm": {
+              "count": 1
+            },
+            "ammo_body_12_dm": {
+              "count": 1
+            },
+            "ammo_body_13_dm": {
+              "count": 1
+            },
+            "ammo_body_14_dm": {
+              "count": 1
+            },
+            "ammo_body_15_dm": {
+              "count": 1
+            },
+            "ammo_body_16_dm": {
+              "count": 1
+            },
+            "ammo_body_17_dm": {
+              "count": 1
+            },
+            "ammo_body_18_dm": {
+              "count": 1
+            },
+            "ammo_body_19_dm": {
+              "count": 1
+            },
+            "ammo_body_20_dm": {
+              "count": 1
+            },
+            "ammo_body_21_dm": {
+              "count": 1
+            },
+            "ammo_body_22_dm": {
+              "count": 1
+            },
+            "ammo_body_23_dm": {
+              "count": 1
+            },
+            "ammo_body_24_dm": {
+              "count": 1
+            },
+            "ammo_body_25_dm": {
+              "count": 1
+            },
+            "ammo_body_26_dm": {
+              "count": 1
+            },
+            "ammo_body_27_dm": {
+              "count": 1
+            },
+            "ammo_body_28_dm": {
+              "count": 1
+            },
+            "ammo_body_29_dm": {
+              "count": 1
+            },
+            "ammo_body_30_dm": {
+              "count": 1
+            },
+            "ammo_body_31_dm": {
+              "count": 1
+            },
+            "ammo_body_32_dm": {
+              "count": 1
+            },
+            "ammo_body_33_dm": {
+              "count": 1
+            },
+            "ammo_body_34_dm": {
+              "count": 1
+            },
+            "ammo_body_35_dm": {
+              "count": 1
+            },
+            "ammo_body_36_dm": {
+              "count": 1
+            },
+            "ammo_body_37_dm": {
+              "count": 1
+            },
+            "ammo_body_38_dm": {
+              "count": 1
+            },
+            "ammo_body_39_dm": {
+              "count": 1
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -3089,7 +3296,7 @@
                 "speedYaw": 25.0,
                 "speedPitch": 5.0,
                 "fireConeAngle": 1.0,
-                "bullets": 61,
+                "bullets": 54,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -3156,7 +3363,7 @@
                   "triggerGroup": "coaxial"
                 },
                 {
-                  "blk": "gameData/Weapons/groundModels_weapons/7_62mm_M1919A4_user_machinegun.blk"
+                  "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Browning_MG4_user_machinegun.blk"
                 },
                 {
                   "emitter": "bone_mg_gun_twin"
@@ -3171,7 +3378,7 @@
                   "defaultPitch": 0.0
                 },
                 {
-                  "barrelDP": "gun_barrel_02_dm"
+                  "barrelDP": "gun_barrel_01_dm"
                 },
                 {
                   "speedYaw": 18.0
@@ -3227,7 +3434,7 @@
                 {
                   "turret": {
                     "head": "bone_mg_gun_twin",
-                    "gun": "bone_gun",
+                    "gun": "bone_mg_gun_twin",
                     "gunnerDm": "gunner_dm"
                   }
                 },
@@ -3243,7 +3450,7 @@
               "Weapon": {
                 "trigger": "gunner2",
                 "triggerGroup": "machinegun",
-                "blk": "gameData/Weapons/groundModels_weapons/7_62mm_M1919A4_user_machinegun.blk",
+                "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Browning_MG4_user_machinegun.blk",
                 "emitter": "bone_mg_aa_v_01",
                 "flash": "emtr_mg_aa_flame_01",
                 "barrelDP": "gun_barrel_02_dm",

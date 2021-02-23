@@ -86,7 +86,7 @@
         "errMeasureVelDir": 3.0
       },
       {
-        "errTargetting": 1.0
+        "errTargetting": 3.0
       },
       {
         "errExplTime": 0.0
@@ -201,7 +201,7 @@
         "errMeasureVelDir": 3.0
       },
       {
-        "errTargetting": 1.0
+        "errTargetting": 3.0
       },
       {
         "errExplTime": 0.0

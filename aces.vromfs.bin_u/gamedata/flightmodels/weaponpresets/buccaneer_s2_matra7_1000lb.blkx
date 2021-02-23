@@ -1394,6 +1394,12 @@
       },
       {
         "node": "aero_3b_002"
+      },
+      {
+        "node": "chaff_disp_l"
+      },
+      {
+        "node": "chaff_disp_r"
       }
     ]
   }

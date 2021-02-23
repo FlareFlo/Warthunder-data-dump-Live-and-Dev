@@ -2533,7 +2533,8 @@
           },
           "p-47d_luftwaffe": {
             "rank": 3,
-            "reqAir": ""
+            "reqAir": "",
+            "showOnlyWhenBought": true
           },
           "p-47d_16_re_germany": {
             "rank": 3,
@@ -3058,6 +3059,9 @@
             "rank": 5
           },
           "ussr_zsu_23_4": {
+            "rank": 6
+          },
+          "ussr_zsu_37_2": {
             "rank": 6
           },
           "ussr_zprk_2s6": {
@@ -4543,8 +4547,7 @@
             "rank": 6
           },
           "uk_adats_m113a3": {
-            "rank": 7,
-            "showOnlyWhenBought": true
+            "rank": 7
           }
         }
       },
@@ -4728,9 +4731,7 @@
           "g_lynx": {
             "rank": 6,
             "rankPosXY": [6,1],
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           }
         }
       }
@@ -5698,9 +5699,7 @@
           "ah_1s": {
             "rank": 6,
             "rankPosXY": [6,1],
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           }
         }
       }
@@ -6186,6 +6185,9 @@
             "rank": 5
           },
           "jp_cruiser_mogami": {
+            "rank": 5
+          },
+          "jp_battleship_hyuga": {
             "rank": 5
           }
         }
@@ -7604,6 +7606,12 @@
             "rank": 2,
             "reqAir": ""
           },
+          "fr_panhard_ebr_1954": {
+            "rank": 3,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenResearch": true
+          },
           "fr_m4a1_sherman_fl_10": {
             "rank": 3,
             "reqAir": "",
@@ -7637,12 +7645,6 @@
           "fr_amx_13_chaffee": {
             "rank": 2,
             "reqAir": ""
-          },
-          "fr_panhard_ebr_1954": {
-            "rank": 3,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenResearch": true
           },
           "fr_lorraine_155": {
             "rank": 3,
@@ -7739,9 +7741,7 @@
           "tiger_hap_france": {
             "rank": 6,
             "rankPosXY": [6,2],
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           }
         }
       }
@@ -8102,8 +8102,7 @@
             "rank": 6
           },
           "sw_asrad_r": {
-            "rank": 7,
-            "showOnlyWhenBought": true
+            "rank": 7
           }
         }
       },

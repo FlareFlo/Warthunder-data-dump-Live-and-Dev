@@ -77,6 +77,7 @@
       "distFromCmToStab": 0.005,
       "CxK": 1.7,
       "WdK": [0.1,0.1,0.1],
+      "autoAimingMultiChannel": true,
       "force": 18000.0,
       "timeFire": 3.0,
       "thrustDeviation": 0.01,
@@ -211,6 +212,7 @@
         "distFromCmToStab": 0.005,
         "CxK": 1.7,
         "WdK": [0.1,0.1,0.1],
+        "autoAimingMultiChannel": true,
         "force": 18000.0,
         "timeFire": 3.0,
         "thrustDeviation": 0.01,
@@ -346,6 +348,7 @@
         "distFromCmToStab": 0.005,
         "CxK": 1.7,
         "WdK": [0.1,0.1,0.1],
+        "autoAimingMultiChannel": true,
         "force": 18000.0,
         "timeFire": 3.0,
         "thrustDeviation": 0.01,
@@ -399,6 +402,8 @@
         "timeToLive": 18.0,
         "price": 3000.0,
         "mesh": "rbs_70_rocket_deployed",
+        "hasTracerTrail": true,
+        "tracerTrailEmitter": [-0.5,0.0,0.0],
         "proximityFuse": {
           "radius": 6.0,
           "armDistance": 300.0,
@@ -443,6 +448,14 @@
           "distance": 5.5,
           "damage": 300.0,
           "onHitChanceMultFire": 25.0
+        },
+        "tracerTrail": {
+          "smokeEffect": "",
+          "visual": {
+            "traceFreq": 1,
+            "tracer": "152mmRed",
+            "trail": "noTrail"
+          }
         }
       }
     }

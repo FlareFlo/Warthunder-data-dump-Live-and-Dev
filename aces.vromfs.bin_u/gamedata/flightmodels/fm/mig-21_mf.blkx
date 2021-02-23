@@ -2,7 +2,7 @@
   "IgnoreErrors": true,
   "AileronEffectiveSpeed": 650.004,
   "RudderEffectiveSpeed": 600.005,
-  "ElevatorsEffectiveSpeed": 780.005,
+  "ElevatorsEffectiveSpeed": 850.005,
   "AileronPowerLoss": 1.4,
   "RudderPowerLoss": 1.8,
   "ElevatorPowerLoss": 2.4,
@@ -11,8 +11,13 @@
   "AlphaElevatorMin": 0.05,
   "AllowStrongControlsRestrictions": true,
   "RudderSens": 0.35,
-  "ElevatorSens": 0.92,
+  "ElevatorSens": 0.99,
   "AileronSens": 0.1,
+  "RudderSensMultipler": 1.0,
+  "ElevatorSensMultipler0": [0.0,1.1],
+  "ElevatorSensMultipler1": [0.4,1.1],
+  "ElevatorSensMultipler2": [0.6,0.9],
+  "AileronSensMultipler": 1.0,
   "GearActuatorSpeed": 0.2,
   "WingActuatorSpeed": 0.1,
   "CockpitDoorSpeedOpen": [150.0,300.0,0.5,1.5],
@@ -34,7 +39,7 @@
   "StabAngle": 0.0,
   "KeelAngle": 0.0,
   "AileronAngles": [20.0,20.0],
-  "ElevatorAngles": [28.0,16.0],
+  "ElevatorAngles": [16.5,7.5],
   "InvertElevator": false,
   "FlapsRadiator": 0.0,
   "RudderAngles": [25.0,25.0],
@@ -124,7 +129,7 @@
     "FocusOffset": 0.0,
     "WingVertPos": 0.1,
     "AlphaShift": -0.1,
-    "FlapsShift": 0.1,
+    "FlapsShift": [0.05,0.1],
     "AirbrakesShift": [-0.01,-0.08],
     "GearShift": 0.0,
     "WingInFocus": 0.6,
@@ -251,7 +256,7 @@
       "alphaCritLow": -25.0,
       "ClCritHigh": 1.35,
       "ClCritLow": -0.35,
-      "CdMin": 0.05
+      "CdMin": 0.04
     },
     "Fuselage": {
       "OswaldsEfficiencyNumber": 0.5,
@@ -1133,7 +1138,7 @@
       "FlapsToThrust": [0.33,1.0,0.5,0.8]
     },
     "Nozzle1": {
-      "Position": [-0.4,0.0,2.05],
+      "Position": [-0.3,0.0,2.05],
       "Direction": [-0.0,100.0],
       "Direction2": [-90.0,-0.0],
       "ThrustRatio": 2.0,
@@ -1152,7 +1157,7 @@
       "TipPosition": true
     },
     "Nozzle2": {
-      "Position": [-0.4,0.0,-2.05],
+      "Position": [-0.3,0.0,-2.05],
       "Direction": [-0.0,100.0],
       "Direction2": [-90.0,-0.0],
       "ThrustRatio": 2.0,

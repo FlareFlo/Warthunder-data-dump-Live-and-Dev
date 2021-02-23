@@ -5960,6 +5960,14 @@
       "fictional": true
     }
   },
+  "ny_marathon_decal_collection": {
+    "category": "pinups",
+    "costGold": -1,
+    "unlock": "ny_marathon_decal_collection",
+    "tags": {
+      "fictional": true
+    }
+  },
   "jaws1_decal": {
     "category": "jaws",
     "costGold": -1,

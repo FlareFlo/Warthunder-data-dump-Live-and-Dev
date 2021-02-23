@@ -9,10 +9,10 @@
     "aimMinDist": 500.0
   },
   {
-    "aimMaxDist": 40000.0
+    "aimMaxDist": 15000.0
   },
   {
-    "attackMaxDist": 37000.0
+    "attackMaxDist": 15000.0
   },
   {
     "maxDeltaAngle": 0.86
@@ -36,7 +36,7 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "fxType": "muzzle_ground_200mm"
+    "fxType": "muzzle_naval_200mm"
   },
   {
     "fxGroundDust": "dust_ground_wave_dirt_big"

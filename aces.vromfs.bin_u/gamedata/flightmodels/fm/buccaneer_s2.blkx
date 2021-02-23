@@ -19,7 +19,8 @@
   "AileronSensMultipler0": [0.0,0.2],
   "AileronSensMultipler1": [0.25,0.2],
   "AileronSensMultipler2": [0.3,1.0],
-  "AileronSensMultipler3": [0.4,1.0],
+  "AileronSensMultipler3": [0.9,1.0],
+  "AileronSensMultipler4": [1.0,0.6],
   "ElevatorSensCl": 0.0,
   "GearActuatorSpeed": 0.2,
   "CockpitDoorSpeedOpen": [150.0,300.0,0.6,2.0],
@@ -285,7 +286,7 @@
       "CdMin": 0.0075
     },
     "FullFlaps": {
-      "Cl0": 0.55,
+      "Cl0": 0.45,
       "alphaCritHigh": 17.0,
       "alphaCritLow": -12.0,
       "ClCritHigh": 1.3,

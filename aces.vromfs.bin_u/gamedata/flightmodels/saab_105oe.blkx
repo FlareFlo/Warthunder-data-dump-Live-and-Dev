@@ -66,15 +66,6 @@
     "fightAiBehaviour": "assault"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "armor10": {
         "cannon1_dm": {
@@ -2583,21 +2574,21 @@
       },
       {
         "preset": {
-          "name": "saab_105oe_rb24j",
-          "blk": "gameData/FlightModels/weaponPresets/saab_105oe_rb24j.blk",
-          "reqModification": "swe_rb24j"
+          "name": "saab_105oe_rb24",
+          "blk": "gameData/FlightModels/weaponPresets/saab_105oe_rb24.blk",
+          "reqModification": "swe_rb24"
         }
       },
       {
         "preset": [
           {
-            "name": "saab_105oe_rb24j_rb_05a"
+            "name": "saab_105oe_rb24_rb_05a"
           },
           {
-            "blk": "gameData/FlightModels/weaponPresets/saab_105oe_rb24j_rb_05a.blk"
+            "blk": "gameData/FlightModels/weaponPresets/saab_105oe_rb24_rb_05a.blk"
           },
           {
-            "reqModification": "swe_rb24j"
+            "reqModification": "swe_rb24"
           },
           {
             "reqModification": "rb_05a"
@@ -2606,9 +2597,9 @@
       },
       {
         "preset": {
-          "name": "saab_105oe_rb24j_akankapsel_30",
-          "blk": "gameData/FlightModels/weaponPresets/saab_105oe_rb24j_akankapsel_30.blk",
-          "reqModification": "swe_rb24j"
+          "name": "saab_105oe_rb24_akankapsel_30",
+          "blk": "gameData/FlightModels/weaponPresets/saab_105oe_rb24_akankapsel_30.blk",
+          "reqModification": "swe_rb24"
         }
       }
     ]
@@ -2721,7 +2712,7 @@
         "modClass": "weapon",
         "tier": 4
       },
-      "swe_rb24j": {
+      "swe_rb24": {
         "tier": 2,
         "modClass": "weapon"
       }

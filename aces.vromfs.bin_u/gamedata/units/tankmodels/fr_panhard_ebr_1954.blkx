@@ -117,15 +117,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "controlDevices": [
       {
         "device": {
@@ -270,6 +261,9 @@
         },
         "turret_04_bottom_dm": {
           "armorThickness": 5.0
+        },
+        "wheel_support_dm": {
+          "armorThickness": 5.0
         }
       },
       "turret_RHA": {
@@ -346,6 +340,14 @@
           "hp": 20.0
         },
         "optic_body_01_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_body_02_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_body_03_dm": {
           "armorThickness": 3.0,
           "hp": 20.0
         }
@@ -772,7 +774,7 @@
       "TrackSoundPathStudio": "ground/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
-      "turret_turn": "turret_turn_manual",
+      "turret_turn": "turret_turn",
       "EngineNameAi": "engine_tank_ai_light",
       "TrackSoundNameAi": "tracks_ai_light",
       "gun_turn": "turret_turn_mg_light"
@@ -1553,8 +1555,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1566,8 +1587,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -1959,11 +1981,11 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-6.0,13.0]
+            "pitch": [-6.0,10.0]
           },
           "limitsTable": {
             "lim1": [-180.0,-95.0,-6.0,8.0],
-            "lim2": [-95.0,95.0,-6.0,13.0],
+            "lim2": [-95.0,95.0,-6.0,10.0],
             "lim3": [95.0,180.0,-6.0,8.0]
           }
         }
@@ -2203,6 +2225,60 @@
           "wheel_l_04": 0.2,
           "wheel_r_04": 0.2
         }
+      }
+    }
+  },
+  {
+    "repairParts": {
+      "wheel_l_01_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_r_01_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_l_02_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_r_02_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_l_03_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_r_03_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_l_04_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_r_04_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_l_drive_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
+      },
+      "wheel_r_drive_dm": {
+        "speed": 1.7,
+        "completely": true,
+        "modRequired": false
       }
     }
   },
@@ -2729,7 +2805,7 @@
         "event": {
           "name": "fuel_internal",
           "fx": {
-            "name": "tank_engine_fire",
+            "name": "tank_ex_fuel_explosion",
             "centerDmgPart": true
           }
         }
@@ -2762,6 +2838,150 @@
       "headPos": [0.0,3.4,-7.0],
       "headPosOnShooting": [-1.0,3.1,-0.43],
       "detectionHeight": 2.58
+    }
+  },
+  {
+    "ammoStowages": {
+      "ammo1": [
+        {
+          "weaponTrigger": "gunner0"
+        },
+        {
+          "removeLoadedAmmo": true
+        },
+        {
+          "fatalFire": true
+        },
+        {
+          "fatalExplosion": true
+        },
+        {
+          "replenishmentDelay": 4.0
+        },
+        {
+          "replenishmentTime": 15.0
+        },
+        {
+          "shells": {
+            "fireEvent": "ammo_fire",
+            "explosionEvent": "ammo_explosion",
+            "wreckedPartId": 0,
+            "autoLoad": true,
+            "ammo_turret_07_dm": {
+              "count": 1
+            },
+            "ammo_turret_08_dm": {
+              "count": 1
+            },
+            "ammo_turret_09_dm": {
+              "count": 1
+            },
+            "ammo_turret_10_dm": {
+              "count": 1
+            },
+            "ammo_turret_11_dm": {
+              "count": 1
+            },
+            "ammo_turret_12_dm": {
+              "count": 1
+            },
+            "ammo_turret_13_dm": {
+              "count": 1
+            },
+            "ammo_turret_14_dm": {
+              "count": 1
+            },
+            "ammo_turret_15_dm": {
+              "count": 1
+            },
+            "ammo_turret_16_dm": {
+              "count": 1
+            },
+            "ammo_turret_17_dm": {
+              "count": 1
+            },
+            "ammo_turret_18_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "ammo_body_01_dm": {
+              "count": 1
+            },
+            "ammo_body_02_dm": {
+              "count": 1
+            },
+            "ammo_body_03_dm": {
+              "count": 1
+            },
+            "ammo_body_04_dm": {
+              "count": 1
+            },
+            "ammo_body_05_dm": {
+              "count": 1
+            },
+            "ammo_body_06_dm": {
+              "count": 1
+            },
+            "ammo_body_07_dm": {
+              "count": 1
+            },
+            "ammo_body_08_dm": {
+              "count": 1
+            },
+            "ammo_body_09_dm": {
+              "count": 1
+            },
+            "ammo_body_10_dm": {
+              "count": 1
+            },
+            "ammo_body_11_dm": {
+              "count": 1
+            },
+            "ammo_body_12_dm": {
+              "count": 1
+            },
+            "ammo_body_13_dm": {
+              "count": 1
+            },
+            "ammo_body_14_dm": {
+              "count": 1
+            },
+            "ammo_body_15_dm": {
+              "count": 1
+            },
+            "ammo_body_16_dm": {
+              "count": 1
+            },
+            "ammo_body_17_dm": {
+              "count": 1
+            },
+            "ammo_body_18_dm": {
+              "count": 1
+            },
+            "ammo_body_19_dm": {
+              "count": 1
+            },
+            "ammo_body_20_dm": {
+              "count": 1
+            },
+            "ammo_body_21_dm": {
+              "count": 1
+            },
+            "ammo_body_22_dm": {
+              "count": 1
+            },
+            "ammo_body_23_dm": {
+              "count": 1
+            },
+            "ammo_body_24_dm": {
+              "count": 1
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -2826,11 +3046,11 @@
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
-                  "pitch": [-6.0,13.0]
+                  "pitch": [-6.0,10.0]
                 },
                 "limitsTable": {
                   "lim1": [-180.0,-95.0,-6.0,8.0],
-                  "lim2": [-95.0,95.0,-6.0,13.0],
+                  "lim2": [-95.0,95.0,-6.0,10.0],
                   "lim3": [95.0,180.0,-6.0,8.0]
                 }
               }
@@ -2981,7 +3201,7 @@
   },
   {
     "user_skin": {
-      "name": "amx_13_75_ss11",
+      "name": "panhard_ebr_1954",
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*"
       }

@@ -13,6 +13,12 @@
       "node": "pylon_wing_4"
     },
     {
+      "node": "pylon_wing_2_upor"
+    },
+    {
+      "node": "pylon_wing_3_upor"
+    },
+    {
       "node": "pylon_hvar_1"
     },
     {

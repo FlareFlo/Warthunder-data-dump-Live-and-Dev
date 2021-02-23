@@ -4037,11 +4037,8 @@
   },
   {
     "DamageParts": {
-      "armor8_5": {
+      "armor12_7": {
         "armor1_dm": {
-          "hp": 40.0
-        },
-        "armor2_dm": {
           "hp": 40.0
         }
       },
@@ -4165,6 +4162,11 @@
       "dural5": {
         "radar_dm": {
           "hp": 35.0
+        }
+      },
+      "glass60": {
+        "armor2_dm": {
+          "hp": 100.0
         }
       },
       "protected_controls": {

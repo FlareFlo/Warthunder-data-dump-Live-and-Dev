@@ -736,6 +736,12 @@
       },
       {
         "node": "uk_matra_7_launcher2"
+      },
+      {
+        "node": "chaff_disp_l"
+      },
+      {
+        "node": "chaff_disp_r"
       }
     ]
   }

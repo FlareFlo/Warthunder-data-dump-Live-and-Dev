@@ -366,8 +366,10 @@
     "shader_garlic_size_kb": 2048,
     "dynbuf_heap_garlic_mb": 96,
     "dynbuf_heap_onion_mb": 32,
+    "dynbuf_garlic_threshold_kb": 1024,
+    "dynbuf_onion_threshold_kb": 1024,
     "enable_deferred_mipgen": true,
-    "neo_4k_scale": 167,
+    "neo_4k_scale": 150,
     "guiWebCacheCircuit": "production",
     "enable_defrag": true
   },
@@ -378,6 +380,7 @@
     "mem_reserve_mb": 256,
     "max_genmip_tex_sz": 2052,
     "dynbuf_heap_gpu_mb": 160,
+    "dynbuf_direct_threshold_kb": 1024,
     "enable_deferred_mipgen": true,
     "guiWebCacheCircuit": "production",
     "enable_defrag": true

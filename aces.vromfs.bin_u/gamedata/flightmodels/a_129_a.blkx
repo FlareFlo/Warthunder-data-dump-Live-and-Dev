@@ -4326,8 +4326,8 @@
     "cd_98_main_rotor": {
       "tier": 3,
       "effects": {
-        "mulCdminMainRotor": 3.6,
-        "mulOswEffNumberMainRotor": 0.8
+        "mulCdminMainRotor": 1.5,
+        "mulOswEffNumberMainRotor": 0.9
       }
     },
     "new_heli_cover": [],

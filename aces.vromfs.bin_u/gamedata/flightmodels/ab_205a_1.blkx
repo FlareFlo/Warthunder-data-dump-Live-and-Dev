@@ -22,9 +22,6 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "200kph",
   "fightAiBehaviour": "helicopter",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "gun1_dm": {
@@ -1243,7 +1240,26 @@
     {
       "preset": {
         "name": "ab_205a_1_default",
-        "blk": "gameData/flightModels/weaponPresets/ab_205a_1_xm21.blk"
+        "blk": "gameData/flightModels/weaponPresets/ab_205a_1_xm21.blk",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/gunM134_Minigun.blk"
+            },
+            {
+              "tier": {
+                "iconType": "multibarrel_box",
+                "idx": 4
+              }
+            },
+            {
+              "tier": {
+                "iconType": "multibarrel_box",
+                "idx": 8
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -1273,6 +1289,56 @@
             }
           ]
         }
+      }
+    },
+    {
+      "preset": {
+        "name": "ab_205a_1_xm158_xm21",
+        "blk": "gameData/flightModels/weaponPresets/ab_205a_1_xm158_xm21.blk",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23.blk"
+              },
+              {
+                "iconType": "nar_ap_middle"
+              },
+              {
+                "amountPerTier": 7.0
+              },
+              {
+                "tier": {
+                  "idx": 5
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunM134_Minigun.blk"
+              },
+              {
+                "tier": {
+                  "iconType": "multibarrel_box",
+                  "idx": 4
+                }
+              },
+              {
+                "tier": {
+                  "iconType": "multibarrel_box",
+                  "idx": 8
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   ],

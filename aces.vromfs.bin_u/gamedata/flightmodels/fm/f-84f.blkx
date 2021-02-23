@@ -87,13 +87,13 @@
     "dvFlapsOut": [150.0,280.0,0.25,0.19]
   },
   {
-    "maxChuteSpeed": 140.0
+    "maxChuteSpeed": 370.0
   },
   {
-    "minChuteSpeed": 40.0
+    "minChuteSpeed": 100.0
   },
   {
-    "chuteRipSpeed": 170.0
+    "chuteRipSpeed": 416.7
   },
   {
     "Wingspan": 10.24
@@ -839,8 +839,8 @@
         "DegradationTime_10_5": [180.0,171.0],
         "HalfHealthWaterTemperatureToleranceDecrease": 189.0,
         "HalfHealthOilTemperatureToleranceDecrease": 9.5,
-        "WaterAirDensityPower": 0.0,
-        "OilAirDensityPower": 0.0,
+        "WaterAirDensityPower": -3.0,
+        "OilAirDensityPower": -2.5,
         "WaterFlowEffectPower": 1.0,
         "OilFlowEffectPower": 1.0,
         "WaterPropFlowSpeedCoeff": 1.0,
@@ -870,26 +870,26 @@
           "OilTemperature": 80.0
         },
         "Load1": {
-          "WaterTemperature": 590.0,
-          "OilTemperature": 85.0,
+          "WaterTemperature": 600.0,
+          "OilTemperature": 86.0,
           "WorkTime": 3600.0,
           "RecoverTime": 110.0
         },
         "Load2": {
-          "WaterTemperature": 600.0,
-          "OilTemperature": 90.0,
+          "WaterTemperature": 620.0,
+          "OilTemperature": 93.0,
           "WorkTime": 1800.0,
           "RecoverTime": 100.0
         },
         "Load3": {
-          "WaterTemperature": 620.0,
-          "OilTemperature": 95.0,
+          "WaterTemperature": 630.0,
+          "OilTemperature": 98.0,
           "WorkTime": 900.0,
           "RecoverTime": 90.0
         },
         "Load4": {
           "WaterTemperature": 640.0,
-          "OilTemperature": 102.0,
+          "OilTemperature": 102.5,
           "WorkTime": 300.0,
           "RecoverTime": 70.0
         }
@@ -1153,8 +1153,8 @@
         "SteerType": "Fixed"
       },
       "StrutC": {
-        "SpringHeight": 0.5,
-        "SpringCoeff": 102696.0,
+        "SpringHeight": 0.09,
+        "SpringCoeff": 250000.0,
         "WheelRadus": 0.303,
         "Retractable": true,
         "LeftBrake": false,

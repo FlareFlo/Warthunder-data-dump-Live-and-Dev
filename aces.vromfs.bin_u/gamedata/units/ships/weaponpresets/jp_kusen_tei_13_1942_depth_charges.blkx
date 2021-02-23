@@ -71,7 +71,7 @@
       "emitter": "bone_bomb_01",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 2.9,
+      "dropSpeed": 3.0,
       "ammoDP": "depth_charge_01_dm"
     }
   },
@@ -83,7 +83,7 @@
       "emitter": "bone_bomb_02",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 2.9,
+      "dropSpeed": 4.0,
       "ammoDP": "depth_charge_02_dm"
     }
   },
@@ -95,7 +95,7 @@
       "emitter": "bone_bomb_03",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 3.9,
+      "dropSpeed": 5.0,
       "ammoDP": "depth_charge_03_dm"
     }
   },
@@ -107,7 +107,7 @@
       "emitter": "bone_bomb_04",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 3.9,
+      "dropSpeed": 6.0,
       "ammoDP": "depth_charge_04_dm"
     }
   },
@@ -119,7 +119,7 @@
       "emitter": "bone_bomb_05",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 4.9,
+      "dropSpeed": 7.0,
       "ammoDP": "depth_charge_05_dm"
     }
   },
@@ -131,7 +131,7 @@
       "emitter": "bone_bomb_06",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 4.9,
+      "dropSpeed": 8.0,
       "ammoDP": "depth_charge_06_dm"
     }
   },
@@ -143,7 +143,7 @@
       "emitter": "bone_bomb_07",
       "bullets": 1,
       "external": true,
-      "dropSpeed": 5.9,
+      "dropSpeed": 9.0,
       "ammoDP": "depth_charge_07_dm"
     }
   }

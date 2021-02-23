@@ -48,6 +48,9 @@
       },
       "armor3_dm": {
         "hp": 40.0
+      },
+      "armor1_dm": {
+        "hp": 40.0
       }
     },
     "armor6_35": {
@@ -176,11 +179,6 @@
     "dural5": {
       "radar_dm": {
         "hp": 35.0
-      }
-    },
-    "glass60": {
-      "armor1_dm": {
-        "hp": 100.0
       }
     },
     "protected_controls": {

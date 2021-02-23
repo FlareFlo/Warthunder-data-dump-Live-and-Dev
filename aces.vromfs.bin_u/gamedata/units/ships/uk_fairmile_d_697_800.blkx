@@ -2538,7 +2538,7 @@
             "accuracyAir": 0.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.75
           },
           {
             "errMeasureVel": 10.0
@@ -2553,10 +2553,10 @@
             "errMeasureVelFwdShift": 0.5
           },
           {
-            "errMeasureVelDir": 0.0
+            "errMeasureVelDir": 1.5
           },
           {
-            "errTargetting": 0.0
+            "errTargetting": 5.0
           },
           {
             "errExplTime": 0.0
@@ -2682,7 +2682,7 @@
             "accuracyAir": 0.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.75
           },
           {
             "errMeasureVel": 10.0
@@ -2697,10 +2697,10 @@
             "errMeasureVelFwdShift": 0.5
           },
           {
-            "errMeasureVelDir": 0.0
+            "errMeasureVelDir": 1.5
           },
           {
-            "errTargetting": 0.0
+            "errTargetting": 5.0
           },
           {
             "errExplTime": 0.0
@@ -2835,7 +2835,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2853,7 +2853,7 @@
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -2970,7 +2970,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2988,7 +2988,7 @@
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -3055,13 +3055,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3126,13 +3126,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3192,13 +3192,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3263,13 +3263,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3329,13 +3329,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3390,13 +3390,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3451,13 +3451,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {
@@ -3512,13 +3512,13 @@
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
-          "accuracyGnd": 1.0,
+          "accuracyGnd": 0.8,
           "errMeasureVel": 0.0,
           "errTargettingOn100kmph": 0.0,
           "errMeasureVelFast": 100.0,
           "errMeasureVelFwdShift": 0.5,
           "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
+          "errTargetting": 3.0,
           "errExplTime": 0.0,
           "useGunnerTargetingQuality": false,
           "turret": {

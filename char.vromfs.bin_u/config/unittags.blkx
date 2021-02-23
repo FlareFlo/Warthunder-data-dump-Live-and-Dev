@@ -1687,7 +1687,22 @@
         "mass": 1592.6
       },
       "tanks_params": {
-        "protected": true
+        "protected_boost": true,
+        "tank1_dm": {
+          "protected": false
+        },
+        "tank2_dm": {
+          "protected": false
+        },
+        "tank3_dm": {
+          "protected": false
+        },
+        "tank4_dm": {
+          "protected": true
+        },
+        "tank5_dm": {
+          "protected": false
+        }
       }
     },
     "tags": {
@@ -10254,17 +10269,17 @@
       }
     },
     "Shop": {
-      "maxAltitude": 7500.0,
-      "maxSpeed": 122.0,
-      "maxSpeedAlt": 3700.0,
-      "turnTime": 25.0,
-      "airfieldLen": 600.0,
-      "climbTime": 157.0,
+      "maxAltitude": 8850.0,
+      "maxSpeed": 129.44,
+      "maxSpeedAlt": 5000.0,
+      "turnTime": 22.0,
+      "airfieldLen": 415.0,
+      "climbTime": 80.0,
       "climbAlt": 1000.0,
-      "climbSpeed": 6.4,
-      "wingLoading": 164.0,
-      "thrustToWeightRatio": 0.25,
-      "rollRate": 53.0
+      "climbSpeed": 12.5,
+      "wingLoading": 191.0,
+      "thrustToWeightRatio": 0.39,
+      "rollRate": 90.0
     }
   },
   "fc_20_bis": {
@@ -39855,9 +39870,9 @@
     "releaseDate": "2020-12-17 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "allison",
-        "model": "j35-a-29",
-        "mass": 1050.0
+        "manufacturer": "wright",
+        "model": "j65-w-7",
+        "mass": 1260.0
       },
       "tanks_params": {
         "protected": true
@@ -39887,16 +39902,16 @@
     },
     "Shop": {
       "maxAltitude": 12500.0,
-      "maxSpeed": 273.6,
+      "maxSpeed": 306.0,
       "turnTime": 28.0,
       "airfieldLen": 3000.0,
-      "climbTime": 168.0,
+      "climbTime": 210.0,
       "maxSpeedAlt": 0.0,
-      "climbAlt": 4572.0,
-      "climbSpeed": 36.2,
-      "wingLoading": 307.0,
-      "thrustToWeightRatio": 0.301,
-      "rollRate": 184.0
+      "climbAlt": 6096.0,
+      "climbSpeed": 38.0,
+      "wingLoading": 290.0,
+      "thrustToWeightRatio": 0.41,
+      "rollRate": 160.0
     }
   },
   "f-84f_germany": {
@@ -39907,9 +39922,9 @@
     "releaseDate": "2020-12-17 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "allison",
-        "model": "j35-a-29",
-        "mass": 1050.0
+        "manufacturer": "wright",
+        "model": "j65-w-7",
+        "mass": 1260.0
       },
       "tanks_params": {
         "protected": true
@@ -39939,16 +39954,16 @@
     },
     "Shop": {
       "maxAltitude": 12500.0,
-      "maxSpeed": 273.6,
+      "maxSpeed": 306.0,
       "turnTime": 28.0,
       "airfieldLen": 3000.0,
-      "climbTime": 168.0,
+      "climbTime": 210.0,
       "maxSpeedAlt": 0.0,
-      "climbAlt": 4572.0,
-      "climbSpeed": 36.2,
-      "wingLoading": 307.0,
-      "thrustToWeightRatio": 0.301,
-      "rollRate": 184.0
+      "climbAlt": 6096.0,
+      "climbSpeed": 38.0,
+      "wingLoading": 290.0,
+      "thrustToWeightRatio": 0.41,
+      "rollRate": 160.0
     }
   },
   "f-84f_italy": {
@@ -39958,9 +39973,9 @@
     "releaseDate": "2020-12-17 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "allison",
-        "model": "j35-a-29",
-        "mass": 1050.0
+        "manufacturer": "wright",
+        "model": "j65-w-7",
+        "mass": 1260.0
       },
       "tanks_params": {
         "protected": true
@@ -39990,16 +40005,16 @@
     },
     "Shop": {
       "maxAltitude": 12500.0,
-      "maxSpeed": 273.6,
+      "maxSpeed": 306.0,
       "turnTime": 28.0,
       "airfieldLen": 3000.0,
-      "climbTime": 168.0,
+      "climbTime": 210.0,
       "maxSpeedAlt": 0.0,
-      "climbAlt": 4572.0,
-      "climbSpeed": 36.2,
-      "wingLoading": 307.0,
-      "thrustToWeightRatio": 0.301,
-      "rollRate": 184.0
+      "climbAlt": 6096.0,
+      "climbSpeed": 38.0,
+      "wingLoading": 290.0,
+      "thrustToWeightRatio": 0.41,
+      "rollRate": 160.0
     }
   },
   "f-84f_france": {
@@ -40009,9 +40024,9 @@
     "releaseDate": "2020-12-17 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "allison",
-        "model": "j35-a-29",
-        "mass": 1050.0
+        "manufacturer": "wright",
+        "model": "j65-w-7",
+        "mass": 1260.0
       },
       "tanks_params": {
         "protected": true
@@ -40041,28 +40056,29 @@
     },
     "Shop": {
       "maxAltitude": 12500.0,
-      "maxSpeed": 273.6,
+      "maxSpeed": 306.0,
       "turnTime": 28.0,
       "airfieldLen": 3000.0,
-      "climbTime": 168.0,
+      "climbTime": 210.0,
       "maxSpeedAlt": 0.0,
-      "climbAlt": 4572.0,
-      "climbSpeed": 36.2,
-      "wingLoading": 307.0,
-      "thrustToWeightRatio": 0.301,
-      "rollRate": 184.0
+      "climbAlt": 6096.0,
+      "climbSpeed": 38.0,
+      "wingLoading": 290.0,
+      "thrustToWeightRatio": 0.41,
+      "rollRate": 160.0
     }
   },
   "f-84f_iaf": {
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_france_Jet",
+    "operatorCountry": "country_israel",
     "releaseDate": "2020-12-17 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "allison",
-        "model": "j35-a-29",
-        "mass": 1050.0
+        "manufacturer": "wright",
+        "model": "j65-w-7",
+        "mass": 1260.0
       },
       "tanks_params": {
         "protected": true
@@ -40092,16 +40108,16 @@
     },
     "Shop": {
       "maxAltitude": 12500.0,
-      "maxSpeed": 273.6,
+      "maxSpeed": 306.0,
       "turnTime": 28.0,
       "airfieldLen": 3000.0,
-      "climbTime": 168.0,
+      "climbTime": 210.0,
       "maxSpeedAlt": 0.0,
-      "climbAlt": 4572.0,
-      "climbSpeed": 36.2,
-      "wingLoading": 307.0,
-      "thrustToWeightRatio": 0.301,
-      "rollRate": 184.0
+      "climbAlt": 6096.0,
+      "climbSpeed": 38.0,
+      "wingLoading": 290.0,
+      "thrustToWeightRatio": 0.41,
+      "rollRate": 160.0
     }
   },
   "f-86_canadair_german": {
@@ -52763,9 +52779,9 @@
       "climbTime": 190.0,
       "maxSpeedAlt": 13000.0,
       "climbAlt": 10000.0,
-      "climbSpeed": 180.0,
-      "wingLoading": 380.0,
-      "thrustToWeightRatio": 0.83,
+      "climbSpeed": 145.0,
+      "wingLoading": 390.0,
+      "thrustToWeightRatio": 0.84,
       "rollRate": 130.0
     }
   },
@@ -62142,6 +62158,21 @@
       "type_spaa": true
     }
   },
+  "ussr_zsu_37_2": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_ERA_ussr_tft",
+    "releaseDate": "2020-12-17 00:00:00",
+    "tags": {
+      "country_ussr": true,
+      "tank": true,
+      "type_spaa": true
+    },
+    "Shop": {
+      "armorThicknessHull": [9.0,9.0,9.0],
+      "armorThicknessTurret": [9.0,9.0,9.0]
+    }
+  },
   "ussr_zsu_23_4": {
     "type": "tank",
     "hangar_place": "tank",
@@ -64814,8 +64845,8 @@
       "canRepairAnyAlly": true
     },
     "Shop": {
-      "armorThicknessHull": [25.0,10.0,5.0],
-      "armorThicknessTurret": [0.0,0.0,0.0]
+      "armorThicknessHull": [38.0,44.0,38.0],
+      "armorThicknessTurret": [25.0,25.0,25.0]
     }
   },
   "sw_lvrbv_701": {
@@ -72312,12 +72343,12 @@
     "info": {
       "engine1_dm": {
         "manufacturer": "general_electric",
-        "model": "j85_ge_17b",
+        "model": "j85-ge-17b",
         "mass": 181.0
       },
       "engine2_dm": {
         "manufacturer": "general_electric",
-        "model": "j85_ge_17b",
+        "model": "j85-ge-17b",
         "mass": 181.0
       },
       "tanks_params": {
@@ -72364,16 +72395,17 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_denmark_Jet",
+    "operatorCountry": "country_austria",
     "releaseDate": "2020-12-17 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "general_electric",
-        "model": "j85_ge_17b",
+        "model": "j85-ge-17b",
         "mass": 181.0
       },
       "engine2_dm": {
         "manufacturer": "general_electric",
-        "model": "j85_ge_17b",
+        "model": "j85-ge-17b",
         "mass": 181.0
       },
       "tanks_params": {
@@ -76913,6 +76945,26 @@
     "Shop": {
       "maxSpeed": 16.98,
       "displacement": 475000.0
+    }
+  },
+  "jp_battleship_hyuga": {
+    "type": "ship",
+    "hangar_place": "ship",
+    "testFlight": "testFlight_destroyer_jp_tfs",
+    "releaseDate": "2020-12-17 00:00:00",
+    "tags": {
+      "country_japan": true,
+      "type_battleship": true,
+      "ship": true,
+      "pacific": true,
+      "mediterran": true,
+      "westernfront": true
+    },
+    "Shop": {
+      "armorThicknessTurretMainCaliber": [279.0,279.0,279.0],
+      "armorThicknessCitadel": [305.0,203.0,203.0],
+      "maxSpeed": 12.16,
+      "displacement": 37100000.0
     }
   }
 }

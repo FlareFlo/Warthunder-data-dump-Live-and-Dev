@@ -7055,6 +7055,20 @@
       "modClass": "firepower",
       "deactivationIsAllowed": false
     },
+    "150mm_ger_skl45_l_3_7_naval_ap": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "150mm_ger_skl45_l_3_7_naval_ap_ammo_pack",
+      "group": "150mm_AP",
+      "effects": {
+        "additiveBulletMod": "150mm_ger_skl45_l_3_7_naval_ap"
+      }
+    },
+    "150mm_ger_skl45_l_3_7_naval_ap_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 3,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
+    },
     "150mm_ger_naval_c36_he": {
       "image": "#ui/gameuiskin#tank_ammo",
       "isReserve": true,
@@ -14153,6 +14167,14 @@
         "additiveBulletMod": "140mm_jp_1940_type0_naval_he"
       }
     },
+    "140mm_jp_1916_mod1_naval_sap": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "isReserve": true,
+      "group": "140mm_he",
+      "effects": {
+        "additiveBulletMod": "140mm_jp_1916_mod1_naval_sap"
+      }
+    },
     "140mm_jp_1940_type1_naval_sap": {
       "image": "#ui/gameuiskin#tank_ammo",
       "reqModification": "140mm_jp_1940_type1_naval_sap_ammo_pack",
@@ -14328,6 +14350,28 @@
       }
     },
     "305mm_jp_50_41st_yt_navy_apc_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 1,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
+    },
+    "356mm_jp_common_type3_navy_he": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "isReserve": true,
+      "group": "356mm_he",
+      "effects": {
+        "additiveBulletMod": "356mm_jp_common_type3_navy_he"
+      }
+    },
+    "356mm_jp_type3_navy_apc": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "356mm_jp_type3_navy_apc_ammo_pack",
+      "group": "356mm_ap",
+      "effects": {
+        "additiveBulletMod": "356mm_jp_type3_navy_apc"
+      }
+    },
+    "356mm_jp_type3_navy_apc_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
       "tier": 1,
       "modClass": "firepower",
@@ -15453,6 +15497,20 @@
       "effects": {
         "additiveBulletMod": "125mm_china_HE"
       }
+    },
+    "125mm_china_DTW_APDS_FS": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "125mm_china_DTW_APDS_FS_ammo_pack",
+      "group": "125mm_AP",
+      "effects": {
+        "additiveBulletMod": "125mm_china_DTW_APDS_FS"
+      }
+    },
+    "125mm_china_DTW_APDS_FS_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 4,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
     },
     "125mm_china_APDS_FS": {
       "image": "#ui/gameuiskin#tank_ammo",

@@ -139,7 +139,7 @@
     "FocusOffset": 0.0,
     "WingVertPos": 0.1,
     "AlphaShift": -0.1,
-    "FlapsShift": [0.05,0.03],
+    "FlapsShift": [0.05,0.1],
     "AirbrakesShift": [-0.01,-0.08],
     "GearFocusShift": [0.0,0.0],
     "ElevonFocusShift": [0.0,0.0],

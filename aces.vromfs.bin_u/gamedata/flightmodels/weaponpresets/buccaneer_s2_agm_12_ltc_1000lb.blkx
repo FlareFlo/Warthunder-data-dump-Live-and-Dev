@@ -56,18 +56,34 @@
     }
   },
   {
+    "Weapon": {
+      "trigger": "flares",
+      "startFx": "",
+      "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk",
+      "emitter": "emtr_flare1",
+      "bullets": 52,
+      "external": true,
+      "separate": false
+    }
+  },
+  {
+    "Weapon": {
+      "trigger": "flares",
+      "startFx": "",
+      "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk",
+      "emitter": "emtr_flare2",
+      "bullets": 52,
+      "external": true,
+      "separate": false
+    }
+  },
+  {
     "hideNodes": [
-      {
-        "node": "early_short_pylon1"
-      },
       {
         "node": "early_short_pylon2"
       },
       {
         "node": "early_short_pylon3"
-      },
-      {
-        "node": "early_short_pylon4"
       },
       {
         "node": "early_long_pylon1"

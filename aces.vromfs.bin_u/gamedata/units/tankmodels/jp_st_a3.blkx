@@ -105,15 +105,6 @@
     "type": "typeMediumTank"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -153,10 +144,10 @@
           "armorThickness": 5.0
         },
         "turret_02_back_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 5.0
         },
         "turret_02_side_dm": {
-          "armorThickness": 12.0
+          "armorThickness": 5.0
         }
       },
       "turret": {
@@ -1534,8 +1525,27 @@
           {
             "onHit": {
               "damageType": "generic",
-              "fire": 0.8,
+              "fire": 0.7,
+              "expl": 0.1,
               "damage": 300.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.5,
+              "expl": 0.5,
+              "damage": 400.0,
+              "fHitCritical": true
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "generic",
+              "fire": 0.2,
+              "expl": 0.8,
+              "damage": 600.0,
               "fHitCritical": true
             }
           },
@@ -1547,8 +1557,9 @@
           },
           {
             "onKill": {
-              "fire": 0.3,
-              "nothing": 0.7,
+              "fire": 0.5,
+              "expl": 0.3,
+              "nothing": 0.2,
               "fHitCritical": true
             }
           }
@@ -2585,7 +2596,7 @@
         "event": {
           "name": "fuel_internal",
           "fx": {
-            "name": "tank_engine_fire",
+            "name": "tank_ex_fuel_explosion",
             "centerDmgPart": true
           }
         }
@@ -2796,6 +2807,9 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_jp"
       },
+      "tank_rangefinder": {
+        "tier": 3
+      },
       "90mm_jp_M82_APCBC_ammo_pack": [],
       "90mm_jp_M82_APCBC": [],
       "90mm_jp_M431_HEAT": [],
@@ -2816,7 +2830,7 @@
   },
   {
     "user_skin": {
-      "name": "st_a1",
+      "name": "st_a3",
       "replace_tex": {
         "from": "jp_camo_sdf_green*",
         "to": "jp_camo_prototype_green*"

@@ -75,15 +75,6 @@
     "fightAiBehaviour": "assault"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "armor10": {
         "cannon1_dm": {
@@ -2575,7 +2566,7 @@
             {
               "Weapon": [
                 {
-                  "blk": "gameData/Weapons/cannonAkan_m55.blk"
+                  "blk": "gameData/Weapons/cannonAkan_m55_underwing.blk"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2656,13 +2647,6 @@
       },
       {
         "preset": {
-          "name": "saab_105g_rb24j",
-          "blk": "gameData/FlightModels/weaponPresets/saab_105g_rb24j.blk",
-          "reqModification": "swe_rb24j"
-        }
-      },
-      {
-        "preset": {
           "name": "saab_105g_bomb_m117",
           "blk": "gameData/FlightModels/weaponPresets/saab_105g_bomb_m117.blk",
           "reqModification": "us_750lb_m117"
@@ -2691,7 +2675,7 @@
             {
               "Weapon": [
                 {
-                  "blk": "gameData/Weapons/cannonAkan_m55.blk"
+                  "blk": "gameData/Weapons/cannonAkan_m55_underwing.blk"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2793,54 +2777,6 @@
             "reqModification": "swe_rb24"
           }
         ]
-      },
-      {
-        "preset": [
-          {
-            "name": "saab_105g_bomb_m117_rb24j"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/saab_105g_bomb_m117_rb24j.blk"
-          },
-          {
-            "reqModification": "us_750lb_m117"
-          },
-          {
-            "reqModification": "swe_rb24j"
-          }
-        ]
-      },
-      {
-        "preset": [
-          {
-            "name": "saab_105g_bomb_mk82_rb24j"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/saab_105g_bomb_mk82_rb24j.blk"
-          },
-          {
-            "reqModification": "us_500lb_mk82"
-          },
-          {
-            "reqModification": "swe_rb24j"
-          }
-        ]
-      },
-      {
-        "preset": [
-          {
-            "name": "saab_105g_bomb_mk83_rb24j"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/saab_105g_bomb_mk83_rb24j.blk"
-          },
-          {
-            "reqModification": "us_1000lb_mk83"
-          },
-          {
-            "reqModification": "swe_rb24j"
-          }
-        ]
       }
     ]
   },
@@ -2936,11 +2872,6 @@
       "swe_rb24": {
         "prevModification": "aden_new_gun",
         "tier": 3,
-        "modClass": "weapon"
-      },
-      "swe_rb24j": {
-        "reqModification": "swe_rb24",
-        "tier": 4,
         "modClass": "weapon"
       },
       "swd_j29_75mm_m55": {

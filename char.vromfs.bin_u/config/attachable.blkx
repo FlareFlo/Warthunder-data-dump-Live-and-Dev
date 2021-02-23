@@ -152,7 +152,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310048,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "rpk": {
     "category": "machine_gun",
@@ -160,7 +161,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310046,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "mg3_kws": {
     "category": "machine_gun",
@@ -168,7 +170,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310047,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "m249": {
     "category": "machine_gun",
@@ -176,7 +179,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310045,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "mg_type_99": {
     "category": "machine_gun",
@@ -240,7 +244,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310011,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "m1_carabine": {
     "category": "rifle",
@@ -248,7 +253,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310018,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "lee_enfield": {
     "category": "rifle",
@@ -256,7 +262,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310019,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "g41": {
     "category": "rifle",
@@ -264,7 +271,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310020,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "arisaka_44": {
     "category": "rifle",
@@ -272,7 +280,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310021,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "mauser_98k": {
     "category": "rifle",
@@ -280,7 +289,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310031,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "type_99_sniper": {
     "category": "rifle",
@@ -288,7 +298,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310029,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "fr_mas_36": {
     "category": "rifle",
@@ -439,7 +450,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310032,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "m4_carbine": {
     "category": "assault_rifle",
@@ -447,7 +459,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310033,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "l85a1": {
     "category": "assault_rifle",
@@ -455,7 +468,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310034,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "g36k": {
     "category": "assault_rifle",
@@ -463,7 +477,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310035,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "famas_f1": {
     "category": "assault_rifle",
@@ -471,7 +486,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310036,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "akms": {
     "category": "assault_rifle",
@@ -479,7 +495,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310037,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "akms_premium": {
     "category": "assault_rifle",
@@ -527,6 +544,37 @@
     "costGold": -1,
     "limit": 1,
     "hideUntilUnlocked": true,
+    "unitType": "tank"
+  },
+  "akms_ag": {
+    "category": "assault_rifle",
+    "costGold": -1,
+    "limit": 1,
+    "unitType": "tank"
+  },
+  "cn_qbz_95_ag": {
+    "category": "assault_rifle",
+    "costGold": -1,
+    "limit": 1,
+    "unitType": "tank"
+  },
+  "g36k_ag": {
+    "category": "assault_rifle",
+    "costGold": -1,
+    "limit": 1,
+    "unitType": "tank"
+  },
+  "l85a1_ag": {
+    "category": "assault_rifle",
+    "costGold": -1,
+    "limit": 1,
+    "unitType": "tank"
+  },
+  "m4_carbine_ag": {
+    "category": "assault_rifle",
+    "costGold": -1,
+    "limit": 1,
+    "unlock": "m4_carbine_ag",
     "unitType": "tank"
   },
   "panzerfaust_60": {
@@ -690,7 +738,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310039,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "ussr_ammunition_wwii": {
     "category": "ammunition",
@@ -698,7 +747,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310041,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "ger_ammunition_wwii": {
     "category": "ammunition",
@@ -706,7 +756,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310042,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "usa_ciras_land": {
     "category": "ammunition",
@@ -714,7 +765,8 @@
     "limit": 1,
     "marketplaceItemdefId": 310040,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "iotv_body_armor": {
     "category": "ammunition",
@@ -1054,7 +1106,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310002,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "foil_hat": {
     "category": "hats",
@@ -1062,7 +1115,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310003,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "helmet_hat": {
     "category": "hats",
@@ -1070,7 +1124,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310004,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "jester_hat": {
     "category": "hats",
@@ -1078,7 +1133,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310010,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "leprechaun_hat": {
     "category": "hats",
@@ -1086,7 +1142,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310005,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "pirate_hat": {
     "category": "hats",
@@ -1094,7 +1151,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310006,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "rabbit_hat": {
     "category": "hats",
@@ -1102,7 +1160,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310007,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "sombrero_hat": {
     "category": "hats",
@@ -1110,7 +1169,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310008,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "uncle_sams_hat": {
     "category": "hats",
@@ -1118,7 +1178,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310009,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "magic_hat": {
     "category": "hats",
@@ -1126,7 +1187,8 @@
     "costGold": -1,
     "marketplaceItemdefId": 310001,
     "hideFeature": "!Marketplace",
-    "unitType": "tank"
+    "unitType": "tank",
+    "forceShowInCustomization": true
   },
   "witch_hat": {
     "category": "hats",

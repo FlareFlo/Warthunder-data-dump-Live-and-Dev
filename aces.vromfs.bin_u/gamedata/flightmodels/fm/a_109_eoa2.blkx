@@ -872,8 +872,8 @@
       "AirFlow4": [10.0,-6.0,0.6,1.0],
       "AirFlow5": [100.0,-8.0,0.1,1.0],
       "FlapCompensatorEfficiency": [260.0,0.8,340.0,0.0],
-      "ArcadeTangAirFlowMin": 83.0,
-      "ArcadeAxialAirFlowRange": [-300.0,30.0],
+      "ArcadeTangAirFlowMin": 10.0,
+      "ArcadeAxialAirFlowRange": [-300.0,50.0],
       "ScreenEffectThrustMultMax": 0.4,
       "ScreenEffectThrustMult10Dist": 16.0,
       "ScreenEffectVelMult": 0.005,
@@ -1089,7 +1089,7 @@
   },
   "Propeller0": {
     "Type": 0,
-    "AxisDirection": [-0.0,88.0],
+    "AxisDirection": [-0.0,89.0],
     "CyclicPitchAxisDirectionPitch": [-0.0851163,-0.752059],
     "Pos": [0.05,1.4,0.05],
     "Geometry": {
@@ -1134,7 +1134,7 @@
     "AdvancedMass": false,
     "SeparateFuelTanks": true,
     "Takeoff": 2720.0,
-    "CenterOfGravity": [0.05,-0.2,0.0],
+    "CenterOfGravity": [0.1,-0.2,0.0],
     "WingCritOverload": [-70000.0,130000.0],
     "GearDestructionIndSpeed": 420.0,
     "AirbrakeDestructionIndSpeed": -1.0,

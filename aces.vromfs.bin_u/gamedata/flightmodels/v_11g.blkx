@@ -19,9 +19,6 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "400kph",
   "fightAiBehaviour": "assault",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "gun1_dm": {
@@ -2184,7 +2181,7 @@
   ],
   "ikPilot": [
     {
-      "model": "pilot_usaf_b17_1_char"
+      "model": "pilot_china1_char"
     },
     {
       "maxHeadHorAngle": 60.0
@@ -2243,7 +2240,7 @@
   ],
   "ikGunner": [
     {
-      "model": "pilot_usaf_b17_1_char"
+      "model": "pilot_china2_char"
     },
     {
       "maxHeadHorAngle": 60.0
@@ -2304,8 +2301,8 @@
     }
   ],
   "attach": {
-    "pilot1": "pilot_us_500",
-    "gunner1": "gunner_sit_us_500"
+    "pilot1": "pilot_china_500",
+    "gunner1": "pilot_china_500"
   },
   "Params": {
     "Range": 1380.0
@@ -2316,6 +2313,75 @@
     "turretTurnSfxName": "gun_turn_manual",
     "Engine": "engine11",
     "gun": "gun_default"
+  },
+  "cockpit": {
+    "textToShowInCockpit": "msg/textToShowInCockpit",
+    "headPos": [0.45,1.043,0.0],
+    "headPosOnShooting": [0.55,1.043,0.0],
+    "lightPos": [1.11,0.625,-0.001],
+    "lightColor": [0.0,0.05,0.02],
+    "lightRadius": 0.3,
+    "lightPos1": [1.189,0.327,-0.177],
+    "lightColor1": [0.0,0.05,0.02],
+    "lightRadius1": 0.3,
+    "lightPos2": [1.189,0.327,0.177],
+    "lightColor2": [0.0,0.05,0.02],
+    "lightRadius2": 0.3,
+    "devices": {
+      "speed": [0.0,257.222],
+      "bank": [-8.0,8.0],
+      "turn": [-0.23562,0.23562],
+      "vario": [-30.0,30.0],
+      "altitude_10k": [0.0,100000.0],
+      "altitude_hour": [0.0,10000.0],
+      "altitude_min": [0.0,1000.0],
+      "altitude_koef": 3.28,
+      "aviahorizon_pitch": [-60.0,60.0],
+      "aviahorizon_roll": [-180.0,180.0],
+      "compass": [0.0,360.0],
+      "fuel": [0.0,1277.625],
+      "rpm": [0.0,4500.0],
+      "rpm1": [0.0,4500.0],
+      "rpm2": [0.0,4500.0],
+      "rpm3": [0.0,4500.0],
+      "manifold_pressure": [0.334,2.507],
+      "manifold_pressure1": [0.334,2.507],
+      "manifold_pressure2": [0.334,2.507],
+      "manifold_pressure3": [0.334,2.507],
+      "head_temperature": [0.0,300.0],
+      "head_temperature1": [0.0,300.0],
+      "head_temperature2": [0.0,300.0],
+      "head_temperature3": [0.0,300.0],
+      "oil_temperature": [-50.0,150.0],
+      "oil_temperature1": [-50.0,150.0],
+      "oil_temperature2": [-50.0,150.0],
+      "oil_temperature3": [-50.0,150.0],
+      "fuel_pressure": [0.0,15.0],
+      "fuel_pressure1": [0.0,15.0],
+      "fuel_pressure2": [0.0,15.0],
+      "fuel_pressure3": [0.0,15.0],
+      "oil_pressure": [0.0,150.0],
+      "oil_pressure1": [0.0,150.0],
+      "oil_pressure2": [0.0,150.0],
+      "oil_pressure3": [0.0,150.0]
+    },
+    "parts_holes_dmg": {
+      "part": "fuse"
+    },
+    "parts_oil_dmg": [
+      {
+        "part": "engine1"
+      },
+      {
+        "part": "engine2"
+      },
+      {
+        "part": "engine3"
+      },
+      {
+        "part": "engine4"
+      }
+    ]
   },
   "commonWeapons": [
     {

@@ -2833,6 +2833,9 @@
       },
       {
         "m": "benchmark_water_and_destructions"
+      },
+      {
+        "m": "benchmark_nuclear"
       }
     ]
   },

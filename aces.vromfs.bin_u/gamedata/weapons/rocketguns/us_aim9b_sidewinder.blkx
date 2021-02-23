@@ -401,7 +401,7 @@
       "propNavGuidance": {
         "timeOut": 0.5,
         "propNavMult": 4.0,
-        "propNavAccelMax": 11.0,
+        "NavAccelMaxprop": 11.0,
         "baseIndSpeed": 1800.0,
         "accelControlProp": 0.01,
         "accelControlIntg": 0.005,

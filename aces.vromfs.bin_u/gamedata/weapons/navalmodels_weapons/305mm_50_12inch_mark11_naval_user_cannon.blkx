@@ -9,10 +9,10 @@
     "aimMinDist": 500.0
   },
   {
-    "aimMaxDist": 40000.0
+    "aimMaxDist": 15000.0
   },
   {
-    "attackMaxDist": 37000.0
+    "attackMaxDist": 15000.0
   },
   {
     "maxDeltaAngle": 0.84
@@ -21,7 +21,7 @@
     "maxDeltaAngleVertical": 0.32
   },
   {
-    "shotFreq": 0.025
+    "shotFreq": 0.033
   },
   {
     "bullets": 1
@@ -36,7 +36,7 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "fxType": "muzzle_ground_300mm"
+    "fxType": "muzzle_naval_300mm"
   },
   {
     "fxGroundDust": "dust_ground_wave_dirt_big"
@@ -60,7 +60,7 @@
     "sound_pathStudio": "naval/weapon/cannons"
   },
   {
-    "sound": "280mm_52_sck_28"
+    "sound": "356mm_45_mk8"
   },
   {
     "sfxReloadBullet": "naval_cannon_reload"

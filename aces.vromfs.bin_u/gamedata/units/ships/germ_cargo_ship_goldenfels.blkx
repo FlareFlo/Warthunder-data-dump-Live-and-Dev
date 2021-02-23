@@ -2029,7 +2029,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2047,7 +2047,7 @@
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -2148,7 +2148,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2166,7 +2166,7 @@
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -2267,7 +2267,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2285,7 +2285,7 @@
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0
@@ -2386,7 +2386,7 @@
             "accuracyAir": 1.0
           },
           {
-            "accuracyGnd": 1.0
+            "accuracyGnd": 0.8
           },
           {
             "errMeasureVel": 0.0
@@ -2404,7 +2404,7 @@
             "errMeasureVelDir": 3.0
           },
           {
-            "errTargetting": 1.0
+            "errTargetting": 3.0
           },
           {
             "errExplTime": 0.0

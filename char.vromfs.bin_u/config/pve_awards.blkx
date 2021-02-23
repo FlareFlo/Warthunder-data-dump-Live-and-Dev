@@ -119,7 +119,10 @@
       "xpEarnedWinDiff2": 0,
       "wpEarnedWinDiff2": 0,
       "goldEarnedWinDiff0": 0,
-      "slot": 3
+      "slot": 3,
+      "oneTimeAwardUnlock": "any_tutorial_complete_award",
+      "hideOneTimeAwardIfUnlockIsOpen": "any_basic_tutorial_completed",
+      "decal": "tutorial_fighter_decal"
     },
     "tutorialB_assaulter": {
       "xpEarnedWinDiff0": 0,
@@ -187,7 +190,10 @@
       "xpEarnedWinDiff2": 0,
       "wpEarnedWinDiff2": 0,
       "goldEarnedWinDiff0": 0,
-      "slot": 3
+      "slot": 3,
+      "oneTimeAwardUnlock": "any_tutorial_complete_award",
+      "hideOneTimeAwardIfUnlockIsOpen": "any_basic_tutorial_completed",
+      "decal": "tutorial_tank_decal"
     },
     "tutorial_tank_basics_arcade_part2": {
       "xpEarnedWinDiff0": 0,
@@ -206,7 +212,10 @@
       "xpEarnedWinDiff2": 0,
       "wpEarnedWinDiff2": 0,
       "goldEarnedWinDiff0": 0,
-      "slot": 3
+      "slot": 3,
+      "oneTimeAwardUnlock": "any_tutorial_complete_award",
+      "hideOneTimeAwardIfUnlockIsOpen": "any_basic_tutorial_completed",
+      "decal": "tutorial_boat_decal"
     },
     "tutorial_destroyer_basics_arcade": {
       "xpEarnedWinDiff0": 0,
@@ -216,7 +225,10 @@
       "xpEarnedWinDiff2": 0,
       "wpEarnedWinDiff2": 0,
       "goldEarnedWinDiff0": 0,
-      "slot": 3
+      "slot": 3,
+      "oneTimeAwardUnlock": "any_tutorial_complete_award",
+      "hideOneTimeAwardIfUnlockIsOpen": "any_basic_tutorial_completed",
+      "decal": "tutorial_destroyer_decal"
     }
   },
   "singleMission": {

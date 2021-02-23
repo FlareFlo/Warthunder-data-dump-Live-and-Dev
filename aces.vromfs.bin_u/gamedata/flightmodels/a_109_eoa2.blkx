@@ -22,9 +22,6 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "300kph",
   "fightAiBehaviour": "helicopter",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "mgun1_dm": {
@@ -1135,7 +1132,40 @@
     {
       "preset": {
         "name": "a_109_eoa2_default",
-        "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_rocket_ffar.blk"
+        "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_rocket_ffar.blk",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+            },
+            {
+              "iconType": "nar_ap_middle"
+            },
+            {
+              "amountPerTier": 7.0
+            },
+            {
+              "tier": {
+                "idx": 4
+              }
+            },
+            {
+              "tier": {
+                "idx": 5
+              }
+            },
+            {
+              "tier": {
+                "idx": 7
+              }
+            },
+            {
+              "tier": {
+                "idx": 8
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -1149,35 +1179,268 @@
       "preset": {
         "name": "a_109_eoa2_gun_fn_m3p_hvar",
         "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_gun_fn_m3p_hvar.blk",
-        "reqModification": "fn_rmp_lc"
+        "reqModification": "fn_rmp_lc",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunFN_M3P.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "a_109_eoa2_fn_m3p_rocket_ffar",
         "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_fn_m3p_rocket_ffar.blk",
-        "reqModification": "fn_hmp400_lcc"
+        "reqModification": "fn_hmp400_lcc",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+              },
+              {
+                "iconType": "nar_ap_middle"
+              },
+              {
+                "amountPerTier": 7.0
+              },
+              {
+                "tier": {
+                  "idx": 4
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunFN_M3P.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "a_109_eoa2_gun_fn_m3p_hvar_rocket_ffar",
         "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_gun_fn_m3p_hvar_rocket_ffar.blk",
-        "reqModification": "fn_rmp_lc"
+        "reqModification": "fn_rmp_lc",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+              },
+              {
+                "iconType": "nar_ap_middle"
+              },
+              {
+                "amountPerTier": 7.0
+              },
+              {
+                "tier": {
+                  "idx": 4
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunFN_M3P.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p.blk"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "a_109_eoa2_4xTOW",
         "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_4xTOW.blk",
-        "reqModification": "ah_1_TOW2"
+        "reqModification": "ah_1_TOW2",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk"
+            },
+            {
+              "iconType": "atgm_type2_x2"
+            },
+            {
+              "amountPerTier": 2.0
+            },
+            {
+              "tier": {
+                "idx": 4
+              }
+            },
+            {
+              "tier": {
+                "idx": 8
+              }
+            }
+          ]
+        }
       }
     },
     {
       "preset": {
         "name": "a_109_eoa2_4xTOW_rocket_ffar",
         "blk": "gameData/flightModels/weaponPresets/a_109_eoa2_4xTOW_rocket_ffar.blk",
-        "reqModification": "ah_1_TOW2"
+        "reqModification": "ah_1_TOW2",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+              },
+              {
+                "iconType": "nar_ap_middle"
+              },
+              {
+                "amountPerTier": 7.0
+              },
+              {
+                "tier": {
+                  "idx": 5
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk"
+              },
+              {
+                "iconType": "atgm_type2_x2"
+              },
+              {
+                "amountPerTier": 2.0
+              },
+              {
+                "tier": {
+                  "idx": 4
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -1193,6 +1456,55 @@
         },
         {
           "reqModification": "ah_1_TOW2"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk"
+                },
+                {
+                  "iconType": "atgm_type2_x2"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/gunFN_M3P.blk"
+                },
+                {
+                  "amountPerTier": 1.0
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1209,6 +1521,77 @@
         },
         {
           "reqModification": "ah_1_TOW2"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk"
+                },
+                {
+                  "iconType": "atgm_type2_x2"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/gunFN_M3P.blk"
+                },
+                {
+                  "amountPerTier": 1.0
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun_rockets"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun_rockets"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+                },
+                {
+                  "amountPerTier": 3.0
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun_rockets"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun_rockets"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -1238,8 +1621,8 @@
     "cd_98_main_rotor": {
       "tier": 3,
       "effects": {
-        "mulCdminMainRotor": 3.6,
-        "mulOswEffNumberMainRotor": 0.8
+        "mulCdminMainRotor": 1.5,
+        "mulOswEffNumberMainRotor": 0.9
       }
     },
     "new_heli_cover": [],
@@ -1272,24 +1655,19 @@
       "tier": 2
     },
     "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerIr": {
             "resolution": [1024,768],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
+            "lightMult": 8.0,
+            "ghosting": 0.75,
+            "noiseFactor": 0.2
           },
           "pilotIr": {
             "resolution": [1024,768],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "sightThermal": {
-            "resolution": [1024,768],
-            "noiseFactor": 0.05
+            "lightMult": 8.0,
+            "ghosting": 0.75,
+            "noiseFactor": 0.2
           }
         }
       }

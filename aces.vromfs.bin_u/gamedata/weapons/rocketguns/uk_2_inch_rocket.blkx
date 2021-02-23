@@ -6,6 +6,7 @@
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
   "mesh": "uk_2_inch_he_rocket",
+  "mesh_deployed": "uk_2_inch_he_rocket_deployed",
   "tags": {
     "antiTankRocket": true,
     "antiShipRocket": true
