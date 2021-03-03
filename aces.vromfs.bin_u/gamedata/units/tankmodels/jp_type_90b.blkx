@@ -142,8 +142,7 @@
           "armorThickness": 50.0
         },
         "superstructure_front_dm": {
-          "armorThickness": 40.0,
-          "createSecondaryShatters": false
+          "armorThickness": 40.0
         },
         "superstructure_side_dm": {
           "armorThickness": 25.0
@@ -213,8 +212,7 @@
           "armorThickness": 35.0
         },
         "turret_01_front_dm": {
-          "armorThickness": 35.0,
-          "createSecondaryShatters": false
+          "armorThickness": 40.0
         },
         "turret_02_top_dm": {
           "armorThickness": 20.0
@@ -264,29 +262,17 @@
       },
       "inner_armor": {
         "armorClass": "leopard_2a5_turret_nera",
+        "genericArmorQuality": 0.65,
+        "cumulativeArmorQuality": 1.0,
         "composite_armor_turret_01_dm": {
           "armorThickness": 250.0,
-          "armorEffectiveThicknessMax": 200.0,
-          "genericArmorQuality": 0.4,
-          "cumulativeArmorQuality": 0.55
+          "genericArmorQuality": 0.325
         },
         "composite_armor_turret_02_dm": {
-          "armorThickness": 585.0,
-          "armorEffectiveThicknessMax": 460.0,
-          "genericArmorQuality": 0.47,
-          "cumulativeArmorQuality": 0.9
+          "armorThickness": 585.0
         },
         "composite_armor_hull_01_dm": {
-          "armorThickness": 600.0,
-          "armorEffectiveThicknessMax": 360.0,
-          "genericArmorQuality": 0.23,
-          "cumulativeArmorQuality": 0.5
-        },
-        "composite_armor_hull_02_dm": {
-          "armorThickness": 200.0,
-          "armorEffectiveThicknessMax": 50.0,
-          "genericArmorQuality": 0.1,
-          "cumulativeArmorQuality": 0.18
+          "armorThickness": 450.0
         }
       },
       "mask": {
@@ -3240,7 +3226,7 @@
   },
   {
     "user_skin": {
-      "name": "type_90b",
+      "name": "type_90",
       "replace_tex": {
         "from": "jp_camo_sdf_green*"
       }
@@ -3320,50 +3306,6 @@
       "replace_tex": {
         "from": "jp_camo_sdf_green*",
         "to": "jp_camo_winter_late*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "tank_biathlon_red",
-      "nameLocId": "skin/tank_biathlon_red",
-      "descLocId": "skin/tank_biathlon_red/desc",
-      "replace_tex": {
-        "from": "jp_camo_sdf_green*",
-        "to": "ussr_camo_biathlon_red*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "tank_biathlon_green",
-      "nameLocId": "skin/tank_biathlon_green",
-      "descLocId": "skin/tank_biathlon_green/desc",
-      "replace_tex": {
-        "from": "jp_camo_sdf_green*",
-        "to": "ussr_camo_biathlon_green*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "tank_biathlon_blue",
-      "nameLocId": "skin/tank_biathlon_blue",
-      "descLocId": "skin/tank_biathlon_blue/desc",
-      "replace_tex": {
-        "from": "jp_camo_sdf_green*",
-        "to": "ussr_camo_biathlon_blue*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "tank_biathlon_yellow",
-      "nameLocId": "skin/tank_biathlon_yellow",
-      "descLocId": "skin/tank_biathlon_yellow/desc",
-      "replace_tex": {
-        "from": "jp_camo_sdf_green*",
-        "to": "ussr_camo_biathlon_yellow*"
       }
     }
   },
@@ -3530,6 +3472,50 @@
           }
         }
       ]
+    }
+  },
+  {
+    "skin": {
+      "name": "tank_biathlon_red",
+      "nameLocId": "skin/tank_biathlon_red",
+      "descLocId": "skin/tank_biathlon_red/desc",
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "ussr_camo_biathlon_red*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "tank_biathlon_green",
+      "nameLocId": "skin/tank_biathlon_green",
+      "descLocId": "skin/tank_biathlon_green/desc",
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "ussr_camo_biathlon_green*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "tank_biathlon_blue",
+      "nameLocId": "skin/tank_biathlon_blue",
+      "descLocId": "skin/tank_biathlon_blue/desc",
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "ussr_camo_biathlon_blue*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "tank_biathlon_yellow",
+      "nameLocId": "skin/tank_biathlon_yellow",
+      "descLocId": "skin/tank_biathlon_yellow/desc",
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "ussr_camo_biathlon_yellow*"
+      }
     }
   }
 ]

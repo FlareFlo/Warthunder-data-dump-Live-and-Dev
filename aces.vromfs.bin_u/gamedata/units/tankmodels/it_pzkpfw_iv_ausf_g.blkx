@@ -123,15 +123,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "tank_crew": {
       "changeTimeMult": 1.0,
       "gunner": [
@@ -2568,7 +2559,7 @@
         "trackFadeTime": 0.5,
         "trackCntPeriod": 2,
         "trackMaxSinking": 0.17,
-        "trackMaxHeight": 1.25,
+        "trackMaxHeight": 1.17,
         "trackStartOffset": 0.5
       },
       "collisionProps": {

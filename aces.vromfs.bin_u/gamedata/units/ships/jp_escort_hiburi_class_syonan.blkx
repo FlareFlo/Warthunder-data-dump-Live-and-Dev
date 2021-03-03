@@ -212,12 +212,6 @@
       },
       {
         "replace_tex": {
-          "from": "germany_flag_decal*",
-          "to": "germany_harm_flag_decal*"
-        }
-      },
-      {
-        "replace_tex": {
           "from": "airplane_ger_ar196_c*",
           "to": "airplane_ger_ar196_c_tomoe*"
         }

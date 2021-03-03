@@ -2273,16 +2273,7 @@
       "tracks": {
         "animationMultiplier": 0.6,
         "height": 0.046,
-        "width": 0.294,
-        "tracksTensionK": [6.5,10.0,3.0],
-        "trackMesh": "us_t16e1_phys_track_line",
-        "trackLen": 0.14,
-        "trackCount": 62,
-        "trackFadeTime": 1.1,
-        "trackConnector": true,
-        "trackEmitSparks": false,
-        "trackMaxHeight": 1.3,
-        "trackStartOffset": 0.195
+        "width": 0.294
       },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
@@ -2330,11 +2321,7 @@
         "defaultDampeningForce": [27000.0,27000.0],
         "frontBackGearRadius": 0.31,
         "dampeningRelaxationRatio": 0.4,
-        "dampeningCompressionRatio": 0.15,
-        "wheel_r_drive": 0.3,
-        "wheel_l_drive": 0.3,
-        "wheel_r_back": 0.318,
-        "wheel_l_back": 0.318
+        "dampeningCompressionRatio": 0.15
       }
     }
   },

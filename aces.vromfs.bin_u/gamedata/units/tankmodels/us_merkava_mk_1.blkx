@@ -114,6 +114,21 @@
     "canReloadNonGuns": true
   },
   {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
+  },
+  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "CHA_tank",
@@ -1915,37 +1930,6 @@
     }
   },
   {
-    "MetaParts": {
-      "crew": [
-        {
-          "killAllPartsForDeath": true
-        },
-        {
-          "killNumPartsForDeath": 3
-        },
-        {
-          "part": "loader_dm"
-        },
-        {
-          "part": "driver_dm"
-        },
-        {
-          "part": "gunner_dm"
-        },
-        {
-          "part": "commander_dm"
-        },
-        {
-          "effects": {
-            "killUnit": {
-              "nothing": 1.0
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
     "gunConvergence": {
       "updateFromRangefinder": true,
       "minDistance": 200.0,
@@ -3334,6 +3318,9 @@
         "image": "#ui/gameuiskin#tank_reinforcement_us"
       },
       "art_support": [],
+      "tank_engine_smoke_screen_system": {
+        "tier": 4
+      },
       "105mm_usa_HESH": [],
       "105mm_usa_HESH_ammo_pack": {
         "tier": 1
@@ -3808,6 +3795,11 @@
         "from": "us_camo_olive*",
         "to": "isr_camo_threecolor*"
       }
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

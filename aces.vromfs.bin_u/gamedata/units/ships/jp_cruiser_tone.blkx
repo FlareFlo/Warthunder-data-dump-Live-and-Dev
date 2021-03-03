@@ -221,12 +221,6 @@
       },
       {
         "replace_tex": {
-          "from": "germany_flag_decal*",
-          "to": "germany_harm_flag_decal*"
-        }
-      },
-      {
-        "replace_tex": {
           "from": "airplane_ger_ar196_c*",
           "to": "airplane_ger_ar196_c_tomoe*"
         }
@@ -5869,8 +5863,8 @@
           {
             "onHit": {
               "damageType": "fire",
-              "expl": 0.98,
-              "damage": 75.0,
+              "expl": 0.99,
+              "damage": 50.0,
               "fHitCritical": false
             }
           },
@@ -5897,7 +5891,7 @@
             "onHit": {
               "damageType": "fire",
               "fire": 0.97,
-              "damage": 75.0,
+              "damage": 50.0,
               "fHitCritical": false
             }
           },
@@ -5975,7 +5969,7 @@
           {
             "onHit": {
               "damageType": "fire",
-              "damage": 150.0,
+              "damage": 50.0,
               "expl": 0.1
             }
           },
@@ -6039,7 +6033,7 @@
             "onHit": {
               "damageType": "fire",
               "expl": 0.9,
-              "damage": 100.0,
+              "damage": 50.0,
               "fHitCritical": false
             }
           }
@@ -6056,7 +6050,7 @@
           {
             "onHit": {
               "damageType": "fire",
-              "damage": 100.0,
+              "damage": 50.0,
               "expl": 0.1
             }
           },

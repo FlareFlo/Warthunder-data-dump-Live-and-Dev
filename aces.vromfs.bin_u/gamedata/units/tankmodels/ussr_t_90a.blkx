@@ -1000,7 +1000,7 @@
           {
             "layer": {
               "dmPart": "turret_side_dm",
-              "xrayTextThickness": 140.0
+              "xrayTextThickness": 130.0
             }
           }
         ]

@@ -114,15 +114,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -424,8 +415,8 @@
       },
       "gun": {
         "armorClass": "tank_barrel",
-        "hp": 150.0,
-        "armorThickness": 30.0,
+        "hp": 200.0,
+        "armorThickness": 35.0,
         "gun_barrel_dm": [],
         "gun_barrel_01_dm": {
           "armorThrough": 10.0,
@@ -448,6 +439,21 @@
           "hp": 50.0
         },
         "gun_barrel_05_dm": {
+          "armorThrough": 10.0,
+          "armorThickness": 5.0,
+          "hp": 50.0
+        },
+        "gun_barrel_06_dm": {
+          "armorThrough": 10.0,
+          "armorThickness": 5.0,
+          "hp": 50.0
+        },
+        "gun_barrel_07_dm": {
+          "armorThrough": 10.0,
+          "armorThickness": 5.0,
+          "hp": 50.0
+        },
+        "gun_barrel_08_dm": {
           "armorThrough": 10.0,
           "armorThickness": 5.0,
           "hp": 50.0
@@ -2839,7 +2845,9 @@
         "tier": 1
       },
       "105mm_usa_M735_APDS_FS": [],
-      "105mm_usa_M735_APDS_FS_ammo_pack": [],
+      "105mm_usa_M735_APDS_FS_ammo_pack": {
+        "tier": 3
+      },
       "tank_smoke_screen_system_mod": {
         "modClass": "protection",
         "tier": 4,
@@ -3040,7 +3048,7 @@
         }
       },
       "night_vision_system": {
-        "tier": 3,
+        "tier": 4,
         "effects": {
           "nightVision": {
             "gunnerIr": {

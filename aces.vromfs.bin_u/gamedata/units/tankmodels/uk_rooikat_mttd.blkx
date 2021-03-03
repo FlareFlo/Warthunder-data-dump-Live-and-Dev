@@ -108,15 +108,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "controlDevices": [
       {
         "device": {
@@ -2685,7 +2676,7 @@
     "cockpit": {
       "zoomOutFov": 9.217,
       "zoomInFov": 6.141,
-      "sightFov": 6.0,
+      "sightFov": 4.5,
       "sightName": "centauro",
       "openedCockpit": false,
       "headPos": [0.0,3.8,-8.8],

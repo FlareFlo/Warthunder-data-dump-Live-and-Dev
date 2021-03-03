@@ -57,6 +57,7 @@
     "groundCollisionEffect": "hit_106_132mm_dirt_he",
     "ricochetEffect": "hit_106_132mm_dirt_ap",
     "waterCollisionEffect": "hit_106_132mm_water",
+    "explosionPatchRadius": 3.5,
     "hitPowerMult": 100.0,
     "nearHitPower": [1.0,50.0],
     "midHitPower": [0.9,400.0],

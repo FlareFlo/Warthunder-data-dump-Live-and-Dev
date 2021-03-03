@@ -49,12 +49,8 @@
     "maxDistance": 6000.0,
     "minDistance": 914.0,
     "distanceFuse": false,
-    "guidanceType": "ir",
     "isHasTVChannel": true,
-    "warmUpTime": 1.0,
-    "workTime": 3600.0,
-    "uncageBeforeLaunch": true,
-    "breakLockMaxTime": 2.0,
+    "guidanceType": "ir",
     "hitPowerMult": 1.0,
     "nearHitPower": [1.0,50.0],
     "midHitPower": [0.9,400.0],
@@ -216,39 +212,45 @@
         "offset": 0.9
       }
     },
-    "irSeeker": {
-      "visibilityType": "optic",
-      "rangeBand0": 20000.0,
-      "rangeMax": 20000.0,
-      "fov": 0.1,
-      "gateWidth": 0.1,
-      "minAngleToSun": 0.0,
-      "lockAngleMax": 30.0,
-      "angleMax": 60.0,
-      "rateMax": 5.0,
-      "prolongationTimeMax": 1.0,
-      "designationSourceTypeMask": 1,
-      "groundVehiclesAsTarget": true
+    "guidance": {
+      "warmUpTime": 1.0,
+      "workTime": 3600.0,
+      "uncageBeforeLaunch": true,
+      "breakLockMaxTime": 2.0,
+      "irSeeker": {
+        "visibilityType": "optic",
+        "rangeBand0": 20000.0,
+        "rangeMax": 20000.0,
+        "fov": 0.1,
+        "gateWidth": 0.1,
+        "minAngleToSun": 0.0,
+        "lockAngleMax": 30.0,
+        "angleMax": 60.0,
+        "rateMax": 5.0,
+        "prolongationTimeMax": 1.0,
+        "designationSourceTypeMask": 1,
+        "groundVehiclesAsTarget": true
+      },
+      "guidanceAutopilot": {
+        "timeOut": 0.5,
+        "elevationAdd": 1.0,
+        "angleToAccelMult": 0.0,
+        "omegaToAccelMult": 6.0,
+        "reqAccelMax": 6.0,
+        "baseIndSpeed": 1100.0,
+        "accelControlProp": 5.0,
+        "accelControlIntg": 0.7,
+        "accelControlIntgLim": 0.5,
+        "accelControlDiff": 0.5
+      }
     },
     "arcadeProp": {
       "finsAoaHor": 0.1,
       "finsAoaVer": 0.1,
       "timeFire": 1.0
     },
-    "propNavGuidance": {
-      "timeOut": 0.5,
-      "elevationAdd": 1.0,
-      "angleToAccelMult": 0.0,
-      "omegaToAccelMult": 6.0,
-      "reqAccelMax": 6.0,
-      "baseIndSpeed": 1100.0,
-      "accelControlProp": 5.0,
-      "accelControlIntg": 0.7,
-      "accelControlIntgLim": 0.5,
-      "accelControlDiff": 0.5
-    },
     "cumulativeDamage": {
-      "armorPower": 1830.0,
+      "armorPower": 830.0,
       "distance": 9.5,
       "damage": 1200.0,
       "onHitChanceMultFire": 30.0

@@ -224,12 +224,6 @@
       },
       {
         "replace_tex": {
-          "from": "germany_flag_decal*",
-          "to": "germany_harm_flag_decal*"
-        }
-      },
-      {
-        "replace_tex": {
           "from": "airplane_ger_ar196_c*",
           "to": "airplane_ger_ar196_c_tomoe*"
         }
@@ -2088,7 +2082,6 @@
         }
       },
       "cover": {
-        "fireParamsPreset": "ship_cover_cruiser",
         "stopChanceOnDeadPart": 0.7,
         "armorClass": "ship_structural_steel",
         "armorThickness": 25.4,
@@ -2264,7 +2257,6 @@
       "coal_bunkers": {
         "armorClass": "ships_coal_bunker",
         "armorThickness": 10.0,
-        "fireParamsPreset": "ship_coal_bunker",
         "stopChanceOnDeadPart": 0.05,
         "fireProtectionHp": 30.0
       },
@@ -2332,10 +2324,6 @@
         "turret_02_top_dm": {
           "armorClass": "ship_RHA",
           "armorThickness": 14.0,
-          "hp": 10000.0
-        },
-        "turret_01_front_dm": {
-          "armorThickness": 70.0,
           "hp": 10000.0
         },
         "turret_01_side_dm": {
@@ -2508,6 +2496,7 @@
         "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
         "armorThickness": 5.0,
+        "fireDamageMult": 1.5,
         "oneSided": true,
         "main_caliber_turret_01_dm": {
           "hp": 750.0
@@ -2520,7 +2509,7 @@
         }
       },
       "turrets_aux_caliber": {
-        "fireParamsPreset": "ship_turrets",
+        "fireParamsPreset": "ship_aux_turrets",
         "armorClass": "ship_RHA",
         "armorThickness": 8.0,
         "oneSided": true,
@@ -2546,7 +2535,7 @@
       "turrets_aa_caliber": {
         "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
-        "armorThickness": 2.0,
+        "armorThickness": 1.45,
         "oneSided": true,
         "fireDamageMult": 2.0,
         "aa_turret_01_dm": {
@@ -2693,47 +2682,50 @@
         "fireProtectionHp": 15.0
       },
       "ammo_storages_shells": {
-        "fireDamageMult": 0.8,
-        "explosionDamageMult": 0.8,
-        "shatterDamageMult": 0.8,
+        "fireDamageMult": 0.75,
+        "explosionDamageMult": 0.75,
+        "shatterDamageMult": 0.75,
         "secondaryShatterDamageMult": 0.5,
         "armorClass": "ship_structural_steel",
-        "armorThickness": 25.4,
+        "fireParamsPreset": "ship_ammo_fire_total",
+        "armorThickness": 7.0,
         "oneSided": true,
-        "fireProtectionHp": 15.0,
+        "fireProtectionHp": 10.0,
         "armorThrough": 250.0,
         "ammunition_storage_shells_01_dm": {
-          "hp": 3500.0
+          "hp": 4000.0
         },
         "ammunition_storage_shells_02_dm": {
-          "hp": 3500.0
+          "hp": 4000.0
         },
         "ammunition_storage_shells_03_dm": {
-          "hp": 3500.0
+          "hp": 4000.0
         }
       },
       "ammo_storages_charges": {
         "armorClass": "ship_structural_steel",
-        "fireParamsPreset": "ship_ammo_fire",
         "armorThickness": 3.0,
         "oneSided": true,
+        "explosionDamageMult": 0.75,
         "fireProtectionHp": 10.0,
+        "armorThrough": 250.0,
         "ammunition_storage_charges_01_dm": {
-          "hp": 2443.0
+          "hp": 4500.0
         },
         "ammunition_storage_charges_02_dm": {
-          "hp": 2349.0
+          "hp": 4500.0
         },
         "ammunition_storage_charges_03_dm": {
-          "hp": 2500.0
+          "hp": 4500.0
         }
       },
       "ammo_storages_auxiliary": {
         "armorClass": "ship_structural_steel",
         "fireParamsPreset": "ship_ammo_fire_aux",
-        "armorThickness": 15.0,
+        "armorThickness": 3.0,
         "oneSided": true,
-        "fireProtectionHp": 10.0,
+        "fireProtectionHp": 12.0,
+        "armorThrough": 200.0,
         "ammunition_storage_aux_01_dm": {
           "hp": 1000.0
         },
@@ -2751,7 +2743,7 @@
         "armorClass": "ship_structural_steel",
         "fireParamsPreset": "ship_ammo_fire",
         "oneSided": true,
-        "armorThickness": 25.4,
+        "armorThickness": 7.0,
         "fireProtectionHp": 10.0
       },
       "depth_charges": {
@@ -2789,6 +2781,7 @@
       },
       "elevators": {
         "armorClass": "ship_structural_steel",
+        "fireParamsPreset": "ship_cruiser_barbettes",
         "armorThickness": 10.0,
         "fireDamageMult": 1.5,
         "fireProtectionHp": 5.0,
@@ -2851,7 +2844,7 @@
       "sailor3": {
         "dmPart": "compartment_02_dm",
         "role": "sailor",
-        "crew": 60
+        "crew": 61
       },
       "sailor4": {
         "dmPart": "compartment_03_dm",
@@ -2946,7 +2939,7 @@
       "sailor22": {
         "dmPart": "radio_station_dm",
         "role": "sailor",
-        "crew": 8
+        "crew": 7
       },
       "sailor23": {
         "dmPart": "ammunition_storage_aux_01_dm",
@@ -2969,17 +2962,17 @@
         "crew": 8
       },
       "sailor27": {
-        "dmPart": "ammunition_storage_charges_01_dm",
+        "dmPart": "ammunition_storage_shells_01_dm",
         "role": "sailor",
         "crew": 15
       },
       "sailor28": {
-        "dmPart": "ammunition_storage_charges_02_dm",
+        "dmPart": "ammunition_storage_shells_02_dm",
         "role": "sailor",
         "crew": 15
       },
       "sailor29": {
-        "dmPart": "ammunition_storage_charges_03_dm",
+        "dmPart": "ammunition_storage_shells_03_dm",
         "role": "sailor",
         "crew": 15
       },
@@ -3034,8 +3027,8 @@
           {
             "onHit": {
               "damageType": "fire",
-              "expl": 0.98,
-              "damage": 75.0,
+              "expl": 0.99,
+              "damage": 50.0,
               "fHitCritical": false
             }
           },
@@ -3062,7 +3055,7 @@
             "onHit": {
               "damageType": "fire",
               "fire": 0.97,
-              "damage": 75.0,
+              "damage": 50.0,
               "fHitCritical": false
             }
           },
@@ -3140,7 +3133,7 @@
           {
             "onHit": {
               "damageType": "fire",
-              "damage": 150.0,
+              "damage": 50.0,
               "expl": 0.1
             }
           },
@@ -3204,7 +3197,7 @@
             "onHit": {
               "damageType": "fire",
               "expl": 0.9,
-              "damage": 100.0,
+              "damage": 50.0,
               "fHitCritical": false
             }
           }
@@ -3221,7 +3214,7 @@
           {
             "onHit": {
               "damageType": "fire",
-              "damage": 100.0,
+              "damage": 50.0,
               "expl": 0.1
             }
           },

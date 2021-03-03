@@ -2116,8 +2116,17 @@
       },
       "tracks": {
         "animationMultiplier": 0.68,
-        "height": 0.035,
-        "width": 0.37
+        "height": 0.04,
+        "width": 0.37,
+        "tracksTensionK": [3.0,8.0,1.5],
+        "trackMesh": "uk_valentine_22646t_phys_track_line",
+        "trackLen": 0.11,
+        "trackCount": 103,
+        "trackFadeTime": 0.5,
+        "trackMaxSinking": 0.17,
+        "trackMaxHeight": 1.4,
+        "trackStartOffset": 0.21,
+        "trackEmitSparks": true
       },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
@@ -2166,6 +2175,10 @@
         "defaultDampeningForce": [48768.0,48768.0],
         "dampeningRelaxationRatio": 0.4,
         "dampeningCompressionRatio": 0.15,
+        "wheel_r_drive": 0.325,
+        "wheel_l_drive": 0.325,
+        "wheel_r_back": 0.33,
+        "wheel_l_back": 0.33,
         "wheel_r_01": 0.32,
         "wheel_r_02": 0.26,
         "wheel_r_03": 0.26,
@@ -2177,7 +2190,13 @@
         "wheel_l_03": 0.26,
         "wheel_l_04": 0.26,
         "wheel_l_05": 0.26,
-        "wheel_l_06": 0.32
+        "wheel_l_06": 0.32,
+        "wheel_l_top_01": 0.15,
+        "wheel_l_top_02": 0.15,
+        "wheel_l_top_03": 0.15,
+        "wheel_r_top_01": 0.15,
+        "wheel_r_top_02": 0.15,
+        "wheel_r_top_03": 0.15
       }
     }
   },

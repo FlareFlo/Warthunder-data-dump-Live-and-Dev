@@ -8,6 +8,9 @@
         "node": "pylon_2"
       },
       {
+        "node": "pylon_5"
+      },
+      {
         "node": "pylon_6"
       },
       {
@@ -125,6 +128,9 @@
         "node": "apu_68_b005"
       },
       {
+        "node": "delta_ng"
+      },
+      {
         "node": "b8m_b001"
       },
       {
@@ -149,23 +155,59 @@
         "node": "ub32_b004"
       },
       {
-        "node": "sppu22_b001"
+        "node": "sppu_22_001"
+      },
+      {
+        "node": "sppu_22_gun_001"
       },
       {
         "node": "flare3"
       },
       {
-        "node": "sppu22_b002"
+        "node": "sppu_22_002"
+      },
+      {
+        "node": "sppu_22_gun_002"
       },
       {
         "node": "flare4"
+      },
+      {
+        "node": "aku_58"
+      },
+      {
+        "node": "aku_58_fin1"
+      },
+      {
+        "node": "aku_58_fin2"
+      },
+      {
+        "node": "aku_58_fin3"
+      },
+      {
+        "node": "aku_58_fin4"
+      },
+      {
+        "node": "aku_58_fin5"
+      },
+      {
+        "node": "aku_58_fin6"
+      },
+      {
+        "node": "aku_58_pylon"
       }
     ]
   },
   {
     "hideDmParts": [
       {
+        "node": "cover4_dm"
+      },
+      {
         "node": "cannon3_dm"
+      },
+      {
+        "node": "cover5_dm"
       },
       {
         "node": "cannon4_dm"
@@ -176,7 +218,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/su_kh_25.blk",
-      "emitter": "apu_68_kh23m_001",
+      "emitter": "apu_68_kh25_001",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -187,7 +229,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/su_kh_25.blk",
-      "emitter": "apu_68_kh23m_002",
+      "emitter": "apu_68_kh25_002",
       "bullets": 1,
       "external": true,
       "separate": true,

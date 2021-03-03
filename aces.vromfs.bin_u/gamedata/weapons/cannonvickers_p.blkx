@@ -84,6 +84,9 @@
       "waterCollisionEffect": "hit_28_38mm_water"
     },
     {
+      "explosionPatchRadius": 0.4
+    },
+    {
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]

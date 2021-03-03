@@ -27,7 +27,7 @@
       "caliber": 0.026,
       "mass": 0.09,
       "massEnd": 0.04,
-      "maxDeltaAngle": 15.0,
+      "maxDeltaAngle": 25.0,
       "maxDeltaAngleVertical": 5.0,
       "dragCx": 0.0001,
       "length": 0.08,
@@ -74,6 +74,8 @@
       "speedViscosity": 0.2,
       "timeToLive": 10.0,
       "price": 300.0,
+      "amountPerTier": 30.0,
+      "iconType": "ltc",
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]

@@ -6,6 +6,9 @@
       },
       {
         "m": "air_skyscraper_city_pve_H2M"
+      },
+      {
+        "m": "air_afghan_I2M"
       }
     ],
     "tournament": [
@@ -2063,9 +2066,6 @@
         "isDebug": true
       },
       {
-        "m": "air_afghan_I2M"
-      },
-      {
         "m": "air_smolensk_I2M"
       },
       {
@@ -2787,6 +2787,9 @@
       },
       {
         "m": "testflight_krymsk_navy_jet"
+      },
+      {
+        "m": "aerobatic_smoke_preview"
       },
       {
         "m": "i180_200b20"

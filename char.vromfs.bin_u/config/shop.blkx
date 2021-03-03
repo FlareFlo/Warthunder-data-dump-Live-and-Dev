@@ -769,6 +769,9 @@
           },
           "f3h-2": {
             "rank": 6
+          },
+          "f8u-2": {
+            "rank": 6
           }
         }
       },
@@ -1751,10 +1754,10 @@
             "gift": "msi_notebook"
           },
           "germ_leopard_2pl": {
-            "rank": 6,
+            "rank": 7,
             "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "isClanVehicle": true,
+            "reqFeature": "ClanVehicles"
           },
           "germ_leopard_2a5_yt_cup_2019": {
             "rank": 7,
@@ -2035,8 +2038,14 @@
           "bf-109k-4": {
             "rank": 4
           },
-          "me-262a-1a": {
-            "rank": 5
+          "me-262a_group": {
+            "image": "#ui/unitskin#me-262c_group",
+            "me-262a-1a": {
+              "rank": 5
+            },
+            "me-262a-1a_early": {
+              "rank": 5
+            }
           },
           "me-262c_group": {
             "image": "#ui/unitskin#me-262c_group",
@@ -3699,12 +3708,10 @@
           },
           "su-9": {
             "rank": 5,
-            "showOnlyWhenBought": true,
             "reqAir": ""
           },
           "la-15": {
-            "rank": 5,
-            "reqAir": ""
+            "rank": 5
           },
           "la_200_toriy": {
             "rank": 5
@@ -4151,8 +4158,7 @@
           },
           "su-11": {
             "rank": 5,
-            "reqAir": "",
-            "showOnlyWhenBought": true
+            "reqAir": ""
           },
           "bi": {
             "rank": 5,
@@ -4583,6 +4589,9 @@
           "uk_fv102_striker": {
             "rank": 6
           },
+          "uk_ratel_zt3": {
+            "rank": 6
+          },
           "uk_vfm_5": {
             "rank": 6
           }
@@ -4626,18 +4635,13 @@
       {
         "range": {
           "uk_marmon_herrington_mk_6_2pdr": {
-            "rank": 1,
-            "reqAir": "",
-            "showOnlyWhenBought": true
+            "rank": 2
           },
           "uk_marmon_herrington_mk_6_6pdr": {
-            "rank": 2,
-            "reqAir": "",
-            "showOnlyWhenBought": true
+            "rank": 2
           },
           "uk_ratel_90": {
-            "rank": 4,
-            "reqAir": ""
+            "rank": 4
           },
           "uk_eland_90_mk_7": {
             "rank": 4
@@ -4651,14 +4655,14 @@
           "uk_olifant_mk_1a": {
             "rank": 6
           },
-          "uk_ratel_zt3": {
-            "rank": 6
-          },
           "uk_rooikat_mttd": {
             "rank": 6
           },
           "uk_olifant_mk_2": {
             "rank": 6
+          },
+          "uk_ttd": {
+            "rank": 7
           }
         }
       },
@@ -4787,11 +4791,6 @@
             "rank": 6,
             "reqAir": "",
             "gift": "msi_notebook"
-          },
-          "uk_ttd": {
-            "rank": 6,
-            "reqAir": "",
-            "showOnlyWhenBought": true
           }
         }
       }
@@ -5356,6 +5355,10 @@
           "hornet_mk1": {
             "rank": 4,
             "reqAir": ""
+          },
+          "attaker_fb2": {
+            "rank": 5,
+            "reqAir": ""
           }
         }
       }
@@ -5883,8 +5886,7 @@
               "rank": 3
             },
             "a6m5hei": {
-              "rank": 3,
-              "showOnlyWhenBought": true
+              "rank": 3
             }
           },
           "a7m2": {
@@ -7607,6 +7609,9 @@
           },
           "fr_amx_13_hot": {
             "rank": 6
+          },
+          "fr_mars_15": {
+            "rank": 6
           }
         }
       },
@@ -7746,6 +7751,9 @@
             "rank": 6
           },
           "fr_amx_30_ACRA": {
+            "rank": 6
+          },
+          "fr_sk105_a2": {
             "rank": 6
           }
         }
@@ -7967,6 +7975,9 @@
             "rank": 6
           },
           "mirage_3c": {
+            "rank": 6
+          },
+          "mirage_3e": {
             "rank": 6
           }
         }

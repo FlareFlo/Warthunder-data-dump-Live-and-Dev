@@ -1710,7 +1710,7 @@
           "needScaleSleeve": false,
           "stopForFire": true,
           "readyToFireVar": "9p149_close_action",
-          "readyToFireTime": 5.0,
+          "readyToFireTime": 2.5,
           "maxSpeedForFire": 6.0,
           "battlePositionSpeed": 20.0,
           "lagStopForFireTime": 1.0,

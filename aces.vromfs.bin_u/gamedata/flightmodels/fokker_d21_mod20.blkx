@@ -1905,7 +1905,7 @@
     ]
   },
   "flexWing": {
-    "wingStrainCoeff": 0.02,
+    "wingStrainCoeff": 0.3,
     "wingOverloadCoeff": 1.0,
     "wingStrainLimitDown": 1.0
   },

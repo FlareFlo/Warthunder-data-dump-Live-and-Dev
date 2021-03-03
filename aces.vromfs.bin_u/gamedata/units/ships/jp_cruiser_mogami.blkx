@@ -224,12 +224,6 @@
       },
       {
         "replace_tex": {
-          "from": "germany_flag_decal*",
-          "to": "germany_harm_flag_decal*"
-        }
-      },
-      {
-        "replace_tex": {
           "from": "airplane_ger_ar196_c*",
           "to": "airplane_ger_ar196_c_tomoe*"
         }
@@ -2884,8 +2878,8 @@
           {
             "onHit": {
               "damageType": "fire",
-              "expl": 0.98,
-              "damage": 75.0,
+              "expl": 0.99,
+              "damage": 50.0,
               "fHitCritical": false
             }
           },
@@ -2912,7 +2906,7 @@
             "onHit": {
               "damageType": "fire",
               "fire": 0.97,
-              "damage": 75.0,
+              "damage": 50.0,
               "fHitCritical": false
             }
           },
@@ -2990,7 +2984,7 @@
           {
             "onHit": {
               "damageType": "fire",
-              "damage": 150.0,
+              "damage": 50.0,
               "expl": 0.1
             }
           },
@@ -3054,7 +3048,7 @@
             "onHit": {
               "damageType": "fire",
               "expl": 0.9,
-              "damage": 100.0,
+              "damage": 50.0,
               "fHitCritical": false
             }
           }
@@ -3071,7 +3065,7 @@
           {
             "onHit": {
               "damageType": "fire",
-              "damage": 100.0,
+              "damage": 50.0,
               "expl": 0.1
             }
           },
@@ -4984,18 +4978,20 @@
             "gunnerDm": "main_caliber_turret_02_dm",
             "linkedAnimPart": {
               "horNode": "ex_armor_02",
-              "horLimits": [-140.0,140.0],
-              "horOriginLimits": [-140.0,140.0]
+              "horLimits": [-150.0,150.0],
+              "horOriginLimits": [-150.0,150.0]
             }
           },
           "limits": {
-            "yaw": [-140.0,140.0],
+            "yaw": [-150.0,150.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-140.0,-27.0,-5.0,55.0],
-            "lim2": [-27.0,27.0,16.0,55.0],
-            "lim3": [27.0,140.0,-5.0,55.0]
+            "lim1": [-150.0,-146.0,2.0,55.0],
+            "lim2": [-146.0,-22.0,-5.0,55.0],
+            "lim3": [-22.0,22.0,11.0,55.0],
+            "lim4": [22.0,146.0,-5.0,55.0],
+            "lim5": [146.0,150.0,2.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5056,13 +5052,15 @@
             "gunnerDm": "main_caliber_turret_02_dm"
           },
           "limits": {
-            "yaw": [-140.0,140.0],
+            "yaw": [-150.0,150.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-140.0,-27.0,-5.0,55.0],
-            "lim2": [-27.0,27.0,16.0,55.0],
-            "lim3": [27.0,140.0,-5.0,55.0]
+            "lim1": [-150.0,-146.0,2.0,55.0],
+            "lim2": [-146.0,-22.0,-5.0,55.0],
+            "lim3": [-22.0,22.0,11.0,55.0],
+            "lim4": [22.0,146.0,-5.0,55.0],
+            "lim5": [146.0,150.0,2.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5123,13 +5121,15 @@
             "gunnerDm": "main_caliber_turret_03_dm"
           },
           "limits": {
-            "yaw": [-135.0,135.0],
+            "yaw": [-150.0,150.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-135.0,-16.0,-5.0,55.0],
-            "lim2": [-16.0,16.0,-1.0,55.0],
-            "lim3": [16.0,135.0,-5.0,55.0]
+            "lim1": [-150.0,-11.0,-5.0,55.0],
+            "lim2": [-11.0,-2.0,-2.0,55.0],
+            "lim3": [-2.0,2.0,-1.0,55.0],
+            "lim4": [2.0,11.0,-2.0,55.0],
+            "lim5": [11.0,150.0,-5.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5190,13 +5190,15 @@
             "gunnerDm": "main_caliber_turret_03_dm"
           },
           "limits": {
-            "yaw": [-135.0,135.0],
+            "yaw": [-150.0,150.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-135.0,-16.0,-5.0,55.0],
-            "lim2": [-16.0,16.0,-1.0,55.0],
-            "lim3": [16.0,135.0,-5.0,55.0]
+            "lim1": [-150.0,-11.0,-5.0,55.0],
+            "lim2": [-11.0,-2.0,-2.0,55.0],
+            "lim3": [-2.0,2.0,-1.0,55.0],
+            "lim4": [2.0,11.0,-2.0,55.0],
+            "lim5": [11.0,150.0,-5.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5262,13 +5264,13 @@
             }
           },
           "limits": {
-            "yaw": [-135.0,135.0],
+            "yaw": [-150.0,135.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-135.0,-21.0,-5.0,55.0],
-            "lim2": [-21.0,21.0,-4.0,55.0],
-            "lim3": [21.0,135.0,-5.0,55.0]
+            "lim1": [-150.0,-144.0,-1.0,55.0],
+            "lim2": [-144.0,144.0,-5.0,55.0],
+            "lim3": [144.0,150.0,-1.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5338,9 +5340,9 @@
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-135.0,-22.0,-5.0,55.0],
-            "lim2": [-22.0,22.0,-4.0,55.0],
-            "lim3": [22.0,135.0,-5.0,55.0]
+            "lim1": [-150.0,-144.0,-1.0,55.0],
+            "lim2": [-144.0,144.0,-5.0,55.0],
+            "lim3": [144.0,150.0,-1.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5406,13 +5408,13 @@
             }
           },
           "limits": {
-            "yaw": [-135.0,135.0],
+            "yaw": [-150.0,150.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-135.0,-30.0,-5.0,55.0],
-            "lim2": [-30.0,30.0,-2.0,55.0],
-            "lim3": [30.0,135.0,-5.0,55.0]
+            "lim1": [-150.0,-16.0,-5.0,55.0],
+            "lim2": [-16.0,16.0,-3.0,55.0],
+            "lim3": [16.0,150.0,-5.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5473,13 +5475,13 @@
             "gunnerDm": "main_caliber_turret_05_dm"
           },
           "limits": {
-            "yaw": [-135.0,135.0],
+            "yaw": [-150.0,150.0],
             "pitch": [-5.0,55.0]
           },
           "limitsTable": {
-            "lim1": [-135.0,-30.0,-5.0,55.0],
-            "lim2": [-30.0,30.0,-2.0,55.0],
-            "lim3": [30.0,135.0,-5.0,55.0]
+            "lim1": [-150.0,-16.0,-5.0,55.0],
+            "lim2": [-16.0,16.0,-3.0,55.0],
+            "lim3": [16.0,150.0,-5.0,55.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -8157,6 +8159,22 @@
           "from": "cruiser_mogami_c*",
           "param": "camo_skin_tex"
         }
+      }
+    ]
+  },
+  {
+    "battleHideNodes": [
+      {
+        "n": "ex_decor_l_19"
+      },
+      {
+        "n": "ex_decor_r_19"
+      },
+      {
+        "n": "ex_decor_l_21"
+      },
+      {
+        "n": "ex_decor_r_21"
       }
     ]
   }

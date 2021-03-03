@@ -65,7 +65,7 @@
     "ricochetEffect": "cannon_ricochet",
     "waterCollisionEffect": "120-203_he_water_splash",
     "waterFxScale": [0.8,1.0],
-    "explosionPatchRadius": 4.0,
+    "explosionPatchRadius": 5.0,
     "stabilityRicochetModifier": {
       "mod1": [0.0,0.5],
       "mod2": [20.0,0.6],
@@ -294,7 +294,7 @@
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_he_water_splash",
       "waterFxScale": [0.8,1.0],
-      "explosionPatchRadius": 4.0,
+      "explosionPatchRadius": 5.0,
       "stabilityRicochetModifier": {
         "mod1": [0.0,0.5],
         "mod2": [20.0,0.6],
@@ -526,6 +526,7 @@
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_water_splash",
       "waterFxScale": [0.9,0.9],
+      "explosionPatchRadius": 4.0,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -743,7 +744,7 @@
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_he_water_splash",
       "waterFxScale": [0.8,1.0],
-      "explosionPatchRadius": 4.0,
+      "explosionPatchRadius": 5.0,
       "stabilityRicochetModifier": {
         "mod1": [0.0,0.5],
         "mod2": [20.0,0.6],

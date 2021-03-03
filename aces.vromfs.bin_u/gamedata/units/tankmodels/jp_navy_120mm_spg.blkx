@@ -678,7 +678,9 @@
         "ex_decor_l_01_dm": [],
         "ex_decor_r_01_dm": [],
         "ex_decor_l_04_dm": [],
-        "ex_armor_05_dm": []
+        "ex_armor_05_dm": [],
+        "turret_02_bottom_dm": [],
+        "turret_02_top_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",

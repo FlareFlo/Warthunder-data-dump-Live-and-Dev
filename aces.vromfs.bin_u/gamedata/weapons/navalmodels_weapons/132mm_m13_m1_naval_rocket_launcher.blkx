@@ -54,6 +54,7 @@
     "groundCollisionEffect": "hit_106_132mm_dirt_he",
     "ricochetEffect": "hit_106_132mm_dirt_ap",
     "waterCollisionEffect": "hit_106_132mm_water",
+    "explosionPatchRadius": 3.5,
     "relativeVelHitShift": [300.0,1000.0],
     "relativeVelArmorShift": [200.0,1000.0],
     "statType": "hydra",

@@ -1,4 +1,7 @@
 {
+  "hideNodes": {
+    "node": "bomb_pylon2"
+  },
   "Weapon": {
     "trigger": "bombs",
     "blk": "gameData/Weapons/bombGuns/su_fab_500m_46.blk",

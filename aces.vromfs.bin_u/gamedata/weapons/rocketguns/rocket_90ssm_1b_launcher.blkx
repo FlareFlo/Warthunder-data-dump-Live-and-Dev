@@ -52,6 +52,9 @@
       "waterCollisionEffect": "hit_106_132mm_water"
     },
     {
+      "explosionPatchRadius": 3.5
+    },
+    {
       "normalizationPreset": "heat"
     },
     {

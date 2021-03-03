@@ -55,6 +55,7 @@
     "groundCollisionEffect": "hit_106_132mm_dirt_ap",
     "ricochetEffect": "hit_106_132mm_metal_ap",
     "waterCollisionEffect": "hit_106_132mm_water",
+    "explosionPatchRadius": 2.8,
     "stabilityRicochetModifier": [
       {
         "mod1": [0.0,0.25]
@@ -210,6 +211,7 @@
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
       "ricochetEffect": "hit_106_132mm_dirt_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
+      "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.0]
@@ -498,7 +500,7 @@
       "caliber": 0.12,
       "damageCaliber": 0.0267,
       "ballisticCaliber": 0.0267,
-      "speed": 1550.0,
+      "speed": 1650.0,
       "Cx": 0.42,
       "maxDistance": 20000.0,
       "normalizationPreset": "default",
@@ -518,6 +520,7 @@
       "groundCollisionEffect": "hit_106_132mm_dirt_ap",
       "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
+      "explosionPatchRadius": 2.8,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.25]
@@ -546,12 +549,12 @@
         "HitPower10000m": [0.8,10000.0]
       },
       "armorpower": {
-        "ArmorPower0m": [471.0,10.0],
-        "ArmorPower100m": [469.0,100.0],
-        "ArmorPower500m": [464.0,500.0],
-        "ArmorPower1000m": [457.0,1000.0],
-        "ArmorPower1500m": [450.0,1500.0],
-        "ArmorPower2000m": [443.0,2000.0],
+        "ArmorPower0m": [493.0,10.0],
+        "ArmorPower100m": [491.0,100.0],
+        "ArmorPower500m": [487.0,500.0],
+        "ArmorPower1000m": [481.0,1000.0],
+        "ArmorPower1500m": [474.0,1500.0],
+        "ArmorPower2000m": [468.0,2000.0],
         "ArmorPower3000m": [428.0,3000.0],
         "ArmorPower10000m": [10.0,10000.0],
         "ArmorPower20000m": [0.0,20000.0]
@@ -648,7 +651,7 @@
       "caliber": 0.12,
       "damageCaliber": 0.025,
       "ballisticCaliber": 0.025,
-      "speed": 1550.0,
+      "speed": 1650.0,
       "Cx": 0.42,
       "maxDistance": 20000.0,
       "normalizationPreset": "default",
@@ -668,6 +671,7 @@
       "groundCollisionEffect": "hit_106_132mm_dirt_ap",
       "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
+      "explosionPatchRadius": 2.8,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.25]
@@ -696,14 +700,14 @@
         "HitPower10000m": [0.8,10000.0]
       },
       "armorpower": {
-        "ArmorPower0m": [538.0,10.0],
-        "ArmorPower100m": [536.0,100.0],
-        "ArmorPower500m": [532.0,500.0],
-        "ArmorPower1000m": [525.0,1000.0],
-        "ArmorPower1500m": [518.0,1500.0],
-        "ArmorPower2000m": [511.0,2000.0],
+        "ArmorPower0m": [564.0,10.0],
+        "ArmorPower100m": [562.0,100.0],
+        "ArmorPower500m": [557.0,500.0],
+        "ArmorPower1000m": [551.0,1000.0],
+        "ArmorPower1500m": [545.0,1500.0],
+        "ArmorPower2000m": [538.0,2000.0],
         "ArmorPower3000m": [497.0,3000.0],
-        "ArmorPower10000m": [10.0,10000.0],
+        "ArmorPower10000m": [5.0,10000.0],
         "ArmorPower20000m": [0.0,20000.0]
       },
       "visual": {

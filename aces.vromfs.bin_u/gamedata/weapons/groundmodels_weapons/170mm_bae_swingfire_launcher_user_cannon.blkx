@@ -143,6 +143,7 @@
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
       "ricochetEffect": "hit_106_132mm_dirt_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
+      "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.0]
@@ -424,6 +425,7 @@
           "groundCollisionEffect": "hit_133_160mm_dirt_he",
           "ricochetEffect": "hit_133_160mm_metal_ap",
           "waterCollisionEffect": "hit_133_160mm_water",
+          "explosionPatchRadius": 4.0,
           "fireEffect": "rocket_fire_short",
           "smokeEffect": "",
           "hazeEffect": "haze_missile",
@@ -641,6 +643,7 @@
           "groundCollisionEffect": "hit_133_160mm_dirt_he",
           "ricochetEffect": "hit_133_160mm_metal_ap",
           "waterCollisionEffect": "hit_133_160mm_water",
+          "explosionPatchRadius": 4.0,
           "fireEffect": "rocket_fire_short",
           "smokeEffect": "",
           "hazeEffect": "haze_missile",

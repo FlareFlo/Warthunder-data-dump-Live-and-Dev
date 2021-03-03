@@ -1587,7 +1587,8 @@
       "hudDetectAlly": false,
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
-      "hudSendSquare": false
+      "hudSendSquare": false,
+      "hudShowAttentionMarkForAircraft": false
     },
     "realistic": {
       "baseDifficulty": 1,
@@ -1649,7 +1650,8 @@
       "hudDetectAlly": false,
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
-      "hudSendSquare": true
+      "hudSendSquare": true,
+      "hudShowAttentionMarkForAircraft": false
     },
     "hardcore": {
       "baseDifficulty": 2,
@@ -1711,7 +1713,8 @@
       "hudDetectAlly": true,
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
-      "hudSendSquare": false
+      "hudSendSquare": false,
+      "hudShowAttentionMarkForAircraft": false
     }
   },
   "custom_difficulty": {
@@ -1776,6 +1779,7 @@
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
       "hudSendSquare": false,
+      "hudShowAttentionMarkForAircraft": true,
       "setDifficulty": 1
     },
     "tank_hardcore": {
@@ -1839,6 +1843,7 @@
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
       "hudSendSquare": false,
+      "hudShowAttentionMarkForAircraft": false,
       "setDifficulty": 2
     },
     "ship_arcade": {
@@ -1902,6 +1907,7 @@
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
       "hudSendSquare": false,
+      "hudShowAttentionMarkForAircraft": false,
       "setDifficulty": 0
     },
     "ship_realistic": {
@@ -1965,6 +1971,7 @@
       "keepDeadTankOnMap": true,
       "keepDeadShipOnMap": true,
       "hudSendSquare": false,
+      "hudShowAttentionMarkForAircraft": true,
       "setDifficulty": 1
     }
   },
@@ -2661,8 +2668,7 @@
         "hitSpawnTime": 0.0,
         "allowTargetingWOMarkersShips": true,
         "allowTargetingWOMarkersTanksPC": false,
-        "allowTargetingWOMarkersTanksCons": true,
-        "showAttentionMarkForAircraft": false
+        "allowTargetingWOMarkersTanksCons": true
       },
       "team": {
         "hudMarkers": 1,
@@ -2677,8 +2683,7 @@
         "hitSpawnTime": 5.0,
         "allowTargetingWOMarkersShips": true,
         "allowTargetingWOMarkersTanksPC": false,
-        "allowTargetingWOMarkersTanksCons": true,
-        "showAttentionMarkForAircraft": true
+        "allowTargetingWOMarkersTanksCons": true
       },
       "all": {
         "hudMarkers": 2,
@@ -2694,8 +2699,7 @@
         "hitSpawnTime": 0.0,
         "allowTargetingWOMarkersShips": true,
         "allowTargetingWOMarkersTanksPC": false,
-        "allowTargetingWOMarkersTanksCons": true,
-        "showAttentionMarkForAircraft": true
+        "allowTargetingWOMarkersTanksCons": true
       },
       "team_air_sb": {
         "hudMarkers": 3,
@@ -2710,8 +2714,7 @@
         "hitSpawnTime": 0.0,
         "allowTargetingWOMarkersShips": true,
         "allowTargetingWOMarkersTanksPC": false,
-        "allowTargetingWOMarkersTanksCons": true,
-        "showAttentionMarkForAircraft": false
+        "allowTargetingWOMarkersTanksCons": true
       },
       "team_worldwar": {
         "hudMarkers": 4,
@@ -2728,8 +2731,7 @@
         "showNotTraceableDetectIndicators": false,
         "allowTargetingWOMarkersShips": true,
         "allowTargetingWOMarkersTanksPC": false,
-        "allowTargetingWOMarkersTanksCons": true,
-        "showAttentionMarkForAircraft": true
+        "allowTargetingWOMarkersTanksCons": true
       }
     },
     "hudAircraftMarkersMaxDist": {
@@ -3270,6 +3272,14 @@
         "hudSendSquareNumPlayers": 1,
         "hudSendSquareTimeFromStart": 900
       }
+    },
+    "hudShowAttentionMarkForAircraft": {
+      "off": {
+        "showAttentionMarkForAircraft": false
+      },
+      "on": {
+        "showAttentionMarkForAircraft": true
+      }
     }
   },
   "shipBigCaliberPenetrationDistances": [
@@ -3349,8 +3359,8 @@
     "lenseDustTex": "lense_dust"
   },
   "dynamicMirror": {
-    "dynamicMirrorTexWidth": 400,
-    "dynamicMirrorTexHeight": 300,
+    "dynamicMirrorTexWidth": 800,
+    "dynamicMirrorTexHeight": 600,
     "dynamicTeleTexWidth": 512,
     "dynamicTeleTexHeight": 512,
     "mfdTexWidth": 1366,
@@ -11732,6 +11742,102 @@
         "p": {
           "name": "wheel_l_04_",
           "modelNames": "rooikat_mttd"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_04_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_04_",
+          "modelNames": "marmon_herrington_mk_6_2pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_04_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_04_",
+          "modelNames": "marmon_herrington_mk_6_6pdr"
         }
       }
     ],

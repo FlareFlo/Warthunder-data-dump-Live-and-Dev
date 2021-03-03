@@ -421,6 +421,7 @@
     "eventBulletHitCockpitMetal": "bullethit_cockpit_metal",
     "eventBulletHitCockpitGlass": "bullethit_cockpit_glass",
     "eventBulletHitUnit": "bullethit_unit",
+    "eventBulletHitPlane": "bullethit_plane",
     "eventBulletHitTankMgun": "hit_mgun",
     "eventBulletHitTankMgunCockpit": "hit_mgun_interior",
     "eventBulletHitTankMgunUnpierce": "hit_mgun",

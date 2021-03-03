@@ -64,6 +64,7 @@
     "groundCollisionEffect": "hit_133_160mm_dirt_he",
     "ricochetEffect": "hit_133_160mm_metal_ap",
     "waterCollisionEffect": "hit_133_160mm_water",
+    "explosionPatchRadius": 4.0,
     "stabilityRicochetModifier": {
       "mod1": [0.0,0.5],
       "mod2": [20.0,0.6],
@@ -282,6 +283,7 @@
       "groundCollisionEffect": "hit_133_160mm_dirt_he",
       "ricochetEffect": "hit_133_160mm_metal_ap",
       "waterCollisionEffect": "hit_133_160mm_water",
+      "explosionPatchRadius": 4.0,
       "stabilityRicochetModifier": {
         "mod1": [0.0,0.5],
         "mod2": [20.0,0.6],
@@ -499,6 +501,7 @@
       "groundCollisionEffect": "hit_81_105mm_dirt_ap",
       "ricochetEffect": "hit_81_105mm_metal_ap",
       "waterCollisionEffect": "hit_81_105mm_water",
+      "explosionPatchRadius": 2.2,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -675,6 +678,7 @@
       "groundCollisionEffect": "hit_133_160mm_dirt_he",
       "ricochetEffect": "hit_133_160mm_metal_ap",
       "waterCollisionEffect": "hit_133_160mm_water",
+      "explosionPatchRadius": 4.0,
       "stabilityRicochetModifier": {
         "mod1": [0.0,0.5],
         "mod2": [20.0,0.6],
@@ -832,6 +836,7 @@
       "groundCollisionEffect": "hit_133_160mm_dirt_he",
       "ricochetEffect": "hit_133_160mm_metal_ap",
       "waterCollisionEffect": "hit_133_160mm_water",
+      "explosionPatchRadius": 4.0,
       "stabilityRicochetModifier": {
         "mod1": [0.0,0.5],
         "mod2": [20.0,0.6],

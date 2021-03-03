@@ -24,18 +24,18 @@
     "mass": 657.0,
     "explosiveType": "tg_40",
     "explosiveMass": 116.4,
-    "massEnd": 500.0,
     "maxDeltaAngle": 0.02,
     "dragCx": 0.025,
     "length": 3.875,
     "distFromCmToStab": 0.1,
     "wingAreaMult": 1.2,
-    "CxK": 2.0,
+    "CxK": 1.85,
     "WdK": [0.1,0.1,0.1],
     "finsAoaHor": 0.15,
     "finsAoaVer": 0.15,
     "force": 80000.0,
     "timeFire": 3.2,
+    "massEnd": 500.0,
     "spawnExplosionFx": false,
     "spawnExplosionWreckage": false,
     "explosionEffect": "explosion_midair_big",
@@ -97,18 +97,14 @@
       }
     },
     "guidance": {
-      "inertialNavigation": true,
-      "inertialNavigationDriftSpeed": 3.5,
-      "launchAngleMax": [10.0,20.0],
-      "launchDistanceRange": [2000.0,10000.0],
       "breakLockMaxTime": 2.0,
       "laserSeeker": {
         "range": 10000.0,
         "rangeMax": 12000.0,
-        "fov": 5.0,
-        "lockAngleMax": 45.0,
-        "angleMax": 45.0,
-        "rateMax": 10.0,
+        "fov": 2.0,
+        "lockAngleMax": 30.0,
+        "angleMax": 30.0,
+        "rateMax": 8.0,
         "prolongationTimeMax": 1.0,
         "filterAlpha": 0.85,
         "filterBetta": 0.2
@@ -132,12 +128,12 @@
       }
     },
     "arcadeProp": {
-      "finsAoaHor": 0.1,
-      "finsAoaVer": 0.1,
+      "finsAoaHor": 0.18,
+      "finsAoaVer": 0.18,
       "timeFire": 1.0
     },
     "tracerTrail": {
-      "smokeEffect": "",
+      "smokeEffect": "fx1400_smoke",
       "visual": {
         "traceFreq": 1,
         "tracer": "100mmRed",

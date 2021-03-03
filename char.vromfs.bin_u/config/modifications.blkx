@@ -4246,6 +4246,14 @@
         "additiveBulletMod": "25mm_M242_APDS"
       }
     },
+    "25mm_M242_APDS_FS": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "25mm_M242_APDS_FS_ammo_pack",
+      "group": "25mm_APCR",
+      "effects": {
+        "additiveBulletMod": "25mm_M242_APDS_FS"
+      }
+    },
     "25mm_M242_HE_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
       "tier": 1,
@@ -4254,8 +4262,13 @@
     },
     "25mm_M242_APDS_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
-      "reqModification": "25mm_M242_HE_ammo_pack",
       "tier": 3,
+      "deactivationIsAllowed": false,
+      "modClass": "firepower"
+    },
+    "25mm_M242_APDS_FS_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 4,
       "deactivationIsAllowed": false,
       "modClass": "firepower"
     },
@@ -7804,6 +7817,20 @@
     "90mm_cockerill_HESH_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
       "tier": 1,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
+    },
+    "90mm_CN90_APDS_FS": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "90mm_CN90_APDS_FS_ammo_pack",
+      "group": "90mm_AP",
+      "effects": {
+        "additiveBulletMod": "90mm_CN90_APDS_FS"
+      }
+    },
+    "90mm_CN90_APDS_FS_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 4,
       "modClass": "firepower",
       "deactivationIsAllowed": false
     },
@@ -12321,6 +12348,11 @@
       "deactivationIsAllowed": false
     },
     "me262_r1_2": {
+      "image": "#ui/gameuiskin#pilon_rocket",
+      "modClass": "weapon",
+      "deactivationIsAllowed": false
+    },
+    "me262_wgr21": {
       "image": "#ui/gameuiskin#pilon_rocket",
       "modClass": "weapon",
       "deactivationIsAllowed": false

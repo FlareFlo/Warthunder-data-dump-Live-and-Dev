@@ -9,6 +9,7 @@
   "haveCCIPForBombs": true,
   "haveCCIPForGun": true,
   "haveCCRPForBombs": true,
+  "isBwOpticSight": true,
   "havePointOfInterestDesignator": true,
   "ilsAVQ7": true,
   "ilsHaveAVQ7CCIP": true,
@@ -2041,13 +2042,13 @@
       "lightRadius2": 0.2
     },
     {
-      "sightInFov": 3.2
+      "sightInFov": 5.5
     },
     {
-      "sightOutFov": -1.0
+      "sightOutFov": 5.5
     },
     {
-      "sightFov": 0.1
+      "sightFov": 3.1
     },
     {
       "mirror": true
@@ -2160,10 +2161,10 @@
         },
         {
           "display": {
-            "textureArea": [0.0,0.0,0.5,0.5],
+            "textureArea": [0.0,0.0,0.5,0.51],
             "page": {
               "type": "rwr",
-              "radarScale": 1.3
+              "radarScale": 1.35
             }
           }
         },
@@ -4293,10 +4294,15 @@
       "reqModification": "M60_belt_pack",
       "tier": 3
     },
-    "aircrafts_false_thermal_targets": {
+    "countermeasures_launcher_chaff_only": [],
+    "countermeasures_launcher_flare_only": [],
+    "countermeasures_launcher_chaff_priority": [],
+    "countermeasures_launcher_flare_priority": [],
+    "countermeasures_belt_pack": {
+      "modClass": "weapon",
       "turn_it_off": false,
       "invertEnableLogic": false,
-      "group": "mi-24_EVU",
+      "group": "countermeasures",
       "tier": 1,
       "effects": {
         "commonWeapons": [
@@ -4344,9 +4350,9 @@
           },
           {
             "Weapon": {
-              "trigger": "flares",
+              "trigger": "countermeasures",
               "startFx": "",
-              "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare1",
               "bullets": 60,
               "external": true,
@@ -4355,9 +4361,9 @@
           },
           {
             "Weapon": {
-              "trigger": "flares",
+              "trigger": "countermeasures",
               "startFx": "",
-              "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare2",
               "bullets": 60,
               "external": true,
@@ -4368,7 +4374,7 @@
       }
     },
     "a_7d_gpu_5a": {
-      "prevModification": "aircrafts_false_thermal_targets",
+      "prevModification": "countermeasures_belt_pack",
       "deactivationIsAllowed": false,
       "tier": 2,
       "modClass": "weapon"

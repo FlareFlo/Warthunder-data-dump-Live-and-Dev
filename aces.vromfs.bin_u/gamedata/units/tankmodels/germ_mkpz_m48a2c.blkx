@@ -3153,8 +3153,17 @@
       },
       "tracks": {
         "animationMultiplier": 0.6381,
-        "height": 0.06,
-        "width": 0.5
+        "height": 0.095,
+        "width": 0.5,
+        "tracksTensionK": [6.5,10.0,3.0],
+        "trackMesh": "us_t97_phys_track_line",
+        "trackLen": 0.176,
+        "trackCount": 79,
+        "trackFadeTime": 1.1,
+        "trackConnector": true,
+        "trackEmitSparks": false,
+        "trackMaxHeight": 1.36,
+        "trackStartOffset": 0.164
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3202,7 +3211,29 @@
         "topGearRadius": 0.13,
         "defaultDampeningForce": [150000.0,150000.0],
         "dampeningRelaxationRatio": 0.4,
-        "dampeningCompressionRatio": 0.15
+        "dampeningCompressionRatio": 0.15,
+        "wheel_r_01": 0.35,
+        "wheel_r_02": 0.33,
+        "wheel_r_03": 0.333,
+        "wheel_r_04": 0.333,
+        "wheel_r_05": 0.328,
+        "wheel_r_06": 0.35,
+        "wheel_l_01": 0.35,
+        "wheel_l_02": 0.33,
+        "wheel_l_03": 0.333,
+        "wheel_l_04": 0.333,
+        "wheel_l_05": 0.328,
+        "wheel_l_06": 0.35,
+        "wheel_r_drive": 0.29,
+        "wheel_l_drive": 0.29,
+        "wheel_r_front": 0.35,
+        "wheel_l_front": 0.35,
+        "wheel_l_top_01": 0.2,
+        "wheel_l_top_02": 0.2,
+        "wheel_l_top_03": 0.2,
+        "wheel_r_top_01": 0.2,
+        "wheel_r_top_02": 0.2,
+        "wheel_r_top_03": 0.2
       }
     }
   },

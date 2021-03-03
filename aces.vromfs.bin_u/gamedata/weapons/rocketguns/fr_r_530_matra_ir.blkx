@@ -114,6 +114,9 @@
       "waterCollisionEffect": "hit_133_160mm_water"
     },
     {
+      "explosionPatchRadius": 4.0
+    },
+    {
       "fireEffect": "rocket_fire_light"
     },
     {
@@ -144,25 +147,13 @@
       "explodeTreshold": 0.1
     },
     {
-      "guidanceType": "ir"
-    },
-    {
-      "warmUpTime": 4.0
-    },
-    {
-      "workTime": 15.0
-    },
-    {
-      "uncageBeforeLaunch": true
-    },
-    {
       "guidanceSfx": "alarm_con_scan"
     },
     {
-      "hasProximityFuse": true
+      "guidanceType": "ir"
     },
     {
-      "breakLockMaxTime": 3.0
+      "hasProximityFuse": true
     },
     {
       "explodeTreshold": 0.01
@@ -435,18 +426,34 @@
       }
     },
     {
-      "irSeeker": {
-        "rangeBand0": 5500.0,
-        "rangeBand2": 4000.0,
-        "rangeBand3": 4000.0,
-        "rangeMax": 10000.0,
-        "fov": 2.5,
-        "minAngleToSun": 5.0,
-        "lockAngleMax": 20.0,
-        "angleMax": 45.0,
-        "rateMax": 10.0,
-        "prolongationTimeMax": 1.0,
-        "designationSourceTypeMask": 2
+      "guidance": {
+        "warmUpTime": 4.0,
+        "workTime": 15.0,
+        "uncageBeforeLaunch": true,
+        "breakLockMaxTime": 3.0,
+        "irSeeker": {
+          "rangeBand0": 5500.0,
+          "rangeBand2": 4000.0,
+          "rangeBand3": 4000.0,
+          "rangeMax": 10000.0,
+          "fov": 2.5,
+          "minAngleToSun": 5.0,
+          "lockAngleMax": 20.0,
+          "angleMax": 45.0,
+          "rateMax": 10.0,
+          "prolongationTimeMax": 1.0,
+          "designationSourceTypeMask": 2
+        },
+        "guidanceAutopilot": {
+          "timeOut": 1.0,
+          "propNavMult": 4.0,
+          "reqAccelMax": 15.0,
+          "baseIndSpeed": 1620.0,
+          "accelControlProp": 0.04,
+          "accelControlIntg": 0.02,
+          "accelControlIntgLim": 0.8,
+          "accelControlDiff": 0.002
+        }
       }
     },
     {
@@ -454,18 +461,6 @@
         "finsAoaHor": 0.17,
         "finsAoaVer": 0.17,
         "timeFire": 3.0
-      }
-    },
-    {
-      "propNavGuidance": {
-        "timeOut": 1.0,
-        "propNavMult": 4.0,
-        "propNavAccelMax": 15.0,
-        "baseIndSpeed": 1620.0,
-        "accelControlProp": 0.04,
-        "accelControlIntg": 0.02,
-        "accelControlIntgLim": 0.8,
-        "accelControlDiff": 0.002
       }
     },
     {

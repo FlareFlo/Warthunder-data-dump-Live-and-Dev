@@ -63,6 +63,9 @@
     "fightAiBehaviour": "fighter"
   },
   {
+    "harmonizationSuffix": "_tomoe"
+  },
+  {
     "DamageParts": {
       "armor10": {
         "mgun1_dm": {

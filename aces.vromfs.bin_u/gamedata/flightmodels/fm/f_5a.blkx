@@ -151,7 +151,7 @@
     "AirbrakesShift": [-0.01,-0.05],
     "GearFocusShift": [0.0,0.1],
     "ElevonFocusShift": [0.0,0.0],
-    "GearShift": 0.0,
+    "GearShift": -0.8,
     "WingInFocus": 0.6,
     "WingMidFocus": 1.4,
     "WingOutFocus": 3.0,
@@ -1092,7 +1092,7 @@
     "WaterRudderSpeedRange": [8.33333,13.8889],
     "StrutL": {
       "SpringHeight": 0.6,
-      "SpringCoeff": 180000.0,
+      "SpringCoeff": 110000.0,
       "WheelRadus": 0.39,
       "Retractable": true,
       "LeftBrake": true,
@@ -1103,7 +1103,7 @@
     },
     "StrutR": {
       "SpringHeight": 0.6,
-      "SpringCoeff": 180000.0,
+      "SpringCoeff": 110000.0,
       "WheelRadus": 0.39,
       "Retractable": true,
       "LeftBrake": false,
@@ -1114,7 +1114,7 @@
     },
     "StrutC": {
       "SpringHeight": 0.6,
-      "SpringCoeff": 180000.0,
+      "SpringCoeff": 70000.0,
       "WheelRadus": 0.303,
       "Retractable": true,
       "LeftBrake": false,

@@ -275,7 +275,7 @@
       "hasTracerTrail": true
     },
     {
-      "tracerTrailEmitter": [0.1,-0.01,0.0]
+      "tracerTrailEmitter": [-0.5,0.0,0.0]
     },
     {
       "stabilityRicochetModifier": [
@@ -442,7 +442,7 @@
         "smokeEffect": "",
         "visual": {
           "traceFreq": 1,
-          "tracer": "100mmRed",
+          "tracer": "152mmRed",
           "trail": "noTrail"
         }
       }

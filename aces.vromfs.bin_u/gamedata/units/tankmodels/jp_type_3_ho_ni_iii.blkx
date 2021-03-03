@@ -1915,7 +1915,9 @@
         "ex_decor_r_01_dm": [],
         "ex_decor_l_02_dm": [],
         "ex_decor_r_02_dm": [],
-        "ex_decor_r_05_dm": []
+        "ex_decor_r_05_dm": [],
+        "turret_01_side_dm": [],
+        "turret_01_back_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",
@@ -1984,7 +1986,8 @@
         "wheel_r_front_dm": [],
         "wheel_l_back_dm": [],
         "wheel_r_back_dm": [],
-        "ex_armor_body_l_01_dm": []
+        "ex_armor_body_l_01_dm": [],
+        "wheel_support_dm": []
       },
       "gun": {
         "armorClass": "tank_barrel",

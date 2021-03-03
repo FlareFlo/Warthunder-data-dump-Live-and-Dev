@@ -180,6 +180,15 @@
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.3
   },
+  "glass25": {
+    "armorThickness": 25.0,
+    "armorThrough": 4.8,
+    "restrainDamage": 0.2,
+    "armorQuality": 0.2,
+    "ricochetAngle": 85.0,
+    "ricochetCosinePower": 1.0,
+    "ricochetDamage": 0.3
+  },
   "glass30": {
     "armorThickness": 30.0,
     "armorThrough": 7.6,

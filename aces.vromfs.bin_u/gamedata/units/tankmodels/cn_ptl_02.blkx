@@ -108,15 +108,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "controlDevices": [
       {
         "device": {
@@ -199,19 +190,28 @@
       "hp": 10000.0,
       "hull": {
         "body_front_dm": {
-          "armorThickness": 15.0
-        },
-        "turret_01_side_dm": {
           "armorThickness": 10.0
         },
-        "turret_01_front_dm": {
+        "turret_side_dm": {
+          "armorThickness": 20.0
+        },
+        "turret_01_side_dm": {
           "armorThickness": 8.0
+        },
+        "turret_02_side_dm": {
+          "armorThickness": 10.0
+        },
+        "turret_03_side_dm": {
+          "armorThickness": 8.0
+        },
+        "turret_01_front_dm": {
+          "armorThickness": 10.0
         },
         "superstructure_top_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 6.0
         },
         "body_bottom_dm": {
-          "armorThickness": 15.0
+          "armorThickness": 6.0
         },
         "body_top_dm": {
           "armorThickness": 10.0
@@ -220,37 +220,40 @@
           "armorThickness": 15.0
         },
         "superstructure_bottom_dm": {
-          "armorThickness": 8.0
-        },
-        "turret_back_dm": {
-          "armorThickness": 5.0
+          "armorThickness": 6.0
         },
         "turret_commander_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 10.0
+        },
+        "turret_01_back_dm": {
+          "armorThickness": 6.0
         },
         "turret_02_back_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 15.0
+        },
+        "turret_top_dm": {
+          "armorThickness": 10.0
         },
         "turret_02_top_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 10.0
+        },
+        "turret_bottom_dm": {
+          "armorThickness": 15.0
         },
         "turret_02_bottom_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 10.0
         },
         "turret_03_bottom_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 20.0
         },
         "turret_03_top_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 8.0
         },
         "turret_03_back_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 8.0
         },
         "turret_04_top_dm": {
           "armorThickness": 20.0
-        },
-        "turret_04_back_dm": {
-          "armorThickness": 5.0
         },
         "turret_05_front_dm": {
           "armorThickness": 38.0
@@ -261,11 +264,20 @@
         "turret_05_back_dm": {
           "armorThickness": 5.0
         },
-        "turret_03_front_dm": {
+        "turret_02_front_dm": {
           "armorThickness": 10.0
+        },
+        "turret_03_front_dm": {
+          "armorThickness": 20.0
+        },
+        "turret_04_front_dm": {
+          "armorThickness": 20.0
         },
         "turret_06_top_dm": {
           "armorThickness": 5.0
+        },
+        "turret_07_top_dm": {
+          "armorThickness": 20.0
         },
         "superstructure_back_dm": {
           "armorThickness": 5.0
@@ -274,13 +286,13 @@
       "RHHA_armor_parts": {
         "armorClass": "RHA_tank",
         "superstructure_side_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 8.0
         },
         "turret_04_side_dm": {
           "armorThickness": 5.0
         },
         "body_back_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 6.0
         },
         "turret_06_front_dm": {
           "armorThickness": 10.0
@@ -289,51 +301,22 @@
           "armorThickness": 10.0
         },
         "superstructure_front_dm": {
-          "armorThickness": 15.0
+          "armorThickness": 10.0
         },
         "turret_01_bottom_dm": {
           "armorThickness": 10.0
         },
         "turret_01_top_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 6.0
         },
         "turret_front_dm": {
-          "armorThickness": 20.0
-        }
-      },
-      "turret": {
-        "turret_bottom_dm": {
-          "armorThickness": 8.0
-        },
-        "turret_side_dm": {
-          "armorThickness": 10.0
-        },
-        "turret_top_dm": {
-          "armorThickness": 8.0
-        },
-        "turret_01_back_dm": {
-          "armorThickness": 10.0
-        },
-        "turret_02_side_dm": {
-          "armorThickness": 29.0
-        },
-        "turret_02_front_dm": {
-          "armorThickness": 8.0
-        },
-        "turret_03_side_dm": {
-          "armorThickness": 10.0
-        },
-        "turret_04_front_dm": {
-          "armorThickness": 20.0
-        },
-        "turret_07_top_dm": {
-          "armorThickness": 20.0
+          "armorThickness": 30.0
         }
       },
       "mask": {
         "armorClass": "CHA_tank_modern",
         "gun_mask_dm": {
-          "armorThickness": 20.0
+          "armorThickness": 30.0
         },
         "gun_mask_04_dm": {
           "armorThickness": 50.0
@@ -367,6 +350,14 @@
           "armorThickness": 3.0,
           "hp": 20.0
         },
+        "optic_body_02_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
+        "optic_body_03_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
+        },
         "optic_gun_dm": {
           "armorThickness": 3.0,
           "hp": 20.0
@@ -386,7 +377,11 @@
         "ex_decor_l_07_dm": [],
         "ex_decor_l_08_dm": [],
         "ex_decor_r_08_dm": [],
-        "ex_decor_r_09_dm": []
+        "ex_decor_r_09_dm": [],
+        "ex_decor_l_03_dm": [],
+        "ex_decor_r_03_dm": [],
+        "turret_04_back_dm": [],
+        "turret_back_dm": []
       },
       "side_skirts": {
         "armorClass": "RHA_tank",
@@ -1928,8 +1923,8 @@
           "speedYaw": 26.0,
           "speedPitch": 5.0,
           "fireConeAngle": 1.0,
-          "bullets": 42,
-          "recoilMultiplier": 1.5,
+          "bullets": 30,
+          "recoilMultiplier": 0.3,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -2072,7 +2067,7 @@
           "triggerGroup": "machinegun",
           "blk": "gameData/Weapons/groundModels_weapons/12_7mm_QJC_88A_user_machinegun.blk",
           "emitter": "bone_mg_aa_v_01",
-          "flash": "emtr_mg_flame_02",
+          "flash": "emtr_mg_flame_01",
           "barrelDP": "gun_barrel_02_dm",
           "defaultYaw": 0.0,
           "defaultPitch": 15.0,
@@ -2138,8 +2133,8 @@
         "cls_body": "convex_hull"
       },
       "engine": {
-        "horsePowers": 830.0,
-        "maxRPM": 2100.0,
+        "horsePowers": 320.0,
+        "maxRPM": 2500.0,
         "minRPM": 900.0,
         "rpmTau": 1.9
       },
@@ -2151,13 +2146,13 @@
         "tracked": false,
         "gearRatios": [
           {
-            "ratio": -2.75
-          },
-          {
-            "ratio": -5.5
+            "ratio": -15.0
           },
           {
             "ratio": 0.0
+          },
+          {
+            "ratio": 7.5
           },
           {
             "ratio": 5.5
@@ -2170,9 +2165,6 @@
           },
           {
             "ratio": 1.375
-          },
-          {
-            "ratio": 0.96
           }
         ]
       },
@@ -2792,12 +2784,136 @@
     "cockpit": {
       "zoomOutFov": 9.217,
       "zoomInFov": 6.141,
-      "sightFov": 6.0,
+      "sightFov": 4.5,
       "sightName": "centauro",
       "openedCockpit": false,
       "headPos": [0.0,3.8,-8.0],
       "headPosOnShooting": [-1.6,3.6,-0.5],
       "detectionHeight": 3.1
+    }
+  },
+  {
+    "ammoStowages": {
+      "ammo1": [
+        {
+          "removeLoadedAmmo": true
+        },
+        {
+          "weaponTrigger": "gunner0"
+        },
+        {
+          "fatalFire": true
+        },
+        {
+          "fatalExplosion": true
+        },
+        {
+          "replenishmentDelay": 4.0
+        },
+        {
+          "replenishmentTime": 15.0
+        },
+        {
+          "shells": {
+            "firstStage": true,
+            "ammo_turret_dm": {
+              "count": 1
+            },
+            "ammo_turret_01_dm": {
+              "count": 1
+            },
+            "ammo_turret_02_dm": {
+              "count": 1
+            },
+            "ammo_turret_03_dm": {
+              "count": 1
+            },
+            "ammo_turret_04_dm": {
+              "count": 1
+            },
+            "ammo_turret_05_dm": {
+              "count": 1
+            },
+            "ammo_turret_06_dm": {
+              "count": 1
+            },
+            "ammo_turret_07_dm": {
+              "count": 1
+            },
+            "ammo_turret_08_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "reloadTimeMult": 1.5,
+            "ammo_body_dm": {
+              "count": 1
+            },
+            "ammo_body_01_dm": {
+              "count": 1
+            },
+            "ammo_body_02_dm": {
+              "count": 1
+            },
+            "ammo_body_03_dm": {
+              "count": 1
+            },
+            "ammo_body_04_dm": {
+              "count": 1
+            },
+            "ammo_body_05_dm": {
+              "count": 1
+            },
+            "ammo_body_06_dm": {
+              "count": 1
+            },
+            "ammo_body_07_dm": {
+              "count": 1
+            },
+            "ammo_body_08_dm": {
+              "count": 1
+            },
+            "ammo_body_09_dm": {
+              "count": 1
+            },
+            "ammo_body_10_dm": {
+              "count": 1
+            },
+            "ammo_body_11_dm": {
+              "count": 1
+            },
+            "ammo_body_12_dm": {
+              "count": 1
+            },
+            "ammo_body_13_dm": {
+              "count": 1
+            },
+            "ammo_body_14_dm": {
+              "count": 1
+            },
+            "ammo_body_15_dm": {
+              "count": 1
+            },
+            "ammo_body_16_dm": {
+              "count": 1
+            },
+            "ammo_body_17_dm": {
+              "count": 1
+            },
+            "ammo_body_18_dm": {
+              "count": 1
+            },
+            "ammo_body_19_dm": {
+              "count": 1
+            },
+            "ammo_body_20_dm": {
+              "count": 1
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -2822,9 +2938,11 @@
       },
       "airstrike": [],
       "improved_optics": [],
-      "100mm_cn_HEAT_ammo_pack": [],
-      "100mm_cn_HEAT": [],
       "100mm_cn_HE": [],
+      "100mm_cn_HEAT": [],
+      "100mm_cn_HEAT_ammo_pack": {
+        "tier": 3
+      },
       "tank_smoke_screen_system_mod": {
         "tier": 4,
         "modClass": "protection",
@@ -2843,8 +2961,8 @@
                 "speedYaw": 26.0,
                 "speedPitch": 5.0,
                 "fireConeAngle": 1.0,
-                "bullets": 42,
-                "recoilMultiplier": 1.5,
+                "bullets": 30,
+                "recoilMultiplier": 0.3,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -2987,7 +3105,7 @@
                 "triggerGroup": "machinegun",
                 "blk": "gameData/Weapons/groundModels_weapons/12_7mm_QJC_88A_user_machinegun.blk",
                 "emitter": "bone_mg_aa_v_01",
-                "flash": "emtr_mg_flame_02",
+                "flash": "emtr_mg_flame_01",
                 "barrelDP": "gun_barrel_02_dm",
                 "defaultYaw": 0.0,
                 "defaultPitch": 15.0,
@@ -3022,7 +3140,7 @@
             {
               "Weapon": [
                 {
-                  "trigger": "gunner2"
+                  "trigger": "gunner3"
                 },
                 {
                   "triggerGroup": "smoke"
@@ -3129,6 +3247,30 @@
               ]
             }
           ]
+        }
+      },
+      "night_vision_system": {
+        "image": "#ui/gameuiskin#thermal_sight",
+        "tier": 3,
+        "effects": {
+          "nightVision": {
+            "gunnerThermal": {
+              "resolution": [800,600],
+              "noiseFactor": 0.04
+            },
+            "commanderIr": {
+              "resolution": [1600,1200],
+              "lightMult": 9.0,
+              "ghosting": 0.6,
+              "noiseFactor": 0.2
+            },
+            "driverIr": {
+              "resolution": [800,600],
+              "lightMult": 5.0,
+              "ghosting": 0.6,
+              "noiseFactor": 0.2
+            }
+          }
         }
       }
     }

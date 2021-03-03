@@ -111,15 +111,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "controlDevices": [
       {
         "device": {
@@ -431,6 +422,7 @@
         "wheel_l_top_03_dm": [],
         "wheel_l_top_04_dm": [],
         "wheel_l_top_05_dm": [],
+        "wheel_support_dm": [],
         "submodule": {
           "armorClass": "tank_traks",
           "armorThickness": 20.0,
@@ -1884,27 +1876,6 @@
             "barrel": "bone_gun_barrel",
             "gunnerDm": "gunner_dm"
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": false,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 75.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 75.0,
-            "speedFromVehicleVerticalMult": -1.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.0]
-              },
-              {
-                "row": [45.0,0.015]
-              },
-              {
-                "row": [80.0,0.02]
-              }
-            ]
-          },
           "limits": {
             "yaw": [-180.0,180.0],
             "pitch": [-6.0,13.0]
@@ -2004,9 +1975,26 @@
         ]
       },
       {
-        "hideNodes": {
-          "node": "ex_decor_l_04"
-        }
+        "hideNodes": [
+          {
+            "node": "ex_decor_l_04"
+          },
+          {
+            "node": "ex_decor_05"
+          },
+          {
+            "node": "ex_decor_07"
+          },
+          {
+            "node": "ex_armor_01"
+          },
+          {
+            "node": "ex_armor_02"
+          },
+          {
+            "node": "ex_armor_03"
+          }
+        ]
       }
     ]
   },
@@ -2873,27 +2861,6 @@
                   "barrel": "bone_gun_barrel",
                   "gunnerDm": "gunner_dm"
                 },
-                "gunStabilizer": {
-                  "hasVerticalGunFreeMode": false,
-                  "hasHorizontal": true,
-                  "horizontalOmegaMult": 1.0,
-                  "horizontalSpeedLimitKPH": 75.0,
-                  "hasVertical": true,
-                  "verticalOmegaMult": 1.0,
-                  "verticalSpeedLimitKPH": 75.0,
-                  "speedFromVehicleVerticalMult": -1.0,
-                  "errorKPHToDegrees": [
-                    {
-                      "row": [5.0,0.0]
-                    },
-                    {
-                      "row": [45.0,0.015]
-                    },
-                    {
-                      "row": [80.0,0.02]
-                    }
-                  ]
-                },
                 "limits": {
                   "yaw": [-180.0,180.0],
                   "pitch": [-6.0,13.0]
@@ -2993,9 +2960,26 @@
               ]
             },
             {
-              "hideNodes": {
-                "node": "ex_decor_l_04"
-              }
+              "hideNodes": [
+                {
+                  "node": "ex_decor_l_04"
+                },
+                {
+                  "node": "ex_decor_05"
+                },
+                {
+                  "node": "ex_decor_07"
+                },
+                {
+                  "node": "ex_armor_01"
+                },
+                {
+                  "node": "ex_armor_02"
+                },
+                {
+                  "node": "ex_armor_03"
+                }
+              ]
             },
             {
               "Weapon": {
@@ -3072,10 +3056,11 @@
     }
   },
   {
-    "user_skin": {
-      "name": "sk105_a2",
+    "default_skin": {
+      "name": "germ_sk105_a2",
       "replace_tex": {
-        "from": "ger_camo_bronzegruen*"
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_argentinian_bicolor*"
       }
     }
   },
@@ -3087,28 +3072,6 @@
       "replace_tex": {
         "from": "ger_camo_bronzegruen*",
         "to": "ussr_camo_winter*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "ger_camo_carc",
-      "nameLocId": "skin/ger_camo_carc",
-      "descLocId": "skin/ger_camo_carc/desc",
-      "replace_tex": {
-        "from": "ger_camo_bronzegruen*",
-        "to": "ger_camo_carc*"
-      }
-    }
-  },
-  {
-    "skin": {
-      "name": "ger_camo_argentinian_bicolor",
-      "nameLocId": "skin/ger_camo_argentinian_bicolor",
-      "descLocId": "skin/ger_camo_argentinian_bicolor/desc",
-      "replace_tex": {
-        "from": "ger_camo_bronzegruen*",
-        "to": "ger_camo_argentinian_bicolor*"
       }
     }
   },

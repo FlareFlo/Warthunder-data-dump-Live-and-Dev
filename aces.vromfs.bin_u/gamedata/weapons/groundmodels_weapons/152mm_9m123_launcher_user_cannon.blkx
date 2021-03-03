@@ -111,6 +111,7 @@
       "groundCollisionEffect": "hit_133_160mm_dirt_he",
       "ricochetEffect": "hit_133_160mm_metal_ap",
       "waterCollisionEffect": "hit_133_160mm_water",
+      "explosionPatchRadius": 4.0,
       "fireEffect": "rocket_fire_short",
       "smokeEffect": "",
       "hazeEffect": "haze_missile",
@@ -151,6 +152,8 @@
       "maxSpeed": 550.0,
       "price": 3000.0,
       "mesh": "9m123_rocket_deployed",
+      "hasTracerTrail": true,
+      "tracerTrailEmitter": [-0.5,0.0,0.0],
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.0]
@@ -364,6 +367,14 @@
         "cumulativeFragmentsAmount": 40,
         "cumulativeFragmentsArmorPower": 5.0,
         "cumulativeFragmentsHit": 9.0
+      },
+      "tracerTrail": {
+        "smokeEffect": "",
+        "visual": {
+          "traceFreq": 1,
+          "tracer": "152mmRed",
+          "trail": "noTrail"
+        }
       }
     }
   },
@@ -442,6 +453,7 @@
         "groundCollisionEffect": "hit_133_160mm_dirt_he",
         "ricochetEffect": "hit_133_160mm_metal_ap",
         "waterCollisionEffect": "hit_133_160mm_water",
+        "explosionPatchRadius": 4.0,
         "fireEffect": "rocket_fire_short",
         "smokeEffect": "",
         "hazeEffect": "haze_missile",
@@ -482,6 +494,8 @@
         "maxSpeed": 550.0,
         "price": 3000.0,
         "mesh": "9m123_rocket_deployed",
+        "hasTracerTrail": true,
+        "tracerTrailEmitter": [-0.5,0.0,0.0],
         "stabilityRicochetModifier": [
           {
             "mod1": [0.0,0.0]
@@ -695,6 +709,14 @@
           "cumulativeFragmentsAmount": 40,
           "cumulativeFragmentsArmorPower": 5.0,
           "cumulativeFragmentsHit": 9.0
+        },
+        "tracerTrail": {
+          "smokeEffect": "",
+          "visual": {
+            "traceFreq": 1,
+            "tracer": "152mmRed",
+            "trail": "noTrail"
+          }
         }
       }
     }
@@ -768,6 +790,7 @@
         "groundCollisionEffect": "hit_133_160mm_dirt_he",
         "ricochetEffect": "hit_133_160mm_metal_ap",
         "waterCollisionEffect": "hit_133_160mm_water",
+        "explosionPatchRadius": 4.0,
         "fireEffect": "rocket_fire_short",
         "smokeEffect": "",
         "hazeEffect": "haze_missile",
@@ -808,6 +831,8 @@
         "maxSpeed": 550.0,
         "price": 3000.0,
         "mesh": "9m123_rocket_deployed",
+        "hasTracerTrail": true,
+        "tracerTrailEmitter": [-0.5,0.0,0.0],
         "stabilityRicochetModifier": {
           "mod1": [0.0,0.5],
           "mod2": [20.0,0.6],
@@ -999,6 +1024,14 @@
           "explosive": {
             "radius": 0.2,
             "offset": 0.3
+          }
+        },
+        "tracerTrail": {
+          "smokeEffect": "",
+          "visual": {
+            "traceFreq": 1,
+            "tracer": "152mmRed",
+            "trail": "noTrail"
           }
         }
       }

@@ -216,6 +216,22 @@
       "underwaterExtinguishAdditionalWater": 0.75,
       "checkAdditionalWater": true
     },
+    "ship_cruiser_barbettes": {
+      "damage": 50.0,
+      "isDamageRelative": false,
+      "damageType": "fire",
+      "radiusScale": 0.4,
+      "radiusScales": [0.4,1.0],
+      "maxFireTime": [1.0,4.0],
+      "extinguishChance": 0.05,
+      "allowMultipleFires": false,
+      "allowMultipleFx": false,
+      "fxPresetName": "compartment_fire",
+      "penetration": 30.0,
+      "underwaterExtinguishTime": 20.0,
+      "underwaterExtinguishAdditionalWater": 0.75,
+      "checkAdditionalWater": true
+    },
     "ship_aux_turrets": {
       "damage": 15.0,
       "isDamageRelative": false,

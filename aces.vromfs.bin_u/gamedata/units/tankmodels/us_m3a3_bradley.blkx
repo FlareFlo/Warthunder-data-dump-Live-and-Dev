@@ -138,15 +138,6 @@
     "smokeScreenFxType": "tank_smokescreen"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -217,9 +208,6 @@
         },
         "turret_09_front_dm": {
           "armorThickness": 25.4
-        },
-        "turret_06_top_dm": {
-          "armorThickness": 12.7
         }
       },
       "armor_al_5083": {
@@ -292,12 +280,6 @@
           "armorThickness": 6.35,
           "hidableInViewer": true
         },
-        "turret_06_side_dm": {
-          "armorThickness": 6.35
-        },
-        "turret_09_side_dm": {
-          "armorThickness": 6.35
-        },
         "turret_05_back_dm": {
           "armorThickness": 25.4
         }
@@ -344,6 +326,7 @@
       "add_armor_parts": {
         "armorClass": "RHA_tank",
         "armorThickness": 25.4,
+        "hidableInViewer": true,
         "turret_06_back_dm": {
           "armorThickness": 12.7
         },
@@ -351,10 +334,19 @@
         "turret_07_bottom_dm": [],
         "turret_07_side_dm": [],
         "turret_07_front_dm": [],
+        "turret_06_side_dm": {
+          "armorThickness": 12.7
+        },
         "turret_08_side_dm": [],
+        "turret_09_side_dm": {
+          "armorThickness": 12.7
+        },
         "turret_08_front_dm": [],
         "turret_08_bottom_dm": [],
         "turret_08_back_dm": [],
+        "turret_06_top_dm": {
+          "armorThickness": 12.7
+        },
         "turret_09_top_dm": {
           "armorThickness": 12.7
         },
@@ -2022,9 +2014,8 @@
       {
         "Weapon": {
           "trigger": "gunner2",
-          "triggerGroup": "special",
-          "blk": "gameData/Weapons/groundModels_weapons/127mm_TOW_rocket_launcher.blk",
-          "weaponType": "rockets",
+          "triggerGroup": "secondary",
+          "blk": "gameData/Weapons/groundModels_weapons/127mm_BGM_71_tow_M3A3_launcher_user_cannon.blk",
           "flash": "emtr_gun_flame_01",
           "useEmitter": true,
           "emitter": "bone_rocket_01",
@@ -2038,6 +2029,7 @@
           "maxSpeedForFire": 6.0,
           "battlePositionSpeed": 16.0,
           "lagStopForFireTime": 1.0,
+          "changeBulletTypeForSet": true,
           "barrelDP": "gun_barrel_02_dm",
           "brokenBarrelAllowShoot": false,
           "createGunEffects": true,
@@ -2045,7 +2037,6 @@
           "defaultPitch": 0.0,
           "speedYaw": 25.0,
           "speedPitch": 25.0,
-          "isBulletBelt": true,
           "fireConeAngle": 1.0,
           "bullets": 12,
           "salvoAmount": 100.0,
@@ -2950,9 +2941,8 @@
             {
               "Weapon": {
                 "trigger": "gunner2",
-                "triggerGroup": "special",
-                "blk": "gameData/Weapons/groundModels_weapons/127mm_TOW_rocket_launcher.blk",
-                "weaponType": "rockets",
+                "triggerGroup": "secondary",
+                "blk": "gameData/Weapons/groundModels_weapons/127mm_BGM_71_tow_M3A3_launcher_user_cannon.blk",
                 "flash": "emtr_gun_flame_01",
                 "useEmitter": true,
                 "emitter": "bone_rocket_01",
@@ -2966,6 +2956,7 @@
                 "maxSpeedForFire": 6.0,
                 "battlePositionSpeed": 16.0,
                 "lagStopForFireTime": 1.0,
+                "changeBulletTypeForSet": true,
                 "barrelDP": "gun_barrel_02_dm",
                 "brokenBarrelAllowShoot": false,
                 "createGunEffects": true,
@@ -2973,7 +2964,6 @@
                 "defaultPitch": 0.0,
                 "speedYaw": 25.0,
                 "speedPitch": 25.0,
-                "isBulletBelt": true,
                 "fireConeAngle": 1.0,
                 "bullets": 12,
                 "salvoAmount": 100.0,
@@ -3057,12 +3047,20 @@
           ]
         }
       },
-      "25mm_M242_HE": [],
       "25mm_M242_APDS": [],
-      "25mm_M242_HE_ammo_pack": [],
-      "25mm_M242_APDS_ammo_pack": [],
+      "25mm_M242_APDS_FS": [],
+      "25mm_M242_APDS_ammo_pack": {
+        "tier": 1
+      },
+      "25mm_M242_APDS_FS_ammo_pack": [],
+      "127mm_us_tow": [],
+      "152mm_us_tow_2": [],
+      "152mm_us_tow_2_ammo_pack": {
+        "tier": 3
+      },
       "night_vision_system": {
         "image": "#ui/gameuiskin#thermal_sight",
+        "tier": 2,
         "effects": {
           "nightVision": {
             "gunnerThermal": {
@@ -3245,6 +3243,7 @@
         "fatalExplosion": true,
         "replenishmentDelay": 0.1,
         "replenishmentTime": 0.1,
+        "removeLoadedAmmo": false,
         "shells": {
           "ammo_turret_03_dm": {
             "count": 1
@@ -3274,6 +3273,12 @@
             "count": 1
           },
           "ammo_turret_12_dm": {
+            "count": 1
+          },
+          "ammo_turret_01_dm": {
+            "count": 1
+          },
+          "ammo_turret_02_dm": {
             "count": 1
           }
         }

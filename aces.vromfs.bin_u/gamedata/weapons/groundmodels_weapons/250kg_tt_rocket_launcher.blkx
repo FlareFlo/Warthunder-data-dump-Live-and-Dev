@@ -170,6 +170,9 @@
       "waterCollisionEffect": "hit_133_160mm_water"
     },
     {
+      "explosionPatchRadius": 4.0
+    },
+    {
       "explodeTreshold": 0.1
     },
     {

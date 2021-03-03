@@ -71,6 +71,9 @@
         "node": "pylon_1c"
       },
       {
+        "node": "pylon_2c"
+      },
+      {
         "node": "pylon_1c_holder_250"
       },
       {
@@ -152,13 +155,19 @@
         "node": "ub32_b004"
       },
       {
-        "node": "sppu22_b001"
+        "node": "sppu_22_001"
+      },
+      {
+        "node": "sppu_22_gun_001"
       },
       {
         "node": "flare3"
       },
       {
-        "node": "sppu22_b002"
+        "node": "sppu_22_002"
+      },
+      {
+        "node": "sppu_22_gun_002"
       },
       {
         "node": "flare4"
@@ -168,7 +177,13 @@
   {
     "hideDmParts": [
       {
+        "node": "cover4_dm"
+      },
+      {
         "node": "cannon3_dm"
+      },
+      {
+        "node": "cover5_dm"
       },
       {
         "node": "cannon4_dm"

@@ -303,6 +303,16 @@
     }
   },
   {
+    "uk_centurion_mk_5_raac/ancient": [
+      {
+        "camoType": "desert"
+      },
+      {
+        "camoType": "forest"
+      }
+    ]
+  },
+  {
     "camo_desert_pink_lines": {
       "camoType": "desert"
     }
@@ -1604,6 +1614,21 @@
     "tn_camo_sand_green_brown": {
       "camoType": "desert"
     }
+  },
+  {
+    "pl_camo_green_sand_black": {
+      "camoType": "forest"
+    }
+  },
+  {
+    "poland": [
+      {
+        "camoType": "urban"
+      },
+      {
+        "camoType": "forest"
+      }
+    ]
   },
   {
     "se_camo_desert_three_color": [

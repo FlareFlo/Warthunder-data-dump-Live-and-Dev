@@ -2027,7 +2027,16 @@
       "tracks": {
         "animationMultiplier": 0.68,
         "width": 0.4,
-        "height": 0.04
+        "height": 0.062,
+        "tracksTensionK": [7.0,10.0,1.0],
+        "trackMesh": "uk_cromwell_15_5_phys_track_line",
+        "trackLen": 0.1,
+        "trackCount": 125,
+        "trackFadeTime": 1.1,
+        "trackConnector": false,
+        "trackEmitSparks": true,
+        "trackMaxHeight": 1.1,
+        "trackStartOffset": 0.055
       },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
@@ -2076,7 +2085,25 @@
         "topGearRadius": 0.1,
         "defaultDampeningForce": [84000.0,84000.0],
         "dampeningRelaxationRatio": 0.4,
-        "dampeningCompressionRatio": 0.15
+        "dampeningCompressionRatio": 0.15,
+        "wheel_r_drive": 0.315,
+        "wheel_l_drive": 0.315,
+        "wheel_r_front": 0.262,
+        "wheel_l_front": 0.262,
+        "wheel_r_01": 0.405,
+        "wheel_r_02": 0.405,
+        "wheel_r_03": 0.405,
+        "wheel_r_04": 0.405,
+        "wheel_r_05": 0.405,
+        "wheel_r_06": 0.405,
+        "wheel_r_07": 0.405,
+        "wheel_l_01": 0.405,
+        "wheel_l_02": 0.405,
+        "wheel_l_03": 0.405,
+        "wheel_l_04": 0.405,
+        "wheel_l_05": 0.405,
+        "wheel_l_06": 0.405,
+        "wheel_l_07": 0.405
       }
     }
   },

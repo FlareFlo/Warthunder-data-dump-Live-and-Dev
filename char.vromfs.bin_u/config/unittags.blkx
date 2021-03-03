@@ -479,7 +479,7 @@
     "hangar_place": "aircraft",
     "testFlight": "testFlight_zhengzhou_Jet",
     "operatorCountry": "country_republic_china",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "general_electric",
@@ -1768,6 +1768,73 @@
       "country_usa": true,
       "type_assault": true,
       "type_strike_aircraft": true,
+      "western_front": true,
+      "eastern_front": true,
+      "air": true
+    },
+    "years_active": {
+      "year1950": {
+        "korea": 1.0
+      },
+      "year1951": {
+        "korea": 1.0
+      },
+      "year1952": {
+        "korea": 1.0
+      },
+      "year1953": {
+        "korea": 1.0
+      }
+    },
+    "Shop": {
+      "maxAltitude": 12497.0,
+      "maxSpeed": 312.0,
+      "turnTime": 35.0,
+      "airfieldLen": 1000.0,
+      "climbTime": 355.0,
+      "maxSpeedAlt": 0.0,
+      "climbAlt": 10668.0,
+      "climbSpeed": 55.0,
+      "wingLoading": 384.7,
+      "thrustToWeightRatio": 0.482,
+      "rollRate": 200.0
+    }
+  },
+  "f8u-2": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_wake_island_Jet",
+    "releaseDate": "2021-03-10 00:00:00",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "allison",
+        "model": "tf_41_a_1",
+        "mass": 1592.6
+      },
+      "tanks_params": {
+        "protected_boost": true,
+        "tank1_dm": {
+          "protected": false
+        },
+        "tank2_dm": {
+          "protected": false
+        },
+        "tank3_dm": {
+          "protected": false
+        },
+        "tank4_dm": {
+          "protected": true
+        },
+        "tank5_dm": {
+          "protected": false
+        }
+      }
+    },
+    "tags": {
+      "ally": true,
+      "country_usa": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
       "western_front": true,
       "eastern_front": true,
       "air": true
@@ -11315,6 +11382,58 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_berlin_Jet",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "junkers",
+        "model": "jumo004b-1",
+        "mass": 720.0
+      },
+      "engine2_dm": {
+        "manufacturer": "junkers",
+        "model": "jumo004b-1",
+        "mass": 720.0
+      },
+      "tanks_params": {
+        "protected": true
+      }
+    },
+    "tags": {
+      "axis": true,
+      "country_germany": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
+      "berlin": true,
+      "western_front": true,
+      "eastern_front": true,
+      "air": true
+    },
+    "years_active": {
+      "year1944": {
+        "berlin": 0.6
+      },
+      "year1945": {
+        "berlin": 0.9
+      }
+    },
+    "Shop": {
+      "maxAltitude": 12500.0,
+      "maxSpeed": 240.28,
+      "turnTime": 28.0,
+      "airfieldLen": 750.0,
+      "climbTime": 402.0,
+      "maxSpeedAlt": 6000.0,
+      "climbAlt": 6000.0,
+      "climbSpeed": 20.0,
+      "wingLoading": 310.0,
+      "thrustToWeightRatio": 0.13,
+      "rollRate": 106.0
+    }
+  },
+  "me-262a-1a_early": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_berlin_Jet",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "junkers",
@@ -38679,6 +38798,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_midway_japanese",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "nakajima",
@@ -41039,7 +41159,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_krymsk_Jet",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "klimov",
@@ -41098,7 +41218,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_krymsk_Jet",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "lulka",
@@ -47999,6 +48119,60 @@
       "rollRate": 122.0
     }
   },
+  "attaker_fb2": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_britain_navy_Jet",
+    "releaseDate": "2021-03-10 00:00:00",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "rolls-royce",
+        "model": "nene-102",
+        "mass": 930.0
+      },
+      "tanks_params": {
+        "protected": true
+      }
+    },
+    "tags": {
+      "ally": true,
+      "country_britain": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
+      "type_naval_aircraft": true,
+      "korea": true,
+      "not_in_dynamic_campaign": true,
+      "carrier_take_off": true,
+      "air": true
+    },
+    "years_active": {
+      "year1950": {
+        "korea": 1.0
+      },
+      "year1951": {
+        "korea": 1.0
+      },
+      "year1952": {
+        "korea": 1.0
+      },
+      "year1953": {
+        "korea": 1.0
+      }
+    },
+    "Shop": {
+      "maxAltitude": 12191.0,
+      "maxSpeed": 256.1,
+      "turnTime": 25.0,
+      "airfieldLen": 950.0,
+      "maxSpeedAlt": 0.0,
+      "climbSpeed": 28.0,
+      "climbTime": 300.0,
+      "climbAlt": 6096.0,
+      "wingLoading": 265.0,
+      "thrustToWeightRatio": 0.38,
+      "rollRate": 122.0
+    }
+  },
   "sea_fury_fb11": {
     "type": "aircraft",
     "hangar_place": "aircraft",
@@ -51388,7 +51562,7 @@
     "hangar_place": "aircraft",
     "testFlight": "testFlight_denmark",
     "operatorCountry": "country_finland",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "bristol",
@@ -53864,7 +54038,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_krymsk_Jet",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "saturn",
@@ -59252,6 +59426,58 @@
       "rollRate": 140.0
     }
   },
+  "mirage_3e": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_france_Jet",
+    "releaseDate": "2021-03-10 00:00:00",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "snecma",
+        "model": "atar_9c",
+        "mass": 1450.0
+      },
+      "tanks_params": {
+        "protected": true
+      }
+    },
+    "tags": {
+      "ally": true,
+      "country_france": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
+      "western_front": true,
+      "eastern_front": true,
+      "air": true
+    },
+    "years_active": {
+      "year1950": {
+        "korea": 1.0
+      },
+      "year1951": {
+        "korea": 1.0
+      },
+      "year1952": {
+        "korea": 1.0
+      },
+      "year1953": {
+        "korea": 1.0
+      }
+    },
+    "Shop": {
+      "maxAltitude": 16000.0,
+      "maxSpeed": 600.0,
+      "turnTime": 28.0,
+      "airfieldLen": 750.0,
+      "climbTime": 190.0,
+      "maxSpeedAlt": 12000.0,
+      "climbAlt": 10000.0,
+      "climbSpeed": 140.0,
+      "wingLoading": 380.0,
+      "thrustToWeightRatio": 0.71,
+      "rollRate": 140.0
+    }
+  },
   "md_460": {
     "type": "aircraft",
     "hangar_place": "aircraft",
@@ -61223,7 +61449,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ussr_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_ussr": true,
       "tank": true,
@@ -61775,7 +62001,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ussr_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_ussr": true,
       "tank": true,
@@ -62870,8 +63096,8 @@
   "germ_sk105_a2": {
     "type": "tank",
     "hangar_place": "tank",
-    "operatorCountry": "country_austria",
-    "releaseDate": "2021-03-02 00:00:00",
+    "operatorCountry": "country_argentina",
+    "releaseDate": "2021-03-10 00:00:00",
     "testFlight": "testFlight_ERA_tft",
     "tags": {
       "country_germany": true,
@@ -62879,8 +63105,8 @@
       "type_tank_destroyer": true
     },
     "Shop": {
-      "armorThicknessHull": [50.0,30.0,30.0],
-      "armorThicknessTurret": [50.0,30.0,30.0]
+      "armorThicknessHull": [20.0,14.0,12.0],
+      "armorThicknessTurret": [40.0,20.0,20.0]
     }
   },
   "germ_pzkpfw_38t_Aufklarungspanzer": {
@@ -63709,7 +63935,7 @@
     "hangar_place": "tank",
     "testFlight": "testFlight_italy_tft",
     "operatorCountry": "country_italy_kingdom",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_italy": true,
       "tank": true,
@@ -65041,7 +65267,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ussr_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_usa": true,
       "tank": true,
@@ -65864,7 +66090,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_usa": true,
       "tank": true,
@@ -66288,7 +66514,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_poland",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2018-06-06 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_germany": true,
       "tank": true,
@@ -67111,7 +67337,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_sweden": true,
       "tank": true,
@@ -67986,7 +68212,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68003,7 +68229,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68021,7 +68247,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68039,7 +68265,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68055,7 +68281,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68071,7 +68297,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68087,7 +68313,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68102,24 +68328,8 @@
     "type": "tank",
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
-    "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
-    "tags": {
-      "country_britain": true,
-      "tank": true,
-      "type_light_tank": true
-    },
-    "Shop": {
-      "armorThicknessHull": [20.0,10.0,10.0],
-      "armorThicknessTurret": [12.0,10.0,10.0]
-    }
-  },
-  "uk_marmon_herrington_mk_6_6pdr": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "operatorCountry": "country_south_africa_modern",
-    "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "testFlight": "testFlight_ussr_tft",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68128,8 +68338,26 @@
       "canRepairAnyAlly": true
     },
     "Shop": {
-      "armorThicknessHull": [20.0,10.0,10.0],
-      "armorThicknessTurret": [12.0,10.0,10.0]
+      "armorThicknessHull": [20.0,8.0,10.0],
+      "armorThicknessTurret": [14.0,14.0,14.0]
+    }
+  },
+  "uk_marmon_herrington_mk_6_6pdr": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "operatorCountry": "country_south_africa_modern",
+    "testFlight": "testFlight_ussr_tft",
+    "releaseDate": "2021-03-10 00:00:00",
+    "tags": {
+      "country_britain": true,
+      "tank": true,
+      "type_light_tank": true,
+      "scout": true,
+      "canRepairAnyAlly": true
+    },
+    "Shop": {
+      "armorThicknessHull": [20.0,8.0,10.0],
+      "armorThicknessTurret": [30.0,14.0,14.0]
     }
   },
   "uk_ratel_90": {
@@ -68137,7 +68365,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68155,7 +68383,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -68903,7 +69131,7 @@
     "hangar_place": "tank",
     "testFlight": "testFlight_italy_tft",
     "operatorCountry": "country_italy_kingdom",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_italy": true,
       "tank": true,
@@ -68915,7 +69143,7 @@
     "hangar_place": "tank",
     "testFlight": "testFlight_italy_tft",
     "operatorCountry": "country_italy_kingdom",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_italy": true,
       "tank": true,
@@ -69610,6 +69838,23 @@
       "armorThicknessTurret": [40.0,20.0,20.0]
     }
   },
+  "fr_mars_15": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_ERA_tft",
+    "releaseDate": "2021-03-10 00:00:00",
+    "tags": {
+      "country_france": true,
+      "tank": true,
+      "type_light_tank": true,
+      "scout": true,
+      "canRepairAnyAlly": true
+    },
+    "Shop": {
+      "armorThicknessHull": [40.0,20.0,15.0],
+      "armorThicknessTurret": [40.0,20.0,20.0]
+    }
+  },
   "fr_amx_13_hot": {
     "type": "tank",
     "hangar_place": "tank",
@@ -69666,6 +69911,22 @@
     "Shop": {
       "armorThicknessHull": [76.0,30.0,30.0],
       "armorThicknessTurret": [60.0,41.0,30.0]
+    }
+  },
+  "fr_sk105_a2": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "operatorCountry": "country_austria",
+    "releaseDate": "2021-03-10 00:00:00",
+    "testFlight": "testFlight_ERA_tft",
+    "tags": {
+      "country_france": true,
+      "tank": true,
+      "type_tank_destroyer": true
+    },
+    "Shop": {
+      "armorThicknessHull": [20.0,14.0,12.0],
+      "armorThicknessTurret": [40.0,20.0,20.0]
     }
   },
   "fr_amx_30": {
@@ -71055,7 +71316,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_japan_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_japan": true,
       "tank": true,
@@ -77278,7 +77539,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_china_tft",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_china": true,
       "tank": true,
@@ -79468,7 +79729,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_jp_tfs",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_japan": true,
       "type_light_cruiser": true,
@@ -79478,6 +79739,7 @@
       "westernfront": true
     },
     "Shop": {
+      "armorThicknessCitadel": [0.0,63.0,28.6],
       "maxSpeed": 16.46,
       "displacement": 7660000.0
     }
@@ -79487,7 +79749,7 @@
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_germ_tfs",
     "operatorCountry": "country_germany_empire_navy",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_germany": true,
       "type_battleship": true,
@@ -79507,7 +79769,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_ussr_tfs",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_ussr": true,
       "type_frigate": true,
@@ -79526,7 +79788,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_uk_tfs",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_britain": true,
       "type_frigate": true,
@@ -79546,13 +79808,14 @@
     "hangar_place": "ship",
     "operatorCountry": "country_italy_kingdom",
     "testFlight": "testFlight_destroyer_it_tfs",
-    "releaseDate": "2021-03-02 00:00:00",
+    "releaseDate": "2021-03-10 00:00:00",
     "tags": {
       "country_italy": true,
       "type_light_cruiser": true,
       "ship": true
     },
     "Shop": {
+      "armorThicknessCitadel": [25.0,60.0,35.0],
       "maxSpeed": 14.4,
       "armorThicknessTurretMainCaliber": [20.0,6.0,6.0],
       "displacement": 7000000.0

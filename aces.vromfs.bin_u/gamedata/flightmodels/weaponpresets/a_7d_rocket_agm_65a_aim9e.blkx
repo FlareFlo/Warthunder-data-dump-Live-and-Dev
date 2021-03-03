@@ -25,7 +25,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
-      "emitter": "us_agm_65a_002",
+      "emitter": "us_agm_65a_001",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -36,7 +36,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
-      "emitter": "us_agm_65a_005",
+      "emitter": "us_agm_65a_004",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -58,7 +58,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
-      "emitter": "us_agm_65a_004",
+      "emitter": "us_agm_65a_006",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -207,6 +207,18 @@
       },
       {
         "node": "us_lau_117a_001"
+      },
+      {
+        "node": "us_lau_117a_002"
+      },
+      {
+        "node": "us_lau_117a_003"
+      },
+      {
+        "node": "us_lau_117a_004"
+      },
+      {
+        "node": "us_lau_117a_005"
       },
       {
         "node": "us_lau_117a_006"

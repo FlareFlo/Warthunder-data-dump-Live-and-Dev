@@ -1,4 +1,428 @@
 {
+  "f-5a_china/bicolor": {
+    "category": "aircraft_china",
+    "costGold": 200
+  },
+  "su_17m2/camo": {
+    "category": "aircraft_ussr",
+    "costGold": 200
+  },
+  "us_m3a3_bradley/ger_camo_carc": {
+    "category": "tanks_usa",
+    "costGold": 200
+  },
+  "us_m3a3_bradley/modern_gray_desert": {
+    "category": "tanks_usa",
+    "costGold": 200
+  },
+  "us_m3a3_bradley/modern_seventh_army": {
+    "category": "tanks_usa",
+    "costGold": 200,
+    "unlock": "us_m3a3_bradley/modern_seventh_army"
+  },
+  "us_m3a3_bradley/modern_snow_temperate": {
+    "category": "tanks_usa",
+    "costGold": 200,
+    "unlock": "us_m3a3_bradley/modern_snow_temperate"
+  },
+  "us_m3a3_bradley/modern_winter_verdant": {
+    "category": "tanks_usa",
+    "costGold": 200
+  },
+  "us_m3a3_bradley/us_camo_modern_desert_tan": {
+    "category": "tanks_usa",
+    "costGold": 200,
+    "unlock": "us_m3a3_bradley/us_camo_modern_desert_tan"
+  },
+  "germ_sk105_a2/winter": {
+    "category": "tanks_germany",
+    "costGold": 200,
+    "unlock": "germ_sk105_a2/winter"
+  },
+  "germ_sk105_a2/tn_camo_sand_green_brown": {
+    "category": "tanks_germany",
+    "costGold": 200
+  },
+  "germ_leopard_2pl/us_camo_modern_desert_tan": {
+    "category": "tanks_germany",
+    "costGold": 200,
+    "unlock": "germ_leopard_2pl/us_camo_modern_desert_tan"
+  },
+  "germ_leopard_2pl/winter": {
+    "category": "tanks_germany",
+    "costGold": 200,
+    "unlock": "germ_leopard_2pl/winter"
+  },
+  "germ_leopard_2pl/pl_camo_green_sand_black": {
+    "category": "tanks_germany",
+    "costGold": 200,
+    "unlock": "germ_leopard_2pl/pl_camo_green_sand_black"
+  },
+  "germ_leopard_2pl/ger_camo_carc": {
+    "category": "tanks_germany",
+    "costGold": 200
+  },
+  "germ_leopard_2pl/poland": {
+    "category": "tanks_germany",
+    "costGold": 400
+  },
+  "ussr_bt_7_m/forest": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_bt_7_m/forest"
+  },
+  "ussr_bt_7_m/ussr_camo_czechoslovak_yellow_green": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_bt_7_m/ussr_camo_desert_syrian_green_brown_yellow": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_bt_7_m/ussr_camo_desert_yellow_brown": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_bt_7_m/ussr_camo_desert_yellow_brown"
+  },
+  "ussr_bt_7_m/ussr_camo_winter_lines": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_bt_7_m/winter": {
+    "category": "tanks_ussr",
+    "unlock": "ussr_bt_7_m/winter"
+  },
+  "ussr_t_28_1938/forest": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_t_28_1938/forest"
+  },
+  "ussr_t_28_1938/ussr_camo_czechoslovak_yellow_green": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_28_1938/ussr_camo_desert_syrian_green_brown_yellow": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_28_1938/ussr_camo_desert_yellow_brown": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_t_28_1938/ussr_camo_desert_yellow_brown"
+  },
+  "ussr_t_28_1938/ussr_camo_winter_lines": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_28_1938/winter": {
+    "category": "tanks_ussr",
+    "unlock": "ussr_t_28_1938/winter"
+  },
+  "uk_rooikat_105_td/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_rooikat_76/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_marmon_herrington_mk_6_2pdr/uk_camo_light_mud_blue_black": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_marmon_herrington_mk_6_2pdr/uk_camo_light_mud_blue_black"
+  },
+  "uk_marmon_herrington_mk_6_2pdr/uk_camo_light_stone_dark_green": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_marmon_herrington_mk_6_2pdr/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_marmon_herrington_mk_6_2pdr/fr_camo_winter_green_white"
+  },
+  "uk_marmon_herrington_mk_6_6pdr/uk_camo_light_mud_blue_black": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_marmon_herrington_mk_6_6pdr/uk_camo_light_mud_blue_black"
+  },
+  "uk_marmon_herrington_mk_6_6pdr/uk_camo_light_stone_dark_green": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_marmon_herrington_mk_6_6pdr/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_marmon_herrington_mk_6_6pdr/fr_camo_winter_green_white"
+  },
+  "uk_rooikat_za_35/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_rooikat_za_35/fr_camo_winter_green_white"
+  },
+  "uk_rooikat_za_35/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_rooikat_za_35/rsa_camo_modern_three_color"
+  },
+  "uk_rooikat_za_35/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_rooikat_mttd/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_rooikat_mttd/fr_camo_winter_green_white"
+  },
+  "uk_rooikat_mttd/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_rooikat_mttd/rsa_camo_modern_three_color"
+  },
+  "uk_rooikat_mttd/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_olifant_mk_1a/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_olifant_mk_1a/fr_camo_winter_green_white"
+  },
+  "uk_olifant_mk_1a/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_olifant_mk_1a/rsa_camo_modern_three_color"
+  },
+  "uk_olifant_mk_1a/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_olifant_mk_2/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_olifant_mk_2/fr_camo_winter_green_white"
+  },
+  "uk_olifant_mk_2/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_olifant_mk_2/rsa_camo_modern_three_color"
+  },
+  "uk_olifant_mk_2/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_eland_90_mk_7/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_eland_90_mk_7/fr_camo_winter_green_white"
+  },
+  "uk_eland_90_mk_7/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_eland_90_mk_7/rsa_camo_modern_three_color"
+  },
+  "uk_eland_90_mk_7/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_ratel_90/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ratel_90/fr_camo_winter_green_white"
+  },
+  "uk_ratel_90/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ratel_90/rsa_camo_modern_three_color"
+  },
+  "uk_ratel_90/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_ratel_20/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ratel_20/fr_camo_winter_green_white"
+  },
+  "uk_ratel_20/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ratel_20/rsa_camo_modern_three_color"
+  },
+  "uk_ratel_20/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_ratel_zt3/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ratel_zt3/fr_camo_winter_green_white"
+  },
+  "uk_ratel_zt3/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ratel_zt3/rsa_camo_modern_three_color"
+  },
+  "uk_ratel_zt3/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "uk_ttd/fr_camo_winter_green_white": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ttd/fr_camo_winter_green_white"
+  },
+  "uk_ttd/rsa_camo_modern_three_color": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_ttd/rsa_camo_modern_three_color"
+  },
+  "uk_ttd/rsa_camo_gray_earth_stone": {
+    "category": "tanks_britain",
+    "costGold": 200
+  },
+  "jp_hiro_sha/brown": {
+    "category": "tanks_japan",
+    "costGold": 200,
+    "unlock": "jp_hiro_sha/brown"
+  },
+  "jp_hiro_sha/early_era_brown_yellow_lines": {
+    "category": "tanks_japan",
+    "costGold": 200
+  },
+  "jp_hiro_sha/green": {
+    "category": "tanks_japan",
+    "costGold": 200
+  },
+  "jp_hiro_sha/grey": {
+    "category": "tanks_japan",
+    "costGold": 200
+  },
+  "jp_hiro_sha/jp_camo_winter_early": {
+    "category": "tanks_japan",
+    "costGold": 200
+  },
+  "jp_hiro_sha/post_era_winter": {
+    "category": "tanks_japan",
+    "unlock": "jp_hiro_sha/post_era_winter"
+  },
+  "cn_ptl_02/fr_camo_jaune_sahara": {
+    "category": "tanks_china",
+    "costGold": 200,
+    "unlock": "cn_ptl_02/fr_camo_jaune_sahara"
+  },
+  "cn_ptl_02/green_yellow_black": {
+    "category": "tanks_china",
+    "costGold": 200
+  },
+  "cn_ptl_02/sand_green_black": {
+    "category": "tanks_china",
+    "costGold": 200
+  },
+  "cn_ptl_02/sand_ltgreen_dkgreen": {
+    "category": "tanks_china",
+    "costGold": 200
+  },
+  "cn_ptl_02/winter": {
+    "category": "tanks_china",
+    "costGold": 200,
+    "unlock": "cn_ptl_02/winter"
+  },
+  "it_stug_III_ausf_G/it_camo_three_color_spots": {
+    "category": "tanks_italy",
+    "costGold": 200,
+    "unlock": "it_stug_III_ausf_G/it_camo_three_color_spots"
+  },
+  "it_stug_III_ausf_G/winter": {
+    "category": "tanks_italy",
+    "costGold": 200,
+    "unlock": "it_stug_III_ausf_G/winter"
+  },
+  "it_pzkpfw_IV_ausf_G/it_camo_three_color_spots": {
+    "category": "tanks_italy",
+    "costGold": 200,
+    "unlock": "it_pzkpfw_IV_ausf_G/it_camo_three_color_spots"
+  },
+  "it_pzkpfw_IV_ausf_G/winter": {
+    "category": "tanks_italy",
+    "costGold": 200,
+    "unlock": "it_pzkpfw_IV_ausf_G/winter"
+  },
+  "it_pzkpfw_III_ausf_N/it_camo_three_color_spots": {
+    "category": "tanks_italy",
+    "costGold": 200,
+    "unlock": "it_pzkpfw_III_ausf_N/it_camo_three_color_spots"
+  },
+  "it_pzkpfw_III_ausf_N/winter": {
+    "category": "tanks_italy",
+    "costGold": 200,
+    "unlock": "it_pzkpfw_III_ausf_N/winter"
+  },
+  "fr_mars_15/fr_camo_desert_storm": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "fr_mars_15/fr_camo_green_brown": {
+    "category": "tanks_france",
+    "costGold": 200,
+    "unlock": "fr_mars_15/fr_camo_green_brown"
+  },
+  "fr_mars_15/fr_camo_green_sand_brown": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "fr_mars_15/fr_camo_jaune_sahara": {
+    "category": "tanks_france",
+    "costGold": 200,
+    "unlock": "fr_mars_15/fr_camo_jaune_sahara"
+  },
+  "fr_mars_15/fr_camo_winter_base": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "fr_mars_15/fr_camo_winter_green_white": {
+    "category": "tanks_france",
+    "unlock": "fr_mars_15/fr_camo_winter_green_white"
+  },
+  "fr_sk105_a2/fr_camo_jaune_sahara": {
+    "category": "tanks_france",
+    "costGold": 200,
+    "unlock": "fr_sk105_a2/fr_camo_jaune_sahara"
+  },
+  "fr_sk105_a2/fr_camo_winter_green_white": {
+    "category": "tanks_france",
+    "costGold": 200,
+    "unlock": "fr_sk105_a2/fr_camo_winter_green_white"
+  },
+  "fr_sk105_a2/ger_camo_carc": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "sw_ikv_91_105/se_camo_modern_deform": {
+    "category": "tanks_sweden",
+    "costGold": 200
+  },
+  "sw_ikv_91_105/se_camo_modern_light_stone": {
+    "category": "tanks_sweden",
+    "costGold": 200,
+    "unlock": "sw_ikv_91_105/se_camo_modern_light_stone"
+  },
+  "sw_ikv_91_105/se_camo_modern_m90": {
+    "category": "tanks_sweden",
+    "costGold": 200,
+    "unlock": "sw_ikv_91_105/se_camo_modern_m90"
+  },
+  "sw_ikv_91_105/se_camo_modern_urban": {
+    "category": "tanks_sweden",
+    "costGold": 200
+  },
+  "sw_ikv_91_105/se_camo_modern_winter_m90": {
+    "category": "tanks_sweden",
+    "unlock": "sw_ikv_91_105/se_camo_modern_winter_m90"
+  },
+  "sw_ikv_91_105/sw_camo_winter_green_white": {
+    "category": "tanks_sweden",
+    "costGold": 200
+  },
   "us_m5a1_stuart_td/us_camo_dark_green_dark_earth": {
     "category": "tanks_usa",
     "costGold": 200,
@@ -47,290 +471,6 @@
     "category": "tanks_usa",
     "costGold": 200,
     "unlock": "us_m5a1_stuart_td/us_camo_winter_olive"
-  },
-  "us_m3a3_bradley/ger_camo_carc": {
-    "category": "tanks_usa",
-    "costGold": 200
-  },
-  "us_m3a3_bradley/modern_gray_desert": {
-    "category": "tanks_usa",
-    "costGold": 200
-  },
-  "us_m3a3_bradley/modern_seventh_army": {
-    "category": "tanks_usa",
-    "costGold": 200
-  },
-  "us_m3a3_bradley/modern_snow_temperate": {
-    "category": "tanks_usa",
-    "costGold": 200
-  },
-  "us_m3a3_bradley/modern_winter_verdant": {
-    "category": "tanks_usa",
-    "costGold": 200
-  },
-  "us_m3a3_bradley/us_camo_modern_desert_tan": {
-    "category": "tanks_usa",
-    "costGold": 200
-  },
-  "germ_sk105_a2/ger_camo_carc": {
-    "category": "tanks_germany",
-    "costGold": 200
-  },
-  "germ_sk105_a2/winter": {
-    "category": "tanks_germany",
-    "costGold": 200
-  },
-  "germ_sk105_a2/ger_camo_argentinian_bicolor": {
-    "category": "tanks_germany",
-    "costGold": 200
-  },
-  "germ_sk105_a2/tn_camo_sand_green_brown": {
-    "category": "tanks_germany",
-    "costGold": 200
-  },
-  "ussr_bt_7_m/forest": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_bt_7_m/ussr_camo_czechoslovak_yellow_green": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_bt_7_m/ussr_camo_desert_syrian_green_brown_yellow": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_bt_7_m/ussr_camo_desert_yellow_brown": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_bt_7_m/ussr_camo_winter_lines": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_bt_7_m/winter": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_t_28_1938/forest": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_t_28_1938/ussr_camo_czechoslovak_yellow_green": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_t_28_1938/ussr_camo_desert_syrian_green_brown_yellow": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_t_28_1938/ussr_camo_desert_yellow_brown": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_t_28_1938/ussr_camo_winter_lines": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "ussr_t_28_1938/winter": {
-    "category": "tanks_ussr",
-    "costGold": 200
-  },
-  "uk_rooikat_105_td/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_76/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_za_35/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_za_35/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_za_35/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_mttd/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_mttd/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_rooikat_mttd/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_olifant_mk_1a/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_olifant_mk_1a/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_olifant_mk_1a/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_olifant_mk_2/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_olifant_mk_2/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_olifant_mk_2/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_eland_90_mk_7/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_eland_90_mk_7/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_eland_90_mk_7/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_90/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_90/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_90/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_20/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_20/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_20/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_zt3/fr_camo_winter_green_white": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_zt3/rsa_camo_modern_three_color": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "uk_ratel_zt3/rsa_camo_gray_earth_stone": {
-    "category": "tanks_britain",
-    "costGold": 200
-  },
-  "jp_hiro_sha/brown": {
-    "category": "tanks_japan",
-    "costGold": 200
-  },
-  "jp_hiro_sha/early_era_brown_yellow_lines": {
-    "category": "tanks_japan",
-    "costGold": 200
-  },
-  "jp_hiro_sha/green": {
-    "category": "tanks_japan",
-    "costGold": 200
-  },
-  "jp_hiro_sha/grey": {
-    "category": "tanks_japan",
-    "costGold": 200
-  },
-  "jp_hiro_sha/jp_camo_winter_early": {
-    "category": "tanks_japan",
-    "costGold": 200
-  },
-  "jp_hiro_sha/post_era_winter": {
-    "category": "tanks_japan",
-    "costGold": 200
-  },
-  "cn_ptl_02/fr_camo_jaune_sahara": {
-    "category": "tanks_china",
-    "costGold": 200
-  },
-  "cn_ptl_02/green_yellow_black": {
-    "category": "tanks_china",
-    "costGold": 200
-  },
-  "cn_ptl_02/sand_green_black": {
-    "category": "tanks_china",
-    "costGold": 200
-  },
-  "cn_ptl_02/sand_ltgreen_dkgreen": {
-    "category": "tanks_china",
-    "costGold": 200
-  },
-  "cn_ptl_02/winter": {
-    "category": "tanks_china",
-    "costGold": 200
-  },
-  "it_stug_III_ausf_G/it_camo_three_color_spots": {
-    "category": "tanks_italy",
-    "costGold": 200
-  },
-  "it_stug_III_ausf_G/winter": {
-    "category": "tanks_italy",
-    "costGold": 200
-  },
-  "it_pzkpfw_IV_ausf_G/it_camo_three_color_spots": {
-    "category": "tanks_italy",
-    "costGold": 200
-  },
-  "it_pzkpfw_IV_ausf_G/winter": {
-    "category": "tanks_italy",
-    "costGold": 200
-  },
-  "it_pzkpfw_III_ausf_N/it_camo_three_color_spots": {
-    "category": "tanks_italy",
-    "costGold": 200
-  },
-  "it_pzkpfw_III_ausf_N/winter": {
-    "category": "tanks_italy",
-    "costGold": 200
-  },
-  "sw_ikv_91_105/se_camo_modern_deform": {
-    "category": "tanks_sweden",
-    "costGold": 200
-  },
-  "sw_ikv_91_105/se_camo_modern_light_stone": {
-    "category": "tanks_sweden",
-    "costGold": 200
-  },
-  "sw_ikv_91_105/se_camo_modern_m90": {
-    "category": "tanks_sweden",
-    "costGold": 200
-  },
-  "sw_ikv_91_105/se_camo_modern_urban": {
-    "category": "tanks_sweden",
-    "costGold": 200
-  },
-  "sw_ikv_91_105/se_camo_modern_winter_m90": {
-    "category": "tanks_sweden",
-    "costGold": 200
-  },
-  "sw_ikv_91_105/sw_camo_winter_green_white": {
-    "category": "tanks_sweden",
-    "costGold": 200
   },
   "uk_centurion_mk_5_raac/fr_camo_winter_green_white": {
     "category": "tanks_britain",
@@ -7380,7 +7520,8 @@
   },
   "uk_rooikat_105_td/rsa_camo_modern_three_color": {
     "category": "tanks_britain",
-    "costGold": 200
+    "costGold": 200,
+    "unlock": "uk_rooikat_105_td/rsa_camo_modern_three_color"
   },
   "uk_rooikat_76/fr_camo_winter_green_white": {
     "category": "tanks_britain",
@@ -7389,7 +7530,8 @@
   },
   "uk_rooikat_76/rsa_camo_modern_three_color": {
     "category": "tanks_britain",
-    "costGold": 200
+    "costGold": 200,
+    "unlock": "uk_rooikat_76/rsa_camo_modern_three_color"
   },
   "uk_sherman_II/fr_camo_winter_green_white": {
     "category": "tanks_britain",

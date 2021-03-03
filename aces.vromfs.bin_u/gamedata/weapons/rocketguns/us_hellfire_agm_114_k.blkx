@@ -254,6 +254,7 @@
     },
     {
       "guidance": {
+        "permanentlyActivated": true,
         "inertialNavigation": true,
         "inertialNavigationDriftSpeed": 3.5,
         "flightTime0": [1000.0,2.5],
@@ -278,7 +279,7 @@
           "filterAlpha": 0.85,
           "filterBetta": 0.2
         },
-        "propNavGuidance": {
+        "guidanceAutopilot": {
           "loftEnabled": true,
           "loftElevation": 8.0,
           "loftTargetElevation": -10.0,
@@ -286,7 +287,7 @@
           "loftTargetOmegaMax": 2.0,
           "baseIndSpeed": 1200.0,
           "omegaToAccelMult": 6.0,
-          "propNavAccelMax": 6.0,
+          "reqAccelMax": 6.0,
           "accelControlProp": 5.0,
           "accelControlIntg": 0.5,
           "accelControlIntgLim": 0.5,

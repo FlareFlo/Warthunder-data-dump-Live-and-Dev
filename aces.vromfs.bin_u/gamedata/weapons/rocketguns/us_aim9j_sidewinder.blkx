@@ -105,6 +105,9 @@
       "waterCollisionEffect": "hit_133_160mm_water"
     },
     {
+      "explosionPatchRadius": 4.0
+    },
+    {
       "fireEffect": "rocket_fire_light_huge"
     },
     {
@@ -135,25 +138,13 @@
       "explodeTreshold": 0.1
     },
     {
-      "guidanceType": "ir"
-    },
-    {
-      "warmUpTime": 5.0
-    },
-    {
-      "workTime": 10.0
-    },
-    {
-      "uncageBeforeLaunch": true
-    },
-    {
       "guidanceSfx": "alarm_con_scan"
     },
     {
-      "hasProximityFuse": true
+      "guidanceType": "ir"
     },
     {
-      "breakLockMaxTime": 3.0
+      "hasProximityFuse": true
     },
     {
       "explodeTreshold": 0.01
@@ -429,30 +420,34 @@
       }
     },
     {
-      "irSeeker": {
-        "rangeBand0": 5500.0,
-        "rangeBand2": 4000.0,
-        "rangeBand3": 4000.0,
-        "rangeMax": 11000.0,
-        "fov": 2.5,
-        "minAngleToSun": 10.0,
-        "lockAngleMax": 10.0,
-        "angleMax": 40.0,
-        "rateMax": 16.5,
-        "prolongationTimeMax": 1.0,
-        "designationSourceTypeMask": 2
-      }
-    },
-    {
-      "propNavGuidance": {
-        "timeOut": 0.5,
-        "propNavMult": 4.0,
-        "propNavAccelMax": 20.0,
-        "baseIndSpeed": 1620.0,
-        "accelControlProp": 0.01,
-        "accelControlIntg": 0.005,
-        "accelControlIntgLim": 0.5,
-        "accelControlDiff": 0.001
+      "guidance": {
+        "warmUpTime": 5.0,
+        "workTime": 10.0,
+        "uncageBeforeLaunch": true,
+        "breakLockMaxTime": 3.0,
+        "irSeeker": {
+          "rangeBand0": 5500.0,
+          "rangeBand2": 4000.0,
+          "rangeBand3": 4000.0,
+          "rangeMax": 11000.0,
+          "fov": 2.5,
+          "minAngleToSun": 10.0,
+          "lockAngleMax": 10.0,
+          "angleMax": 40.0,
+          "rateMax": 16.5,
+          "prolongationTimeMax": 1.0,
+          "designationSourceTypeMask": 2
+        },
+        "guidanceAutopilot": {
+          "timeOut": 0.5,
+          "propNavMult": 4.0,
+          "reqAccelMax": 20.0,
+          "baseIndSpeed": 1620.0,
+          "accelControlProp": 0.01,
+          "accelControlIntg": 0.005,
+          "accelControlIntgLim": 0.5,
+          "accelControlDiff": 0.001
+        }
       }
     },
     {

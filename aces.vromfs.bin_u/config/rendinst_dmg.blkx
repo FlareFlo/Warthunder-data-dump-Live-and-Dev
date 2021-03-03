@@ -24261,6 +24261,16 @@
     }
   },
   {
+    "dmg": {
+      "name": "soviet_payphone_a",
+      "destroyedModelName": "soviet_payphone_a_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_metal",
+      "fxScale": 1.0,
+      "stopsBullets": false
+    }
+  },
+  {
     "DamageParts": {
       "adobe_brick": {
         "armorClass": "RHA_tank",
@@ -24560,570 +24570,6 @@
       "timeToFracture": 25.0,
       "timeToSink": 32.0,
       "timeToStartFracture": 1.0
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_pipes",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_pipes",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_pipes",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_pipes",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_pipes",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_aerial_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_aerial_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_entrance_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_entrance_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_c",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_d",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_e",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_f",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_g",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_porch_h",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_04",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_05",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_06",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_07",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_a_dp_08",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_04",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_05",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_06",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_07",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_b_dp_08",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_04",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_05",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_06",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_07",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_08",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_dp_09",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_04",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_05",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_06",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_07",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_d_dp_08",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_dp_04",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_dp_05",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_dp_06",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_c",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_c_dp_01",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_c_dp_02",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_c_dp_03",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_sign_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_sign_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_sign_c",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_stairs_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_stairs_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_sign_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_sign_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_sign_c",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_sign_d",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "ussr_research_institute_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "ussr_research_institute_b",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "ussr_research_institute_c",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_5_floors_c_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_9_floors_a_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_a_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_town_building_store_b_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "ussr_drama_theater_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_factory_a_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "ussr_research_institute_a",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_transformer_box_c_cmp",
-      "immortal": true
-    }
-  },
-  {
-    "dmg": {
-      "name": "soviet_ventilation_box_a",
-      "immortal": true
     }
   },
   {
@@ -42616,6 +42062,716 @@
         "isParent": true,
         "dmPreset": "stone_house"
       },
+      "soviet_town_building_5_floors_a_dp_01": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_02": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_03": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_04": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_04_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_05": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_05_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_06": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_06_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_07": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_07_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_dp_08": {
+        "nextRes": "soviet_town_building_5_floors_a_dp_08_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_01": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_02": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_03": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_04": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_04_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_05": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_05_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_06": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_06_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_07": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_07_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_b_dp_08": {
+        "nextRes": "soviet_town_building_5_floors_b_dp_08_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_01": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_02": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_03": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_04": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_04_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_05": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_05_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_06": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_06_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_07": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_07_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_08": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_08_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_c_dp_09": {
+        "nextRes": "soviet_town_building_5_floors_c_dp_09_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_01": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_02": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_03": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_04": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_04_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_05": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_05_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_06": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_06_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_07": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_07_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_d_dp_08": {
+        "nextRes": "soviet_town_building_5_floors_d_dp_08_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_9_floors_a_dp_01": {
+        "nextRes": "soviet_town_building_9_floors_a_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_9_floors_a_dp_02": {
+        "nextRes": "soviet_town_building_9_floors_a_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_9_floors_a_dp_03": {
+        "nextRes": "soviet_town_building_9_floors_a_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_9_floors_a_dp_04": {
+        "nextRes": "soviet_town_building_9_floors_a_dp_04_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_9_floors_a_dp_05": {
+        "nextRes": "soviet_town_building_9_floors_a_dp_05_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_9_floors_a_dp_06": {
+        "nextRes": "soviet_town_building_9_floors_a_dp_06_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_a_dp_01": {
+        "nextRes": "soviet_town_building_store_a_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_a_dp_02": {
+        "nextRes": "soviet_town_building_store_a_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_a_dp_03": {
+        "nextRes": "soviet_town_building_store_a_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_b_dp_01": {
+        "nextRes": "soviet_town_building_store_b_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_b_dp_02": {
+        "nextRes": "soviet_town_building_store_b_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_b_dp_03": {
+        "nextRes": "soviet_town_building_store_b_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_c_dp_01": {
+        "nextRes": "soviet_town_building_store_c_dp_01_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_c_dp_02": {
+        "nextRes": "soviet_town_building_store_c_dp_02_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_store_c_dp_03": {
+        "nextRes": "soviet_town_building_store_c_dp_03_dmg",
+        "hp": 100.0,
+        "impulseThreshold": 1.5,
+        "destructionImpulse": 300000.0,
+        "fx": "ad_buildings_destructions_big",
+        "fxScale": 1.5,
+        "apexDestructible": true,
+        "isParent": true,
+        "dmPreset": "stone_house"
+      },
+      "soviet_town_building_5_floors_a_pipes": {
+        "nextRes": "soviet_town_building_5_floors_a_pipes_dmg",
+        "physRes": "soviet_town_building_5_floors_a_pipes_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_5_floors_b_pipes": {
+        "nextRes": "soviet_town_building_5_floors_b_pipes_dmg",
+        "physRes": "soviet_town_building_5_floors_b_pipes_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_5_floors_c_pipes": {
+        "nextRes": "soviet_town_building_5_floors_c_pipes_dmg",
+        "physRes": "soviet_town_building_5_floors_c_pipes_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_5_floors_d_pipes": {
+        "nextRes": "soviet_town_building_5_floors_d_pipes_dmg",
+        "physRes": "soviet_town_building_5_floors_d_pipes_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_aerial_a": {
+        "physRes": "soviet_town_building_aerial_a_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_aerial_b": {
+        "physRes": "soviet_town_building_aerial_b_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_entrance_a": {
+        "nextRes": "soviet_town_building_entrance_a_dmg",
+        "physRes": "soviet_town_building_entrance_a_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_dust_stucco",
+        "fxScale": 1.0,
+        "stopsBullets": true
+      },
+      "soviet_town_building_entrance_b": {
+        "nextRes": "soviet_town_building_entrance_b_dmg",
+        "physRes": "soviet_town_building_entrance_b_destr_phobj",
+        "hp": 1.0,
+        "impulseThreshold": 0.0,
+        "fx": "ad_dust_stucco",
+        "fxScale": 1.0,
+        "stopsBullets": true
+      },
+      "soviet_town_building_porch_a": {
+        "physRes": "soviet_town_building_porch_a_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_b": {
+        "physRes": "soviet_town_building_porch_b_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_c": {
+        "physRes": "soviet_town_building_porch_c_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_d": {
+        "physRes": "soviet_town_building_porch_d_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_e": {
+        "physRes": "soviet_town_building_porch_e_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_f": {
+        "physRes": "soviet_town_building_porch_f_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_g": {
+        "physRes": "soviet_town_building_porch_g_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_porch_h": {
+        "physRes": "soviet_town_building_porch_h_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_a_sign_a": {
+        "physRes": "soviet_town_building_store_a_sign_a_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_a_sign_b": {
+        "physRes": "soviet_town_building_store_a_sign_b_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_a_sign_c": {
+        "physRes": "soviet_town_building_store_a_sign_c_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_b_sign_b": {
+        "physRes": "soviet_town_building_store_b_sign_b_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_b_sign_c": {
+        "physRes": "soviet_town_building_store_b_sign_c_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_b_sign_d": {
+        "physRes": "soviet_town_building_store_b_sign_d_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_a_stairs_a_railing": {
+        "physRes": "soviet_town_building_store_a_stairs_a_railing_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
+      "soviet_town_building_store_a_stairs_b_railing": {
+        "physRes": "soviet_town_building_store_a_stairs_b_railing_destr_phobj",
+        "hp": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0,
+        "stopsBullets": false
+      },
       "syrian_concrete_fence_h": {
         "nextRes": "syrian_concrete_fence_h_dmg",
         "physRes": "syrian_concrete_fence_h_destr_phobj",
@@ -45118,6 +45274,36 @@
         "fxScale": 0.8,
         "material": "metal"
       },
+      "gaz_24": {
+        "nextRes": "gaz_24_dmg",
+        "physRes": "gaz_24_destr_phobj",
+        "hp": 10.0,
+        "impulseThreshold": 0.0,
+        "dmPreset": "metal_light_explosive_props",
+        "fx": "ad_car_wreck_small",
+        "fxScale": 0.8,
+        "material": "metal"
+      },
+      "gaz_24_abandoned_a": {
+        "nextRes": "gaz_24_dmg",
+        "physRes": "gaz_24_destr_phobj",
+        "hp": 10.0,
+        "impulseThreshold": 0.0,
+        "dmPreset": "metal_light_explosive_props",
+        "fx": "ad_car_wreck_small",
+        "fxScale": 0.8,
+        "material": "metal"
+      },
+      "gaz_24_abandoned_b": {
+        "nextRes": "gaz_24_dmg",
+        "physRes": "gaz_24_destr_phobj",
+        "hp": 10.0,
+        "impulseThreshold": 0.0,
+        "dmPreset": "metal_light_explosive_props",
+        "fx": "ad_car_wreck_small",
+        "fxScale": 0.8,
+        "material": "metal"
+      },
       "birch_stump_a": {
         "nextRes": "birch_stump_a_dmg",
         "physRes": "birch_stump_a_destr_phobj",
@@ -46504,8 +46690,8 @@
         "isParent": true,
         "impulseThreshold": 1.0,
         "physRes": "soviet_soda_machine_a_destr_phobj",
-        "fx": "ad_metal",
-        "fxScale": 1.0
+        "fx": "ad_hydrant_destruction_faded",
+        "fxScale": 0.5
       },
       "soviet_garage_a_type_a": {
         "nextRes": "soviet_garage_a_dmg",
@@ -46513,7 +46699,7 @@
         "hp": 45.0,
         "dmPreset": "metal_props",
         "impulseThreshold": 1.0,
-        "fx": "ad_buildings_destructions_big",
+        "fx": "ad_metal",
         "fxScale": 0.1,
         "material": "metal"
       },
@@ -46523,7 +46709,7 @@
         "hp": 45.0,
         "dmPreset": "metal_props",
         "impulseThreshold": 1.0,
-        "fx": "ad_buildings_destructions_big",
+        "fx": "ad_metal",
         "fxScale": 0.1,
         "material": "metal"
       },
@@ -46533,7 +46719,7 @@
         "hp": 45.0,
         "dmPreset": "metal_props",
         "impulseThreshold": 1.0,
-        "fx": "ad_buildings_destructions_big",
+        "fx": "ad_metal",
         "fxScale": 0.1,
         "material": "metal"
       },
@@ -46542,7 +46728,7 @@
         "physRes": "soviet_garage_a_type_d_destr_phobj",
         "hp": 45.0,
         "dmPreset": "metal_props",
-        "fx": "ad_buildings_destructions_big",
+        "fx": "ad_metal",
         "fxScale": 0.1,
         "material": "metal"
       },
@@ -46551,16 +46737,9 @@
         "physRes": "soviet_garage_a_type_e_destr_phobj",
         "hp": 45.0,
         "dmPreset": "metal_props",
-        "fx": "ad_buildings_destructions_big",
+        "fx": "ad_metal",
         "fxScale": 0.1,
         "material": "metal"
-      },
-      "soviet_payphone_a": {
-        "hp": 17.0,
-        "isParent": true,
-        "impulseThreshold": 1.0,
-        "fx": "ad_metal",
-        "fxScale": 1.0
       },
       "ussr_monument_a": {
         "nextRes": "ussr_monument_a_dmg",
@@ -46573,8 +46752,8 @@
         "material": "concrete"
       },
       "ussr_monument_b": {
-        "nextRes": "ussr_monument_a_dmg",
-        "physRes": "ussr_monument_a_destr_phobj",
+        "nextRes": "ussr_monument_b_dmg",
+        "physRes": "ussr_monument_b_destr_phobj",
         "hp": 45.0,
         "dmPreset": "stone_house",
         "impulseThreshold": 1.0,
@@ -46606,6 +46785,36 @@
         "fx": "ad_buildings_destructions_big",
         "fxScale": 1.0,
         "material": "metal",
+        "isParent": false
+      },
+      "ussr_theater_posters_a": {
+        "hp": 1.0,
+        "fxScale": 0.0001,
+        "isParent": false
+      },
+      "ussr_theater_posters_b": {
+        "hp": 1.0,
+        "fxScale": 0.0001,
+        "isParent": false
+      },
+      "ussr_theater_posters_c": {
+        "hp": 1.0,
+        "fxScale": 0.0001,
+        "isParent": false
+      },
+      "ussr_theater_posters_d": {
+        "hp": 1.0,
+        "fxScale": 0.0001,
+        "isParent": false
+      },
+      "ussr_theater_posters_e": {
+        "hp": 1.0,
+        "fxScale": 0.0001,
+        "isParent": false
+      },
+      "ussr_theater_posters_f": {
+        "hp": 1.0,
+        "fxScale": 0.0001,
         "isParent": false
       },
       "ussr_drama_theater_billboard_a_base": {

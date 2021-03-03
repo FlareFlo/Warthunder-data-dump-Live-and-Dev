@@ -4623,7 +4623,7 @@
       "turn_it_off": false,
       "invertEnableLogic": false,
       "tier": 1,
-      "group": "mi-24_EVU",
+      "group": "countermeasures",
       "effects": {
         "counterMeasures": {
           "counterMeasure": {

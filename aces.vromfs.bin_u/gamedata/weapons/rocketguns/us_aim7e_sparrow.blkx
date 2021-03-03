@@ -105,6 +105,9 @@
       "waterCollisionEffect": "hit_133_160mm_water"
     },
     {
+      "explosionPatchRadius": 4.0
+    },
+    {
       "fireEffect": "rocket_fire_light_huge"
     },
     {
@@ -135,31 +138,13 @@
       "explodeTreshold": 0.1
     },
     {
-      "guidanceType": "radar"
-    },
-    {
-      "warmUpTime": 1.4
-    },
-    {
-      "workTime": 100.0
-    },
-    {
-      "uncageBeforeLaunch": true
-    },
-    {
-      "lockAfterLaunch": true
-    },
-    {
-      "lockTimeOut": 1.8
-    },
-    {
       "guidanceSfx": ""
     },
     {
-      "hasProximityFuse": true
+      "guidanceType": "radar"
     },
     {
-      "breakLockMaxTime": 5.0
+      "hasProximityFuse": true
     },
     {
       "explodeTreshold": 0.01
@@ -432,51 +417,57 @@
       }
     },
     {
-      "radarSeeker": {
-        "band": 8,
-        "sideLobesAttenuation": -20.0,
-        "lockAngleMax": 15.0,
-        "angleMax": 45.0,
-        "rateMax": 12.0,
-        "prolongationTimeMax": 1.0,
-        "designationSourceTypeMask": 2,
-        "transmitter": {
-          "power": 200.0,
-          "antenna": {
-            "angleHalfSens": 4.0,
-            "sideLobesSensitivity": -27.0
+      "guidance": {
+        "warmUpTime": 1.4,
+        "workTime": 100.0,
+        "uncageBeforeLaunch": true,
+        "lockAfterLaunch": true,
+        "lockTimeOut": 1.8,
+        "breakLockMaxTime": 5.0,
+        "radarSeeker": {
+          "band": 8,
+          "sideLobesAttenuation": -20.0,
+          "lockAngleMax": 15.0,
+          "angleMax": 45.0,
+          "rateMax": 12.0,
+          "prolongationTimeMax": 1.0,
+          "designationSourceTypeMask": 2,
+          "transmitter": {
+            "power": 200.0,
+            "antenna": {
+              "angleHalfSens": 4.0,
+              "sideLobesSensitivity": -27.0
+            }
+          },
+          "receiver": {
+            "rcs": 2.0,
+            "range": 25000.0,
+            "rangeMax": 30000.0,
+            "antenna": {
+              "angleHalfSens": 10.0,
+              "sideLobesSensitivity": -16.0
+            }
+          },
+          "dopplerSpeed": {
+            "presents": true,
+            "minValue": -3000.0,
+            "maxValue": 3000.0,
+            "width": 10.0,
+            "signalWidthMin": 5.0,
+            "refWidth": 30.0,
+            "dopplerSpeedGateSearchRange": 300.0
           }
         },
-        "receiver": {
-          "rcs": 2.0,
-          "range": 25000.0,
-          "rangeMax": 30000.0,
-          "antenna": {
-            "angleHalfSens": 10.0,
-            "sideLobesSensitivity": -16.0
-          }
-        },
-        "dopplerSpeed": {
-          "presents": true,
-          "minValue": -3000.0,
-          "maxValue": 3000.0,
-          "width": 10.0,
-          "signalWidthMin": 5.0,
-          "refWidth": 30.0,
-          "dopplerSpeedGateSearchRange": 300.0
+        "guidanceAutopilot": {
+          "timeOut": 1.8,
+          "propNavMult": 4.0,
+          "reqAccelMax": 15.0,
+          "baseIndSpeed": 1600.0,
+          "accelControlProp": 0.04,
+          "accelControlIntg": 0.02,
+          "accelControlIntgLim": 0.8,
+          "accelControlDiff": 0.002
         }
-      }
-    },
-    {
-      "propNavGuidance": {
-        "timeOut": 1.8,
-        "propNavMult": 4.0,
-        "propNavAccelMax": 15.0,
-        "baseIndSpeed": 1600.0,
-        "accelControlProp": 0.04,
-        "accelControlIntg": 0.02,
-        "accelControlIntgLim": 0.8,
-        "accelControlDiff": 0.002
       }
     },
     {

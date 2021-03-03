@@ -21,86 +21,6 @@
   },
   {
     "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_3",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_4",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_5",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_6",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_7",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_8",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_9",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45.blk",
-      "emitter": "bomb_m117_10",
-      "bullets": 1,
-      "external": true,
-      "machLimit": 1.01
-    }
-  },
-  {
-    "Weapon": {
       "trigger": "aam",
       "external": true,
       "separate": true,
@@ -125,7 +45,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
-      "emitter": "us_agm_65a_003",
+      "emitter": "us_agm_65a_001",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -137,6 +57,28 @@
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
       "emitter": "us_agm_65a_004",
+      "bullets": 1,
+      "external": true,
+      "separate": true,
+      "loadFactorLimit": 7.0
+    }
+  },
+  {
+    "Weapon": {
+      "trigger": "atgm",
+      "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
+      "emitter": "us_agm_65a_003",
+      "bullets": 1,
+      "external": true,
+      "separate": true,
+      "loadFactorLimit": 7.0
+    }
+  },
+  {
+    "Weapon": {
+      "trigger": "atgm",
+      "blk": "gameData/Weapons/rocketGuns/us_agm_65a.blk",
+      "emitter": "us_agm_65a_006",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -167,10 +109,16 @@
         "node": "mer1_l"
       },
       {
+        "node": "mer2_l"
+      },
+      {
         "node": "mer3_l"
       },
       {
         "node": "mer1_r"
+      },
+      {
+        "node": "mer2_r"
       },
       {
         "node": "mer3_r"
@@ -282,6 +230,12 @@
       },
       {
         "node": "us_lau_117a_002"
+      },
+      {
+        "node": "us_lau_117a_003"
+      },
+      {
+        "node": "us_lau_117a_004"
       },
       {
         "node": "us_lau_117a_005"

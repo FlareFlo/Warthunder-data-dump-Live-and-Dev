@@ -2161,16 +2161,7 @@
       "tracks": {
         "animationMultiplier": 0.68,
         "height": 0.045,
-        "width": 0.4,
-        "tracksTensionK": [6.5,10.0,3.0],
-        "trackMesh": "us_t16e1_phys_track_line",
-        "trackLen": 0.14,
-        "trackCount": 80,
-        "trackFadeTime": 1.1,
-        "trackConnector": true,
-        "trackEmitSparks": false,
-        "trackMaxHeight": 1.3,
-        "trackStartOffset": 0.19
+        "width": 0.4
       },
       "collisionProps": {
         "cls_turret": "convex_hull",

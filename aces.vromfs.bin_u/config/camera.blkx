@@ -473,9 +473,11 @@
     "tiltShakeMultiplierForShips": 0.0,
     "condition": {
       "and": {
-        "hasOpticFPSGunner": [],
         "isFlightModel": [],
-        "hasOpticATGMorIsHeli": []
+        "or": {
+          "hasOpticTurret": [],
+          "hasOpticATGM": []
+        }
       }
     }
   },
