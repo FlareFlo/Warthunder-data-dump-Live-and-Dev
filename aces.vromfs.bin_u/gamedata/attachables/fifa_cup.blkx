@@ -1,5 +1,0 @@
-{
-  "model": "fifa_cup",
-  "collision": "fifa_cup_collision",
-  "bboxMult": 0.1
-}

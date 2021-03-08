@@ -1,5 +1,0 @@
-{
-  "model": "road_sign_no_smoking",
-  "collision": "road_sign_no_smoking_collision",
-  "bboxMult": 0.1
-}

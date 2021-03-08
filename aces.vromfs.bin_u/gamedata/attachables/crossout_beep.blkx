@@ -1,5 +1,0 @@
-{
-  "model": "crossout_beep",
-  "collision": "crossout_beep_collision",
-  "bboxMult": 0.1
-}

@@ -1,5 +1,0 @@
-{
-  "model": "akms_ag",
-  "collision": "akms_ag_collision",
-  "bboxMult": 0.1
-}

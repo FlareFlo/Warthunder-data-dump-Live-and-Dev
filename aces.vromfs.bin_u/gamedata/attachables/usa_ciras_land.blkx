@@ -1,5 +1,0 @@
-{
-  "model": "usa_ciras_land",
-  "collision": "usa_ciras_land_collision",
-  "bboxMult": 0.1
-}

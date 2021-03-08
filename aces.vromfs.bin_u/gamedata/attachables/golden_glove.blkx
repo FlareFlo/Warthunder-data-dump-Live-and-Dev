@@ -1,5 +1,0 @@
-{
-  "model": "golden_glove",
-  "collision": "golden_glove_collision",
-  "bboxMult": 0.1
-}

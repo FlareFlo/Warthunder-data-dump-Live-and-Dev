@@ -1,5 +1,0 @@
-{
-  "model": "vgt_palm_b",
-  "collision": "vgt_palm_b_collision",
-  "bboxMult": 0.1
-}

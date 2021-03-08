@@ -1,5 +1,0 @@
-{
-  "model": "crossout_roadsign",
-  "collision": "crossout_roadsign_collision",
-  "bboxMult": 0.1
-}

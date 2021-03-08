@@ -1,5 +1,0 @@
-{
-  "model": "golden_boot",
-  "collision": "golden_boot_collision",
-  "bboxMult": 0.1
-}

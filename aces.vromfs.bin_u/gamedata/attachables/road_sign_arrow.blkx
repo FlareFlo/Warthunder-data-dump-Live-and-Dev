@@ -1,5 +1,0 @@
-{
-  "model": "road_sign_arrow",
-  "collision": "road_sign_arrow_collision",
-  "bboxMult": 0.1
-}

@@ -1,4 +1,0 @@
-"@override:graphics"{
-  "@delete:riGpuObjects":b=yes
-  riGpuObjects:b=no
-}

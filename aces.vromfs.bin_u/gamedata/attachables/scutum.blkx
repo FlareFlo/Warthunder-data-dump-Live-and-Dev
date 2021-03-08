@@ -1,5 +1,0 @@
-{
-  "model": "scutum",
-  "collision": "scutum_collision",
-  "bboxMult": 0.1
-}

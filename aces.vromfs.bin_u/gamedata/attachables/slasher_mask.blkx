@@ -1,5 +1,0 @@
-{
-  "model": "slasher_mask",
-  "collision": "slasher_mask_collision",
-  "bboxMult": 0.1
-}

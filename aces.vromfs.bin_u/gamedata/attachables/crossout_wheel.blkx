@@ -1,5 +1,0 @@
-{
-  "model": "crossout_wheel",
-  "collision": "crossout_wheel_collision",
-  "bboxMult": 0.1
-}

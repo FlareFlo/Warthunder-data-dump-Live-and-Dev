@@ -1,5 +1,0 @@
-{
-  "model": "rpk",
-  "collision": "rpk_collision",
-  "bboxMult": 0.1
-}

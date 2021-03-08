@@ -1,5 +1,0 @@
-{
-  "model": "g36k_ag",
-  "collision": "g36k_ag_collision",
-  "bboxMult": 0.1
-}
