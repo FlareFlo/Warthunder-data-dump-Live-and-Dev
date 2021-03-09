@@ -168,7 +168,7 @@
       "statType": "hydra"
     },
     {
-      "fireEffect": "rocket_fire_short_doubleside"
+      "fireEffect": "fires_rocket_tail_short_doubleside_smoked"
     },
     {
       "smokeEffect": ""
@@ -177,7 +177,7 @@
       "hazeEffect": "haze_missile"
     },
     {
-      "endSmokeViscosity": 10.05
+      "endSmokeViscosity": 0.05
     },
     {
       "advancedMissiles": false

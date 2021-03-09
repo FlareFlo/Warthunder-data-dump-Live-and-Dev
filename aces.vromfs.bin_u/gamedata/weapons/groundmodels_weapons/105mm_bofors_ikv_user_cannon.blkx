@@ -10,7 +10,7 @@
   "aimMaxDist": 2000.0,
   "maxDeltaAngle": 0.021,
   "maxDeltaAngleVertical": 0.021,
-  "shotFreq": 0.25,
+  "shotFreq": 0.15,
   "traceFreq": 4,
   "bEnablePause": false,
   "bullets": -1,
@@ -244,7 +244,7 @@
       "explodeTreshold": 0.1,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": [
@@ -280,7 +280,7 @@
       },
       "damage": {
         "explosive": {
-          "radius": 0.3,
+          "radius": 0.15,
           "offset": 0.2
         },
         "shatter": [
@@ -367,6 +367,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "cumulativeDamage": {
         "armorPower": 127.0,
@@ -634,7 +637,7 @@
       "fuseDelayDist": 0.0,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": {
@@ -735,6 +738,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],

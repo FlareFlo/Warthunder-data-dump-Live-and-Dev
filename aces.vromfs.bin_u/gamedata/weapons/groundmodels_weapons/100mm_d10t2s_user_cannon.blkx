@@ -213,7 +213,7 @@
       "fuseDelayDist": 0.0,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": {
@@ -314,6 +314,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],
@@ -730,7 +733,7 @@
       "explodeTreshold": 0.1,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": {
@@ -840,6 +843,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "cumulativeDamage": {
         "armorPower": 390.0,
@@ -1012,8 +1018,8 @@
       "caliber": 0.1,
       "sound_path": "tanks/weapon_tanks/atgm",
       "sound_pathStudio": "ground/weapon/atgm",
-      "sound": "atgm",
-      "sound_inside": "atgm_interior",
+      "sound": "atgm_cannon",
+      "sound_inside": "atgm_cannon_interior",
       "sfxReloadBullet": "grd_cannon_reload_auto",
       "recoilMultiplier": 0.05,
       "shotFxType": "muzzle_ground_40mm_slow",
@@ -1064,7 +1070,7 @@
         "isBeamRider": true,
         "explosionEffect": "hit_106_132mm_metal_he",
         "groundCollisionEffect": "hit_106_132mm_dirt_he",
-        "ricochetEffect": "hit_106_132mm_dirt_ap",
+        "ricochetEffect": "hit_106_132mm_metal_ap",
         "waterCollisionEffect": "hit_106_132mm_water",
         "explosionPatchRadius": 3.5,
         "fireEffect": "rocket_fire_short",

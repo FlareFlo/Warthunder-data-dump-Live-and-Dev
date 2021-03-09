@@ -232,6 +232,9 @@
             }
           }
         ],
+        "shatterDamage": {
+          "breachConeAngle": 45.0
+        },
         "explosive": {
           "radius": 0.3,
           "offset": 0.8
@@ -529,6 +532,9 @@
               }
             }
           ],
+          "shatterDamage": {
+            "breachConeAngle": 45.0
+          },
           "explosive": {
             "radius": 0.3,
             "offset": 0.8
@@ -817,6 +823,9 @@
               }
             }
           ],
+          "shatterDamage": {
+            "breachConeAngle": 45.0
+          },
           "explosive": {
             "radius": 0.3,
             "offset": 0.8

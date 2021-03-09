@@ -2181,8 +2181,8 @@
         "armorClass": "leopard_2a5_turret_nera",
         "composite_armor_hull_01_dm": {
           "armorThickness": 360.0,
-          "cumulativeArmorQuality": 1.0,
-          "genericArmorQuality": 0.42
+          "cumulativeArmorQuality": 1.3,
+          "genericArmorQuality": 0.48
         },
         "composite_armor_turret_01_dm": {
           "armorThickness": 305.0,
@@ -2191,34 +2191,34 @@
         },
         "composite_armor_turret_02_dm": {
           "armorThickness": 800.0,
-          "cumulativeArmorQuality": 1.72,
-          "genericArmorQuality": 0.65
+          "cumulativeArmorQuality": 1.77,
+          "genericArmorQuality": 0.69
         },
         "composite_armor_turret_03_dm": {
           "armorThickness": 800.0,
-          "cumulativeArmorQuality": 1.72,
-          "genericArmorQuality": 0.66
+          "cumulativeArmorQuality": 1.77,
+          "genericArmorQuality": 0.69
         },
         "composite_armor_turret_04_dm": {
           "armorThickness": 300.0,
           "armorEffectiveThicknessMax": 600.0,
-          "cumulativeArmorQuality": 1.3,
-          "genericArmorQuality": 0.11
+          "cumulativeArmorQuality": 2.0,
+          "genericArmorQuality": 0.75
         },
         "composite_armor_turret_05_dm": {
           "armorThickness": 300.0,
           "armorEffectiveThicknessMax": 600.0,
-          "cumulativeArmorQuality": 1.3,
-          "genericArmorQuality": 0.15
+          "cumulativeArmorQuality": 2.0,
+          "genericArmorQuality": 0.75
         },
         "composite_armor_turret_06_dm": {
           "armorThickness": 350.0,
-          "cumulativeArmorQuality": 1.1,
+          "cumulativeArmorQuality": 1.18,
           "genericArmorQuality": 0.1
         },
         "composite_armor_turret_07_dm": {
           "armorThickness": 350.0,
-          "cumulativeArmorQuality": 1.1,
+          "cumulativeArmorQuality": 1.21,
           "genericArmorQuality": 0.1
         }
       },

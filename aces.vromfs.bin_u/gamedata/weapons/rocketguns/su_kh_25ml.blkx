@@ -156,7 +156,7 @@
       "statType": "hydra"
     },
     {
-      "fireEffect": "rocket_fire_short_doubleside"
+      "fireEffect": "fires_rocket_tail_short_doubleside_smoked"
     },
     {
       "smokeEffect": ""
@@ -165,7 +165,7 @@
       "hazeEffect": "haze_missile"
     },
     {
-      "endSmokeViscosity": 10.05
+      "endSmokeViscosity": 0.05
     },
     {
       "advancedMissiles": false
@@ -180,7 +180,7 @@
       "endSpeed": 850.0
     },
     {
-      "timeLife": 30.0
+      "timeLife": 40.0
     },
     {
       "machMax": 2.0
@@ -244,6 +244,9 @@
     },
     {
       "guidance": {
+        "warmUpTime": 1.0,
+        "workTime": 3600.0,
+        "uncageBeforeLaunch": true,
         "breakLockMaxTime": 2.0,
         "laserSeeker": {
           "range": 10000.0,
@@ -256,7 +259,7 @@
           "filterAlpha": 0.85,
           "filterBetta": 0.2
         },
-        "propNavGuidance": {
+        "guidanceAutopilot": {
           "timeOut": 0.5,
           "loftEnabled": true,
           "loftElevation": 10.0,
@@ -285,6 +288,7 @@
     {
       "tracerTrail": {
         "smokeEffect": "fx1400_smoke",
+        "hazeEffect": "",
         "visual": {
           "traceFreq": 1,
           "tracer": "100mmRed",

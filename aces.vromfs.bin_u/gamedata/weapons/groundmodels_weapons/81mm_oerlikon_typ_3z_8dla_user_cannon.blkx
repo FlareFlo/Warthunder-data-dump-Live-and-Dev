@@ -318,6 +318,9 @@
           }
         ]
       },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
+      },
       "cumulativeDamage": {
         "armorPower": 330.0,
         "distance": 5.5,
@@ -613,6 +616,9 @@
               }
             }
           ],
+          "shatterDamage": {
+            "breachConeAngle": 45.0
+          },
           "explosive": {
             "radius": 0.2,
             "offset": 0.3

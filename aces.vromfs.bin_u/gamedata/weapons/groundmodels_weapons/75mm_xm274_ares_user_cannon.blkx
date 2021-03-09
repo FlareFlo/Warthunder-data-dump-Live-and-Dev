@@ -26,7 +26,7 @@
   "sound_pathStudio": "ground/weapon/cannons",
   "sound": "76mm_m7",
   "sound_inside": "76mm_m7_interior",
-  "sfxReloadBullet": "grd_cannon_reload",
+  "sfxReloadBullet": "grd_cannon_reload_auto",
   "fxMultipleSpawn": true,
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,

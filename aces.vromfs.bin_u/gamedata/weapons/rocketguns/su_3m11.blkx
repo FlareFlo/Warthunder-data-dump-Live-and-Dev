@@ -105,6 +105,7 @@
       "onHitChanceMultFire": 15.0
     },
     "tracerTrail": {
+      "hazeEffect": "",
       "visual": {
         "traceFreq": 1,
         "tracer": "100mmBlue",

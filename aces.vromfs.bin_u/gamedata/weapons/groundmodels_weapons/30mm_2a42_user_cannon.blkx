@@ -319,6 +319,9 @@
           }
         ]
       },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
+      },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],
         "traceFreq": 1,
@@ -484,6 +487,9 @@
                 }
               }
             ]
+          },
+          "shatterDamage": {
+            "breachConeAngle": 45.0
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
@@ -783,6 +789,9 @@
               }
             ]
           },
+          "shatterDamage": {
+            "breachConeAngle": 45.0
+          },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
             "traceFreq": 1,
@@ -946,6 +955,9 @@
                 }
               }
             ]
+          },
+          "shatterDamage": {
+            "breachConeAngle": 45.0
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
@@ -1529,6 +1541,9 @@
                 }
               }
             ]
+          },
+          "shatterDamage": {
+            "breachConeAngle": 45.0
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
@@ -2425,6 +2440,9 @@
                 }
               }
             ]
+          },
+          "shatterDamage": {
+            "breachConeAngle": 45.0
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],

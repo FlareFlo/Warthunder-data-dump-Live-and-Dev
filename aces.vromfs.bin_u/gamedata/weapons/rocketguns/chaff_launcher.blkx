@@ -37,7 +37,7 @@
     "WdK": [0.1,0.1,0.1],
     "isChaffs": true,
     "force": 0.1,
-    "timeFire": 4.4,
+    "timeFire": 0.0,
     "thrustDeviation": 0.01,
     "explosionEffect": "",
     "fireEffect": "",
@@ -45,7 +45,7 @@
     "hazeFx": "",
     "pylonFx": "",
     "waterExplosionEffect": "water_splash",
-    "timeLife": 4.4,
+    "timeLife": 20.0,
     "maxDistance": 1000.0,
     "minDistance": 200.0,
     "smokeShell": false,
@@ -90,7 +90,7 @@
       }
     ],
     "radarVisibility": {
-      "band0": 0.075
+      "band0": 0.08
     }
   }
 }

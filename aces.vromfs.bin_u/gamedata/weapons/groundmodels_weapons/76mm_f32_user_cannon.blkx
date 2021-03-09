@@ -1003,6 +1003,9 @@
           }
         ]
       },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
+      },
       "cumulativeDamage": {
         "armorPower": 80.0,
         "distance": 2.5,

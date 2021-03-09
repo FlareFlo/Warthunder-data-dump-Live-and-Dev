@@ -55,7 +55,7 @@
     "relativeVelArmorShift": [200.0,1000.0],
     "explosionEffect": "hit_106_132mm_metal_he",
     "groundCollisionEffect": "hit_106_132mm_dirt_he",
-    "ricochetEffect": "hit_106_132mm_dirt_ap",
+    "ricochetEffect": "hit_106_132mm_metal_ap",
     "waterCollisionEffect": "hit_106_132mm_water",
     "explosionPatchRadius": 3.5,
     "stabilityRicochetModifier": [
@@ -196,7 +196,7 @@
       "relativeVelArmorShift": [200.0,1000.0],
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": [
@@ -339,7 +339,7 @@
       "fuseDelayDist": 0.0,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": {
@@ -444,6 +444,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],

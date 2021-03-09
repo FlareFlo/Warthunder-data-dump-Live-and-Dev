@@ -207,6 +207,9 @@
           }
         }
       ],
+      "shatterDamage": {
+        "breachConeAngle": 45.0
+      },
       "explosive": {
         "radius": 0.5,
         "offset": 0.9
@@ -214,6 +217,7 @@
     },
     "guidance": {
       "warmUpTime": 1.0,
+      "acquisitionTime": 0.1,
       "workTime": 3600.0,
       "uncageBeforeLaunch": true,
       "breakLockMaxTime": 2.0,
@@ -257,6 +261,7 @@
     },
     "tracerTrail": {
       "smokeEffect": "",
+      "hazeEffect": "",
       "visual": {
         "traceFreq": 1,
         "tracer": "100mmRed",

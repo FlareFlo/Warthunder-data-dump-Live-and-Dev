@@ -97,6 +97,9 @@
       }
     },
     "guidance": {
+      "warmUpTime": 1.0,
+      "workTime": 3600.0,
+      "uncageBeforeLaunch": true,
       "breakLockMaxTime": 2.0,
       "laserSeeker": {
         "range": 10000.0,
@@ -134,6 +137,7 @@
     },
     "tracerTrail": {
       "smokeEffect": "fx1400_smoke",
+      "hazeEffect": "",
       "visual": {
         "traceFreq": 1,
         "tracer": "100mmRed",

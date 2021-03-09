@@ -372,6 +372,7 @@
           },
           "tracerTrail": {
             "smokeEffect": "",
+            "hazeEffect": "",
             "visual": {
               "traceFreq": 1,
               "tracer": "152mmRed",

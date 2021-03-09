@@ -462,6 +462,9 @@
           }
         ]
       },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
+      },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],
         "traceFreq": 1,
@@ -671,6 +674,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],
@@ -893,7 +899,7 @@
       },
       "damage": {
         "explosive": {
-          "radius": 0.3,
+          "radius": 0.15,
           "offset": 0.2
         },
         "shatter": [
@@ -980,6 +986,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "cumulativeDamage": {
         "armorPower": 102.0,

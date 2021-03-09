@@ -59,7 +59,7 @@
     "explodeTreshold": 0.1,
     "explosionEffect": "hit_106_132mm_metal_he",
     "groundCollisionEffect": "hit_106_132mm_dirt_he",
-    "ricochetEffect": "hit_106_132mm_dirt_ap",
+    "ricochetEffect": "hit_106_132mm_metal_ap",
     "waterCollisionEffect": "hit_106_132mm_water",
     "explosionPatchRadius": 3.5,
     "stabilityRicochetModifier": {
@@ -169,6 +169,9 @@
           }
         }
       ]
+    },
+    "shatterDamage": {
+      "breachConeAngle": 45.0
     },
     "cumulativeDamage": {
       "armorPower": 433.0,
@@ -291,7 +294,7 @@
       "explodeTreshold": 0.1,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": [
@@ -327,7 +330,7 @@
       },
       "damage": {
         "explosive": {
-          "radius": 0.3,
+          "radius": 0.15,
           "offset": 0.2
         },
         "shatter": [
@@ -414,6 +417,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "cumulativeDamage": {
         "armorPower": 152.0,

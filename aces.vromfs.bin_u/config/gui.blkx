@@ -455,6 +455,12 @@
       "login_layer_f_5a_rocaf": 3.0
     },
     {
+      "login_layer_su_17": 3.0
+    },
+    {
+      "login_layer_rsa_ground": 0.0
+    },
+    {
       "unlocks": {
         "login_layer_atomic_tank": "loading_screen_atomic_tank"
       }
@@ -730,6 +736,8 @@
     "he_vt": "bullet_proxi_fuze_cannon",
     "he_tf": "bullet_dist_fuze_cannon",
     "s_d": "bullet_cannon_brown",
+    "flr": "bullet_flare",
+    "chff": "bullet_chaff",
     "ac_shell_tank": "ac_shell_tank",
     "apcr_tank": "apcr_tank",
     "apds_tank": "apds_tank",
@@ -756,6 +764,7 @@
     "heat_tank": "heat_tank",
     "heat_grenade_tank": "heat_grenade_tank",
     "heat_fs_tank": "heat_fs_tank",
+    "heat_fs_rocket": "he_rocket",
     "practice_tank": "practice_tank",
     "hesh_tank": "hesh_tank",
     "he_grenade_tank": "he_grenade_tank",

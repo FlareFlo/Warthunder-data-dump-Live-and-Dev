@@ -57,7 +57,7 @@
     "explodeTreshold": 0.1,
     "explosionEffect": "hit_106_132mm_metal_he",
     "groundCollisionEffect": "hit_106_132mm_dirt_he",
-    "ricochetEffect": "hit_106_132mm_dirt_ap",
+    "ricochetEffect": "hit_106_132mm_metal_ap",
     "waterCollisionEffect": "hit_106_132mm_water",
     "explosionPatchRadius": 3.5,
     "stabilityRicochetModifier": {
@@ -167,6 +167,9 @@
           }
         }
       ]
+    },
+    "shatterDamage": {
+      "breachConeAngle": 45.0
     },
     "cumulativeDamage": {
       "armorPower": 550.0,
@@ -285,7 +288,7 @@
       "fuseDelayDist": 0.0,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": {
@@ -390,6 +393,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],
@@ -810,7 +816,7 @@
       "explodeTreshold": 0.1,
       "explosionEffect": "hit_106_132mm_metal_he",
       "groundCollisionEffect": "hit_106_132mm_dirt_he",
-      "ricochetEffect": "hit_106_132mm_dirt_ap",
+      "ricochetEffect": "hit_106_132mm_metal_ap",
       "waterCollisionEffect": "hit_106_132mm_water",
       "explosionPatchRadius": 3.5,
       "stabilityRicochetModifier": {
@@ -920,6 +926,9 @@
             }
           }
         ]
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "cumulativeDamage": {
         "armorPower": 440.0,
@@ -1251,7 +1260,7 @@
         "autoAiming": true,
         "explosionEffect": "hit_106_132mm_metal_he",
         "groundCollisionEffect": "hit_106_132mm_dirt_he",
-        "ricochetEffect": "hit_106_132mm_dirt_ap",
+        "ricochetEffect": "hit_106_132mm_metal_ap",
         "waterCollisionEffect": "hit_106_132mm_water",
         "explosionPatchRadius": 3.5,
         "fireEffect": "rocket_fire_short_doubleside",

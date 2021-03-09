@@ -132191,6 +132191,87 @@
   },
   {
     "unlockable": {
+      "id": "anchor_danforth_ship",
+      "type": "attachable",
+      "chapter": "attachable",
+      "group": "other",
+      "mode": [
+        {
+          "type": "awardDamage"
+        },
+        {
+          "num": 100000
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "boat"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "anchor_matrosov_ship",
+      "type": "attachable",
+      "chapter": "attachable",
+      "group": "other",
+      "mode": [
+        {
+          "type": "awardDamage"
+        },
+        {
+          "num": 200000
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "boat"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "uss_north_carolina_anchor",
+      "type": "attachable",
+      "chapter": "attachable",
+      "group": "other",
+      "mode": [
+        {
+          "type": "awardDamage"
+        },
+        {
+          "num": 250000
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "ship"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "sweden_kg_m40",
       "type": "attachable",
       "chapter": "attachable",
@@ -167309,7 +167390,6 @@
       "chapter": "medals",
       "group": "italy",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -167445,7 +167525,6 @@
       "chapter": "medals",
       "group": "italy",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -168450,7 +168529,6 @@
       "chapter": "medals",
       "group": "germany",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -168646,7 +168724,6 @@
       "chapter": "medals",
       "group": "germany",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -169793,7 +169870,6 @@
       "chapter": "medals",
       "group": "japan",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -169964,6 +170040,7 @@
       "chapter": "medals",
       "group": "japan",
       "hideForLang": "HChinese",
+      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -170582,6 +170659,7 @@
       "chapter": "medals",
       "group": "japan",
       "hideForLang": "HChinese",
+      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -170870,7 +170948,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -170910,7 +170987,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -171197,7 +171273,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -171716,7 +171791,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsPlayedScore"
@@ -171762,7 +171836,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -171970,7 +172043,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -172087,7 +172159,6 @@
       "chapter": "medals",
       "group": "britain",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -172232,7 +172303,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -172293,7 +172363,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -172352,7 +172421,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -172684,7 +172752,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -172724,7 +172791,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -172764,7 +172830,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -172843,7 +172908,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -172888,7 +172952,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -173095,7 +173158,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsPlayedScore"
@@ -173246,7 +173308,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -173292,7 +173353,6 @@
       "chapter": "medals",
       "group": "usa",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -173861,7 +173921,6 @@
       "chapter": "medals",
       "group": "ussr",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -173914,7 +173973,6 @@
       "chapter": "medals",
       "group": "ussr",
       "hideForLang": "HChinese",
-      "hasRibbonImg": false,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -177904,51 +177962,6 @@
           }
         }
       ]
-    }
-  },
-  {
-    "unlockable": {
-      "id": "aerobatics_smoke_sparksline_red",
-      "type": "award",
-      "hidden": false,
-      "costGold": 500,
-      "isAerobaticSmoke": true
-    }
-  },
-  {
-    "unlockable": {
-      "id": "aerobatics_smoke_sparksline_green",
-      "type": "award",
-      "hidden": false,
-      "costGold": 500,
-      "isAerobaticSmoke": true
-    }
-  },
-  {
-    "unlockable": {
-      "id": "aerobatics_smoke_sparksline_blue",
-      "type": "award",
-      "hidden": false,
-      "costGold": 500,
-      "isAerobaticSmoke": true
-    }
-  },
-  {
-    "unlockable": {
-      "id": "aerobatics_smoke_lawn_mower",
-      "type": "award",
-      "hidden": false,
-      "costGold": 500,
-      "isAerobaticSmoke": true
-    }
-  },
-  {
-    "unlockable": {
-      "id": "aerobatics_smoke_insecticide",
-      "type": "award",
-      "hidden": false,
-      "costGold": 1000,
-      "isAerobaticSmoke": true
     }
   },
   {
