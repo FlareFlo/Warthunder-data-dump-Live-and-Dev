@@ -3480,7 +3480,9 @@
     "onePointNumber": 1,
     "farPlane": 5000.0,
     "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
+    "sfxPathStudio": "aircraft/effects",
+    "sfxEvent": "wreck_explosion",
+    "soundEnableDistance": 5000.0
   },
   "minor_engine_smoke": {
     "fx": "smoke_minor_engine_cmps_fx",
@@ -5771,9 +5773,9 @@
     "numInstances": 120,
     "numReserved": 40,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_water_small",
-    "soundEnableDistance": 500.0
+    "sfxPathStudio": "aircraft/effects",
+    "sfxEvent": "bullethit_water",
+    "soundEnableDistance": 100.0
   },
   "hit_28_38mm_dirt_ap": {
     "fx": "hit_28_38mm_dirt_ap_cmps_fx",
@@ -5885,9 +5887,9 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_water_small",
-    "soundEnableDistance": 500.0
+    "sfxPathStudio": "aircraft/effects",
+    "sfxEvent": "bullethit_water",
+    "soundEnableDistance": 100.0
   },
   "hit_28_38mm_dirt_ap_rapid": {
     "fx": "hit_28_38mm_dirt_ap_rapid_cmps_fx",
@@ -5999,9 +6001,9 @@
     "numInstances": 70,
     "numReserved": 40,
     "onePointNumber": 50,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_water_small",
-    "soundEnableDistance": 500.0
+    "sfxPathStudio": "aircraft/effects",
+    "sfxEvent": "bullethit_water",
+    "soundEnableDistance": 100.0
   },
   "hit_39_58mm_dirt_ap": {
     "fx": "hit_39_58mm_dirt_ap_cmps_fx",
@@ -6025,10 +6027,7 @@
     "fx": "hit_39_58mm_metal_ap_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_metal",
-    "soundEnableDistance": 5000.0
+    "onePointNumber": 30
   },
   "hit_39_58mm_metal_he": {
     "fx": "hit_39_58mm_metal_he_cmps_fx",
@@ -6143,10 +6142,7 @@
     "fx": "hit_39_58mm_metal_ap_rapid_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "splash_metal",
-    "soundEnableDistance": 500.0
+    "onePointNumber": 30
   },
   "hit_39_58mm_metal_he_rapid": {
     "fx": "hit_39_58mm_metal_he_rapid_cmps_fx",
@@ -6261,10 +6257,7 @@
     "fx": "hit_59_80mm_metal_ap_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_metal",
-    "soundEnableDistance": 5000.0
+    "onePointNumber": 30
   },
   "hit_59_80mm_metal_he": {
     "fx": "hit_59_80mm_metal_he_cmps_fx",
@@ -6379,10 +6372,7 @@
     "fx": "hit_81_105mm_metal_ap_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_metal",
-    "soundEnableDistance": 5000.0
+    "onePointNumber": 30
   },
   "hit_81_105mm_metal_he": {
     "fx": "hit_81_105mm_metal_he_cmps_fx",
@@ -6497,10 +6487,7 @@
     "fx": "hit_106_132mm_metal_ap_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_metal",
-    "soundEnableDistance": 5000.0
+    "onePointNumber": 30
   },
   "hit_106_132mm_metal_he": {
     "fx": "hit_106_132mm_metal_he_cmps_fx",
@@ -6607,26 +6594,23 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_133_160mm_metal_ap": {
     "fx": "hit_133_160mm_metal_ap_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_metal",
-    "soundEnableDistance": 5000.0
+    "onePointNumber": 30
   },
   "hit_133_160mm_metal_he": {
     "fx": "hit_133_160mm_metal_he_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_metal",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_unit",
     "soundEnableDistance": 5000.0
   },
   "hit_133_160mm_sand_ap": {
@@ -6643,8 +6627,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_133_160mm_snow_ap": {
@@ -6661,8 +6645,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_133_160mm_wood_ap": {
@@ -6679,8 +6663,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_wood",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_133_160mm_stone_ap": {
@@ -6697,8 +6681,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_133_160mm_water": {
@@ -6725,26 +6709,23 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_161_205mm_metal_ap": {
     "fx": "hit_161_205mm_metal_ap_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
-    "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_metal",
-    "soundEnableDistance": 5000.0
+    "onePointNumber": 30
   },
   "hit_161_205mm_metal_he": {
     "fx": "hit_161_205mm_metal_he_cmps_fx",
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_metal",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_unit",
     "soundEnableDistance": 5000.0
   },
   "hit_161_205mm_sand_ap": {
@@ -6761,8 +6742,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_161_205mm_snow_ap": {
@@ -6779,9 +6760,9 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
-    "soundEnableDistance": 50000.0
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
+    "soundEnableDistance": 5000.0
   },
   "hit_161_205mm_wood_ap": {
     "fx": "hit_161_205mm_wood_ap_cmps_fx",
@@ -6797,8 +6778,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_wood",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_161_205mm_stone_ap": {
@@ -6815,8 +6796,8 @@
     "numInstances": 70,
     "numReserved": 20,
     "onePointNumber": 30,
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "art_explosion_ground",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "heavy_explosion_ground",
     "soundEnableDistance": 5000.0
   },
   "hit_161_205mm_water": {
