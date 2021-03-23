@@ -2496,10 +2496,11 @@
       "link_de": "https://www.twitch.tv/esportsreadyde",
       "link_ru": "https://www.twitch.tv/esportsreadyru",
       "link_es": "https://www.twitch.tv/esportsreadyes",
-      "startTime": "2021-03-20 16:30",
-      "endTime": "2021-03-20 21:30",
+      "startTime": "2021-03-14 16:30",
+      "endTime": "2021-03-14 22:00",
       "reqFeature": "pc_only_events",
-      "forceExternalBrowser": true
+      "forceExternalBrowser": true,
+      "showForLangs": "English;German;French;Russian;Spanish"
     },
     "2021_new_year_sale_promo": {
       "aspect_ratio": 2.07,
