@@ -1027,6 +1027,7 @@
       "streak_custom_suit_godlike": "space_streak_godlike",
       "streak_custom_suit_critical_hit": "space_streak_critical_hit",
       "streak_custom_suit_how_do_you_like_it": "space_streak_how_do_you_like_it",
+      "sale_premium_shop": "sale_premium_shop",
       "reward_multiAwardsOnWorthGold": "item_multiaward",
       "reward_warpoints": "item_warpoints",
       "reward_gold": "item_eagles",
@@ -2593,6 +2594,9 @@
         "w": 1.0,
         "h": 1.0,
         "img": "https://static-ggc.gaijin.net/events/1anim_craft_unknown_item.png"
+      },
+      "sale_premium_shop": {
+        "img": "#ui/gameuiskin#sale_premium.svg"
       },
       "item_multiaward0": {
         "w": "1@awardIconHeight",
