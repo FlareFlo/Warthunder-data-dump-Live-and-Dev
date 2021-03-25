@@ -3964,7 +3964,8 @@
           },
           "p-39n_su": {
             "rank": 3,
-            "reqAir": ""
+            "reqAir": "",
+            "showOnlyWhenBought": true
           },
           "p-39q_15": {
             "rank": 3,
@@ -8306,10 +8307,6 @@
         "range": {
           "sw_strv_m39": {
             "rank": 1,
-            "reqAir": ""
-          },
-          "sw_strv_m41_s1": {
-            "rank": 2,
             "reqAir": ""
           },
           "sw_sav_fm48": {
