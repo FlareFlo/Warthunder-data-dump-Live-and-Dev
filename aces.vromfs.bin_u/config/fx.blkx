@@ -6958,9 +6958,13 @@
   },
   "fires_rocket_vostok_tail": {
     "fx": "fires_rocket_vostok_tail_cmps_fx",
-    "numInstances": 50,
-    "numReserved": 8,
-    "farPlane": 15000.0
+    "lifeTime": 0.0,
+    "isTrail": true,
+    "numInstances": 1,
+    "numReserved": 1,
+    "onePointNumber": 1,
+    "sfxPathStudio": "aircraft/ambient",
+    "sfxEvent": "launch_far"
   },
   "medium_water_splash": {
     "fx": "water_crash_splash_fx",
