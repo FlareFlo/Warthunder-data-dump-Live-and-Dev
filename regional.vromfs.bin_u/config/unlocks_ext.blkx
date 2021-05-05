@@ -1586,6 +1586,22 @@
   },
   {
     "unlockable": {
+      "id": "title_scarper_to_the_clouds",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_air_test_evaluation_department",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "title_strong_role_model",
       "type": "title",
       "chapter": "title",
@@ -4064,6 +4080,539 @@
   },
   {
     "unlockable": {
+      "id": "gift_a5m4_dmm_skin_trophy",
+      "userLogId": "a5m4_dmm_skin_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 1
+        },
+        {
+          "unlock": "05_2021_dmm_login_dmm"
+        },
+        {
+          "unlock": "05_2021_dmm_login_scej"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_login_dmm",
+      "type": "challenge",
+      "hidden": true,
+      "mode": {
+        "type": "char_login_time_range",
+        "beginDate": "2021-04-30 15:00:00",
+        "endDate": "2021-05-17 14:59:00",
+        "condition": {
+          "type": "char_player_has_entitlement",
+          "entitlement": "DMMAccount"
+        }
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_login_scej",
+      "type": "challenge",
+      "hidden": true,
+      "mode": {
+        "type": "char_login_time_range",
+        "beginDate": "2021-04-30 15:00:00",
+        "endDate": "2021-05-17 14:59:00",
+        "condition": {
+          "type": "char_player_has_entitlement",
+          "entitlement": "scej_account"
+        }
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_title_air_test_evaluation_department_trophy",
+      "userLogId": "title_air_test_evaluation_department_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_resources"
+        },
+        {
+          "num": 6
+        },
+        {
+          "resource": "jp_64th_air_regiment"
+        },
+        {
+          "resource": "jp_akeno_flight_training_division"
+        },
+        {
+          "resource": "jp_1081st_naval_air_group"
+        },
+        {
+          "resource": "jp_582nd_naval_air_group"
+        },
+        {
+          "resource": "jp_265th_naval_air_group"
+        },
+        {
+          "resource": "jp_37th_flying_training_squadron"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_ki_61_1a_ko_dmm_skin_trophy",
+      "userLogId": "ki_61_1a_ko_dmm_skin_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_resources"
+        },
+        {
+          "num": 6
+        },
+        {
+          "resource": "jp_64th_air_regiment"
+        },
+        {
+          "resource": "jp_akeno_flight_training_division"
+        },
+        {
+          "resource": "jp_1081st_naval_air_group"
+        },
+        {
+          "resource": "jp_582nd_naval_air_group"
+        },
+        {
+          "resource": "jp_265th_naval_air_group"
+        },
+        {
+          "resource": "jp_37th_flying_training_squadron"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_battle_1",
+      "userLogId": "05_2021_dmm_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 3
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [6,6,6],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "DMMAndSCEJAccounts"
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-30 15:00:00",
+            "endDate": "2021-05-17 15:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_battle_2",
+      "userLogId": "05_2021_dmm_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 6
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [6,6,6],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "DMMAndSCEJAccounts"
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-30 15:00:00",
+            "endDate": "2021-05-17 15:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_battle_3",
+      "userLogId": "05_2021_dmm_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 9
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [6,6,6],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "DMMAndSCEJAccounts"
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-30 15:00:00",
+            "endDate": "2021-05-17 15:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_battle_4",
+      "userLogId": "05_2021_dmm_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 12
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [6,6,6],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "DMMAndSCEJAccounts"
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-30 15:00:00",
+            "endDate": "2021-05-17 15:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_battle_5",
+      "userLogId": "05_2021_dmm_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 15
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [6,6,6],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "DMMAndSCEJAccounts"
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-30 15:00:00",
+            "endDate": "2021-05-17 15:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_2021_dmm_battle_6",
+      "userLogId": "05_2021_dmm_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 18
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [6,6,6],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "DMMAndSCEJAccounts"
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-30 15:00:00",
+            "endDate": "2021-05-17 15:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "katakana_decal_trophy",
       "type": "award",
       "hidden": true
@@ -4504,7 +5053,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -4864,7 +5413,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -5043,7 +5592,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "typeHelicopter"
           }
         },
@@ -5098,7 +5647,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -5446,7 +5995,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -5501,7 +6050,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -5556,7 +6105,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "ship"
           }
         },
@@ -6668,7 +7217,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -6723,7 +7272,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -6778,7 +7327,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -6833,7 +7382,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -6888,7 +7437,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -6943,7 +7492,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -6998,7 +7547,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7053,7 +7602,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7108,7 +7657,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7163,7 +7712,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7218,7 +7767,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7273,7 +7822,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7328,7 +7877,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7383,7 +7932,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -7438,7 +7987,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -8435,7 +8984,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -8482,7 +9031,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "ship"
           }
         },
@@ -8529,7 +9078,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -8845,7 +9394,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -8959,7 +9508,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         }
@@ -9151,7 +9700,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -9236,7 +9785,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -11253,7 +11802,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -11487,7 +12036,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -14370,7 +14919,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -14426,7 +14975,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "boat",
             "inSession": false
           }
@@ -22560,7 +23109,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -22727,7 +23276,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -22797,7 +23346,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -22888,7 +23437,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23055,7 +23604,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23124,7 +23673,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23215,7 +23764,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23382,7 +23931,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23451,7 +24000,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23542,7 +24091,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23709,7 +24258,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23778,7 +24327,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -23869,7 +24418,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24036,7 +24585,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24105,7 +24654,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24196,7 +24745,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24363,7 +24912,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24432,7 +24981,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24523,7 +25072,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24690,7 +25239,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24759,7 +25308,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -24850,7 +25399,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25017,7 +25566,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25086,7 +25635,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25177,7 +25726,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25344,7 +25893,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25413,7 +25962,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25504,7 +26053,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25671,7 +26220,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25740,7 +26289,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25831,7 +26380,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -25998,7 +26547,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -26067,7 +26616,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -26158,7 +26707,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -26325,7 +26874,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -26394,7 +26943,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -26485,7 +27034,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -26650,7 +27199,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -26719,7 +27268,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -26810,7 +27359,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -26975,7 +27524,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27044,7 +27593,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27135,7 +27684,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27300,7 +27849,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27369,7 +27918,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27460,7 +28009,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27625,7 +28174,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27694,7 +28243,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27785,7 +28334,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -27950,7 +28499,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28019,7 +28568,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28110,7 +28659,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28275,7 +28824,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28344,7 +28893,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28435,7 +28984,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28600,7 +29149,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28669,7 +29218,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28760,7 +29309,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28925,7 +29474,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -28994,7 +29543,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29085,7 +29634,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29250,7 +29799,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29319,7 +29868,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29410,7 +29959,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29575,7 +30124,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29644,7 +30193,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29735,7 +30284,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29900,7 +30449,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -29969,7 +30518,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -30060,7 +30609,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -30225,7 +30774,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -30294,7 +30843,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37069,7 +37618,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37234,7 +37783,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37303,7 +37852,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37394,7 +37943,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37559,7 +38108,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37628,7 +38177,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37719,7 +38268,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37884,7 +38433,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -37953,7 +38502,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38044,7 +38593,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38209,7 +38758,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38278,7 +38827,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38369,7 +38918,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38534,7 +39083,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38603,7 +39152,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38694,7 +39243,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38859,7 +39408,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -38928,7 +39477,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39019,7 +39568,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39184,7 +39733,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39253,7 +39802,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39344,7 +39893,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39509,7 +40058,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39578,7 +40127,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39669,7 +40218,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39834,7 +40383,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39903,7 +40452,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -39994,7 +40543,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40159,7 +40708,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40228,7 +40777,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40319,7 +40868,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40484,7 +41033,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40553,7 +41102,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40644,7 +41193,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40809,7 +41358,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40878,7 +41427,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -40969,7 +41518,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41136,7 +41685,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41205,7 +41754,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41296,7 +41845,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41463,7 +42012,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41532,7 +42081,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41623,7 +42172,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41790,7 +42339,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41859,7 +42408,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -41950,7 +42499,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42117,7 +42666,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42186,7 +42735,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42277,7 +42826,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42444,7 +42993,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42513,7 +43062,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42604,7 +43153,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42771,7 +43320,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42840,7 +43389,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -42931,7 +43480,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43098,7 +43647,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43167,7 +43716,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43258,7 +43807,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43425,7 +43974,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43494,7 +44043,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43585,7 +44134,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43752,7 +44301,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43821,7 +44370,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -43912,7 +44461,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44079,7 +44628,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44148,7 +44697,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44239,7 +44788,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44406,7 +44955,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44475,7 +45024,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44566,7 +45115,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44733,7 +45282,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -44802,7 +45351,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -50650,7 +51199,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -50811,7 +51360,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -50878,7 +51427,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -50970,7 +51519,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -51137,7 +51686,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -51206,7 +51755,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -58924,7 +59473,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59093,7 +59642,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59164,7 +59713,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59256,7 +59805,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59425,7 +59974,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59496,7 +60045,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59588,7 +60137,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59757,7 +60306,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59828,7 +60377,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -59920,7 +60469,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60089,7 +60638,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60160,7 +60709,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60252,7 +60801,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60421,7 +60970,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60492,7 +61041,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60584,7 +61133,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60753,7 +61302,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60824,7 +61373,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -60916,7 +61465,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61085,7 +61634,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61156,7 +61705,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61248,7 +61797,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61417,7 +61966,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61488,7 +62037,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61580,7 +62129,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61749,7 +62298,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61820,7 +62369,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -61912,7 +62461,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62081,7 +62630,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62152,7 +62701,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62244,7 +62793,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62413,7 +62962,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62484,7 +63033,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62576,7 +63125,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62745,7 +63294,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62816,7 +63365,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -62899,7 +63448,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63070,7 +63619,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63142,7 +63691,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63225,7 +63774,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63396,7 +63945,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63468,7 +64017,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63551,7 +64100,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63722,7 +64271,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63794,7 +64343,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -63877,7 +64426,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64048,7 +64597,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64120,7 +64669,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64203,7 +64752,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64374,7 +64923,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64446,7 +64995,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64529,7 +65078,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64700,7 +65249,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64772,7 +65321,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -64855,7 +65404,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65026,7 +65575,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65098,7 +65647,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65181,7 +65730,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65352,7 +65901,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65424,7 +65973,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65507,7 +66056,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65678,7 +66227,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65750,7 +66299,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -65833,7 +66382,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66004,7 +66553,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66076,7 +66625,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66159,7 +66708,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66330,7 +66879,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66402,7 +66951,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66485,7 +67034,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66656,7 +67205,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -66728,7 +67277,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -70189,7 +70738,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -70239,7 +70788,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -70289,7 +70838,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -70339,7 +70888,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -70380,7 +70929,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -70421,7 +70970,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -70462,7 +71011,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -70503,7 +71052,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -70821,7 +71370,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -70983,7 +71532,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -71051,7 +71600,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -76830,7 +77379,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77003,7 +77552,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77076,7 +77625,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77171,7 +77720,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77344,7 +77893,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77417,7 +77966,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77512,7 +78061,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77685,7 +78234,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77758,7 +78307,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -77853,7 +78402,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78026,7 +78575,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78099,7 +78648,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78194,7 +78743,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78367,7 +78916,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78440,7 +78989,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78535,7 +79084,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78708,7 +79257,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78781,7 +79330,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -78876,7 +79425,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79049,7 +79598,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79122,7 +79671,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79217,7 +79766,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79390,7 +79939,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79463,7 +80012,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79558,7 +80107,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79731,7 +80280,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79804,7 +80353,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -79899,7 +80448,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80072,7 +80621,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80145,7 +80694,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80240,7 +80789,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80413,7 +80962,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80486,7 +81035,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80581,7 +81130,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80754,7 +81303,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80827,7 +81376,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -80913,7 +81462,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81088,7 +81637,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81162,7 +81711,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81248,7 +81797,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81423,7 +81972,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81497,7 +82046,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81583,7 +82132,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81758,7 +82307,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81832,7 +82381,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -81918,7 +82467,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82093,7 +82642,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82167,7 +82716,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82253,7 +82802,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82428,7 +82977,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82502,7 +83051,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82588,7 +83137,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82763,7 +83312,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82837,7 +83386,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -82923,7 +83472,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83098,7 +83647,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83172,7 +83721,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83258,7 +83807,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83433,7 +83982,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83507,7 +84056,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83593,7 +84142,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83768,7 +84317,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83842,7 +84391,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -83928,7 +84477,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84103,7 +84652,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84177,7 +84726,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84263,7 +84812,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84438,7 +84987,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84512,7 +85061,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84598,7 +85147,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84773,7 +85322,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -84845,7 +85394,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -88632,7 +89181,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -88682,7 +89231,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -88732,7 +89281,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -88782,7 +89331,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "aircraft"
           }
         },
@@ -88823,7 +89372,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -88864,7 +89413,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -88905,7 +89454,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -88946,7 +89495,7 @@
         },
         {
           "condition": {
-            "type": "playerType",
+            "type": "offenderType",
             "unitType": "tank"
           }
         },
@@ -90536,9 +91085,8 @@
         },
         {
           "condition": {
-            "type": "playerType",
-            "unitType": "aircraft",
-            "controlled": true
+            "type": "offenderType",
+            "unitType": "aircraft"
           }
         },
         {
@@ -90642,7 +91190,7 @@
         {
           "condition": [
             {
-              "type": "playerType"
+              "type": "offenderType"
             },
             {
               "unitType": "tank"
@@ -90652,9 +91200,6 @@
             },
             {
               "unitType": "boat"
-            },
-            {
-              "controlled": true
             }
           ]
         },
@@ -92588,7 +93133,7 @@
       "type": "achievement",
       "chapter": "craft_2021_spring",
       "isAfterFlight": true,
-      "hidden": false,
+      "hidden": true,
       "mode": [
         {
           "type": "unlockOpenCount"
