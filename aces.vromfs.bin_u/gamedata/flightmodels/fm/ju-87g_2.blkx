@@ -80,7 +80,7 @@
     "dvRudderTrim": 0.125,
     "hasFlapsControl": true,
     "canTakeoffWithoutFlaps": true,
-    "hasAirbrake": false,
+    "hasAirbrake": true,
     "hasGearControl": false,
     "hasArrestorControl": false,
     "hasCockpitDoorControl": false,

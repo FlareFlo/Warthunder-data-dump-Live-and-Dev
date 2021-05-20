@@ -1229,7 +1229,7 @@
     "lightRadius1": 0.35,
     "zoomOutFov": 22.46,
     "zoomInFov": 22.46,
-    "sightInFov": 2.96,
+    "sightInFov": 3.68,
     "sightOutFov": -1.0,
     "sightFov": 5.5,
     "devices": {

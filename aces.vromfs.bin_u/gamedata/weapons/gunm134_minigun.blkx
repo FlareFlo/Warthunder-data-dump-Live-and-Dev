@@ -30,10 +30,10 @@
     "maxDeltaAngle": 0.15
   },
   {
-    "shotFreq": 66.66
+    "shotFreq": 100.0
   },
   {
-    "alternativeShotFreq": 33.33
+    "alternativeShotFreq": 50.0
   },
   {
     "traceFreq": 4
@@ -1030,10 +1030,10 @@
   {
     "overheat": [
       {
-        "overheat": [40.0,0.0]
+        "overheat": [100.0,0.0]
       },
       {
-        "overheat": [60.0,0.05]
+        "overheat": [120.0,0.05]
       }
     ]
   },
@@ -1042,10 +1042,10 @@
       "maxDeltaAngle": 0.35,
       "overheat": [
         {
-          "overheat": [35.0,0.0]
+          "overheat": [90.0,0.0]
         },
         {
-          "overheat": [45.0,0.05]
+          "overheat": [110.0,0.05]
         }
       ]
     }

@@ -42,7 +42,7 @@
   "maxEngineTemperature": 40.0,
   "supportPlaneClass": "ucav_scout",
   "crosshairPreset": "minotaur",
-  "maskingK": 5.0,
+  "maskingK": 3.0,
   "spawn_count": {
     "numSpawnsPerBattleArcade": 3,
     "numSpawnsPerBattleHistorical": 3,
@@ -501,39 +501,32 @@
     "cannon_breech": {
       "armorClass": "tank_structural_steel",
       "hp": 150.0,
-      "armorThickness": 5.0,
+      "armorThickness": 150.0,
       "fireProtectionHp": 5.0,
       "hidableInViewer": false,
       "cannon_breech_dm": {
-        "restrainDamage": 0.5,
-        "armorThrough": 150.0
+        "restrainDamage": 0.5
       },
       "cannon_breech_01_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 10.0
       },
       "cannon_breech_02_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 10.0
       },
       "cannon_breech_03_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 10.0
       },
       "cannon_breech_04_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 10.0
       },
       "cannon_breech_05_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 10.0
       }
     },
     "power_block": {
       "armorClass": "armor_tank_engine",
       "hp": 100.0,
-      "armorThickness": 5.0,
-      "armorThrough": 150.0,
+      "armorThickness": 150.0,
       "fireProtectionHp": 5.0,
       "restrainDamage": 0.5,
       "engine_dm": [],
@@ -2686,7 +2679,6 @@
     "Module1": {
       "dmPart": "engine_dm",
       "distance": 30.0,
-      "sensorDistance": 70.0,
       "horAngles": [80.0,160.0],
       "verAngles": [-20.0,80.0],
       "reloadTime": 10.0,
@@ -2809,7 +2801,6 @@
     "Module2": {
       "dmPart": "engine_dm",
       "distance": 30.0,
-      "sensorDistance": 70.0,
       "horAngles": [-5.0,80.0],
       "verAngles": [-20.0,80.0],
       "reloadTime": 10.0,
@@ -2932,7 +2923,6 @@
     "Module3": {
       "dmPart": "engine_dm",
       "distance": 30.0,
-      "sensorDistance": 70.0,
       "horAngles": [-80.0,5.0],
       "verAngles": [-20.0,80.0],
       "reloadTime": 10.0,
@@ -3055,7 +3045,6 @@
     "Module4": {
       "dmPart": "engine_dm",
       "distance": 30.0,
-      "sensorDistance": 70.0,
       "horAngles": [-160.0,-80.0],
       "verAngles": [-20.0,80.0],
       "reloadTime": 10.0,

@@ -2896,52 +2896,29 @@
             "reqModification": "countermeasures_belt_pack"
           },
           {
-            "weaponConfig": [
-              {
-                "Weapon": [
-                  {
-                    "blk": "gameData/Weapons/rocketGuns/uk_2_inch_rocket.blk"
-                  },
-                  {
-                    "iconType": "nar_he_large"
-                  },
-                  {
-                    "amountPerTier": 36.0
-                  },
-                  {
-                    "tier": {
-                      "idx": 5
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 7
-                    }
+            "weaponConfig": {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/uk_2_inch_rocket.blk"
+                },
+                {
+                  "iconType": "nar_he_large"
+                },
+                {
+                  "amountPerTier": 36.0
+                },
+                {
+                  "tier": {
+                    "idx": 5
                   }
-                ]
-              },
-              {
-                "Weapon": [
-                  {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
-                  },
-                  {
-                    "tier": {
-                      "idx": 4,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 8,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
-                    }
+                },
+                {
+                  "tier": {
+                    "idx": 7
                   }
-                ]
-              }
-            ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -3765,62 +3742,39 @@
           "name": "buccaneer_s2_500lb_bombs_ltc",
           "blk": "gameData/FlightModels/weaponPresets/buccaneer_s2_500lb_bombs_ltc.blk",
           "reqModification": "countermeasures_belt_pack",
-          "weaponConfig": [
-            {
-              "Weapon": [
-                {
-                  "blk": "gameData/Weapons/BombGuns/uk_500lb_he_mc_mk2.blk"
-                },
-                {
-                  "iconType": "bombs_middle_group"
-                },
-                {
-                  "amountPerTier": 3.0
-                },
-                {
-                  "tier": {
-                    "idx": 4
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 5
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 7
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 8
-                  }
+          "weaponConfig": {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/BombGuns/uk_500lb_he_mc_mk2.blk"
+              },
+              {
+                "iconType": "bombs_middle_group"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 4
                 }
-              ]
-            },
-            {
-              "Weapon": [
-                {
-                  "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
-                },
-                {
-                  "tier": {
-                    "idx": 3,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 9,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
-                  }
+              },
+              {
+                "tier": {
+                  "idx": 5
                 }
-              ]
-            }
-          ]
+              },
+              {
+                "tier": {
+                  "idx": 7
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8
+                }
+              }
+            ]
+          }
         }
       },
       {
@@ -3828,52 +3782,29 @@
           "name": "buccaneer_s2_1000lb_bombs_ltc",
           "blk": "gameData/FlightModels/weaponPresets/buccaneer_s2_1000lb_bombs_ltc.blk",
           "reqModification": "countermeasures_belt_pack",
-          "weaponConfig": [
-            {
-              "Weapon": [
-                {
-                  "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp.blk"
-                },
-                {
-                  "iconType": "bombs_large_group"
-                },
-                {
-                  "amountPerTier": 3.0
-                },
-                {
-                  "tier": {
-                    "idx": 5
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 7
-                  }
+          "weaponConfig": {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp.blk"
+              },
+              {
+                "iconType": "bombs_large_group"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 5
                 }
-              ]
-            },
-            {
-              "Weapon": [
-                {
-                  "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
-                },
-                {
-                  "tier": {
-                    "idx": 4,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 8,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
-                  }
+              },
+              {
+                "tier": {
+                  "idx": 7
                 }
-              ]
-            }
-          ]
+              }
+            ]
+          }
         }
       },
       {
@@ -3915,20 +3846,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -3975,20 +3904,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -4078,27 +4005,6 @@
                     }
                   }
                 ]
-              },
-              {
-                "Weapon": [
-                  {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
-                  },
-                  {
-                    "tier": {
-                      "idx": 1,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 11,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
-                    }
-                  }
-                ]
               }
             ]
           }
@@ -4172,20 +4078,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 2,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 10,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -4269,20 +4173,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 2,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 10,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -4367,20 +4269,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 2,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 10,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -4402,66 +4302,6 @@
           },
           {
             "reqModification": "uk_mk_10_1000lb"
-          },
-          {
-            "weaponConfig": [
-              {
-                "Weapon": [
-                  {
-                    "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp.blk"
-                  },
-                  {
-                    "tier": {
-                      "idx": 4,
-                      "iconType": "bombs_large",
-                      "amountPerTier": 1.0
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 5,
-                      "iconType": "bombs_large",
-                      "amountPerTier": 1.0
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 7,
-                      "iconType": "bombs_large",
-                      "amountPerTier": 1.0
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 8,
-                      "iconType": "bombs_large",
-                      "amountPerTier": 1.0
-                    }
-                  }
-                ]
-              },
-              {
-                "Weapon": [
-                  {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
-                  },
-                  {
-                    "tier": {
-                      "idx": 3,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
-                    }
-                  },
-                  {
-                    "tier": {
-                      "idx": 9,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
-                    }
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -4539,20 +4379,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 2,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 10,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -4841,65 +4679,7 @@
         "preset": {
           "name": "buccaneer_s2_ltc_500lb",
           "blk": "gameData/FlightModels/weaponPresets/buccaneer_s2_ltc_500lb.blk",
-          "reqModification": "countermeasures_belt_pack",
-          "weaponConfig": [
-            {
-              "Weapon": [
-                {
-                  "blk": "gameData/Weapons/BombGuns/uk_500lb_he_mc_mk2.blk"
-                },
-                {
-                  "tier": {
-                    "idx": 4,
-                    "iconType": "bombs_middle",
-                    "amountPerTier": 1.0
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 5,
-                    "iconType": "bombs_middle",
-                    "amountPerTier": 1.0
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 7,
-                    "iconType": "bombs_middle",
-                    "amountPerTier": 1.0
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 8,
-                    "iconType": "bombs_middle",
-                    "amountPerTier": 1.0
-                  }
-                }
-              ]
-            },
-            {
-              "Weapon": [
-                {
-                  "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
-                },
-                {
-                  "tier": {
-                    "idx": 3,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
-                  }
-                },
-                {
-                  "tier": {
-                    "idx": 9,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
-                  }
-                }
-              ]
-            }
-          ]
+          "reqModification": "countermeasures_belt_pack"
         }
       },
       {
@@ -4982,20 +4762,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 2,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 10,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]
@@ -5182,20 +4960,18 @@
             {
               "Weapon": [
                 {
-                  "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                  "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                 },
                 {
                   "tier": {
                     "idx": 1,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
+                    "iconType": "ltc"
                   }
                 },
                 {
                   "tier": {
                     "idx": 11,
-                    "iconType": "ltc",
-                    "amountPerTier": 52.0
+                    "iconType": "ltc"
                   }
                 }
               ]
@@ -5470,20 +5246,18 @@
               {
                 "Weapon": [
                   {
-                    "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk"
+                    "blk": "gameData/Weapons/rocketGuns/flare_launcher_jet.blk"
                   },
                   {
                     "tier": {
                       "idx": 2,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   },
                   {
                     "tier": {
                       "idx": 10,
-                      "iconType": "ltc",
-                      "amountPerTier": 52.0
+                      "iconType": "ltc"
                     }
                   }
                 ]

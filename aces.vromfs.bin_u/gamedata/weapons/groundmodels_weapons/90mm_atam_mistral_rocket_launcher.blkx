@@ -119,7 +119,6 @@
       "sound": "atgm_LPC",
       "sound_inside": "atgm_LPC_interior",
       "recoilMultiplier": 0.05,
-      "isAam": true,
       "stabilityRicochetModifier": [
         {
           "mod1": [0.0,0.05]
@@ -337,7 +336,7 @@
           "loadFactorMax": 12.0
         },
         {
-          "rangeMax": 6500.0
+          "rangeMax": 6.0
         },
         {
           "price": 3000.0

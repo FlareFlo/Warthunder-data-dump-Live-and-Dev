@@ -535,10 +535,8 @@
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
         "armorEffectiveThicknessMax": 20.0,
-        "hp": 300.0,
+        "hp": 100.0,
         "genericEffectiveThicknessMax": 20.0,
-        "genericDamageMult": 1.8,
-        "cumulativeDamageMult": 1.8,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -640,39 +638,32 @@
       "cannon_breech": {
         "armorClass": "tank_structural_steel",
         "hp": 150.0,
-        "armorThickness": 5.0,
+        "armorThickness": 150.0,
         "fireProtectionHp": 5.0,
         "hidableInViewer": false,
         "cannon_breech_dm": {
-          "restrainDamage": 0.5,
-          "armorThrough": 150.0
+          "restrainDamage": 0.5
         },
         "cannon_breech_01_dm": {
-          "armorThickness": 5.0,
-          "armorThrough": 5.0
+          "armorThickness": 10.0
         },
         "cannon_breech_02_dm": {
-          "armorThickness": 5.0,
-          "armorThrough": 5.0
+          "armorThickness": 10.0
         },
         "cannon_breech_03_dm": {
-          "armorThickness": 5.0,
-          "armorThrough": 5.0
+          "armorThickness": 10.0
         },
         "cannon_breech_04_dm": {
-          "armorThickness": 5.0,
-          "armorThrough": 5.0
+          "armorThickness": 10.0
         },
         "cannon_breech_05_dm": {
-          "armorThickness": 5.0,
-          "armorThrough": 5.0
+          "armorThickness": 10.0
         }
       },
       "power_block": {
         "armorClass": "armor_tank_engine",
         "hp": 100.0,
-        "armorThickness": 5.0,
-        "armorThrough": 150.0,
+        "armorThickness": 150.0,
         "fireProtectionHp": 5.0,
         "restrainDamage": 0.5,
         "engine_dm": [],
@@ -2667,46 +2658,35 @@
       },
       "mechanics": {
         "maxBrakeForce": 250120.0,
-        "driveGearRadius": 0.35,
-        "mainGearRatio": 1.27,
+        "driveGearRadius": 0.4,
+        "mainGearRatio": 1.0,
         "sideGearRatio": 4.2,
-        "neutralGearRatio": 11.0,
+        "neutralGearRatio": 15.0,
+        "gearType": "differential",
         "gearRatios": [
           {
-            "ratio": -2.8
+            "ratio": -4.0
           },
           {
-            "ratio": -4.16
-          },
-          {
-            "ratio": -11.232
+            "ratio": -6.0
           },
           {
             "ratio": 0.0
           },
           {
-            "ratio": 11.232
+            "ratio": 8.0
           },
           {
-            "ratio": 4.16
+            "ratio": 6.0
           },
           {
-            "ratio": 2.83
+            "ratio": 4.64
           },
           {
-            "ratio": 2.0
+            "ratio": 2.6
           },
           {
-            "ratio": 1.53
-          },
-          {
-            "ratio": 1.28
-          },
-          {
-            "ratio": 1.1
-          },
-          {
-            "ratio": 1.03
+            "ratio": 1.48
           }
         ]
       },

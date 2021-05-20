@@ -2865,10 +2865,8 @@
         "armorClass": "tank_traks",
         "armorThickness": 20.0,
         "armorEffectiveThicknessMax": 20.0,
-        "hp": 300.0,
+        "hp": 100.0,
         "genericEffectiveThicknessMax": 20.0,
-        "genericDamageMult": 1.8,
-        "cumulativeDamageMult": 1.8,
         "track_r_dm": [],
         "track_l_dm": [],
         "track_r_01_dm": [],
@@ -3287,7 +3285,7 @@
     "cockpit": {
       "zoomOutFov": 10.21,
       "zoomInFov": 9.21,
-      "sightFov": 4.9,
+      "sightFov": 7.0,
       "sightName": "tzf_8_40",
       "headPos": [0.0,3.7,-8.3],
       "headPosOnShooting": [0.1,3.6,0.52],
@@ -3565,7 +3563,7 @@
                   "allowableDelta": 360.0
                 },
                 {
-                  "salvo": 4
+                  "salvo": 8
                 },
                 {
                   "speedYaw": 24.0

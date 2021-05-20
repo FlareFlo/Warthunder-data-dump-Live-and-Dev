@@ -5,7 +5,6 @@
   "harmonizationSuffix": "_tomoe",
   "gearSinkRangeLR": 0.001,
   "gearSinkRangeC": 0.001,
-  "tpsCameraOffset": [4.0,0.0,0.0],
   "type": "typeFighter",
   "paratrooper": "usa_para",
   "advancedInstructor": true,

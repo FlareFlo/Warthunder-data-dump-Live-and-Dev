@@ -118,10 +118,7 @@
       "alpha_to_coverage": false,
       "oculusSecondaryWindow": false,
       "secondaryResolution": "",
-      "dlssQuality": -1,
-      "perfMetrics": 1,
-      "latencyFlash": false,
-      "latency": 0
+      "dlssQuality": -1
     },
     "texStreaming": {
       "enableStreaming": false,

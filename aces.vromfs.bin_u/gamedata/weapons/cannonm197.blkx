@@ -30,7 +30,10 @@
     "maxDeltaAngle": 0.2
   },
   {
-    "shotFreq": 12.5
+    "shotFreq": 25.0
+  },
+  {
+    "alternativeShotFreq": 12.5
   },
   {
     "traceFreq": 4

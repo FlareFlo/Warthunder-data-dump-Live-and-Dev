@@ -3632,19 +3632,12 @@
       }
     }
   ],
-  "sensors": [
-    {
-      "sensor": {
-        "blk": "gameData/sensors/us_an_apg_59.blk",
-        "dmPart": "radar_dm"
-      }
-    },
-    {
-      "sensor": {
-        "blk": "gameData/sensors/us_an_apr_25.blk"
-      }
+  "sensors": {
+    "sensor": {
+      "blk": "gameData/sensors/us_an_apg_59.blk",
+      "dmPart": "radar_dm"
     }
-  ],
+  },
   "parachutes": {
     "emitterRange": [1,1],
     "emitterName": "emtr_chute",

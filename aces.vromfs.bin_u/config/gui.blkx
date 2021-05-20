@@ -461,21 +461,17 @@
       "login_layer_rsa_ground": 4.0
     },
     {
-      "login_layer_thunder_toon_chars": 0.0
+      "login_layer_thunder_toon_chars": 10.0
     },
     {
-      "login_layer_thunder_toon_air": 0.0
+      "login_layer_thunder_toon_air": 10.0
     },
     {
-      "login_layer_wt2077": 0.0
-    },
-    {
-      "login_layer_m6a2e1": 4.0
+      "login_layer_wt2077": 20.0
     },
     {
       "unlocks": {
-        "login_layer_atomic_tank": "loading_screen_atomic_tank",
-        "login_layer_m6a2e1": "loading_screen_m6a2e1"
+        "login_layer_atomic_tank": "loading_screen_atomic_tank"
       }
     },
     {
@@ -505,7 +501,10 @@
           "login_layer_atomic_tank": 2.0,
           "login_layer_f_5a_rocaf": 3.0,
           "login_layer_su_17": 3.0,
-          "login_layer_rsa_ground": 4.0
+          "login_layer_rsa_ground": 4.0,
+          "login_layer_thunder_toon_chars": 10.0,
+          "login_layer_thunder_toon_air": 10.0,
+          "login_layer_wt2077": 20.0
         }
       }
     },
@@ -539,7 +538,10 @@
           "login_layer_atomic_tank": 2.0,
           "login_layer_f_5a_rocaf": 3.0,
           "login_layer_su_17": 3.0,
-          "login_layer_rsa_ground": 4.0
+          "login_layer_rsa_ground": 4.0,
+          "login_layer_thunder_toon_chars": 10.0,
+          "login_layer_thunder_toon_air": 10.0,
+          "login_layer_wt2077": 20.0
         }
       }
     },
@@ -560,7 +562,10 @@
           "login_layer_atomic_tank": 2.0,
           "login_layer_f_5a_rocaf": 3.0,
           "login_layer_su_17": 3.0,
-          "login_layer_rsa_ground": 4.0
+          "login_layer_rsa_ground": 4.0,
+          "login_layer_thunder_toon_chars": 10.0,
+          "login_layer_thunder_toon_air": 10.0,
+          "login_layer_wt2077": 20.0
         }
       }
     },
@@ -579,7 +584,10 @@
           "login_layer_atomic_tank": 2.0,
           "login_layer_f_5a_rocaf": 3.0,
           "login_layer_su_17": 3.0,
-          "login_layer_rsa_ground": 4.0
+          "login_layer_rsa_ground": 4.0,
+          "login_layer_thunder_toon_chars": 10.0,
+          "login_layer_thunder_toon_air": 10.0,
+          "login_layer_wt2077": 20.0
         }
       }
     },
@@ -599,7 +607,10 @@
           "login_layer_atomic_tank": 2.0,
           "login_layer_f_5a_rocaf": 3.0,
           "login_layer_su_17": 3.0,
-          "login_layer_rsa_ground": 4.0
+          "login_layer_rsa_ground": 4.0,
+          "login_layer_thunder_toon_chars": 10.0,
+          "login_layer_thunder_toon_air": 10.0,
+          "login_layer_wt2077": 20.0
         }
       }
     },
@@ -620,7 +631,10 @@
           "login_layer_atomic_tank": 2.0,
           "login_layer_f_5a_rocaf": 3.0,
           "login_layer_su_17": 3.0,
-          "login_layer_rsa_ground": 4.0
+          "login_layer_rsa_ground": 4.0,
+          "login_layer_thunder_toon_chars": 10.0,
+          "login_layer_thunder_toon_air": 10.0,
+          "login_layer_wt2077": 20.0
         }
       }
     },
@@ -2838,7 +2852,7 @@
       "universal_spare_flag": {
         "w": "@cIco",
         "h": "@cIco",
-        "x": "0",
+        "x": "- 8%w",
         "y": "- 8%h",
         "background-svg-size": "@cIco, @cIco"
       },
@@ -4267,7 +4281,6 @@
       "country_north_korea": "#ui/gameuiskin#country_north_korea.svg",
       "country_republic_china": "#ui/gameuiskin#flag_republic_china.svg",
       "country_south_africa_modern": "#ui/gameuiskin#country_south_africa_modern.svg",
-      "country_south_africa": "#ui/gameuiskin#country_south_africa.svg",
       "country_vietnam": "#ui/gameuiskin#country_vietnam.svg",
       "country_egypt": "#ui/gameuiskin#country_egypt.svg",
       "country_turkey": "#ui/gameuiskin#country_turkey.svg",
@@ -4481,7 +4494,6 @@
       "country_north_korea": "",
       "country_republic_china": "",
       "country_south_africa_modern": "",
-      "country_south_africa": "",
       "country_vietnam": "",
       "country_egypt": "",
       "country_turkey": "",
@@ -6232,14 +6244,6 @@
       }
     }
   ],
-  "interface_customization": {
-    "block": {
-      "beginDate": "2021-04-12 06:07:00",
-      "endDate": "2021-04-12 23:59:59",
-      "toBattleLocId": "mainmenu/toBattle/12april",
-      "toBattleLocIdShort": "mainmenu/toBattle/12april"
-    }
-  },
   "bundles": {
     "guid": {
       "eagles100": "B73D89CF-E37E-4520-9373-53384EB3D8EA",

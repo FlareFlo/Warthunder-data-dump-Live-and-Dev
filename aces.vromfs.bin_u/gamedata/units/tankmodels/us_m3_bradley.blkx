@@ -389,10 +389,8 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 15.0,
-        "hp": 250.0,
+        "hp": 100.0,
         "genericEffectiveThicknessMax": 15.0,
-        "genericDamageMult": 1.5,
-        "cumulativeDamageMult": 1.5,
         "track_r_dm": [],
         "track_l_dm": []
       },
@@ -2581,7 +2579,7 @@
         "neutralGearRatio": 12.0,
         "gearRatios": [
           {
-            "ratio": -4.0
+            "ratio": -4.35
           },
           {
             "ratio": -8.0
@@ -2590,22 +2588,22 @@
             "ratio": 0.0
           },
           {
-            "ratio": 11.8
+            "ratio": 12.0
           },
           {
-            "ratio": 5.9
+            "ratio": 5.0
           },
           {
-            "ratio": 2.44
+            "ratio": 4.5
           },
           {
-            "ratio": 1.24
+            "ratio": 3.81
           },
           {
-            "ratio": 0.91
+            "ratio": 1.94
           },
           {
-            "ratio": 0.84
+            "ratio": 0.839
           }
         ]
       },

@@ -122,10 +122,7 @@
       "alpha_to_coverage": false,
       "oculusSecondaryWindow": false,
       "secondaryResolution": "",
-      "dlssQuality": -1,
-      "perfMetrics": 1,
-      "latencyFlash": false,
-      "latency": 0
+      "dlssQuality": -1
     },
     "texStreaming": {
       "enableStreaming": false,
@@ -360,9 +357,9 @@
     "riGpuObjects": true
   },
   "ps4": {
-    "garlic_size_mb": 2510,
-    "neo_garlic_size_mb": 3010,
-    "onion_size_mb": 190,
+    "garlic_size_mb": 2650,
+    "neo_garlic_size_mb": 3150,
+    "onion_size_mb": 150,
     "dcb_size_mb": 8,
     "ccb_size_mb": 8,
     "onion_blocks": 16384,
