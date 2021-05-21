@@ -23,6 +23,11 @@
   "maxAltFallBullets": 20.0,
   "maxSpeedFallBullets": 50.0,
   "event_time_to_live": 12.0,
+  "event_planes_time_to_live": 4.0,
+  "event_planes_ai_time_to_live": 1.0,
+  "event_surface_time_to_live": 12.0,
+  "event_surface_ai_time_to_live": 6.0,
+  "event_explosion_time_to_live": 6.0,
   "FmEngineAi": "engine_ai",
   "FmBomberEngineAi": "engine_bomber_ai",
   "FmJetEngineAi": "engine_jet_ai",
@@ -157,10 +162,6 @@
           "preload": false
         },
         "football": {
-          "async": false,
-          "preload": false
-        },
-        "toon": {
           "async": false,
           "preload": false
         }
@@ -361,7 +362,7 @@
         "name": "sounds/outside/engines"
       },
       {
-        "volLimits": [50.0,100.0]
+        "volLimits": [27.0,100.0]
       }
     ],
     "master": {
@@ -585,7 +586,7 @@
     "eventTireScreech": "tire_screech",
     "eventVibrationOverload": "vibration_overload",
     "eventWreckScrape": "wreck_scrape",
-    "bulletPassByRadius": 18.0,
+    "bulletPassByRadius": 30.0,
     "eventBulletHitShipMgun": "hit_mgun",
     "eventBulletHitShipSmall": "hit_small",
     "eventBulletHitShipMid": "hit_mid",
@@ -818,12 +819,12 @@
     "lods": {
       "lod_0": {
         "radius": 20.0,
-        "maxSounds": 16,
+        "maxSounds": 6,
         "updInterval": 0.05
       },
       "lod_1": {
         "radius": 300.0,
-        "maxSounds": 16,
+        "maxSounds": 8,
         "updInterval": 0.2
       }
     }
@@ -926,7 +927,7 @@
     "lods": {
       "lod_0": {
         "radius": 300.0,
-        "maxSounds": 5
+        "maxSounds": 4
       },
       "lod_1": {
         "radius": 2000.0,
@@ -8578,6 +8579,11 @@
       "ship": {
         "path": "naval/effects"
       }
+    },
+    "grd_cannon_reload_heavy": {
+      "path": "ground/effects",
+      "event": "reload_cannon_heavy",
+      "time": 4.5
     },
     "grd_cannon_burning_reload": {
       "path": "ground/effects",
