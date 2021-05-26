@@ -162,7 +162,7 @@
         "ex_decor_r_13_dm": []
       },
       "ex_armor": {
-        "hp": 100.0,
+        "hp": 400.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "hidableInViewer": true,

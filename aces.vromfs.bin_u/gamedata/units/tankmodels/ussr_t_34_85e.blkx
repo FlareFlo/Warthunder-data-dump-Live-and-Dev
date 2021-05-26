@@ -2771,7 +2771,7 @@
       },
       "body_shields": {
         "armorClass": "RHA_tank",
-        "hp": 100.0,
+        "hp": 400.0,
         "armorThickness": 4.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,

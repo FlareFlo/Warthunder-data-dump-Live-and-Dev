@@ -2339,10 +2339,17 @@
         "role": "loader",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2407,7 +2414,8 @@
             "head": "bone_turret",
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
-            "gunnerDm": "gunner_dm"
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm"
           },
           "limits": {
             "yaw": [-180.0,180.0],
@@ -2474,7 +2482,8 @@
           "turret": {
             "head": "bone_mg_gun_twin",
             "gun": "bone_mg_gun_twin",
-            "gunnerDm": "gunner_dm"
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm"
           },
           "limits": {
             "yaw": [-0.0,0.0],
@@ -3170,9 +3179,9 @@
     "commanderView": {
       "aimModeAvailable": true,
       "optics": "commander_optics_square",
-      "zoomOutFov": 37.5,
-      "zoomInFov": 9.21,
-      "sightSize": [0.74,0.52]
+      "zoomOutFov": 50.74,
+      "zoomInFov": 3.07,
+      "sightSize": [0.99,0.69]
     }
   },
   {
@@ -3413,7 +3422,8 @@
                   "head": "bone_turret",
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel",
-                  "gunnerDm": "gunner_dm"
+                  "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm"
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
@@ -3480,7 +3490,8 @@
                 "turret": {
                   "head": "bone_mg_gun_twin",
                   "gun": "bone_mg_gun_twin",
-                  "gunnerDm": "gunner_dm"
+                  "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm"
                 },
                 "limits": {
                   "yaw": [-0.0,0.0],

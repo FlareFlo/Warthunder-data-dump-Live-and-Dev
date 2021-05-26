@@ -63,22 +63,13 @@
     "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk"
   },
   {
-    "fireParamsPreset": "1000kph"
+    "fireParamsPreset": "1200kph"
   },
   {
     "fightAiBehaviour": "fighter"
   },
   {
     "autopilotImpl": "FBW"
-  },
-  {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
   },
   {
     "DamageParts": {
@@ -2322,72 +2313,64 @@
       {
         "preset": {
           "name": "dh110_sea_vixen_default",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_default.blk"
-        }
-      },
-      {
-        "preset": {
-          "name": "dh110_sea_vixen_500lbs_bombs",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_500lbs_bombs.blk"
-        }
-      },
-      {
-        "preset": {
-          "name": "dh110_sea_vixen_540lbs_bombs",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_540lbs_bombs.blk"
-        }
-      },
-      {
-        "preset": {
-          "name": "dh110_sea_vixen_1000lbs_bombs",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_bombs.blk"
-        }
-      },
-      {
-        "preset": {
-          "name": "dh110_sea_vixen_agm12_bullpup",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup.blk"
-        }
-      },
-      {
-        "preset": {
-          "name": "dh110_sea_vixen_firestreak",
           "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_firestreak.blk"
         }
       },
       {
         "preset": {
+          "name": "dh110_sea_vixen_500lbs_bombs",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_500lbs_bombs.blk",
+          "reqModification": "sea_hawk_2x500lb"
+        }
+      },
+      {
+        "preset": {
+          "name": "dh110_sea_vixen_540lbs_bombs",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_540lbs_bombs.blk",
+          "reqModification": "sea_hawk_2x500lb"
+        }
+      },
+      {
+        "preset": {
+          "name": "dh110_sea_vixen_1000lbs_bombs",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_bombs.blk",
+          "reqModification": "sea_hawk_2x1000lb"
+        }
+      },
+      {
+        "preset": {
+          "name": "dh110_sea_vixen_agm12_bullpup",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup.blk",
+          "reqModification": "fj_4b_agm_12b"
+        }
+      },
+      {
+        "preset": {
           "name": "dh110_sea_vixen_redtop",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_redtop.blk"
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_redtop.blk",
+          "reqModification": "aam_redtop"
         }
       },
       {
         "preset": {
           "name": "dh110_sea_vixen_matra7",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_matra7.blk"
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_matra7.blk",
+          "reqModification": "uk_matra_7"
         }
       },
       {
         "preset": {
           "name": "dh110_sea_vixen_rp3",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_rp3.blk"
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_rp3.blk",
+          "reqModification": "uk_rp3_mk12"
         }
       },
       {
-        "preset": [
-          {
-            "name": "dh110_sea_vixen_agm12_bullpup_firestreak"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_firestreak"
-          },
-          {
-            "reqModification": "fj_4b_agm_12b"
-          },
-          {
-            "reqModification": "aam_firestreak"
-          }
-        ]
+        "preset": {
+          "name": "dh110_sea_vixen_agm12_bullpup_firestreak",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_firestreak",
+          "reqModification": "fj_4b_agm_12b"
+        }
       },
       {
         "preset": [
@@ -2438,20 +2421,11 @@
         ]
       },
       {
-        "preset": [
-          {
-            "name": "dh110_sea_vixen_firestreak_matra7"
-          },
-          {
-            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_firestreak_matra7"
-          },
-          {
-            "reqModification": "aam_firestreak"
-          },
-          {
-            "reqModification": "uk_matra_7"
-          }
-        ]
+        "preset": {
+          "name": "dh110_sea_vixen_firestreak_matra7",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_firestreak_matra7",
+          "reqModification": "uk_matra_7"
+        }
       }
     ]
   },
@@ -2475,7 +2449,7 @@
   },
   {
     "fireParams": {
-      "engineExtinguishFireSpeed": [244.0,288.0],
+      "engineExtinguishFireSpeed": [299.0,345.0],
       "engineExtinguishFireSpeedChance": [0.01,0.1],
       "fireDamagePowerRel": 0.05,
       "nonExtinguishFireTime": 5.0
@@ -2577,24 +2551,14 @@
           "elevatorBooster": 0.9
         }
       },
-      "aam_firestreak": {
-        "tier": 1,
-        "modClass": "weapon"
-      },
       "uk_rp3_mk12": {
         "modClass": "weapon",
-        "tier": 2,
-        "reqModification": "aam_firestreak"
+        "tier": 1
       },
       "uk_matra_7": {
         "modClass": "weapon",
         "tier": 3,
         "reqModification": "uk_rp3_mk12"
-      },
-      "aam_redtop": {
-        "reqModification": "uk_matra_7",
-        "tier": 4,
-        "modClass": "weapon"
       },
       "sea_hawk_2x500lb": {
         "modClass": "weapon",
@@ -2613,6 +2577,10 @@
       "fj_4b_agm_12b": {
         "reqModification": "sea_hawk_2x1000lb",
         "tier": 4,
+        "modClass": "weapon"
+      },
+      "aam_redtop": {
+        "tier": 2,
         "modClass": "weapon"
       }
     }

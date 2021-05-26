@@ -111,15 +111,6 @@
     "autopilotImpl": "FBW"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "armor10": {
         "cannon1_dm": {
@@ -3129,6 +3120,12 @@
       },
       {
         "preset": {
+          "name": "f_4f_default_aim_9b_fgw_2",
+          "blk": "gameData/flightModels/weaponPresets/f_4f_default_aim_9b_fgw_2.blk"
+        }
+      },
+      {
+        "preset": {
           "name": "f_4f_suu_23a",
           "blk": "gameData/flightModels/weaponPresets/f_4f_suu_23a.blk",
           "reqModification": "f4c_suu_23a"
@@ -3172,7 +3169,7 @@
                     "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                   },
                   {
-                    "iconType": "missile_type_c_air_to_air"
+                    "iconType": "missile_type_b_air_to_air"
                   },
                   {
                     "tier": {
@@ -3484,7 +3481,7 @@
                 "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
               },
               {
-                "iconType": "missile_type_c_air_to_air"
+                "iconType": "missile_type_b_air_to_air"
               },
               {
                 "tier": {
@@ -3626,7 +3623,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_type_c_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 }
               }
             ]
@@ -3744,7 +3741,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_type_c_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 }
               }
             ]
@@ -3837,7 +3834,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_type_c_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 }
               }
             ]
@@ -3871,7 +3868,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 }
               }
             ]
@@ -3939,7 +3936,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_type_c_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 }
               }
             ]
@@ -3973,7 +3970,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 }
               }
             ]
@@ -4024,7 +4021,7 @@
               "Weapon": {
                 "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                 "amountPerTier": 1.0,
-                "iconType": "missile_type_c_air_to_air"
+                "iconType": "missile_type_b_air_to_air"
               }
             }
           }
@@ -4090,7 +4087,7 @@
               "Weapon": {
                 "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                 "amountPerTier": 1.0,
-                "iconType": "missile_type_c_air_to_air"
+                "iconType": "missile_type_b_air_to_air"
               }
             }
           }
@@ -4118,6 +4115,54 @@
           "blk": "gameData/flightModels/weaponPresets/f_4f_agm_65b.blk",
           "reqModification": "us_agm_65b"
         }
+      },
+      {
+        "preset": [
+          {
+            "name": "f_4f_agm_65b_aim9b_fgw_2"
+          },
+          {
+            "blk": "gameData/flightModels/weaponPresets/f_4f_agm_65b_aim9b_fgw_2.blk"
+          },
+          {
+            "reqModification": "us_agm_65b"
+          },
+          {
+            "reqModification": "us_aim_9b_fgw_2"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "f_4f_agm_65b_aim9e"
+          },
+          {
+            "blk": "gameData/flightModels/weaponPresets/f_4f_agm_65b_aim9e.blk"
+          },
+          {
+            "reqModification": "us_agm_65b"
+          },
+          {
+            "reqModification": "us_aim_9e"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "f_4f_agm_65b_aim9j"
+          },
+          {
+            "blk": "gameData/flightModels/weaponPresets/f_4f_agm_65b_aim9j.blk"
+          },
+          {
+            "reqModification": "us_agm_65b"
+          },
+          {
+            "reqModification": "us_aim_9j"
+          }
+        ]
       }
     ]
   },

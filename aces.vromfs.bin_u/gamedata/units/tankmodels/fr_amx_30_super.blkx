@@ -1232,10 +1232,17 @@
         "role": "loader",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2319,19 +2326,6 @@
     ]
   },
   {
-    "commanderView": {
-      "optics": "commander_optics_square",
-      "zoomOutFov": 15.0,
-      "zoomInFov": 14.7,
-      "sightSize": [0.29,0.2],
-      "ircmProjector": {
-        "node": "bone_commander_sight_v",
-        "beamRadius": [600.0,50.0],
-        "projectorPower": [0.02,0.04]
-      }
-    }
-  },
-  {
     "gunConvergence": {
       "updateFromRangefinder": true,
       "minDistance": 200.0,
@@ -3106,7 +3100,8 @@
             "head": "bone_turret",
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
-            "gunnerDm": "gunner_dm"
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm"
           },
           "limits": {
             "yaw": [-180.0,180.0],
@@ -3224,7 +3219,8 @@
             "turret": {
               "head": "bone_mg_gun_twin",
               "gun": "bone_mg_gun_twin",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -3537,7 +3533,8 @@
                   "head": "bone_turret",
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel",
-                  "gunnerDm": "gunner_dm"
+                  "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm"
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
@@ -3655,7 +3652,8 @@
                   "turret": {
                     "head": "bone_mg_gun_twin",
                     "gun": "bone_mg_gun_twin",
-                    "gunnerDm": "gunner_dm"
+                    "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm"
                   }
                 },
                 {

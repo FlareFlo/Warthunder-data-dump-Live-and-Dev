@@ -1977,6 +1977,12 @@
     },
     {
       "preset": {
+        "name": "f-104j_default_aim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/f-104j_default_aim_9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f-104j_rl_7_hydra_247",
         "blk": "gameData/FlightModels/weaponPresets/f-104j_rl_7_hydra_247.blk",
         "reqModification": "us_2_75_in_ffar_rl_7",

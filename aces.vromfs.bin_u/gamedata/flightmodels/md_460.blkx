@@ -2282,19 +2282,19 @@
               {
                 "tier": {
                   "idx": 3,
-                  "iconType": "rockets_ap_large_group"
+                  "iconType": "rockets_ap_large_group_x2"
                 }
               },
               {
                 "tier": {
                   "idx": 4,
-                  "iconType": "rockets_ap_large_group"
+                  "iconType": "rockets_ap_large_group_x2"
                 }
               },
               {
                 "tier": {
                   "idx": 5,
-                  "iconType": "rockets_ap_large_group"
+                  "iconType": "rockets_ap_large_group_x2"
                 }
               }
             ]
@@ -2310,19 +2310,19 @@
               {
                 "tier": {
                   "idx": 7,
-                  "iconType": "rockets_ap_large_group"
+                  "iconType": "rockets_ap_large_group_x2"
                 }
               },
               {
                 "tier": {
                   "idx": 8,
-                  "iconType": "rockets_ap_large_group"
+                  "iconType": "rockets_ap_large_group_x2"
                 }
               },
               {
                 "tier": {
                   "idx": 9,
-                  "iconType": "rockets_ap_large_group"
+                  "iconType": "rockets_ap_large_group_x2"
                 }
               }
             ]
@@ -2515,19 +2515,19 @@
                 {
                   "tier": {
                     "idx": 3,
-                    "iconType": "rockets_ap_large_group"
+                    "iconType": "rockets_ap_large_group_x2"
                   }
                 },
                 {
                   "tier": {
                     "idx": 4,
-                    "iconType": "rockets_ap_large_group"
+                    "iconType": "rockets_ap_large_group_x2"
                   }
                 },
                 {
                   "tier": {
                     "idx": 5,
-                    "iconType": "rockets_ap_large_group"
+                    "iconType": "rockets_ap_large_group_x2"
                   }
                 }
               ]
@@ -2543,19 +2543,19 @@
                 {
                   "tier": {
                     "idx": 7,
-                    "iconType": "rockets_ap_large_group"
+                    "iconType": "rockets_ap_large_group_x2"
                   }
                 },
                 {
                   "tier": {
                     "idx": 8,
-                    "iconType": "rockets_ap_large_group"
+                    "iconType": "rockets_ap_large_group_x2"
                   }
                 },
                 {
                   "tier": {
                     "idx": 9,
-                    "iconType": "rockets_ap_large_group"
+                    "iconType": "rockets_ap_large_group_x2"
                   }
                 }
               ]

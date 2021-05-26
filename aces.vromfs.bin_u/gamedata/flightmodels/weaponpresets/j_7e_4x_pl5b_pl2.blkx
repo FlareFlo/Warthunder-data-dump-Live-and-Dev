@@ -66,7 +66,7 @@
     "Weapon": {
       "trigger": "aam",
       "blk": "gameData/Weapons/rocketGuns/su_pl5b.blk",
-      "emitter": "r_3s_r1",
+      "emitter": "r_3s_r",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -88,7 +88,7 @@
     "Weapon": {
       "trigger": "aam",
       "blk": "gameData/Weapons/rocketGuns/su_pl2.blk",
-      "emitter": "r_3s_r",
+      "emitter": "r_3s_r1",
       "bullets": 1,
       "external": true,
       "separate": true,

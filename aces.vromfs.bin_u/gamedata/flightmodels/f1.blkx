@@ -2345,6 +2345,35 @@
     },
     {
       "preset": {
+        "name": "f1_default_2xaim9b",
+        "blk": "gameData/flightModels/weaponPresets/f1_default_2xaim9b.blk",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9b_sidewinder.blk"
+            },
+            {
+              "amountPerTier": 1.0
+            },
+            {
+              "iconType": "missile_air_to_air"
+            },
+            {
+              "tier": {
+                "idx": 5
+              }
+            },
+            {
+              "tier": {
+                "idx": 7
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "preset": {
         "name": "f1_mk82_fer",
         "blk": "gameData/flightModels/weaponPresets/f1_mk82_fer.blk",
         "reqModification": "us_500lb_m82"
@@ -2425,7 +2454,7 @@
               "amountPerTier": 1.0
             },
             {
-              "iconType": "missile_air_to_air"
+              "iconType": "missile_type_b_air_to_air"
             },
             {
               "tier": {
@@ -2483,7 +2512,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -2574,7 +2603,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -2687,7 +2716,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -2763,7 +2792,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -2839,7 +2868,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -2930,7 +2959,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -3011,7 +3040,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -3087,7 +3116,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -3163,7 +3192,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "tier": {
@@ -3287,7 +3316,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "tier": {

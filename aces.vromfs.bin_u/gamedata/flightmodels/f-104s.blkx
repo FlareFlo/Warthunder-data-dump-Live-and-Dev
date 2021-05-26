@@ -1976,6 +1976,12 @@
     },
     {
       "preset": {
+        "name": "f-104s_default_aim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/f-104s_default_aim_9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f-104s_bomb_mk81",
         "blk": "gameData/FlightModels/weaponPresets/f-104s_bomb_mk81.blk",
         "reqModification": "us_250lb_mk81"

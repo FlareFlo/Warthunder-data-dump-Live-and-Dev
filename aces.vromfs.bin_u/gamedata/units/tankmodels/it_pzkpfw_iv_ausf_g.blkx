@@ -2373,17 +2373,15 @@
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "hidableInViewer": true,
+        "hp": 400.0,
         "ex_armor_turret_01_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         },
         "ex_armor_turret_r_01_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         },
         "ex_armor_turret_l_01_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         }
       },
       "mask": {

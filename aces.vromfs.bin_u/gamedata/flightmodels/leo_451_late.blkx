@@ -2955,14 +2955,48 @@
         "preset": {
           "name": "leo_451_100kg_6x200kg",
           "blk": "gameData/FlightModels/weaponPresets/leo_451_100kg_6x200kg.blk",
-          "reqModification": "fr_f222_s"
+          "reqModification": "fr_f222_s",
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_100kg.blk",
+                "iconType": "bombs_middle"
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_200kg.blk",
+                "iconType": "bombs_large"
+              }
+            }
+          ]
         }
       },
       {
         "preset": {
           "name": "leo_451_2x500kg_100kg_4x200kg",
           "blk": "gameData/FlightModels/weaponPresets/leo_451_2x500kg_100kg_4x200kg.blk",
-          "reqModification": "fr_f222_tgpu"
+          "reqModification": "fr_f222_tgpu",
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_100kg.blk",
+                "iconType": "bombs_middle"
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_200kg.blk",
+                "iconType": "bombs_large"
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_500kg_3_1.blk",
+                "iconType": "bombs_special"
+              }
+            }
+          ]
         }
       }
     ]

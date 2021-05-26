@@ -15380,7 +15380,7 @@
       "destroyedModelName": "wood_fence_d_destr_phobj",
       "destructionImpulse": 1000.0,
       "fx": "ad_fence_wood_small",
-      "fxScale": 0.0,
+      "fxScale": 0.7,
       "stopsBullets": false,
       "material": "transparentBeton"
     }

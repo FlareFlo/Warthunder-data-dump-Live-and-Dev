@@ -37,9 +37,6 @@
   "fightAiBehaviour": "fighter",
   "laserDesignator": true,
   "autopilotImpl": "FBW",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -1814,9 +1811,18 @@
     "mirrorPos": [3.56,0.452,0.0],
     "mirrorNorm": [-1.0,0.0,0.0],
     "mirrorNode": "blister3",
-    "lightPos": [3.76015,0.093684,0.00155],
-    "lightColor": [9.3,0.55,0.0],
-    "lightRadius": 0.27,
+    "lightPos": [3.442,0.36,0.0],
+    "lightColor": [0.9,0.11,0.0],
+    "lightRadius": 0.45,
+    "lightPos1": [3.436,0.206,0.415],
+    "lightColor1": [0.9,0.11,0.0],
+    "lightRadius1": 0.2,
+    "lightPos2": [3.474,0.236,-0.47],
+    "lightColor2": [0.9,0.11,0.0],
+    "lightRadius2": 0.2,
+    "lightPos3": [3.236,0.197,-0.489],
+    "lightColor3": [0.9,0.11,0.0],
+    "lightRadius3": 0.2,
     "sightInFov": 1.5,
     "sightOutFov": 6.5,
     "sightFov": 3.1,
@@ -1960,6 +1966,9 @@
         },
         {
           "node": "an_ale_40_dispenser"
+        },
+        {
+          "node": "fuse2"
         }
       ]
     },
@@ -2019,6 +2028,12 @@
       "preset": {
         "name": "f_5e_default",
         "blk": "gameData/FlightModels/weaponPresets/f_5e_default.blk"
+      }
+    },
+    {
+      "preset": {
+        "name": "f_5e_default_aim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/f_5e_default_aim_9b.blk"
       }
     },
     {
@@ -2798,6 +2813,16 @@
       "group": "mi-24_EVU",
       "effects": {
         "commonWeapons": [
+          {
+            "hideNodes": [
+              {
+                "node": "an_ale_40_dispenser"
+              },
+              {
+                "node": "fuse2"
+              }
+            ]
+          },
           {
             "Weapon": {
               "dummy": true,

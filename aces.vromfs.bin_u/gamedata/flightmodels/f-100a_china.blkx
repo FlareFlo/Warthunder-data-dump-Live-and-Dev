@@ -2019,6 +2019,12 @@
     },
     {
       "preset": {
+        "name": "f_100a_default_2xaim9b",
+        "blk": "gameData/flightModels/weaponPresets/f_100a_default_2xaim9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f_100a_2x750lbs",
         "blk": "gameData/flightModels/weaponPresets/f_100a_2x750lbs.blk",
         "reqModification": "us_750lb_m117"

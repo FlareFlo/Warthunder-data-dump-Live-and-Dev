@@ -181,7 +181,7 @@
   {
     "RocketCap": [
       {
-        "name": "cap_b002"
+        "name": "cap_aero_7_b002"
       },
       {
         "part": "aero_7_cap_b002"
@@ -197,7 +197,7 @@
   {
     "RocketCap": [
       {
-        "name": "cap_b003"
+        "name": "cap_aero_7_b003"
       },
       {
         "part": "aero_7_cap_b003"
@@ -220,7 +220,7 @@
       "minSize": [1.5,1.0,1.0],
       "mass": 36.0,
       "dragCx": 0.005,
-      "capName": "cap_b002"
+      "capName": "cap_aero_7_b002"
     }
   },
   {
@@ -233,7 +233,7 @@
       "minSize": [1.5,1.0,1.0],
       "mass": 36.0,
       "dragCx": 0.005,
-      "capName": "cap_b003"
+      "capName": "cap_aero_7_b003"
     }
   },
   {
@@ -603,7 +603,8 @@
       "separate": true,
       "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
       "emitter": "lau_100_aim_9",
-      "bullets": 1
+      "bullets": 1,
+      "loadFactorLimit": 4.0
     }
   },
   {
@@ -613,7 +614,8 @@
       "separate": true,
       "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
       "emitter": "lau_101_aim_9",
-      "bullets": 1
+      "bullets": 1,
+      "loadFactorLimit": 4.0
     }
   }
 ]

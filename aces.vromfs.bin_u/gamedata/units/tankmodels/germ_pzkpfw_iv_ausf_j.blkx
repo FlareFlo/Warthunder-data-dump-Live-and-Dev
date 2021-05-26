@@ -2478,25 +2478,21 @@
       "hull_turret_ex_shields": {
         "armorClass": "RHA_tank",
         "hidableInViewer": true,
+        "hp": 400.0,
         "ex_armor_turret_01_dm": {
-          "armorThickness": 5.0,
-          "hp": 100.0
+          "armorThickness": 5.0
         },
         "ex_armor_turret_r_01_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         },
         "ex_armor_turret_r_02_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         },
         "ex_armor_turret_l_01_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         },
         "ex_armor_turret_l_02_dm": {
-          "armorThickness": 8.0,
-          "hp": 100.0
+          "armorThickness": 8.0
         }
       },
       "tank_structural_steel_elements": {

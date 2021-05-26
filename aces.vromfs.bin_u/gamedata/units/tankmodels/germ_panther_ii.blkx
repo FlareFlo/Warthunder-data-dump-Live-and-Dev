@@ -152,7 +152,7 @@
       },
       "body_shields": {
         "armorClass": "tank_structural_steel",
-        "hp": 1000.0,
+        "hp": 400.0,
         "armorThickness": 4.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
@@ -172,7 +172,7 @@
         "ex_decor_r_15_dm": []
       },
       "ex_armor": {
-        "hp": 100.0,
+        "hp": 400.0,
         "hidableInViewer": true,
         "ex_armor_body_r_04_dm": {
           "armorThickness": 5.0

@@ -4883,22 +4883,247 @@
       "tex": "red_rust_n*"
     },
     {
-      "tex": "metal_bare_n*"
+      "tex": "artdeco_skyscraper_j_tex_d*"
+    },
+    {
+      "tex": "artdeco_skyscraper_j_tex_n*"
+    },
+    {
+      "tex": "bitumen_roof_a_d*"
+    },
+    {
+      "tex": "bitumen_roof_a_n*"
+    },
+    {
+      "tex": "port_building_skyscrapers_b_tex_d*"
+    },
+    {
+      "tex": "port_building_skyscrapers_b_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_d*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "port_building_skyscrapers_a_tex_d*"
+    },
+    {
+      "tex": "port_building_skyscrapers_a_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "flooded_skyscraper_a_tex_d*"
+    },
+    {
+      "tex": "flooded_skyscraper_a_tex_n*"
+    },
+    {
+      "tex": "flooded_skyscraper_g_tex_d*"
+    },
+    {
+      "tex": "flooded_skyscraper_g_tex_n*"
+    },
+    {
+      "tex": "wall_leaks_decal_a_tex_m*"
+    },
+    {
+      "tex": "wall_stucco_damaged_decal_a_tex_m*"
+    },
+    {
+      "tex": "asphalt_a_tex_d*"
+    },
+    {
+      "tex": "asphalt_a_tex_n*"
+    },
+    {
+      "tex": "asphalt_b_tex_n*"
+    },
+    {
+      "tex": "asphalt_damaged_a_tex_n*"
+    },
+    {
+      "tex": "cable_armored_a_tex_d*"
+    },
+    {
+      "tex": "cable_armored_a_tex_n*"
+    },
+    {
+      "tex": "ceramic_wall_tile_a_tex_d*"
+    },
+    {
+      "tex": "ceramic_wall_tile_a_tex_n*"
+    },
+    {
+      "tex": "concrete_panels_c_tex_d*"
+    },
+    {
+      "tex": "concrete_panels_c_tex_n*"
+    },
+    {
+      "tex": "concrete_rough_a_tex_d*"
+    },
+    {
+      "tex": "concrete_rough_a_tex_n*"
+    },
+    {
+      "tex": "marble_a_grey_tex_d*"
+    },
+    {
+      "tex": "marble_a_tex_n*"
+    },
+    {
+      "tex": "metal_bare_d*"
     },
     {
       "tex": "metal_bare_n*"
     },
     {
-      "tex": "metal_bare_n*"
+      "tex": "metal_clean_a_tex_n*"
     },
     {
-      "tex": "metal_bare_n*"
+      "tex": "metal_painted_a_tex_d*"
     },
     {
-      "tex": "metal_bare_n*"
+      "tex": "metal_painted_clear_a_tex_d*"
     },
     {
-      "tex": "metal_bare_n*"
+      "tex": "metal_painted_clear_a_tex_n*"
+    },
+    {
+      "tex": "metal_painted_clear_b_tex_n*"
+    },
+    {
+      "tex": "plastic_tex_a_d*"
+    },
+    {
+      "tex": "plastic_tex_a_n*"
+    },
+    {
+      "tex": "rope_a_tex_n*"
+    },
+    {
+      "tex": "steel_reinforcement_tex_n*"
+    },
+    {
+      "tex": "stucco_new_d*"
+    },
+    {
+      "tex": "stucco_new_n*"
+    },
+    {
+      "tex": "wire_netting_tex_n*"
+    },
+    {
+      "tex": "roof_elements_tex_d*"
+    },
+    {
+      "tex": "roof_elements_tex_n*"
+    },
+    {
+      "tex": "flooded_skyscraper_f_tex_d*"
+    },
+    {
+      "tex": "flooded_skyscraper_f_tex_n*"
+    },
+    {
+      "tex": "wall_dirt_spots_decal_a_tex_m*"
+    },
+    {
+      "tex": "wall_leaks_decal_a_tex_m*"
+    },
+    {
+      "tex": "concrere_fortifications_d*"
+    },
+    {
+      "tex": "concrere_fortifications_n*"
+    },
+    {
+      "tex": "concrete_panels_b_tex_d*"
+    },
+    {
+      "tex": "concrete_panels_b_tex_n*"
+    },
+    {
+      "tex": "concrete_plates_ground_tex_d*"
+    },
+    {
+      "tex": "concrete_plates_ground_tex_n*"
+    },
+    {
+      "tex": "concrete_rough_a_tex_d*"
+    },
+    {
+      "tex": "concrete_rough_a_tex_n*"
+    },
+    {
+      "tex": "marble_a_tex_n*"
+    },
+    {
+      "tex": "metal_bare_a_tex_d*"
+    },
+    {
+      "tex": "metal_bare_a_tex_n*"
+    },
+    {
+      "tex": "flooded_skyscraper_c_tex_d*"
+    },
+    {
+      "tex": "flooded_skyscraper_c_tex_n*"
+    },
+    {
+      "tex": "clouds_m*"
+    },
+    {
+      "tex": "building_exterior_decorators_tex_d*"
+    },
+    {
+      "tex": "building_exterior_decorators_tex_n*"
+    },
+    {
+      "tex": "flooded_skyscraper_d_tex_d*"
+    },
+    {
+      "tex": "flooded_skyscraper_d_tex_n*"
+    },
+    {
+      "tex": "flooded_skyscraper_b_tex_d*"
+    },
+    {
+      "tex": "flooded_skyscraper_b_tex_n*"
+    },
+    {
+      "tex": "set_metal_constructions_tex_n*"
+    },
+    {
+      "tex": "st_bridge_beton_dmg_tex_d*"
+    },
+    {
+      "tex": "st_bridge_beton_tex_d*"
+    },
+    {
+      "tex": "st_bridge_beton_tex_n*"
     }
   ],
   "forceTexMQ": [

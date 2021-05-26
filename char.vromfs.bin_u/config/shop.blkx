@@ -1264,7 +1264,7 @@
       {
         "range": {
           "us_cruiser_northampton_class": {
-            "rank": 5
+            "rank": 4
           },
           "us_cruiser_new_orleans_class": {
             "rank": 5
@@ -3028,6 +3028,9 @@
             "rank": 6
           },
           "ussr_t_80u": {
+            "rank": 7
+          },
+          "ussr_t_80bvm": {
             "rank": 7
           }
         }
@@ -5584,10 +5587,10 @@
           "uk_fairmile_d_617_632": {
             "rank": 3
           },
-          "uk_sgb_304": {
+          "uk_fairmile_d_697_800": {
             "rank": 4
           },
-          "uk_fairmile_d_697_800": {
+          "uk_sgb_304": {
             "rank": 4
           },
           "uk_brave_borderer": {
@@ -7359,9 +7362,6 @@
           "vampire_fb52a_italy": {
             "rank": 5
           },
-          "sagittario_2": {
-            "rank": 5
-          },
           "f-86_cl_13_mk4_italy": {
             "rank": 5
           },
@@ -7434,6 +7434,9 @@
           },
           "g_56": {
             "rank": 4
+          },
+          "sagittario_2": {
+            "rank": 5
           },
           "fiat_g91_ps": {
             "rank": 5

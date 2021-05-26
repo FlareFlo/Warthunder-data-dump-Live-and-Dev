@@ -3026,6 +3026,19 @@
       },
       {
         "preset": {
+          "name": "f_4ej_default_aim9b",
+          "blk": "gameData/flightModels/weaponPresets/f_4ej_default_aim9b.blk",
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9и_sidewinder.blk",
+              "amountPerTier": 1.0,
+              "iconType": "missile_air_to_air"
+            }
+          }
+        }
+      },
+      {
+        "preset": {
           "name": "f_4ej_suu_23a",
           "blk": "gameData/flightModels/weaponPresets/f_4ej_suu_23a.blk",
           "reqModification": "f4c_suu_23a"
@@ -3150,7 +3163,7 @@
             "Weapon": {
               "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
               "amountPerTier": 1.0,
-              "iconType": "missile_air_to_air"
+              "iconType": "missile_type_b_air_to_air"
             }
           }
         }
@@ -3189,7 +3202,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 }
               }
             ]
@@ -3248,7 +3261,7 @@
                 "Weapon": {
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                   "amountPerTier": 1.0,
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 }
               }
             ]
@@ -3299,7 +3312,7 @@
               "Weapon": {
                 "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                 "amountPerTier": 1.0,
-                "iconType": "missile_air_to_air"
+                "iconType": "missile_type_b_air_to_air"
               }
             }
           }
@@ -3340,7 +3353,7 @@
               "Weapon": {
                 "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
                 "amountPerTier": 1.0,
-                "iconType": "missile_air_to_air"
+                "iconType": "missile_type_b_air_to_air"
               }
             }
           }
@@ -3389,25 +3402,25 @@
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -3423,13 +3436,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]
@@ -3465,25 +3478,25 @@
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -3577,25 +3590,25 @@
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -3689,25 +3702,25 @@
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -3723,13 +3736,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   }
                 ]
@@ -3768,25 +3781,25 @@
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -3802,13 +3815,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   }
                 ]
@@ -3893,25 +3906,25 @@
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -3927,13 +3940,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]
@@ -4018,25 +4031,25 @@
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -4052,13 +4065,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   }
                 ]
@@ -4128,25 +4141,25 @@
                   {
                     "tier": {
                       "idx": 4,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 5,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 7,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   },
                   {
                     "tier": {
                       "idx": 8,
-                      "iconType": "missile_air_to_air_midrange"
+                      "iconType": "missile_type_b_air_to_air_midrange"
                     }
                   }
                 ]
@@ -4162,13 +4175,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]
@@ -4493,13 +4506,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   }
                 ]
@@ -4569,13 +4582,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]
@@ -4648,13 +4661,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   }
                 ]
@@ -4773,13 +4786,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]
@@ -4898,13 +4911,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_air_to_air_group"
+                      "iconType": "missile_type_b_air_to_air_group"
                     }
                   }
                 ]
@@ -5008,13 +5021,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_b_air_to_air_group"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]

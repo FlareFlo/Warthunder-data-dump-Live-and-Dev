@@ -4354,11 +4354,7 @@
               "fireDamageMult": 0.75,
               "ammunition_storage_shells_01_dm": [],
               "ammunition_storage_shells_02_dm": [],
-              "ammunition_storage_shells_03_dm": [],
-              "ammunition_storage_01_dm": [],
-              "ammunition_storage_02_dm": [],
-              "ammunition_storage_03_dm": [],
-              "ammunition_storage_04_dm": []
+              "ammunition_storage_shells_03_dm": []
             }
           }
         }
@@ -5492,202 +5488,70 @@
           }
         }
       ],
-      "ammo5": [
-        {
-          "weaponTrigger": "gunner8"
-        },
-        {
-          "replenishmentTime": 5.0
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "fatalFire": false
-        },
-        {
-          "fatalExplosion": false
-        },
-        {
-          "fireEvent": "torpedo_fire"
-        },
-        {
-          "explosionEvent": "torpedo_explosion"
-        },
-        {
-          "fireParamsPreset": "ship_torpedo_fire"
-        },
-        {
-          "shatterRadiusConstraint": 25.0
-        },
-        {
-          "shells": {
-            "autoLoad": true,
-            "damageEffect": "ammunition_depth_charges",
-            "depth_charge_01_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_01_dm": {
-              "count": 6
-            }
+      "ammo5": {
+        "weaponTrigger": "gunner8",
+        "removeLoadedAmmo": false,
+        "fatalFire": false,
+        "fatalExplosion": false,
+        "fireEvent": "torpedo_fire",
+        "explosionEvent": "torpedo_explosion",
+        "fireParamsPreset": "ship_torpedo_fire",
+        "shatterRadiusConstraint": 25.0,
+        "shells": {
+          "damageEffect": "ammunition_depth_charges",
+          "depth_charge_01_dm": {
+            "count": 1
           }
         }
-      ],
-      "ammo6": [
-        {
-          "weaponTrigger": "gunner9"
-        },
-        {
-          "replenishmentTime": 5.0
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "fatalFire": false
-        },
-        {
-          "fatalExplosion": false
-        },
-        {
-          "fireEvent": "torpedo_fire"
-        },
-        {
-          "explosionEvent": "torpedo_explosion"
-        },
-        {
-          "fireParamsPreset": "ship_torpedo_fire"
-        },
-        {
-          "shatterRadiusConstraint": 25.0
-        },
-        {
-          "shells": {
-            "autoLoad": true,
-            "damageEffect": "ammunition_depth_charges",
-            "depth_charge_02_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_02_dm": {
-              "count": 6
-            }
+      },
+      "ammo6": {
+        "weaponTrigger": "gunner9",
+        "removeLoadedAmmo": false,
+        "fatalFire": false,
+        "fatalExplosion": false,
+        "fireEvent": "torpedo_fire",
+        "explosionEvent": "torpedo_explosion",
+        "fireParamsPreset": "ship_torpedo_fire",
+        "shatterRadiusConstraint": 25.0,
+        "shells": {
+          "damageEffect": "ammunition_depth_charges",
+          "depth_charge_02_dm": {
+            "count": 1
           }
         }
-      ],
-      "ammo7": [
-        {
-          "weaponTrigger": "gunner10"
-        },
-        {
-          "replenishmentTime": 5.0
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "fatalFire": false
-        },
-        {
-          "fatalExplosion": false
-        },
-        {
-          "fireEvent": "torpedo_fire"
-        },
-        {
-          "explosionEvent": "torpedo_explosion"
-        },
-        {
-          "fireParamsPreset": "ship_torpedo_fire"
-        },
-        {
-          "shatterRadiusConstraint": 25.0
-        },
-        {
-          "shells": {
-            "autoLoad": true,
-            "damageEffect": "ammunition_depth_charges",
-            "depth_charge_03_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_03_dm": {
-              "count": 6
-            }
+      },
+      "ammo7": {
+        "weaponTrigger": "gunner10",
+        "removeLoadedAmmo": false,
+        "fatalFire": false,
+        "fatalExplosion": false,
+        "fireEvent": "torpedo_fire",
+        "explosionEvent": "torpedo_explosion",
+        "fireParamsPreset": "ship_torpedo_fire",
+        "shatterRadiusConstraint": 25.0,
+        "shells": {
+          "damageEffect": "ammunition_depth_charges",
+          "depth_charge_03_dm": {
+            "count": 1
           }
         }
-      ],
-      "ammo8": [
-        {
-          "weaponTrigger": "gunner11"
-        },
-        {
-          "replenishmentTime": 5.0
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "fatalFire": false
-        },
-        {
-          "fatalExplosion": false
-        },
-        {
-          "fireEvent": "torpedo_fire"
-        },
-        {
-          "explosionEvent": "torpedo_explosion"
-        },
-        {
-          "fireParamsPreset": "ship_torpedo_fire"
-        },
-        {
-          "shatterRadiusConstraint": 25.0
-        },
-        {
-          "shells": {
-            "autoLoad": true,
-            "damageEffect": "ammunition_depth_charges",
-            "depth_charge_04_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_04_dm": {
-              "count": 6
-            }
+      },
+      "ammo8": {
+        "weaponTrigger": "gunner11",
+        "removeLoadedAmmo": false,
+        "fatalFire": false,
+        "fatalExplosion": false,
+        "fireEvent": "torpedo_fire",
+        "explosionEvent": "torpedo_explosion",
+        "fireParamsPreset": "ship_torpedo_fire",
+        "shatterRadiusConstraint": 25.0,
+        "shells": {
+          "damageEffect": "ammunition_depth_charges",
+          "depth_charge_04_dm": {
+            "count": 1
           }
         }
-      ]
+      }
     }
   },
   {

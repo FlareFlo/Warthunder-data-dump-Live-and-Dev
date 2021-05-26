@@ -2392,6 +2392,35 @@
     },
     {
       "preset": {
+        "name": "a_7d_rockets_default_aim9b",
+        "blk": "gameData/FlightModels/weaponPresets/a_7d_rockets_default_aim9b.blk",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9b_sidewinder.blk"
+            },
+            {
+              "iconType": "missile_air_to_air"
+            },
+            {
+              "amountPerTier": 1.0
+            },
+            {
+              "tier": {
+                "idx": 5
+              }
+            },
+            {
+              "tier": {
+                "idx": 7
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "preset": {
         "name": "a_7d_guns_suu_23",
         "blk": "gameData/FlightModels/weaponPresets/a_7d_guns_suu_23.blk",
         "reqModification": "f4c_suu_23a",
@@ -2441,7 +2470,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2506,7 +2535,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2600,7 +2629,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2665,7 +2694,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2790,7 +2819,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -2886,7 +2915,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3042,7 +3071,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3138,7 +3167,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3304,7 +3333,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3410,7 +3439,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3572,7 +3601,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3664,7 +3693,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3806,7 +3835,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -3892,7 +3921,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4028,7 +4057,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4114,7 +4143,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4189,7 +4218,7 @@
               "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
             },
             {
-              "iconType": "missile_air_to_air"
+              "iconType": "missile_type_b_air_to_air"
             },
             {
               "amountPerTier": 1.0
@@ -4219,7 +4248,7 @@
               "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
             },
             {
-              "iconType": "missile_type_b_air_to_air"
+              "iconType": "missile_type_c_air_to_air"
             },
             {
               "amountPerTier": 1.0
@@ -4333,7 +4362,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4409,7 +4438,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4488,7 +4517,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4590,7 +4619,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4692,7 +4721,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -4792,7 +4821,7 @@
                   "blk": "gameData/Weapons/rocketGuns/us_aim9j_sidewinder.blk"
                 },
                 {
-                  "iconType": "missile_type_b_air_to_air"
+                  "iconType": "missile_type_c_air_to_air"
                 },
                 {
                   "amountPerTier": 1.0
@@ -5081,7 +5110,7 @@
       "modClass": "weapon"
     },
     "us_agm_65a": {
-      "prevModification": "us_aim_9j",
+      "reqModification": "us_aim_9e",
       "tier": 4,
       "modClass": "weapon"
     }

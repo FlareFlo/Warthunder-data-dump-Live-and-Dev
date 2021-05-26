@@ -2442,7 +2442,7 @@
       }
     },
     "ex_armor": {
-      "hp": 100.0,
+      "hp": 400.0,
       "ex_armor_body_r_07_dm": {
         "armorThickness": 5.0
       },

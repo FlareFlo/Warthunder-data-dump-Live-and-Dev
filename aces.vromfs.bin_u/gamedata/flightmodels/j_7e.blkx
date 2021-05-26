@@ -96,15 +96,6 @@
     "autopilotImpl": "FBW"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "armor10": {
         "armor2_dm": {
@@ -2327,6 +2318,12 @@
       },
       {
         "preset": {
+          "name": "j_7e_2x_pl2",
+          "blk": "gameData/FlightModels/weaponPresets/j_7e_2x_pl2.blk"
+        }
+      },
+      {
+        "preset": {
           "name": "j_7e_2x250_bombs",
           "blk": "gameData/FlightModels/weaponPresets/j_7e_2x250_bombs.blk",
           "reqModification": "cn_q5_type_250"
@@ -2373,10 +2370,58 @@
       },
       {
         "preset": {
-          "name": "j_7e_2x_pl2",
-          "blk": "gameData/FlightModels/weaponPresets/j_7e_2x_pl2.blk",
-          "reqModification": "mig_19_pl2"
+          "name": "j_7e_2x500_bombs",
+          "blk": "gameData/FlightModels/weaponPresets/j_7e_2x500_bombs.blk",
+          "reqModification": "cn_q5_type_500"
         }
+      },
+      {
+        "preset": [
+          {
+            "name": "j_7e_2x500_2x250_bombs"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/j_7e_2x500_2x250_bombs.blk"
+          },
+          {
+            "reqModification": "cn_q5_type_500"
+          },
+          {
+            "reqModification": "cn_q5_type_250"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "j_7e_2x500_bombs_pl5b"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/j_7e_2x500_bombs_pl5b.blk"
+          },
+          {
+            "reqModification": "cn_q5_type_500"
+          },
+          {
+            "reqModification": "j_7_pl5b"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "j_7e_2x500_bombs_pl2"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/j_7e_2x500_bombs_pl2.blk"
+          },
+          {
+            "reqModification": "cn_q5_type_500"
+          },
+          {
+            "reqModification": "mig_19_pl2"
+          }
+        ]
       },
       {
         "preset": {
@@ -2702,6 +2747,70 @@
       {
         "preset": [
           {
+            "name": "j_7e_2x500_bombs_8x_type130"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/j_7e_2x500_bombs_8x_type130.blk"
+          },
+          {
+            "reqModification": "q_5b_type130"
+          },
+          {
+            "reqModification": "cn_q5_type_250"
+          },
+          {
+            "weaponConfig": {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/cn_type130_ap.blk"
+                },
+                {
+                  "amountPerTier": 4.0
+                },
+                {
+                  "iconType": "nar_special"
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "Weapon": [
+                    {
+                      "blk": "gameData/Weapons/BombGuns/cn_gp_500_3.blk"
+                    },
+                    {
+                      "amountPerTier": 1.0
+                    },
+                    {
+                      "iconType": "bombs_large"
+                    },
+                    {
+                      "tier": {
+                        "idx": 5
+                      }
+                    },
+                    {
+                      "tier": {
+                        "idx": 7
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
             "name": "j_7e_14x_type90_2x250_bombs"
           },
           {
@@ -2739,6 +2848,70 @@
                   "Weapon": [
                     {
                       "blk": "gameData/Weapons/BombGuns/cn_gp_250_3.blk"
+                    },
+                    {
+                      "amountPerTier": 1.0
+                    },
+                    {
+                      "iconType": "bombs_large"
+                    },
+                    {
+                      "tier": {
+                        "idx": 5
+                      }
+                    },
+                    {
+                      "tier": {
+                        "idx": 7
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "j_7e_2x500_bombs_14x_type90"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/j_7e_2x500_bombs_14x_type90.blk"
+          },
+          {
+            "reqModification": "cn_q5_hf6"
+          },
+          {
+            "reqModification": "cn_q5_type_250"
+          },
+          {
+            "weaponConfig": {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/cn_type90_heat.blk"
+                },
+                {
+                  "amountPerTier": 7.0
+                },
+                {
+                  "iconType": "nar_ap_middle"
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "Weapon": [
+                    {
+                      "blk": "gameData/Weapons/BombGuns/cn_gp_500_3.blk"
                     },
                     {
                       "amountPerTier": 1.0
@@ -2918,12 +3091,19 @@
     ]
   },
   {
-    "sensors": {
-      "sensor": {
-        "blk": "gameData/sensors/su_srd-5.blk",
-        "dmPart": "radar_dm"
+    "sensors": [
+      {
+        "sensor": {
+          "blk": "gameData/sensors/su_srd-5.blk",
+          "dmPart": "radar_dm"
+        }
+      },
+      {
+        "sensor": {
+          "blk": "gameData/sensors/su_spo-10.blk"
+        }
       }
-    }
+    ]
   },
   {
     "turbulence": {

@@ -285,6 +285,14 @@
       "distance": 7.5,
       "damage": 600.0,
       "onHitChanceMultFire": 25.0
+    },
+    "tracerTrail": {
+      "smokeEffect": "",
+      "visual": {
+        "traceFreq": 1,
+        "tracer": "152mmRed",
+        "trail": "black"
+      }
     }
   }
 }

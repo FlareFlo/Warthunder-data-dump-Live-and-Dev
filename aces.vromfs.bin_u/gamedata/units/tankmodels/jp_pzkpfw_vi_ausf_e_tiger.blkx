@@ -1869,21 +1869,6 @@
         "AdvancedMass": true,
         "trackMass": 3300.0
       },
-      "tracks": {
-        "animationMultiplier": 0.68,
-        "width": 0.65,
-        "height": 0.1,
-        "tracksTensionK": [6.0,8.0,1.5],
-        "trackMesh": "ger_pzkpfw_vi_tiger_late_phys_track_line",
-        "nonSymmetricMesh": true,
-        "trackLen": 0.13,
-        "trackCount": 96,
-        "trackFadeTime": 0.5,
-        "trackCntPeriod": 2,
-        "trackMaxSinking": 0.1,
-        "trackMaxHeight": 1.25,
-        "trackStartOffset": 0.09
-      },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
         "cls_turret_02": "convex_hull",
@@ -1951,8 +1936,8 @@
         "dampeningCompressionRatio": 0.15,
         "wheel_r_drive": 0.4,
         "wheel_l_drive": 0.4,
-        "wheel_r_back": 0.305,
-        "wheel_l_back": 0.305,
+        "wheel_r_back": 0.36,
+        "wheel_l_back": 0.36,
         "wheel_r_01": 0.405,
         "wheel_r_02": 0.405,
         "wheel_r_03": 0.405,
@@ -1969,6 +1954,21 @@
         "wheel_l_06": 0.405,
         "wheel_l_07": 0.405,
         "wheel_l_08": 0.405
+      },
+      "tracks": {
+        "animationMultiplier": 0.68,
+        "width": 0.65,
+        "height": 0.1,
+        "tracksTensionK": [7.0,8.0,1.5],
+        "trackMesh": "ger_pzkpfw_vi_tiger_early_phys_track_line",
+        "nonSymmetricMesh": true,
+        "trackLen": 0.13,
+        "trackCount": 96,
+        "trackFadeTime": 0.5,
+        "trackCntPeriod": 2,
+        "trackMaxSinking": 0.05,
+        "trackMaxHeight": 1.25,
+        "trackStartOffset": 0.1
       }
     }
   },

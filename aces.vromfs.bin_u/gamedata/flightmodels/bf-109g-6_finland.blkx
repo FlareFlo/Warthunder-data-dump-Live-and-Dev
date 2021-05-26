@@ -19,9 +19,6 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "700kph",
   "fightAiBehaviour": "fighter",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "armor3_dm": {
@@ -2773,26 +2770,26 @@
   ],
   "user_skin": [
     {
-      "name": "bf_109g_6"
+      "name": "bf_109g_6_trop_finland"
     },
     {
       "replace_tex": {
-        "from": "bf_109g_6_a*"
+        "from": "bf_109g_6_trop_finland_a*"
       }
     },
     {
       "replace_tex": {
-        "from": "bf_109g_6_a_dmg*"
+        "from": "bf_109g_6_trop_finland_a_dmg*"
       }
     },
     {
       "replace_tex": {
-        "from": "bf_109g_6_n*"
+        "from": "bf_109g_6_trop_finland_n*"
       }
     },
     {
       "replace_tex": {
-        "from": "bf_109g_6_n_dmg*"
+        "from": "bf_109g_6_trop_finland_n_dmg*"
       }
     }
   ],

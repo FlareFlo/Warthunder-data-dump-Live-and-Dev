@@ -2,7 +2,7 @@
   "type": "radar",
   "transivers": {
     "pulse": {
-      "sideLobesAttenuation": -20.0,
+      "sideLobesAttenuation": -22.0,
       "pulsePower": 70000.0,
       "pulseWidth": 0.0,
       "prf": 1000.0,
@@ -13,11 +13,11 @@
       "timeGainControl": true,
       "antenna": {
         "angleHalfSens": 2.5,
-        "sideLobesSensitivity": -26.0
+        "sideLobesSensitivity": -30.0
       }
     },
-    "pulseDoppler": {
-      "sideLobesAttenuation": -20.0,
+    "MTI": {
+      "sideLobesAttenuation": -22.0,
       "power": 70000.0,
       "pulseWidth": 0.0,
       "prf": 1000.0,
@@ -28,7 +28,20 @@
       "timeGainControl": true,
       "antenna": {
         "angleHalfSens": 1.5,
-        "sideLobesSensitivity": -26.0
+        "sideLobesSensitivity": -30.0
+      }
+    },
+    "OLS": {
+      "power": 50.0,
+      "band": 1,
+      "rcs": 24000.0,
+      "range": 20000.0,
+      "range1": 6000.0,
+      "rangeMax": 60000.0,
+      "visibilityType": "infraRed",
+      "antenna": {
+        "angleHalfSens": 2.5,
+        "sideLobesSensitivity": -80.0
       }
     }
   },
@@ -38,9 +51,9 @@
       "azimuthLimits": [-52.0,52.0],
       "elevationLimits": [-38.0,43.0],
       "rollStabLimit": 70.0,
-      "period": 2.0,
+      "period": 2.3,
       "width": 30.0,
-      "barHeight": 2.125,
+      "barHeight": 2.0,
       "barsCount": 4,
       "rowMajor": true,
       "barsOneWay": false
@@ -57,13 +70,25 @@
       "rowMajor": true,
       "barsOneWay": false
     },
+    "searchElevLow4Deg": {
+      "type": "pyramide",
+      "azimuthLimits": [-52.0,52.0],
+      "elevationLimits": [-38.0,43.0],
+      "rollStabLimit": 70.0,
+      "period": 2.3,
+      "width": 30.0,
+      "barHeight": 1.0,
+      "barsCount": 4,
+      "rowMajor": true,
+      "barsOneWay": false
+    },
     "designationLock": {
       "type": "pyramide",
       "azimuthLimits": [-52.0,52.0],
       "elevationLimits": [-38.0,43.0],
       "rollStabLimit": 70.0,
       "period": 0.5,
-      "width": 12.0,
+      "width": 6.0,
       "barHeight": 2.0,
       "barsCount": 2,
       "rowMajor": false,
@@ -73,11 +98,52 @@
       "type": "no",
       "azimuthLimits": [-52.0,52.0],
       "elevationLimits": [-38.0,43.0]
+    },
+    "searchOLST1": {
+      "type": "pyramide",
+      "azimuthLimits": [-30.0,30.0],
+      "elevationLimits": [-30.0,30.0],
+      "rollStabLimit": 70.0,
+      "period": 2.0,
+      "width": 30.0,
+      "barHeight": 2.15,
+      "barsCount": 7,
+      "rowMajor": true,
+      "barsOneWay": false
+    },
+    "searchOLST2": {
+      "type": "pyramide",
+      "azimuthLimits": [-30.0,30.0],
+      "elevationLimits": [-30.0,30.0],
+      "rollStabLimit": 70.0,
+      "period": 0.2,
+      "width": 7.5,
+      "barHeight": 2.15,
+      "barsCount": 3,
+      "rowMajor": true,
+      "barsOneWay": false
+    },
+    "designationLockOLS": {
+      "type": "pyramide",
+      "azimuthLimits": [-30.0,30.0],
+      "elevationLimits": [-30.0,30.0],
+      "rollStabLimit": 70.0,
+      "period": 0.2,
+      "width": 2.5,
+      "barHeight": 2.15,
+      "barsCount": 2,
+      "rowMajor": false,
+      "indicate": true
+    },
+    "trackOLS": {
+      "type": "no",
+      "azimuthLimits": [-30.0,30.0],
+      "elevationLimits": [-30.0,30.0]
     }
   },
   "signals": {
     "pulseLong": {
-      "dynamicRange": [40.0,10.0],
+      "dynamicRange": [40.0,12.0],
       "groundClutter": true,
       "aircraftAsTarget": true,
       "friendFoeId": true,
@@ -89,11 +155,12 @@
       }
     },
     "pulseShort": {
-      "dynamicRange": [40.0,10.0],
+      "dynamicRange": [40.0,12.0],
       "groundClutter": true,
       "aircraftAsTarget": true,
       "angularAccuracy": 0.05,
       "distanceAccuracy": 15.0,
+      "friendFoeId": true,
       "track": true,
       "distance": {
         "presents": true,
@@ -102,7 +169,7 @@
         "width": 500.0
       }
     },
-    "pulseDoppler": {
+    "MTI": {
       "dynamicRange": [40.0,12.0],
       "groundClutter": true,
       "aircraftAsTarget": true,
@@ -120,14 +187,32 @@
         "minValue": 30.0,
         "maxValue": 1500.0,
         "signalWidthMin": 10.0,
-        "width": 30.0
+        "width": 0.0
       }
-    }
+    },
+    "OLS": [
+      {
+        "rangeFinder": false
+      },
+      {
+        "groundClutter": false
+      },
+      {
+        "rangeFinder": false
+      }
+    ]
   },
   "scanPatternSets": {
     "search": {
       "scanPattern1": "searchElev8Deg",
       "scanPattern2": "searchElev12Deg"
+    },
+    "searchLow": {
+      "scanPattern1": "searchElevLow4Deg"
+    },
+    "searchOLS": {
+      "scanPattern1": "searchOLST1",
+      "scanPattern2": "searchOLST2"
     }
   },
   "scopeRangeSets": {
@@ -174,10 +259,18 @@
         },
         "setPulseDopplerModeCommon": {
           "setTransiver": {
-            "transiver": "pulseDoppler"
+            "transiver": "MTI"
           },
           "setSignal": {
-            "signal": "pulseDoppler"
+            "signal": "MTI"
+          }
+        },
+        "setOlsModeCommon": {
+          "setTransiver": {
+            "transiver": "OLS"
+          },
+          "setSignal": {
+            "signal": "OLS"
           }
         },
         "setHighAltModeCommon": {
@@ -200,9 +293,6 @@
           },
           "clearTargets": [],
           "clearTargetsOfInterest": [],
-          "setScanPatternSet": {
-            "scanPatternSet": "search"
-          },
           "setIllumination": {
             "illumination": false
           }
@@ -218,6 +308,11 @@
             "setHighAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "search"
+            }
+          },
+          {
             "setModeName": {
               "name": "standby"
             }
@@ -225,7 +320,7 @@
           {
             "setCenterElevation": {
               "source": "constant",
-              "value": 3.0
+              "value": 4.0
             }
           },
           {
@@ -252,6 +347,11 @@
             "setHighAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "search"
+            }
+          },
+          {
             "setModeName": {
               "name": "LD standby"
             }
@@ -259,7 +359,7 @@
           {
             "setCenterElevation": {
               "source": "constant",
-              "value": -3.0
+              "value": -4.0
             }
           },
           {
@@ -286,6 +386,11 @@
             "setLowAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "search"
+            }
+          },
+          {
             "setModeName": {
               "name": "standby"
             }
@@ -293,7 +398,7 @@
           {
             "setCenterElevation": {
               "source": "constant",
-              "value": 3.0
+              "value": 4.0
             }
           },
           {
@@ -320,8 +425,13 @@
             "setLowAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "searchLow"
+            }
+          },
+          {
             "setModeName": {
-              "name": "PD standby"
+              "name": "MTI standby"
             }
           },
           {
@@ -334,6 +444,45 @@
             "setFsmActive": {
               "fsm": "checkRaltGreater",
               "active": true
+            }
+          },
+          {
+            "setFsmActive": {
+              "fsm": "checkRaltLess",
+              "active": false
+            }
+          }
+        ],
+        "setOlsStandbyMode": [
+          {
+            "setStandbyModeCommon": []
+          },
+          {
+            "setOlsModeCommon": []
+          },
+          {
+            "setHighAltModeCommon": []
+          },
+          {
+            "setScanPatternSet": {
+              "scanPatternSet": "searchOLS"
+            }
+          },
+          {
+            "setModeName": {
+              "name": "IRST standby"
+            }
+          },
+          {
+            "setCenterElevation": {
+              "source": "constant",
+              "value": 0.0
+            }
+          },
+          {
+            "setFsmActive": {
+              "fsm": "checkRaltGreater",
+              "active": false
             }
           },
           {
@@ -375,6 +524,11 @@
             "setHighAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "search"
+            }
+          },
+          {
             "setModeName": {
               "name": "search"
             }
@@ -382,7 +536,7 @@
           {
             "setCenterElevation": {
               "source": "constant",
-              "value": 3.0
+              "value": 4.0
             }
           },
           {
@@ -409,6 +563,11 @@
             "setHighAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "search"
+            }
+          },
+          {
             "setModeName": {
               "name": "LD search"
             }
@@ -416,7 +575,7 @@
           {
             "setCenterElevation": {
               "source": "constant",
-              "value": -3.0
+              "value": -4.0
             }
           },
           {
@@ -443,6 +602,11 @@
             "setLowAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "search"
+            }
+          },
+          {
             "setModeName": {
               "name": "search"
             }
@@ -450,7 +614,7 @@
           {
             "setCenterElevation": {
               "source": "constant",
-              "value": 3.0
+              "value": 4.0
             }
           },
           {
@@ -477,8 +641,13 @@
             "setLowAltModeCommon": []
           },
           {
+            "setScanPatternSet": {
+              "scanPatternSet": "searchLow"
+            }
+          },
+          {
             "setModeName": {
-              "name": "PD search"
+              "name": "MTI search"
             }
           },
           {
@@ -491,6 +660,45 @@
             "setFsmActive": {
               "fsm": "checkRaltGreater",
               "active": true
+            }
+          },
+          {
+            "setFsmActive": {
+              "fsm": "checkRaltLess",
+              "active": false
+            }
+          }
+        ],
+        "setOLSSearchMode": [
+          {
+            "setSearchModeCommon": []
+          },
+          {
+            "setOlsModeCommon": []
+          },
+          {
+            "setHighAltModeCommon": []
+          },
+          {
+            "setScanPatternSet": {
+              "scanPatternSet": "searchOLS"
+            }
+          },
+          {
+            "setModeName": {
+              "name": "IRST search"
+            }
+          },
+          {
+            "setCenterElevation": {
+              "source": "constant",
+              "value": 0.0
+            }
+          },
+          {
+            "setFsmActive": {
+              "fsm": "checkRaltGreater",
+              "active": false
             }
           },
           {
@@ -605,7 +813,15 @@
           "setPulseDopplerModeCommon": [],
           "setLowAltModeCommon": [],
           "setModeName": {
-            "name": "PD acquisition"
+            "name": "MTI acquisition"
+          }
+        },
+        "setOLSDesignationLockMode": {
+          "setDesignationLockModeCommon": [],
+          "setOlsModeCommon": [],
+          "setHighAltModeCommon": [],
+          "setModeName": {
+            "name": "IRST acquisition"
           }
         },
         "setTrackModeCommon": [
@@ -616,11 +832,6 @@
           },
           {
             "setScanPatternSet": []
-          },
-          {
-            "setScanPattern": {
-              "scanPattern": "track"
-            }
           },
           {
             "clearTargetsOfInterest": []
@@ -663,11 +874,6 @@
             }
           },
           {
-            "setIllumination": {
-              "illumination": true
-            }
-          },
-          {
             "setFsmActive": {
               "fsm": "checkRaltLess",
               "active": false
@@ -680,8 +886,26 @@
             }
           }
         ],
-        "setBSVTrackMode": {
+        "setRadarTrackModeCommon": {
           "setTrackModeCommon": [],
+          "setScanPattern": {
+            "scanPattern": "track"
+          },
+          "setIllumination": {
+            "illumination": true
+          }
+        },
+        "setOLSTrackModeCommon": {
+          "setTrackModeCommon": [],
+          "setScanPattern": {
+            "scanPattern": "trackOLS"
+          },
+          "setIllumination": {
+            "illumination": false
+          }
+        },
+        "setBSVTrackMode": {
+          "setRadarTrackModeCommon": [],
           "setPulseTrackModeCommon": [],
           "setHighAltModeCommon": [],
           "setModeName": {
@@ -689,7 +913,7 @@
           }
         },
         "setBSVdHTrackMode": {
-          "setTrackModeCommon": [],
+          "setRadarTrackModeCommon": [],
           "setPulseTrackModeCommon": [],
           "setHighAltModeCommon": [],
           "setModeName": {
@@ -697,7 +921,7 @@
           }
         },
         "setSMVTrackMode": {
-          "setTrackModeCommon": [],
+          "setRadarTrackModeCommon": [],
           "setPulseTrackModeCommon": [],
           "setLowAltModeCommon": [],
           "setModeName": {
@@ -705,11 +929,19 @@
           }
         },
         "setMVTrackMode": {
-          "setTrackModeCommon": [],
+          "setRadarTrackModeCommon": [],
           "setPulseDopplerModeCommon": [],
           "setLowAltModeCommon": [],
           "setModeName": {
-            "name": "PD track"
+            "name": "MTI track"
+          }
+        },
+        "setOLSTrackMode": {
+          "setOLSTrackModeCommon": [],
+          "setOlsModeCommon": [],
+          "setHighAltModeCommon": [],
+          "setModeName": {
+            "name": "IRST track"
           }
         }
       },
@@ -774,6 +1006,28 @@
           }
         },
         {
+          "OLSFromLookUpSwitchOn": {
+            "stateFrom": "OLSFromLookUpStandby",
+            "command": "switch",
+            "event": "enable",
+            "stateTo": "OLSFromLookUpSearch",
+            "actions": {
+              "setOLSSearchMode": []
+            }
+          }
+        },
+        {
+          "OLSFromLookDownSwitchOn": {
+            "stateFrom": "OLSFromLookDownStandby",
+            "command": "switch",
+            "event": "enable",
+            "stateTo": "OLSFromLookDownSearch",
+            "actions": {
+              "setOLSSearchMode": []
+            }
+          }
+        },
+        {
           "BSVSwitchOff": {
             "stateFrom": "BSVSearch",
             "command": "switch",
@@ -818,6 +1072,30 @@
             "actions": {
               "resetSearchMode": [],
               "setMVStandbyMode": []
+            }
+          }
+        },
+        {
+          "OLSSFromLookUpSwitchOff": {
+            "stateFrom": "OLSFromLookUpSearch",
+            "command": "switch",
+            "event": "disable",
+            "stateTo": "OLSFromLookUpStandby",
+            "actions": {
+              "resetSearchMode": [],
+              "setOlsStandbyMode": []
+            }
+          }
+        },
+        {
+          "OLSSFromLookDownSwitchOff": {
+            "stateFrom": "OLSFromLookDownSearch",
+            "command": "switch",
+            "event": "disable",
+            "stateTo": "OLSFromLookDownStandby",
+            "actions": {
+              "resetSearchMode": [],
+              "setOlsStandbyMode": []
             }
           }
         },
@@ -902,6 +1180,68 @@
           }
         },
         {
+          "LookUpToOLSStandby": [
+            {
+              "stateFrom": "BSVStandby"
+            },
+            {
+              "stateFrom": "SMVStandby"
+            },
+            {
+              "command": "typeSwitch"
+            },
+            {
+              "stateTo": "OLSFromLookDownStandby"
+            },
+            {
+              "actions": {
+                "setOlsStandbyMode": []
+              }
+            }
+          ]
+        },
+        {
+          "LookDownToOLSStandby": [
+            {
+              "stateFrom": "BSVdHStandby"
+            },
+            {
+              "stateFrom": "MVStandby"
+            },
+            {
+              "command": "typeSwitch"
+            },
+            {
+              "stateTo": "OLSFromLookUpStandby"
+            },
+            {
+              "actions": {
+                "setOlsStandbyMode": []
+              }
+            }
+          ]
+        },
+        {
+          "OLSToLookUpStandby": {
+            "stateFrom": "OLSFromLookDownStandby",
+            "command": "typeSwitch",
+            "stateTo": "BSVStandby",
+            "actions": {
+              "setBSVStandbyMode": []
+            }
+          }
+        },
+        {
+          "OLSToLookDownStandby": {
+            "stateFrom": "OLSFromLookUpStandby",
+            "command": "typeSwitch",
+            "stateTo": "BSVdHStandby",
+            "actions": {
+              "setBSVdHStandbyMode": []
+            }
+          }
+        },
+        {
           "BSVToBSVdHSearch": {
             "stateFrom": "BSVSearch",
             "command": "modeSwitch",
@@ -975,6 +1315,68 @@
           "MVToBSVdHSearch": {
             "stateFrom": "MVSearch",
             "event": "raltCheckOk",
+            "stateTo": "BSVdHSearch",
+            "actions": {
+              "setBSVdHSearchMode": []
+            }
+          }
+        },
+        {
+          "LookUpToOLSSearch": [
+            {
+              "stateFrom": "BSVSearch"
+            },
+            {
+              "stateFrom": "SMVSearch"
+            },
+            {
+              "command": "typeSwitch"
+            },
+            {
+              "stateTo": "OLSFromLookDownSearch"
+            },
+            {
+              "actions": {
+                "setOLSSearchMode": []
+              }
+            }
+          ]
+        },
+        {
+          "LookDownToOLSSearch": [
+            {
+              "stateFrom": "BSVdHSearch"
+            },
+            {
+              "stateFrom": "MVSearch"
+            },
+            {
+              "command": "typeSwitch"
+            },
+            {
+              "stateTo": "OLSFromLookUpSearch"
+            },
+            {
+              "actions": {
+                "setOLSSearchMode": []
+              }
+            }
+          ]
+        },
+        {
+          "OLSToLookUpSearch": {
+            "stateFrom": "OLSFromLookDownSearch",
+            "command": "typeSwitch",
+            "stateTo": "BSVSearch",
+            "actions": {
+              "setBSVSearchMode": []
+            }
+          }
+        },
+        {
+          "OLSToLookDownSearch": {
+            "stateFrom": "OLSFromLookUpSearch",
+            "command": "typeSwitch",
             "stateTo": "BSVdHSearch",
             "actions": {
               "setBSVdHSearchMode": []
@@ -1326,6 +1728,178 @@
           }
         },
         {
+          "OLSFromLookUpDesignationLock": {
+            "stateFrom": "OLSFromLookUpSearch",
+            "command": "selectTarget",
+            "actions": {
+              "designateActiveDetectedTarget": {
+                "type": 0,
+                "self": true,
+                "sensorIndex": 0
+              }
+            }
+          }
+        },
+        {
+          "checkOLSFromLookUpDesignationType0": {
+            "stateFrom": "OLSFromLookUpSearch",
+            "command": "designateTarget",
+            "stateTo": "checkOLSFromLookUpDesignationType0",
+            "actions": {
+              "checkDesignationTypeEquals": {
+                "value": 0
+              }
+            }
+          }
+        },
+        {
+          "OLSFromLookUpDesignationLockResponce": {
+            "stateFrom": "checkOLSFromLookUpDesignationType0",
+            "event": "designationTypeEquals",
+            "stateTo": "OLSFromLookUpDesignationLock",
+            "actions": {
+              "resetSearchMode": [],
+              "setOLSDesignationLockMode": []
+            }
+          }
+        },
+        {
+          "returnToOLSFromLookUpSearchMode": {
+            "stateFrom": "checkOLSFromLookUpDesignationType0",
+            "event": "designationTypeNotEquals",
+            "stateTo": "OLSFromLookUpSearch"
+          }
+        },
+        {
+          "OLSFromLookUpDesignationTrack": {
+            "stateFrom": "OLSFromLookUpDesignationLock",
+            "event": "targetDetected",
+            "stateTo": "OLSFromLookUpDesignationTrack",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "lock",
+                "active": false
+              },
+              "setOLSTrackMode": []
+            }
+          }
+        },
+        {
+          "failedOLSFromLookUpDesignationLock": {
+            "stateFrom": "OLSFromLookUpDesignationLock",
+            "event": "scanFinished",
+            "stateTo": "OLSFromLookUpSearch",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "lock",
+                "active": false
+              },
+              "setOLSSearchMode": []
+            }
+          }
+        },
+        {
+          "finishedDesignationTrack": {
+            "stateFrom": "OLSFromLookUpDesignationTrack",
+            "event": "activeTargetOfInterestInertialTimeOut",
+            "command": "selectTarget",
+            "stateTo": "OLSFromLookUpSearch",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "track",
+                "active": false
+              },
+              "setOLSSearchMode": []
+            }
+          }
+        },
+        {
+          "OLSFromLookDownDesignationLock": {
+            "stateFrom": "OLSFromLookDownSearch",
+            "command": "selectTarget",
+            "actions": {
+              "designateActiveDetectedTarget": {
+                "type": 0,
+                "self": true,
+                "sensorIndex": 0
+              }
+            }
+          }
+        },
+        {
+          "checkOLSFromLookDownDesignationType0": {
+            "stateFrom": "OLSFromLookDownSearch",
+            "command": "designateTarget",
+            "stateTo": "checkOLSFromLookDownDesignationType0",
+            "actions": {
+              "checkDesignationTypeEquals": {
+                "value": 0
+              }
+            }
+          }
+        },
+        {
+          "OLSFromLookDownDesignationLockResponce": {
+            "stateFrom": "checkOLSFromLookDownDesignationType0",
+            "event": "designationTypeEquals",
+            "stateTo": "OLSFromLookDownDesignationLock",
+            "actions": {
+              "resetSearchMode": [],
+              "setOLSDesignationLockMode": []
+            }
+          }
+        },
+        {
+          "returnToOLSFromLookDownSearchMode": {
+            "stateFrom": "checkOLSFromLookDownDesignationType0",
+            "event": "designationTypeNotEquals",
+            "stateTo": "OLSFromLookDownSearch"
+          }
+        },
+        {
+          "OLSFromLookDownDesignationTrack": {
+            "stateFrom": "OLSFromLookDownDesignationLock",
+            "event": "targetDetected",
+            "stateTo": "OLSFromLookDownDesignationTrack",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "lock",
+                "active": false
+              },
+              "setOLSTrackMode": []
+            }
+          }
+        },
+        {
+          "failedOLSFromLookDownDesignationLock": {
+            "stateFrom": "OLSFromLookDownDesignationLock",
+            "event": "scanFinished",
+            "stateTo": "OLSFromLookDownSearch",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "lock",
+                "active": false
+              },
+              "setOLSSearchMode": []
+            }
+          }
+        },
+        {
+          "finishedDesignationTrack": {
+            "stateFrom": "OLSFromLookDownDesignationTrack",
+            "event": "activeTargetOfInterestInertialTimeOut",
+            "command": "selectTarget",
+            "stateTo": "OLSFromLookDownSearch",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "track",
+                "active": false
+              },
+              "setOLSSearchMode": []
+            }
+          }
+        },
+        {
           "switchScanPattern": [
             {
               "stateFrom": "BSVStandby"
@@ -1340,6 +1914,12 @@
               "stateFrom": "MVStandby"
             },
             {
+              "stateFrom": "OLSFromLookUpStandby"
+            },
+            {
+              "stateFrom": "OLSFromLookDownStandby"
+            },
+            {
               "stateFrom": "BSVSearch"
             },
             {
@@ -1350,6 +1930,12 @@
             },
             {
               "stateFrom": "MVSearch"
+            },
+            {
+              "stateFrom": "OLSFromLookUpSearch"
+            },
+            {
+              "stateFrom": "OLSFromLookDownSearch"
             },
             {
               "command": "scanPatternSwitch"
@@ -1393,7 +1979,7 @@
           "actions": {
             "checkRalt": {
               "operation": "greater",
-              "value": 2000.0
+              "value": 1800.0
             }
           }
         }

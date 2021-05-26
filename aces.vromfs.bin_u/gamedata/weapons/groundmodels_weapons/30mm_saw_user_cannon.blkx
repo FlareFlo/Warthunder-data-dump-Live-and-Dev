@@ -58,7 +58,7 @@
     "slopeEffectPreset": "ap",
     "fresnel": [0.23,0.1,2.0],
     "explodeOnRendinst": true,
-    "shellAnimation": "video/shells_animations/aphe.ivf",
+    "shellAnimation": "video/shells_animations/sap.ivf",
     "guiCustomIcon": "sapcbc_tank",
     "bulletName": "30mm_mphe",
     "fuseDelayDist": 0.5,

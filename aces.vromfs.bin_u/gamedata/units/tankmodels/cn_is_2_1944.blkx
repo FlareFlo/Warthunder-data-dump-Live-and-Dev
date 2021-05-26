@@ -1509,7 +1509,7 @@
         "hull_ex_shields": {
           "armorClass": "tank_structural_steel",
           "armorThickness": 3.0,
-          "hp": 100.0,
+          "hp": 400.0,
           "stopChanceOnDeadPart": 0.0,
           "createSecondaryShatters": false,
           "ex_armor_turret_r_01_dm": [],

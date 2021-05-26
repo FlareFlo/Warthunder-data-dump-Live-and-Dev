@@ -4982,6 +4982,22 @@
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   },
+  "rocket_fire_light_nofire": {
+    "fx": "fires_rocket_tail_light_nofire_cmps_fx",
+    "numInstances": 70,
+    "numReserved": 20,
+    "onePointNumber": 4,
+    "sfxPath": "sounds/effects",
+    "sfxPathStudio": "aircraft/effects"
+  },
+  "rocket_fire_short_nofire": {
+    "fx": "fires_rocket_tail_short_nofire_cmps_fx",
+    "numInstances": 70,
+    "numReserved": 20,
+    "onePointNumber": 4,
+    "sfxPath": "sounds/effects",
+    "sfxPathStudio": "aircraft/effects"
+  },
   "rocket_fire_light": {
     "fx": "fires_rocket_tail_light_cmps_fx",
     "numInstances": 70,

@@ -515,7 +515,7 @@
       "bulletType": "sap_tank",
       "slopeEffectPreset": "ap",
       "fresnel": [0.23,0.1,2.0],
-      "shellAnimation": "video/shells_animations/aphe.ivf",
+      "shellAnimation": "video/shells_animations/sap.ivf",
       "bulletName": "120mm_mark_va",
       "dynamicKv": true,
       "relativeVelHitShift": [300.0,1000.0],

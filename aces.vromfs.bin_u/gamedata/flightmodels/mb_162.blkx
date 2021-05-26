@@ -3190,7 +3190,21 @@
       {
         "preset": {
           "name": "mb_162_6x200kg_6x100kg_default",
-          "blk": "gameData/FlightModels/weaponPresets/mb_162_6x200kg_6x100kg.blk"
+          "blk": "gameData/FlightModels/weaponPresets/mb_162_6x200kg_6x100kg.blk",
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_100kg.blk",
+                "iconType": "bombs_middle"
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_200kg.blk",
+                "iconType": "bombs_large"
+              }
+            }
+          ]
         }
       },
       {

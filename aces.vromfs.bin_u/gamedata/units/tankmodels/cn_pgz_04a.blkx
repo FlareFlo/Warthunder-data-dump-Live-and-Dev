@@ -2632,6 +2632,7 @@
           "emitter": "bone_rocket_01",
           "emitterGenRange": [1,4],
           "emitterGenFmt": "bone_rocket_%02d",
+          "mirrorEmitters": true,
           "createGunEffects": true,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
@@ -2706,15 +2707,24 @@
     }
   },
   {
-    "sensors": {
-      "sensor": {
-        "blk": "gameData/sensors/su_1rl144_search.blk",
-        "turretIndex": 0,
-        "designationFromBody": true,
-        "designationTurretIndex": 0,
-        "dmPart": "antenna_target_location_dm"
+    "sensors": [
+      {
+        "sensor": {
+          "blk": "gameData/sensors/su_1rl144_search.blk",
+          "turretIndex": 0,
+          "designationFromBody": true,
+          "designationTurretIndex": 0,
+          "dmPart": "antenna_target_location_dm"
+        }
+      },
+      {
+        "sensor": {
+          "blk": "gameData/sensors/us_adats_track.blk",
+          "turretIndex": 0,
+          "dmPart": "optic_gun_dm"
+        }
       }
-    }
+    ]
   },
   {
     "VehiclePhys": {
@@ -3338,7 +3348,7 @@
   {
     "cockpit": {
       "headPos": [0.0,4.5,-7.0],
-      "headPosOnShooting": [-0.6,3.4,-0.7],
+      "headPosOnShooting": [-0.6,3.4,0.0],
       "zoomOutFov": 37.5,
       "zoomInFov": 12.3,
       "sightFov": 18.0,
@@ -3770,6 +3780,7 @@
                 "emitter": "bone_rocket_01",
                 "emitterGenRange": [1,4],
                 "emitterGenFmt": "bone_rocket_%02d",
+                "mirrorEmitters": true,
                 "createGunEffects": true,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,

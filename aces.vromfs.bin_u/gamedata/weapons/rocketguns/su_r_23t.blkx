@@ -66,7 +66,7 @@
       "wingAreaMult": 1.35
     },
     {
-      "CxK": 2.1
+      "CxK": 2.5
     },
     {
       "WdK": [0.1,0.1,0.1]
@@ -78,10 +78,10 @@
       "finsAoaVer": 0.12
     },
     {
-      "force": 20000.0
+      "force": 60000.0
     },
     {
-      "timeFire": 3.0
+      "timeFire": 1.85
     },
     {
       "fireDelay": 0.0
@@ -198,7 +198,7 @@
       "machMax": 3.0
     },
     {
-      "loadFactorMax": 16.0
+      "loadFactorMax": 17.0
     },
     {
       "rangeMax": 27000.0
@@ -437,23 +437,23 @@
         "uncageBeforeLaunch": true,
         "breakLockMaxTime": 3.0,
         "irSeeker": {
-          "rangeBand0": 6000.0,
-          "rangeBand1": 1300.0,
-          "rangeBand2": 6000.0,
-          "rangeBand3": 6000.0,
-          "rangeMax": 10000.0,
+          "rangeBand0": 15000.0,
+          "rangeBand1": 2300.0,
+          "rangeBand2": 15000.0,
+          "rangeBand3": 15000.0,
+          "rangeMax": 20000.0,
           "fov": 2.6,
           "minAngleToSun": 7.0,
-          "lockAngleMax": 20.0,
+          "lockAngleMax": 55.0,
           "angleMax": 55.0,
           "rateMax": 12.0,
           "prolongationTimeMax": 1.0,
           "designationSourceTypeMask": 2
         },
         "guidanceAutopilot": {
-          "timeOut": 0.8,
+          "timeOut": 1.0,
           "propNavMult": 4.0,
-          "reqAccelMax": 16.0,
+          "reqAccelMax": 17.0,
           "baseIndSpeed": 1580.0,
           "accelControlProp": 0.04,
           "accelControlIntg": 0.02,
@@ -493,13 +493,13 @@
       "arcadeProp": {
         "finsAoaHor": 0.18,
         "finsAoaVer": 0.18,
-        "timeFire": 2.2
+        "timeFire": 2.0
       }
     },
     {
       "proximityFuse": {
-        "timeOut": 0.5,
-        "radius": 5.0,
+        "timeOut": 1.0,
+        "radius": 10.0,
         "detectShells": false
       }
     },

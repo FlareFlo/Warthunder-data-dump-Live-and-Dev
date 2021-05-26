@@ -2290,6 +2290,9 @@
         },
         "body_top_dm": {
           "armorThickness": 36.0
+        },
+        "ex_decor_01_dm": {
+          "armorThickness": 16.0
         }
       },
       "hull_RHA": {
@@ -2316,7 +2319,6 @@
         "armorThickness": 4.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
-        "ex_decor_01_dm": [],
         "ex_decor_r_02_dm": [],
         "ex_decor_r_03_dm": [],
         "ex_decor_r_05_dm": [],

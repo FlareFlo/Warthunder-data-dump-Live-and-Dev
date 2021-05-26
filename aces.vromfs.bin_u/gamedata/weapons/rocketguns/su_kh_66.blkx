@@ -61,7 +61,7 @@
     "rendinstDamageRadius": 15.0,
     "statType": "hydra",
     "fireEffect": "fires_rocket_tail_short_doubleside_smoked",
-    "smokeEffect": "",
+    "smokeEffect": "rocket_fire_short_nofire",
     "hazeEffect": "haze_missile",
     "endSmokeViscosity": 0.05,
     "advancedMissiles": false,

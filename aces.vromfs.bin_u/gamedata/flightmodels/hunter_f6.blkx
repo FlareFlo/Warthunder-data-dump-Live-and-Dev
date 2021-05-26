@@ -2270,6 +2270,12 @@
     },
     {
       "preset": {
+        "name": "hunter_f6_default_sraam_rockets",
+        "blk": "gameData/FlightModels/weaponPresets/hunter_f6_default_sraam_rockets.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "hunter_f6_2x500lb_mc_bombs",
         "blk": "gameData/FlightModels/weaponPresets/hunter_f6_2x500lb_mc_bombs.blk",
         "reqModification": "sea_hawk_2x500lb"

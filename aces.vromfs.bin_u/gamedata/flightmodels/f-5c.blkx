@@ -37,14 +37,22 @@
         "hp": 15.0
       }
     },
+    "armor6_35": {
+      "armor1_dm": {
+        "hp": 35.0
+      },
+      "armor2_dm": {
+        "hp": 35.0
+      }
+    },
     "armor_engine": {
       "engine1_dm": {
         "genericDamageMult": 1.6,
-        "hp": 36.8
+        "hp": 50.5
       },
       "engine2_dm": {
         "genericDamageMult": 1.6,
-        "hp": 36.8
+        "hp": 50.5
       }
     },
     "c_dural3": {
@@ -298,6 +306,16 @@
           }
         }
       ]
+    },
+    {
+      "part": {
+        "name": "armor1_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "armor2_dm"
+      }
     },
     {
       "part": {

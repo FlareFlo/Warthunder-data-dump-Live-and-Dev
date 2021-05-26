@@ -156,6 +156,7 @@
       "rocket": {
         "caliber": 0.127,
         "mass": 18.8,
+        "explosiveType": "comp_b",
         "explosiveMass": 2.45,
         "massEnd": 19.0,
         "normalizationPreset": "heat",
@@ -197,28 +198,14 @@
         "spawnExplosionWreckage": false,
         "spawnExplosionFx": false,
         "explosionOffset": 0.05,
-        "hitPowerMult": 1.0,
-        "nearHitPower": [1.0,50.0],
-        "midHitPower": [0.9,400.0],
-        "farHitPower": [0.1,1000.0],
-        "endHitPower": [0.01,1500.0],
         "relativeVelHitShift": [300.0,1000.0],
-        "nearArmorPower": [10.0,50.0],
-        "midArmorPower": [7.0,400.0],
-        "farArmorPower": [0.2,700.0],
         "relativeVelArmorShift": [200.0,1000.0],
-        "distanceFuse": false,
+        "hitPower": 260.0,
+        "fuseDelayDist": 0.05,
         "explodeTreshold": 0.1,
-        "explodeHitPower": 400.0,
-        "explodeArmorPower": 19.0,
-        "explodeRadius": [0.4,1.07],
+        "distanceFuse": false,
         "rendinstDamageRadius": 4.0,
         "statType": "hydra",
-        "shutterDamage": true,
-        "shutterDamageRadius": 25.0,
-        "shutterAmount": 1000,
-        "shutterArmorPower": 7.0,
-        "shutterHit": 12.0,
         "advancedMissiles": false,
         "useStartSpeed": true,
         "startSpeed": 100.0,
@@ -313,10 +300,6 @@
             "fx": "hit_106_132mm_snow_he"
           }
         },
-        "armorpower": {
-          "ArmorPower0m": [2.0,10.0],
-          "ArmorPower7000m": [1.0,7000.0]
-        },
         "hitpower": {
           "HitPower0m": [1.0,500.0],
           "HitPower1000m": [0.9,1000.0],
@@ -324,11 +307,23 @@
           "HitPower2500m": [0.5,2500.0],
           "HitPower7000m": [0.0,7000.0]
         },
+        "armorpower": {
+          "ArmorPower0m": [5.0,10.0],
+          "ArmorPower10000m": [4.0,10000.0]
+        },
         "cumulativeDamage": {
           "armorPower": 430.0,
           "distance": 7.5,
           "damage": 600.0,
           "onHitChanceMultFire": 25.0
+        },
+        "tracerTrail": {
+          "smokeEffect": "",
+          "visual": {
+            "traceFreq": 1,
+            "tracer": "152mmRed",
+            "trail": "black"
+          }
         }
       }
     }

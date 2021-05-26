@@ -345,6 +345,15 @@
       }
     },
     {
+      "new_armor_glass42": {
+        "hpMin": 110.0,
+        "hpMax": 130.0,
+        "hpPerSq": 18.5,
+        "armor_type": "new_armor_glass42",
+        "effects": []
+      }
+    },
+    {
       "new_armor_glass44": {
         "hpMin": 110.0,
         "hpMax": 130.0,
@@ -813,6 +822,15 @@
       }
     },
     {
+      "alum_alloy10": {
+        "hpMin": 35.0,
+        "hpMax": 35.0,
+        "hpPerSq": 35.0,
+        "armor_type": "alum_alloy10",
+        "effects": []
+      }
+    },
+    {
       "alum_alloy16": {
         "hpMin": 35.0,
         "hpMax": 35.0,
@@ -854,6 +872,15 @@
         "hpMax": 50.0,
         "pPerSq": 68.0,
         "armor_type": "composite26",
+        "effects": []
+      }
+    },
+    {
+      "ceramic16": {
+        "hpMin": 45.0,
+        "hpMax": 45.0,
+        "pPerSq": 55.0,
+        "armor_type": "ceramic16",
         "effects": []
       }
     },

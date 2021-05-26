@@ -3078,11 +3078,10 @@
   },
   {
     "commanderView": {
-      "aimModeAvailable": true,
       "optics": "commander_optics_square",
-      "zoomOutFov": 10.8,
-      "zoomInFov": 9.21,
-      "sightSize": [0.185,0.13]
+      "zoomOutFov": 37.5,
+      "zoomInFov": 12.3,
+      "sightSize": [0.74,0.52]
     }
   },
   {

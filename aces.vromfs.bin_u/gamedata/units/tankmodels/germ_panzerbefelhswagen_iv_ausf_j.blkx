@@ -2775,7 +2775,7 @@
       "turret_ex_shields": {
         "armorClass": "RHA_tank",
         "armorThickness": 8.0,
-        "hp": 100.0,
+        "hp": 400.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "hidableInViewer": true,
@@ -2786,7 +2786,7 @@
       },
       "body_shields": {
         "armorClass": "tank_structural_steel",
-        "hp": 1000.0,
+        "hp": 400.0,
         "armorThickness": 4.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
@@ -2803,7 +2803,7 @@
       "hull_ex_shields": {
         "armorClass": "tank_structural_steel",
         "armorThickness": 5.0,
-        "hp": 100.0,
+        "hp": 400.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "ex_armor_01_dm": [],

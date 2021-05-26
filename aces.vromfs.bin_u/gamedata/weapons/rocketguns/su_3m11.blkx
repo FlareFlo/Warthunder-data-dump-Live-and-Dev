@@ -55,7 +55,7 @@
     "rendinstDamageRadius": 2.0,
     "statType": "hydra",
     "fireEffect": "rocket_fire_short_doubleside",
-    "smokeEffect": "",
+    "smokeEffect": "rocket_fire_short_nofire",
     "hazeEffect": "haze_missile",
     "endSmokeViscosity": 0.05,
     "spawnExplosionFx": false,
@@ -71,6 +71,8 @@
     "autoaimEnabled": false,
     "aiGroundOnly": false,
     "aiAirOnly": false,
+    "hasTracerTrail": true,
+    "tracerTrailEmitter": [0.1,-0.01,0.0],
     "stabilityRicochetModifier": {
       "mod1": [0.0,0.5],
       "mod2": [15.0,0.7],
@@ -211,7 +213,6 @@
       "onHitChanceMultFire": 15.0
     },
     "tracerTrail": {
-      "hazeEffect": "",
       "visual": {
         "traceFreq": 1,
         "tracer": "100mmBlue",

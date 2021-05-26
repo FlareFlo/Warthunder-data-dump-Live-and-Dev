@@ -2347,7 +2347,13 @@
       "preset": {
         "name": "potez_633_bombs_200kg",
         "blk": "gameData/FlightModels/weaponPresets/potez_633_bombs_200kg.blk",
-        "reqModification": "fr_200_gp_standart"
+        "reqModification": "fr_200_gp_standart",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/BombGuns/fr_200kg.blk",
+            "iconType": "bombs_large"
+          }
+        }
       }
     }
   ],

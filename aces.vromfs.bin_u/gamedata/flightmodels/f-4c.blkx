@@ -3101,6 +3101,12 @@
       },
       {
         "preset": {
+          "name": "f_4c_rockets_default_aim9b",
+          "blk": "gameData/flightModels/weaponPresets/f_4c_rockets_default_aim9b.blk"
+        }
+      },
+      {
+        "preset": {
           "name": "f_4c_suu_23a",
           "blk": "gameData/flightModels/weaponPresets/f_4c_suu_23a.blk",
           "reqModification": "f4c_suu_23a"

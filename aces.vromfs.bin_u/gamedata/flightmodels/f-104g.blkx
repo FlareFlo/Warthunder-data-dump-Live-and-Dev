@@ -1983,6 +1983,12 @@
     },
     {
       "preset": {
+        "name": "f-104g_default_aim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/f-104g_default_aim_9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f-104g_lau_32",
         "blk": "gameData/FlightModels/weaponPresets/f-104g_lau_32.blk",
         "reqModification": "us_2_75_in_ffar_lau_32",

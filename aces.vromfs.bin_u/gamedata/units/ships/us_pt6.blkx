@@ -751,7 +751,7 @@
         "armorClass": "ship_structural_steel",
         "armorThickness": 5.0,
         "fireProtectionHp": 10.0,
-        "pump_dm": {
+        "pump_01_dm": {
           "hp": 70.0
         }
       },

@@ -4258,8 +4258,8 @@
       }
     },
     "Shop": {
-      "maxAltitude": 15000.0,
-      "maxSpeed": 275.227,
+      "maxAltitude": 13000.0,
+      "maxSpeed": 308.0,
       "turnTime": 24.0,
       "airfieldLen": 325.0,
       "climbTime": 180.0,
@@ -20657,7 +20657,6 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_sicily",
-    "operatorCountry": "country_italy_kingdom",
     "releaseDate": "2018-03-13 00:00:00",
     "info": {
       "engine1_dm": {
@@ -40855,9 +40854,9 @@
     "releaseDate": "2021-05-25 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "general_electric",
-        "model": "j47_ge_13",
-        "mass": 1145.0
+        "manufacturer": "rolls-royce",
+        "model": "derwent-9",
+        "mass": 580.0
       },
       "tanks_params": {
         "protected": true
@@ -40889,14 +40888,14 @@
       }
     },
     "Shop": {
-      "maxAltitude": 14000.0,
-      "maxSpeed": 303.61,
+      "maxAltitude": 11000.0,
+      "maxSpeed": 291.6667,
       "turnTime": 24.0,
-      "airfieldLen": 700.0,
+      "airfieldLen": 1000.0,
       "climbTime": 210.0,
       "maxSpeedAlt": 0.0,
       "climbAlt": 6096.0,
-      "climbSpeed": 38.0,
+      "climbSpeed": 45.0,
       "wingLoading": 241.0,
       "thrustToWeightRatio": 0.35,
       "rollRate": 215.0
@@ -57108,13 +57107,13 @@
     },
     "Shop": {
       "maxAltitude": 15000.0,
-      "maxSpeed": 307.6,
+      "maxSpeed": 520.0,
       "turnTime": 32.0,
-      "airfieldLen": 900.0,
+      "airfieldLen": 1500.0,
       "climbTime": 130.0,
       "maxSpeedAlt": 0.0,
       "climbAlt": 6096.0,
-      "climbSpeed": 55.0,
+      "climbSpeed": 75.0,
       "wingLoading": 335.0,
       "powerToWeightRatio": 0.45,
       "rollRate": 80.0
@@ -59512,7 +59511,7 @@
     },
     "Shop": {
       "maxAltitude": 13000.0,
-      "maxSpeed": 286.0,
+      "maxSpeed": 308.0,
       "turnTime": 25.0,
       "airfieldLen": 800.0,
       "climbTime": 200.0,
@@ -62896,6 +62895,21 @@
     }
   },
   "ussr_t_80u": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_ERA_ussr_tft",
+    "releaseDate": "2019-03-12 00:00:00",
+    "tags": {
+      "country_ussr": true,
+      "tank": true,
+      "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessHull": [105.0,80.0,50.0],
+      "armorThicknessTurret": [180.0,160.0,65.0]
+    }
+  },
+  "ussr_t_80bvm": {
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_ussr_tft",

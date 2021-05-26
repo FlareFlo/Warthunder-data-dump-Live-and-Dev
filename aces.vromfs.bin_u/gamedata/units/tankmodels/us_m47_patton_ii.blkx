@@ -1767,10 +1767,17 @@
           "substitute": "commander"
         }
       ],
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      },
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ],
       "machine_gunner": {
         "dmPart": "machine_gunner_dm",
         "role": "radio_gunner"
@@ -2496,6 +2503,8 @@
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
             "rotatedTurret": "bone_turret",
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "linkedAnimPart": {
               "verNode": "bone_camera_gunner",
               "verLimits": [-180.0,180.0],
@@ -2594,7 +2603,8 @@
             "turret": {
               "head": "bone_mg_gun_twin",
               "gun": "bone_mg_gun_twin",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {

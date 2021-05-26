@@ -2532,6 +2532,12 @@
       },
       {
         "preset": {
+          "name": "saab_j32b_default_rb24_missiles",
+          "blk": "gameData/flightModels/weaponPresets/saab_j32b_default_rb24_missiles.blk"
+        }
+      },
+      {
+        "preset": {
           "name": "saab_j32b_75mm_srak_m57b",
           "blk": "gameData/flightModels/weaponPresets/saab_j32b_75mm_srak_m57b.blk",
           "reqModification": "swe_m57b"

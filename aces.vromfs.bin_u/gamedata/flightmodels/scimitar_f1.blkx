@@ -2507,6 +2507,12 @@
     },
     {
       "preset": {
+        "name": "scimitar_default_aim9x2_rockets",
+        "blk": "gameData/FlightModels/weaponPresets/scimitar_default_aim9x2_rockets.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "scimitar_4x1000lb_mc_bombs",
         "blk": "gameData/FlightModels/weaponPresets/scimitar_4x1000lb_mc_bombs.blk",
         "reqModification": "swift_2x1000lb_mc"

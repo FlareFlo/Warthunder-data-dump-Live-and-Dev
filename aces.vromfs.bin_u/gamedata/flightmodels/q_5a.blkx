@@ -2918,6 +2918,10 @@
         }
       }
     },
+    "q5_countermeasures_launcher_chaff_only": [],
+    "q5_countermeasures_launcher_flare_only": [],
+    "q5_countermeasures_launcher_chaff_priority": [],
+    "q5_countermeasures_launcher_flare_priority": [],
     "q_5b_ltc": {
       "turn_it_off": false,
       "invertEnableLogic": false,

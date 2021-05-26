@@ -1741,10 +1741,17 @@
         "role": "loader",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2322,7 +2329,9 @@
             "head": "bone_turret_01",
             "gun": "bone_gun_01",
             "barrel": "bone_gun_barrel_01",
-            "rotatedTurret": "bone_turret_01"
+            "rotatedTurret": "bone_turret_01",
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm"
           },
           "limits": {
             "yaw": [-180.0,180.0],
@@ -2501,7 +2510,8 @@
             "turret": {
               "head": "bone_mg_gun_twin_01",
               "gun": "bone_mg_gun_twin_01",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -3194,10 +3204,10 @@
   {
     "commanderView": {
       "aimModeAvailable": true,
-      "optics": "commander_optics_square",
+      "optics": "commander_optics_round",
       "zoomOutFov": 17.0,
       "zoomInFov": 14.7,
-      "sightSize": [0.31,0.22]
+      "sightSize": [0.32,0.32]
     }
   },
   {

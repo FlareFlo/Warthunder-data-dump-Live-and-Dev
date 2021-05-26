@@ -87,9 +87,6 @@
     "explosionFx": "ship_explosion"
   },
   {
-    "supportPlaneClass": "arado-196a-3"
-  },
-  {
     "smokeScreenActivateTime": 10.0
   },
   {

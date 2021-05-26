@@ -12,7 +12,7 @@
   "maxDeltaAngle": 0.06,
   "maxDeltaAngleVertical": 0.08,
   "shotFreq": 2.4,
-  "reloadTime": 2.0,
+  "reloadTime": 5.0,
   "traceFreq": 4,
   "bEnablePause": false,
   "bullets": -1,

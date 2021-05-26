@@ -3187,9 +3187,7 @@
               "compartment_01_dm": [],
               "compartment_02_dm": [],
               "compartment_03_dm": [],
-              "compartment_04_dm": [],
-              "compartment_05_dm": [],
-              "compartment_06_dm": []
+              "compartment_04_dm": []
             }
           }
         }
@@ -3202,9 +3200,7 @@
               "compartment_01_dm": [],
               "compartment_02_dm": [],
               "compartment_03_dm": [],
-              "compartment_04_dm": [],
-              "compartment_05_dm": [],
-              "compartment_06_dm": []
+              "compartment_04_dm": []
             }
           }
         }
@@ -3218,15 +3214,7 @@
               "ammunition_storage_01_dm": [],
               "ammunition_storage_02_dm": [],
               "ammunition_storage_03_dm": [],
-              "ammunition_storage_04_dm": [],
-              "ammunition_storage_05_dm": [],
-              "ammunition_storage_06_dm": [],
-              "ammunition_storage_07_dm": [],
-              "ammunition_storage_08_dm": [],
-              "ammunition_storage_09_dm": [],
-              "ammunition_storage_10_dm": [],
-              "ammunition_storage_11_dm": [],
-              "ammunition_storage_12_dm": []
+              "ammunition_storage_04_dm": []
             }
           }
         }
@@ -4510,7 +4498,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_25_dm": {
               "count": 1
@@ -4519,8 +4506,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_57_dm": {
               "count": 1
@@ -4529,8 +4514,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_58_dm": {
               "count": 1
@@ -4539,8 +4522,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_59_dm": {
               "count": 1
@@ -4549,24 +4530,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_60_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_05_dm": {
-              "count": 5
             }
           }
         }
@@ -4605,7 +4571,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_27_dm": {
               "count": 1
@@ -4614,8 +4579,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_61_dm": {
               "count": 1
@@ -4624,8 +4587,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_62_dm": {
               "count": 1
@@ -4634,8 +4595,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_63_dm": {
               "count": 1
@@ -4644,24 +4603,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_64_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_06_dm": {
-              "count": 5
             }
           }
         }
@@ -4700,7 +4644,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_29_dm": {
               "count": 1
@@ -4709,8 +4652,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_65_dm": {
               "count": 1
@@ -4719,8 +4660,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_66_dm": {
               "count": 1
@@ -4729,8 +4668,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_67_dm": {
               "count": 1
@@ -4739,24 +4676,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_68_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_07_dm": {
-              "count": 5
             }
           }
         }
@@ -4795,7 +4717,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_31_dm": {
               "count": 1
@@ -4804,8 +4725,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_69_dm": {
               "count": 1
@@ -4814,8 +4733,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_70_dm": {
               "count": 1
@@ -4824,8 +4741,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_71_dm": {
               "count": 1
@@ -4834,24 +4749,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_72_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_08_dm": {
-              "count": 5
             }
           }
         }
@@ -4890,7 +4790,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_26_dm": {
               "count": 1
@@ -4899,8 +4798,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_73_dm": {
               "count": 2
@@ -4909,8 +4806,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_74_dm": {
               "count": 1
@@ -4919,8 +4814,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_75_dm": {
               "count": 1
@@ -4929,24 +4822,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_76_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_09_dm": {
-              "count": 5
             }
           }
         }
@@ -4985,7 +4863,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_28_dm": {
               "count": 1
@@ -4994,8 +4871,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_77_dm": {
               "count": 1
@@ -5004,8 +4879,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_78_dm": {
               "count": 1
@@ -5014,8 +4887,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_79_dm": {
               "count": 1
@@ -5024,24 +4895,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_80_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_10_dm": {
-              "count": 5
             }
           }
         }
@@ -5080,7 +4936,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_30_dm": {
               "count": 1
@@ -5089,8 +4944,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_81_dm": {
               "count": 1
@@ -5099,8 +4952,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_82_dm": {
               "count": 1
@@ -5109,8 +4960,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_83_dm": {
               "count": 1
@@ -5119,24 +4968,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_84_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_11_dm": {
-              "count": 5
             }
           }
         }
@@ -5175,7 +5009,6 @@
         {
           "shells": {
             "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_32_dm": {
               "count": 1
@@ -5184,8 +5017,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_85_dm": {
               "count": 1
@@ -5194,8 +5025,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_86_dm": {
               "count": 1
@@ -5204,8 +5033,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_87_dm": {
               "count": 1
@@ -5214,24 +5041,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
-            "firstStage": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_88_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.0,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "damageEffect": "ammunition_depth_charges",
-            "ammunition_storage_12_dm": {
-              "count": 5
             }
           }
         }

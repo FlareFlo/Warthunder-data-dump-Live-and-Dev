@@ -3967,7 +3967,6 @@
   },
   {
     "commanderView": {
-      "aimModeAvailable": true,
       "optics": "commander_optics_square",
       "zoomOutFov": 9.27,
       "zoomInFov": 9.17,

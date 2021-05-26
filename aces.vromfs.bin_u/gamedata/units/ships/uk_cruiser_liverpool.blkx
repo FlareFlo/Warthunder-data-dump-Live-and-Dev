@@ -4246,7 +4246,7 @@
       "mass": {
         "Empty": 11350000.0,
         "momentOfInertia": [59.0,1450.0,900.0],
-        "CenterOfGravity": [3.0,0.4,0.0]
+        "CenterOfGravity": [3.0,1.5,0.0]
       },
       "engines": [
         {

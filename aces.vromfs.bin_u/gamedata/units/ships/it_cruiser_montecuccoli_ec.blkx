@@ -5869,15 +5869,6 @@
               "count": 1
             }
           }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_storage_aux",
-            "reloadTimeMult": 3.0,
-            "ammunition_storage_01_dm": {
-              "count": 16
-            }
-          }
         }
       ],
       "ammo10": [
@@ -5949,15 +5940,6 @@
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_10_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "damageEffect": "ammunition_storage_aux",
-            "reloadTimeMult": 3.0,
-            "ammunition_storage_02_dm": {
-              "count": 16
             }
           }
         }

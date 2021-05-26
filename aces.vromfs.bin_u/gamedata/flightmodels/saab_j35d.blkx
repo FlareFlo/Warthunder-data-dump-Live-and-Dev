@@ -2476,6 +2476,12 @@
     },
     {
       "preset": {
+        "name": "saab_j35d_default_rb24x2_missiles",
+        "blk": "gameData/flightModels/weaponPresets/saab_j35d_default_rb24x2_missiles.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "saab_j35d_135mm_rockets",
         "blk": "gameData/FlightModels/weaponPresets/saab_j35d_135mm_rockets.blk",
         "reqModification": "swe_m56d"

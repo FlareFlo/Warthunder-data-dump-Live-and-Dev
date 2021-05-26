@@ -1693,6 +1693,7 @@
           "animatedRadarIdx": 0,
           "radarElevationScan": true,
           "pitchByTurret": true,
+          "pitchLimits": [-10.0,85.0],
           "radarAntenaSpeed": 50.0,
           "radarAnimPitchVar": "target_tagging_pitch_rotate"
         }

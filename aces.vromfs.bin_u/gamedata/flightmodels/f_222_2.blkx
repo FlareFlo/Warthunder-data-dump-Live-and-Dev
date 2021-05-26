@@ -3825,7 +3825,21 @@
         "preset": {
           "name": "f_222_100kg_200kg",
           "blk": "gameData/FlightModels/weaponPresets/f_222_100kg_200kg.blk",
-          "reqModification": "fr_f222_s"
+          "reqModification": "fr_f222_s",
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_100kg.blk",
+                "iconType": "bombs_middle"
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/fr_200kg.blk",
+                "iconType": "bombs_large"
+              }
+            }
+          ]
         }
       },
       {

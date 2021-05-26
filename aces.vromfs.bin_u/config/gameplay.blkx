@@ -3698,6 +3698,36 @@
       "radarModeName": "LD track"
     },
     {
+      "radarModeName": "MTI standby"
+    },
+    {
+      "radarModeName": "MTI search"
+    },
+    {
+      "radarModeName": "MTI acquisition"
+    },
+    {
+      "radarModeName": "MTI ACM"
+    },
+    {
+      "radarModeName": "MTI track"
+    },
+    {
+      "radarModeName": "IRST standby"
+    },
+    {
+      "radarModeName": "IRST search"
+    },
+    {
+      "radarModeName": "IRST acquisition"
+    },
+    {
+      "radarModeName": "IRST ACM"
+    },
+    {
+      "radarModeName": "IRST track"
+    },
+    {
       "radarModeName": "air_search"
     },
     {
@@ -3716,7 +3746,7 @@
       "bistaticRadarRangeGateBeamToAreaMult": [7.0,7.0]
     },
     {
-      "bistaticRadarRangeGateAreaMin": [0.0,0.0]
+      "bistaticRadarRangeGateAreaMin": [45.0,45.0]
     },
     {
       "bistaticRadarRangeGateAreaMax": [90.0,90.0]
@@ -3734,7 +3764,7 @@
       "bistaticRadarRangeGateBeamToSectorMult": [1.0,0.2]
     },
     {
-      "bistaticRadarRangeGateSectorMin": [0.0,0.0]
+      "bistaticRadarRangeGateSectorMin": [10.0,10.0]
     },
     {
       "bistaticRadarRangeGateSectorMax": [90.0,90.0]

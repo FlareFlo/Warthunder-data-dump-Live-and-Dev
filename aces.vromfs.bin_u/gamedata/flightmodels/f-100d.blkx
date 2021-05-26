@@ -2258,6 +2258,12 @@
     },
     {
       "preset": {
+        "name": "f_100d_default_2x_aim9b",
+        "blk": "gameData/flightModels/weaponPresets/f_100d_default_2x_aim9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f_100_6x500lbs",
         "blk": "gameData/flightModels/weaponPresets/f_100d_6x500lbs.blk",
         "reqModification": "us_500lb_m64"

@@ -1911,7 +1911,22 @@
         "oneSided": true,
         "armorThickness": 5.0,
         "fireProtectionHp": 8.0,
-        "armorThrough": 150.0
+        "armorThrough": 150.0,
+        "ammunition_storage_01_dm": {
+          "hp": 2000.0
+        },
+        "ammunition_storage_02_dm": {
+          "hp": 2000.0
+        },
+        "ammunition_storage_03_dm": {
+          "hp": 2000.0
+        },
+        "ammunition_storage_04_dm": {
+          "hp": 2000.0
+        },
+        "ammunition_storage_05_dm": {
+          "hp": 2000.0
+        }
       },
       "ammo_storages_shells": {
         "fireDamageMult": 0.75,
@@ -1922,13 +1937,7 @@
         "armorThickness": 5.0,
         "oneSided": true,
         "fireProtectionHp": 15.0,
-        "armorThrough": 150.0,
-        "ammunition_storage_shells_01_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_shells_02_dm": {
-          "hp": 2000.0
-        }
+        "armorThrough": 150.0
       },
       "ammo_storages_charges": {
         "armorClass": "ship_structural_steel",
@@ -2093,7 +2102,7 @@
         "fireDamageMult": 1.5,
         "fireProtectionHp": 5.0,
         "elevator_01_dm": {
-          "hp": 150.0
+          "hp": 211.0
         },
         "elevator_02_dm": {
           "hp": 150.0
@@ -5301,7 +5310,7 @@
           "fatalFire": true,
           "fatalExplosion": true,
           "damageEffect": "ammunition_storage_fixed",
-          "ammunition_storage_shells_01_dm": {
+          "ammunition_storage_01_dm": {
             "count": 240
           }
         }
@@ -5342,7 +5351,7 @@
           "fatalFire": true,
           "fatalExplosion": true,
           "damageEffect": "ammunition_storage_fixed",
-          "ammunition_storage_shells_02_dm": {
+          "ammunition_storage_02_dm": {
             "count": 240
           }
         }

@@ -57,6 +57,9 @@
     "fxMultipleSpawn": true
   },
   {
+    "iconType": "cannon_inner"
+  },
+  {
     "bullet": {
       "mass": 0.274,
       "caliber": 0.03,

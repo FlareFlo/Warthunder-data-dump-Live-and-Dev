@@ -20,6 +20,12 @@
         "node": "pylon_4"
       },
       {
+        "node": "pylon_bomb1"
+      },
+      {
+        "node": "pylon_bomb4"
+      },
+      {
         "node": "holder_250kg_3"
       },
       {

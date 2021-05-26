@@ -148,6 +148,8 @@
     "bullets": 353,
     "spread": 1.5,
     "traceOffset": 1,
-    "external": true
+    "external": true,
+    "gearLimit": [0.0,0.1],
+    "gearName": "gear_c"
   }
 }

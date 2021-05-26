@@ -15,6 +15,7 @@
   "bulletsCluster": 1,
   "shouldCollideWithRendinsts": true,
   "fxType": "muzzle_ground_40mm",
+  "fxMultipleSpawn": true,
   "sound_path": "ships/weapon_ships/cannons",
   "sound_pathStudio": "naval/weapon/cannons",
   "sound": "37mm_flakm42",

@@ -54,7 +54,7 @@
     "explodeTreshold": 0.1,
     "statType": "hydra",
     "fireEffect": "rocket_fire_light",
-    "smokeEffect": "",
+    "smokeEffect": "rocket_fire_short_nofire",
     "hazeEffect": "haze_missile",
     "endSmokeViscosity": 0.05,
     "useStartSpeed": false,

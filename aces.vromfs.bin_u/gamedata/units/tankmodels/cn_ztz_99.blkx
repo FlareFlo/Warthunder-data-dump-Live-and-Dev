@@ -2137,10 +2137,17 @@
         "role": "driver",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2738,6 +2745,9 @@
               "gunnerDm": "gunner_dm"
             },
             {
+              "secondGunnerDm": "commander_dm"
+            },
+            {
               "linkedAnimPart": {
                 "verNode": "bone_gun_roller_02",
                 "verLimits": [-6.0,17.0],
@@ -2862,7 +2872,8 @@
             "turret": {
               "head": "bone_mg_twin",
               "gun": "bone_mg_twin",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -3985,6 +3996,9 @@
                     "gunnerDm": "gunner_dm"
                   },
                   {
+                    "secondGunnerDm": "commander_dm"
+                  },
+                  {
                     "linkedAnimPart": {
                       "verNode": "bone_gun_roller_02",
                       "verLimits": [-6.0,17.0],
@@ -4109,7 +4123,8 @@
                   "turret": {
                     "head": "bone_mg_twin",
                     "gun": "bone_mg_twin",
-                    "gunnerDm": "gunner_dm"
+                    "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm"
                   }
                 },
                 {

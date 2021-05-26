@@ -198,7 +198,7 @@
       "machMax": 2.2
     },
     {
-      "loadFactorMax": 16.0
+      "loadFactorMax": 20.0
     },
     {
       "rangeMax": 16000.0
@@ -451,7 +451,7 @@
         "guidanceAutopilot": {
           "timeOut": 0.5,
           "propNavMult": 4.0,
-          "reqAccelMax": 16.0,
+          "reqAccelMax": 20.0,
           "baseIndSpeed": 1800.0,
           "accelControlProp": 0.01,
           "accelControlIntg": 0.005,

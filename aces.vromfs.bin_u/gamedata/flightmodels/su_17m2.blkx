@@ -2371,6 +2371,12 @@
     },
     {
       "preset": {
+        "name": "su_17m2_default_rocket_r60",
+        "blk": "gameData/FlightModels/weaponPresets/su_17m2_default_rocket_r60.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "su_17m2_sppu_22",
         "blk": "gameData/FlightModels/weaponPresets/su_17m2_sppu_22.blk",
         "reqModification": "su_17_sppu_22_gunpod"

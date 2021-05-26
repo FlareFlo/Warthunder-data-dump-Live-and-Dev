@@ -4894,13 +4894,15 @@
             "gunnerDm": "main_caliber_turret_01_dm"
           },
           "limits": {
-            "yaw": [-142.0,142.0],
+            "yaw": [-146.0,146.0],
             "pitch": [-5.0,15.0]
           },
           "limitsTable": {
-            "lim1": [-142.0,-32.0,-5.0,15.0],
-            "lim2": [-32.0,32.0,-1.0,15.0],
-            "lim3": [32.0,142.0,-5.0,15.0]
+            "lim1": [-146.0,-142.0,7.0,15.0],
+            "lim2": [-142.0,-32.0,-5.0,15.0],
+            "lim3": [-32.0,32.0,-1.0,15.0],
+            "lim4": [32.0,142.0,-5.0,15.0],
+            "lim5": [142.0,146.0,7.0,15.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -4961,13 +4963,15 @@
             "gunnerDm": "main_caliber_turret_01_dm"
           },
           "limits": {
-            "yaw": [-142.0,142.0],
+            "yaw": [-146.0,146.0],
             "pitch": [-5.0,15.0]
           },
           "limitsTable": {
-            "lim1": [-142.0,-32.0,-5.0,15.0],
-            "lim2": [-32.0,32.0,-1.0,15.0],
-            "lim3": [32.0,142.0,-5.0,15.0]
+            "lim1": [-146.0,-142.0,7.0,15.0],
+            "lim2": [-142.0,-32.0,-5.0,15.0],
+            "lim3": [-32.0,32.0,-1.0,15.0],
+            "lim4": [32.0,142.0,-5.0,15.0],
+            "lim5": [142.0,146.0,7.0,15.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5028,15 +5032,17 @@
             "gunnerDm": "main_caliber_turret_02_dm"
           },
           "limits": {
-            "yaw": [-125.0,125.0],
+            "yaw": [-135.0,135.0],
             "pitch": [-5.0,15.0]
           },
           "limitsTable": {
-            "lim1": [-125.0,-100.0,2.0,15.0],
-            "lim2": [-100.0,-21.0,-5.0,15.0],
-            "lim3": [-21.0,21.0,-3.0,15.0],
-            "lim4": [21.0,100.0,-5.0,15.0],
-            "lim5": [100.0,125.0,2.0,15.0]
+            "lim1": [-135.0,-128.0,11.0,15.0],
+            "lim2": [-128.0,-100.0,2.0,15.0],
+            "lim3": [-100.0,-21.0,-5.0,15.0],
+            "lim4": [-21.0,21.0,-3.0,15.0],
+            "lim5": [21.0,100.0,-5.0,15.0],
+            "lim6": [100.0,128.0,2.0,15.0],
+            "lim7": [128.0,135.0,11.0,15.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5097,15 +5103,17 @@
             "gunnerDm": "main_caliber_turret_02_dm"
           },
           "limits": {
-            "yaw": [-125.0,125.0],
+            "yaw": [-135.0,135.0],
             "pitch": [-5.0,15.0]
           },
           "limitsTable": {
-            "lim1": [-125.0,-100.0,2.0,15.0],
-            "lim2": [-100.0,-21.0,-5.0,15.0],
-            "lim3": [-21.0,21.0,-3.0,15.0],
-            "lim4": [21.0,100.0,-5.0,15.0],
-            "lim5": [100.0,125.0,2.0,15.0]
+            "lim1": [-135.0,-128.0,11.0,15.0],
+            "lim2": [-128.0,-100.0,2.0,15.0],
+            "lim3": [-100.0,-21.0,-5.0,15.0],
+            "lim4": [-21.0,21.0,-3.0,15.0],
+            "lim5": [21.0,100.0,-5.0,15.0],
+            "lim6": [100.0,128.0,2.0,15.0],
+            "lim7": [128.0,135.0,11.0,15.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5738,7 +5746,7 @@
             "gunnerDm": "auxiliary_caliber_turret_01_dm"
           },
           "limits": {
-            "yaw": [-105.0,0.0],
+            "yaw": [-135.0,0.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -5800,7 +5808,7 @@
             "gunnerDm": "auxiliary_caliber_turret_02_dm"
           },
           "limits": {
-            "yaw": [0.0,105.0],
+            "yaw": [0.0,135.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6234,7 +6242,7 @@
             "gunnerDm": "auxiliary_caliber_turret_09_dm"
           },
           "limits": {
-            "yaw": [-60.0,60.0],
+            "yaw": [-70.0,62.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6296,7 +6304,7 @@
             "gunnerDm": "auxiliary_caliber_turret_10_dm"
           },
           "limits": {
-            "yaw": [-60.0,60.0],
+            "yaw": [-62.0,70.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6358,7 +6366,7 @@
             "gunnerDm": "auxiliary_caliber_turret_11_dm"
           },
           "limits": {
-            "yaw": [-75.0,60.0],
+            "yaw": [-77.0,60.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6420,7 +6428,7 @@
             "gunnerDm": "auxiliary_caliber_turret_12_dm"
           },
           "limits": {
-            "yaw": [-60.0,75.0],
+            "yaw": [-60.0,77.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6482,7 +6490,7 @@
             "gunnerDm": "auxiliary_caliber_turret_13_dm"
           },
           "limits": {
-            "yaw": [0.0,135.0],
+            "yaw": [0.0,140.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6544,7 +6552,7 @@
             "gunnerDm": "auxiliary_caliber_turret_14_dm"
           },
           "limits": {
-            "yaw": [-135.0,0.0],
+            "yaw": [-140.0,0.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6606,7 +6614,7 @@
             "gunnerDm": "auxiliary_caliber_turret_15_dm"
           },
           "limits": {
-            "yaw": [0.0,135.0],
+            "yaw": [0.0,140.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6668,7 +6676,7 @@
             "gunnerDm": "auxiliary_caliber_turret_16_dm"
           },
           "limits": {
-            "yaw": [-135.0,0.0],
+            "yaw": [-140.0,0.0],
             "pitch": [-5.0,20.0]
           },
           "gunStabilizer": {
@@ -6766,7 +6774,7 @@
         "Weapon": {
           "trigger": "gunner23",
           "triggerGroup": "machinegun",
-          "blk": "gameData/Weapons/navalModels_weapons/100mm_47_1928_naval_user_cannon.blk",
+          "blk": "gameData/Weapons/navalModels_weapons/76mm_3_50_mk10_ww1_mk11_mount_naval_user_cannon.blk",
           "emitter": "emtr_gun_flame_06",
           "flash": "emtr_gun_flame_06",
           "useEmitter": true,
@@ -6911,7 +6919,7 @@
         "Weapon": {
           "trigger": "gunner25",
           "triggerGroup": "machinegun",
-          "blk": "gameData/Weapons/navalModels_weapons/100mm_47_1928_naval_user_cannon.blk",
+          "blk": "gameData/Weapons/navalModels_weapons/76mm_3_50_mk10_ww1_mk11_mount_naval_user_cannon.blk",
           "emitter": "emtr_gun_flame_10",
           "flash": "emtr_gun_flame_10",
           "useEmitter": true,
@@ -7213,7 +7221,7 @@
         "Weapon": {
           "trigger": "gunner29",
           "triggerGroup": "machinegun",
-          "blk": "gameData/Weapons/navalModels_weapons/100mm_47_1928_naval_user_cannon.blk",
+          "blk": "gameData/Weapons/navalModels_weapons/76mm_3_50_mk10_ww1_mk11_mount_naval_user_cannon.blk",
           "emitter": "emtr_gun_flame_18",
           "flash": "emtr_gun_flame_18",
           "useEmitter": true,

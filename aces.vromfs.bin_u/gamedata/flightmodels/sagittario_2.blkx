@@ -8,6 +8,7 @@
   "paratrooper": "ally",
   "advancedInstructor": true,
   "advancedMouseAim": true,
+  "tpsCameraOffset": [3.0,-1.0,0.0],
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",
   "startExhaustFxType": "jet_start_exhaust",
@@ -21,11 +22,8 @@
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
-  "fireParamsPreset": "1200kph",
+  "fireParamsPreset": "1100kph",
   "fightAiBehaviour": "fighter",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -2090,32 +2088,6 @@
       "blk": "gameData/FlightModels/weaponPresets/empty.blk"
     }
   },
-  "default_skin": [
-    {
-      "replace_tex": {
-        "from": "vampire_fb5_raf_aluminum_a*",
-        "to": "vampire_fb52a_it_alum_cav_a*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "vampire_fb5_raf_aluminum_a_dmg*",
-        "to": "vampire_fb52a_it_alum_cav_a_dmg*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "vampire_fb5_raf_aluminum_n*",
-        "to": "vampire_fb52a_it_alum_cav_n*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "vampire_fb5_raf_aluminum_n_dmg*",
-        "to": "vampire_fb52a_it_alum_cav_n_dmg*"
-      }
-    }
-  ],
   "turbulence": {
     "segmentlength": 100.0,
     "startSpeed": 28.0,
@@ -2125,7 +2097,7 @@
     "radiusSpeed": 2.0
   },
   "fireParams": {
-    "engineExtinguishFireSpeed": [299.0,345.0],
+    "engineExtinguishFireSpeed": [272.0,316.0],
     "engineExtinguishFireSpeedChance": [0.01,0.1],
     "fireDamagePowerRel": 0.05,
     "nonExtinguishFireTime": 5.0
@@ -2368,6 +2340,31 @@
       "tier": 3
     }
   },
+  "user_skin": [
+    {
+      "name": "sagittario_2"
+    },
+    {
+      "replace_tex": {
+        "from": "sagittario_2_c*"
+      }
+    },
+    {
+      "replace_tex": {
+        "from": "sagittario_2_c_dmg*"
+      }
+    },
+    {
+      "replace_tex": {
+        "from": "sagittario_2_n*"
+      }
+    },
+    {
+      "replace_tex": {
+        "from": "sagittario_2_n_dmg*"
+      }
+    }
+  ],
   "cutting": {
     "emtr_break_wing0_l_from": [-0.0200855,-0.0589928,0.763021],
     "emtr_break_wing0_l_to": [-0.0200855,-0.0589928,1.12434],

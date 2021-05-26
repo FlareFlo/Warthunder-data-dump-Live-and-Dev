@@ -2198,6 +2198,12 @@
     },
     {
       "preset": {
+        "name": "fj_4b_default_aim_9",
+        "blk": "gameData/flightModels/weaponPresets/fj_4b_default_aim_9.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "fj_4b_250lb_mk_81",
         "blk": "gameData/flightModels/weaponPresets/fj_4b_250lb_mk_81.blk",
         "reqModification": "fsbc_mk5"
@@ -2241,7 +2247,7 @@
     {
       "preset": {
         "name": "fj_4b_rockets_2x_aim9",
-        "blk": "gameData/flightModels/weaponPresets/fj_4b_rockets_2x_aim9.blk",
+        "blk": "gameData/flightModels/weaponPresets/fj_4b_aim_9.blk",
         "reqModification": "us_aim_9b"
       }
     },
@@ -2299,13 +2305,6 @@
             }
           ]
         }
-      }
-    },
-    {
-      "preset": {
-        "name": "fj_4b_2x_aim_9",
-        "blk": "gameData/flightModels/weaponPresets/fj_4b_2x_aim_9.blk",
-        "reqModification": "us_aim_9b"
       }
     },
     {

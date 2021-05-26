@@ -2528,6 +2528,9 @@
         },
         "turret_09_side_dm": {
           "armorThickness": 5.3
+        },
+        "ex_decor_01_dm": {
+          "armorThickness": 16.0
         }
       },
       "tank_structural_steel_elements": {
@@ -2536,7 +2539,6 @@
         "hp": 1000.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
-        "ex_decor_01_dm": [],
         "ex_decor_05_dm": [],
         "ex_decor_r_02_dm": [],
         "ex_decor_r_03_dm": [],

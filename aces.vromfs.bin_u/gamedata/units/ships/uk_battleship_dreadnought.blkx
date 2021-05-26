@@ -3269,6 +3269,90 @@
         },
         "torpedo_02_dm": {
           "hp": 100.0
+        },
+        "torpedo_03_dm": {
+          "hp": 100.0
+        },
+        "torpedo_04_dm": {
+          "hp": 100.0
+        },
+        "torpedo_05_dm": {
+          "hp": 100.0
+        },
+        "torpedo_06_dm": {
+          "hp": 100.0
+        },
+        "torpedo_07_dm": {
+          "hp": 100.0
+        },
+        "torpedo_08_dm": {
+          "hp": 100.0
+        },
+        "torpedo_09_dm": {
+          "hp": 100.0
+        },
+        "torpedo_10_dm": {
+          "hp": 100.0
+        },
+        "torpedo_11_dm": {
+          "hp": 100.0
+        },
+        "torpedo_12_dm": {
+          "hp": 100.0
+        },
+        "torpedo_13_dm": {
+          "hp": 100.0
+        },
+        "torpedo_14_dm": {
+          "hp": 100.0
+        },
+        "torpedo_15_dm": {
+          "hp": 100.0
+        },
+        "torpedo_16_dm": {
+          "hp": 100.0
+        },
+        "torpedo_17_dm": {
+          "hp": 100.0
+        },
+        "torpedo_18_dm": {
+          "hp": 100.0
+        },
+        "torpedo_19_dm": {
+          "hp": 100.0
+        },
+        "torpedo_20_dm": {
+          "hp": 100.0
+        },
+        "torpedo_21_dm": {
+          "hp": 100.0
+        },
+        "torpedo_22_dm": {
+          "hp": 100.0
+        },
+        "torpedo_23_dm": {
+          "hp": 100.0
+        },
+        "torpedo_24_dm": {
+          "hp": 100.0
+        },
+        "torpedo_25_dm": {
+          "hp": 100.0
+        },
+        "torpedo_26_dm": {
+          "hp": 100.0
+        },
+        "torpedo_27_dm": {
+          "hp": 100.0
+        },
+        "torpedo_28_dm": {
+          "hp": 100.0
+        },
+        "torpedo_29_dm": {
+          "hp": 100.0
+        },
+        "torpedo_30_dm": {
+          "hp": 100.0
         }
       },
       "boiler_rooms": {
@@ -3330,6 +3414,12 @@
           "hp": 150.0
         },
         "tt_02_dm": {
+          "hp": 150.0
+        },
+        "tt_03_dm": {
+          "hp": 150.0
+        },
+        "tt_04_dm": {
           "hp": 150.0
         }
       },
@@ -8758,40 +8848,390 @@
           }
         }
       ],
-      "ammo7": {
-        "weaponTrigger": "gunner25",
-        "removeLoadedAmmo": false,
-        "fatalFire": false,
-        "fatalExplosion": false,
-        "fireEvent": "torpedo_fire",
-        "explosionEvent": "torpedo_explosion",
-        "fireParamsPreset": "ship_torpedo_fire",
-        "splashRadiusConstraint": 15.0,
-        "shatterRadiusConstraint": 15.0,
-        "shells": {
-          "damageEffect": "ammunition_torpedoes",
-          "torpedo_01_dm": {
-            "count": 1
+      "ammo7": [
+        {
+          "weaponTrigger": "gunner25"
+        },
+        {
+          "replenishmentDelay": 5.0
+        },
+        {
+          "replenishmentTime": 10.0
+        },
+        {
+          "removeLoadedAmmo": false
+        },
+        {
+          "fatalFire": false
+        },
+        {
+          "fatalExplosion": false
+        },
+        {
+          "fireEvent": "torpedo_fire"
+        },
+        {
+          "explosionEvent": "torpedo_explosion"
+        },
+        {
+          "fireParamsPreset": "ship_torpedo_fire"
+        },
+        {
+          "splashRadiusConstraint": 15.0
+        },
+        {
+          "shatterRadiusConstraint": 15.0
+        },
+        {
+          "shells": {
+            "autoLoad": true,
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_01_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_05_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_07_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_09_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_11_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_13_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_15_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_17_dm": {
+              "count": 1
+            }
           }
         }
-      },
-      "ammo8": {
-        "weaponTrigger": "gunner26",
-        "removeLoadedAmmo": false,
-        "fatalFire": false,
-        "fatalExplosion": false,
-        "fireEvent": "torpedo_fire",
-        "explosionEvent": "torpedo_explosion",
-        "fireParamsPreset": "ship_torpedo_fire",
-        "splashRadiusConstraint": 15.0,
-        "shatterRadiusConstraint": 15.0,
-        "shells": {
-          "damageEffect": "ammunition_torpedoes",
-          "torpedo_02_dm": {
-            "count": 1
+      ],
+      "ammo8": [
+        {
+          "weaponTrigger": "gunner26"
+        },
+        {
+          "replenishmentDelay": 5.0
+        },
+        {
+          "replenishmentTime": 10.0
+        },
+        {
+          "removeLoadedAmmo": false
+        },
+        {
+          "fatalFire": false
+        },
+        {
+          "fatalExplosion": false
+        },
+        {
+          "fireEvent": "torpedo_fire"
+        },
+        {
+          "explosionEvent": "torpedo_explosion"
+        },
+        {
+          "fireParamsPreset": "ship_torpedo_fire"
+        },
+        {
+          "splashRadiusConstraint": 15.0
+        },
+        {
+          "shatterRadiusConstraint": 15.0
+        },
+        {
+          "shells": {
+            "autoLoad": true,
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_02_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_06_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_08_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_10_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_12_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_14_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_16_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_18_dm": {
+              "count": 1
+            }
           }
         }
-      }
+      ],
+      "ammo9": [
+        {
+          "weaponTrigger": "gunner27"
+        },
+        {
+          "replenishmentDelay": 5.0
+        },
+        {
+          "replenishmentTime": 10.0
+        },
+        {
+          "removeLoadedAmmo": false
+        },
+        {
+          "fatalFire": false
+        },
+        {
+          "fatalExplosion": false
+        },
+        {
+          "fireEvent": "torpedo_fire"
+        },
+        {
+          "explosionEvent": "torpedo_explosion"
+        },
+        {
+          "fireParamsPreset": "ship_torpedo_fire"
+        },
+        {
+          "splashRadiusConstraint": 15.0
+        },
+        {
+          "shatterRadiusConstraint": 15.0
+        },
+        {
+          "shells": {
+            "autoLoad": true,
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_03_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_19_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_21_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_23_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_25_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_27_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_29_dm": {
+              "count": 1
+            }
+          }
+        }
+      ],
+      "ammo10": [
+        {
+          "weaponTrigger": "gunner28"
+        },
+        {
+          "replenishmentDelay": 5.0
+        },
+        {
+          "replenishmentTime": 10.0
+        },
+        {
+          "removeLoadedAmmo": false
+        },
+        {
+          "fatalFire": false
+        },
+        {
+          "fatalExplosion": false
+        },
+        {
+          "fireEvent": "torpedo_fire"
+        },
+        {
+          "explosionEvent": "torpedo_explosion"
+        },
+        {
+          "fireParamsPreset": "ship_torpedo_fire"
+        },
+        {
+          "splashRadiusConstraint": 15.0
+        },
+        {
+          "shatterRadiusConstraint": 15.0
+        },
+        {
+          "shells": {
+            "autoLoad": true,
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_04_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_20_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_22_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_24_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_26_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_28_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_torpedoes",
+            "torpedo_30_dm": {
+              "count": 1
+            }
+          }
+        }
+      ]
     }
   },
   {

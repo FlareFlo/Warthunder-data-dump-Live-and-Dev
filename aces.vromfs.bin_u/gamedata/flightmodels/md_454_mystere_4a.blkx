@@ -21,13 +21,10 @@
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
-  "fireParamsPreset": "1100kph",
+  "fireParamsPreset": "1200kph",
   "fightAiBehaviour": "fighter",
   "gyroscopicSightOverSensors": true,
   "weaponRetractVar": "open_launcher",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -37,7 +34,7 @@
         "hp": 15.0
       }
     },
-    "armor16": {
+    "armor13_5": {
       "armor2_dm": {
         "hp": 40.0
       },
@@ -183,6 +180,11 @@
       },
       "gear_r_dm": {
         "hp": 39.5
+      }
+    },
+    "steel_cooling_sys": {
+      "oil1_dm": {
+        "hp": 17.5
       }
     },
     "steel_pilot": {
@@ -1077,6 +1079,17 @@
           }
         }
       ]
+    },
+    {
+      "part": {
+        "name": "oil1_dm",
+        "onHit": {
+          "leak_oil": 0.95
+        },
+        "onKill": {
+          "leak_oil": 1.0
+        }
+      }
     },
     {
       "part": {
@@ -2357,49 +2370,219 @@
       "preset": {
         "name": "md_454_matra61",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra61.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151b.blk"
+              },
+              {
+                "amountPerTier": 2.0
+              },
+              {
+                "tier": {
+                  "idx": 3,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 4,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151a.blk"
+              },
+              {
+                "amountPerTier": 2.0
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 9,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "md_454_matra101",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra101.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+            "amountPerTier": 55.0,
+            "iconType": "nar_ap_rocket_b"
+          }
+        }
       }
     },
     {
       "preset": {
         "name": "md_454_matra101_matra116",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra101_matra116.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": [
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+              "amountPerTier": 55.0,
+              "iconType": "nar_ap_rocket_b"
+            }
+          },
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23.blk",
+              "amountPerTier": 19.0,
+              "iconType": "nar_ap_middle"
+            }
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "md_454_matra101_matra61",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra101_matra61.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": [
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+              "amountPerTier": 55.0,
+              "tier": {
+                "idx": 6,
+                "iconType": "nar_ap_rocket_b"
+              }
+            }
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151b.blk"
+              },
+              {
+                "amountPerTier": 2.0
+              },
+              {
+                "tier": {
+                  "idx": 3,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 4,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151a.blk"
+              },
+              {
+                "amountPerTier": 2.0
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 9,
+                  "iconType": "rockets_ap_large_group_x2"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "md_454_matra101_2x400_type21a",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra101_2x400_type21a.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+            "amountPerTier": 55.0,
+            "iconType": "nar_ap_rocket_b"
+          }
+        }
       }
     },
     {
       "preset": {
         "name": "md_454_matra101_2x500lbs",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra101_2x500lbs.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+            "amountPerTier": 55.0,
+            "iconType": "nar_ap_rocket_b"
+          }
+        }
       }
     },
     {
       "preset": {
         "name": "md_454_matra101_2x1000lbs",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra101_2x1000lbs.blk",
-        "reqModification": "fr_matra_type116"
+        "reqModification": "fr_matra_type116",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+            "amountPerTier": 55.0,
+            "iconType": "nar_ap_rocket_b"
+          }
+        }
       }
     },
     {
@@ -2422,6 +2605,15 @@
         },
         {
           "reqModification": "fr_matra_type116"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+              "amountPerTier": 55.0,
+              "iconType": "nar_ap_rocket_b"
+            }
+          }
         }
       ]
     }
@@ -2435,7 +2627,7 @@
     "radiusSpeed": 2.0
   },
   "fireParams": {
-    "engineExtinguishFireSpeed": [272.0,316.0],
+    "engineExtinguishFireSpeed": [299.0,345.0],
     "engineExtinguishFireSpeedChance": [0.01,0.1],
     "fireDamagePowerRel": 0.05,
     "nonExtinguishFireTime": 5.0

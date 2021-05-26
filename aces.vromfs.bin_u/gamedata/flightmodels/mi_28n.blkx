@@ -30,17 +30,37 @@
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "DamageParts": {
-    "alum_alloy20": {
-      "armor2_dm": {
-        "hp": 40.0
+    "alum_alloy10": {
+      "armor11_dm": {
+        "hp": 35.0
       },
-      "armor8_dm": {
-        "hp": 40.0
+      "armor12_dm": {
+        "hp": 35.0
+      },
+      "armor13_dm": {
+        "hp": 35.0
+      },
+      "armor14_dm": {
+        "hp": 35.0
+      },
+      "armor1_dm": {
+        "hp": 35.0
+      },
+      "armor2_dm": {
+        "hp": 35.0
       }
     },
     "armor10": {
+      "armor10_dm": {
+        "hp": 40.0
+      },
       "cannon1_dm": {
         "hp": 15.0
+      }
+    },
+    "armor8": {
+      "armor15_dm": {
+        "hp": 40.0
       }
     },
     "armor_engine": {
@@ -89,20 +109,9 @@
         "hp": 50.5
       }
     },
-    "composite16": {
-      "armor10_dm": {
-        "hp": 45.0
-      },
-      "armor4_dm": {
-        "hp": 45.0
-      },
+    "ceramic16": {
       "armor9_dm": {
         "hp": 45.0
-      }
-    },
-    "composite26": {
-      "armor1_dm": {
-        "hp": 50.0
       }
     },
     "dural": {
@@ -120,18 +129,21 @@
       "armor3_dm": {
         "hp": 110.0
       },
-      "armor5_dm": {
+      "armor4_dm": {
         "hp": 110.0
       },
-      "armor6_dm": {
+      "armor5_dm": {
         "hp": 110.0
       },
       "armor7_dm": {
         "hp": 110.0
+      },
+      "armor8_dm": {
+        "hp": 110.0
       }
     },
-    "new_armor_glass44": {
-      "armor11_dm": {
+    "new_armor_glass42": {
+      "armor6_dm": {
         "hp": 110.0
       }
     },
@@ -195,6 +207,26 @@
     {
       "part": {
         "name": "armor11_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "armor12_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "armor13_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "armor14_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "armor15_dm"
       }
     },
     {

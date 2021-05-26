@@ -33,7 +33,7 @@
     "maxDeltaAngleVertical": 0.085
   },
   {
-    "shotFreq": 9.5
+    "shotFreq": 9.334
   },
   {
     "traceFreq": 3
@@ -42,7 +42,7 @@
     "bEnablePause": false
   },
   {
-    "bullets": 200
+    "bullets": 108
   },
   {
     "bulletsCluster": 1
@@ -51,7 +51,7 @@
     "reloadTime": 0.2
   },
   {
-    "bulletsCartridge": 200
+    "bulletsCartridge": 108
   },
   {
     "fxType": "muzzle_ground_30mm"
@@ -406,7 +406,7 @@
   {
     "25mm_M242_HE": [
       {
-        "bulletsCartridge": 125
+        "bulletsCartridge": 108
       },
       {
         "bullet": {
@@ -896,7 +896,7 @@
   {
     "25mm_M242_APDS": [
       {
-        "bulletsCartridge": 75
+        "bulletsCartridge": 108
       },
       {
         "bullet": {
@@ -1340,7 +1340,7 @@
   },
   {
     "25mm_M242_APDS_FS": {
-      "bulletsCartridge": 75,
+      "bulletsCartridge": 108,
       "bullet": {
         "bulletCount": 25,
         "mass": 0.098,

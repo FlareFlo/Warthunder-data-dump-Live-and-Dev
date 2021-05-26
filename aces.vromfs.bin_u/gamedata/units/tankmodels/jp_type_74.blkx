@@ -1798,10 +1798,17 @@
         "role": "loader",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2394,6 +2401,7 @@
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "rotatedTurret": "bone_turret"
           },
           "limits": {
@@ -2416,6 +2424,7 @@
             "verticalOmegaMult": 1.0,
             "verticalSpeedLimitKPH": 75.0,
             "speedFromVehicleVerticalMult": -1.0,
+            "forceEnabled": true,
             "errorKPHToDegrees": [
               {
                 "row": [5.0,0.0]
@@ -2521,6 +2530,7 @@
               "head": "bone_mg_gun_twin_01",
               "gun": "bone_mg_gun_twin_01",
               "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm",
               "verDriveDm": "drive_turret_v_dm",
               "horDriveDm": "drive_turret_h_dm"
             }
@@ -3383,6 +3393,7 @@
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "rotatedTurret": "bone_turret"
                 },
                 "limits": {
@@ -3405,6 +3416,7 @@
                   "verticalOmegaMult": 1.0,
                   "verticalSpeedLimitKPH": 75.0,
                   "speedFromVehicleVerticalMult": -1.0,
+                  "forceEnabled": true,
                   "errorKPHToDegrees": [
                     {
                       "row": [5.0,0.0]
@@ -3510,6 +3522,7 @@
                     "head": "bone_mg_gun_twin_01",
                     "gun": "bone_mg_gun_twin_01",
                     "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm",
                     "verDriveDm": "drive_turret_v_dm",
                     "horDriveDm": "drive_turret_h_dm"
                   }

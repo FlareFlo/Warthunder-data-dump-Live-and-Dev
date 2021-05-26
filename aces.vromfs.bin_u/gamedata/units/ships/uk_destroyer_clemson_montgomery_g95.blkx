@@ -3450,8 +3450,6 @@
           "damagePartsOverride": {
             "ammo": {
               "fireDamageMult": 0.75,
-              "ammunition_storage_01_dm": [],
-              "ammunition_storage_02_dm": [],
               "ammunition_storage_shells_01_dm": [],
               "ammunition_storage_shells_02_dm": [],
               "ammunition_storage_shells_03_dm": []
@@ -3933,13 +3931,7 @@
           "weaponTrigger": "gunner14"
         },
         {
-          "replenishmentTime": 5.0
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "removeLoadedAmmo": true
+          "removeLoadedAmmo": false
         },
         {
           "fatalFire": false
@@ -3961,7 +3953,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_08_dm": {
               "count": 1
@@ -3970,7 +3961,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_09_dm": {
               "count": 1
@@ -3979,7 +3969,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_10_dm": {
               "count": 1
@@ -3988,7 +3977,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_11_dm": {
               "count": 1
@@ -3997,7 +3985,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_19_dm": {
               "count": 1
@@ -4006,7 +3993,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_20_dm": {
               "count": 1
@@ -4015,7 +4001,6 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_21_dm": {
               "count": 1
@@ -4024,21 +4009,9 @@
         },
         {
           "shells": {
-            "autoLoad": true,
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_22_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "reloadTimeMult": 2.5,
-            "damageEffect": "ammunition_storage_aux",
-            "explosionEvent": "ammo_aux_explosion_2",
-            "fireEvent": "ammo_aux_fire_2",
-            "ammunition_storage_02_dm": {
-              "count": 16
             }
           }
         }

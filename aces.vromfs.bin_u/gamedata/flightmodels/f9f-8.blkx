@@ -2557,6 +2557,12 @@
     },
     {
       "preset": {
+        "name": "f9f_8_default_aim_9",
+        "blk": "gameData/FlightModels/weaponPresets/f9f_8_default_aim_9.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f9f_8_4x500lb_bombs",
         "blk": "gameData/FlightModels/weaponPresets/f9f_8_4x500lb_bombs.blk",
         "reqModification": "flbc_mk2"

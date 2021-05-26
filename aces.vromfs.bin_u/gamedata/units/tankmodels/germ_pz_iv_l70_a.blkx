@@ -2270,7 +2270,7 @@
       },
       "body_shields": {
         "armorClass": "tank_structural_steel",
-        "hp": 1000.0,
+        "hp": 400.0,
         "armorThickness": 4.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
@@ -2287,7 +2287,7 @@
       "hull_turret_ex_shields": {
         "armorClass": "tank_structural_steel",
         "armorThickness": 5.0,
-        "hp": 100.0,
+        "hp": 400.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "ex_armor_body_r_01_dm": [],

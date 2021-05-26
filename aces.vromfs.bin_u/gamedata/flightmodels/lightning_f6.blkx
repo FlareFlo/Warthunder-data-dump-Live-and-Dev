@@ -2324,8 +2324,7 @@
     {
       "preset": {
         "name": "lightning_f6_firestreak",
-        "blk": "gameData/FlightModels/weaponPresets/lightning_f6_firestreak.blk",
-        "reqModification": "aam_firestreak"
+        "blk": "gameData/FlightModels/weaponPresets/lightning_f6_firestreak.blk"
       }
     },
     {
@@ -2595,13 +2594,8 @@
       "reqModification": "aden_belt_pack",
       "tier": 3
     },
-    "aam_firestreak": {
-      "tier": 2,
-      "modClass": "weapon"
-    },
     "aam_redtop": {
-      "reqModification": "aam_firestreak",
-      "tier": 4,
+      "tier": 2,
       "modClass": "weapon"
     }
   },

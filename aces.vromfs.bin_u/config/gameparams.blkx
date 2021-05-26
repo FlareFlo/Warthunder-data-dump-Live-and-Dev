@@ -9987,9 +9987,6 @@
         "p": "antenna_target_tagging"
       },
       {
-        "p": "commander_panoramic_sight"
-      },
-      {
         "p": {
           "name": "auxiliary_caliber_turret",
           "unit": "ship"
@@ -12666,6 +12663,78 @@
         "p": {
           "name": "wheel_l_04_",
           "modelNames": "concept3_ngac"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "crotale_ng"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "crotale_ng"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "crotale_ng"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "crotale_ng"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "crotale_ng"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "crotale_ng"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "wma_301"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "wma_301"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "wma_301"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "wma_301"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "wma_301"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "wma_301"
         }
       }
     ],
@@ -16395,14 +16464,40 @@
     "resultsDelay": 20.0,
     "statisticsDelay": 35.0,
     "debriefingDelay": 35.0,
-    "camera": {
-      "initialHeight": 200.0,
-      "initialDistance": 2000.0,
-      "targetHeight": 1300.0,
-      "targetDistance": 4300.0,
-      "transitionViscosity": 9.0,
-      "disableHud": true,
-      "rotationPeriod": 50.0
+    "disableHud": true,
+    "cameras": {
+      "cam00": {
+        "initialPoint": [2200.0,2200.0,1600.0],
+        "finalPoint": [1000.0,0.0,1000.0],
+        "initialTarget": [0.0,0.0,0.0],
+        "finalTarget": [0.0,-10.0,300.0],
+        "time": 4.0,
+        "needBlackness": false
+      },
+      "cam01": {
+        "initialPoint": [1000.0,0.0,1000.0],
+        "finalPoint": [600.0,0.0,400.0],
+        "initialTarget": [0.0,-10.0,300.0],
+        "finalTarget": [0.0,0.0,400.0],
+        "time": 6.0,
+        "needBlackness": false
+      },
+      "cam02": {
+        "initialPoint": [600.0,0.0,300.0],
+        "finalPoint": [-200.0,100.0,-1100.0],
+        "initialTarget": [0.0,0.0,400.0],
+        "finalTarget": [0.0,0.0,0.0],
+        "time": 4.0,
+        "needBlackness": false
+      },
+      "cam03": {
+        "initialPoint": [-200.0,100.0,-1100.0],
+        "finalPoint": [-1800.0,200.0,-1100.0],
+        "initialTarget": [0.0,0.0,0.0],
+        "finalTarget": [0.0,600.0,0.0],
+        "time": 8.0,
+        "needBlackness": false
+      }
     }
   },
   "depthAO": {

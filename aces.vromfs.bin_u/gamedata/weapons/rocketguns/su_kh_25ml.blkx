@@ -162,7 +162,7 @@
       "fireEffect": "fires_rocket_tail_short_doubleside_smoked"
     },
     {
-      "smokeEffect": ""
+      "smokeEffect": "rocket_fire_short_nofire"
     },
     {
       "hazeEffect": "haze_missile"

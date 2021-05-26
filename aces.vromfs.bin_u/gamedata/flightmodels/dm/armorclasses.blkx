@@ -423,6 +423,15 @@
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.3
   },
+  "new_armor_glass42": {
+    "armorThickness": 42.0,
+    "armorThrough": 38.0,
+    "restrainDamage": 0.2,
+    "armorQuality": 0.7,
+    "ricochetAngle": 85.0,
+    "ricochetCosinePower": 1.0,
+    "ricochetDamage": 0.3
+  },
   "new_armor_glass44": {
     "armorThickness": 44.0,
     "armorThrough": 40.0,
@@ -1310,6 +1319,14 @@
     "ricochetCosinePower": 2.0,
     "ricochetDamage": 0.3
   },
+  "alum_alloy10": {
+    "armorThickness": 10.0,
+    "armorThrough": 10.0,
+    "restrainDamage": 0.2,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.3
+  },
   "alum_alloy16": {
     "armorThickness": 16.0,
     "armorThrough": 16.0,
@@ -1344,6 +1361,14 @@
   },
   "composite26": {
     "armorThickness": 26.0,
+    "armorThrough": 25.0,
+    "restrainDamage": 0.2,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.3
+  },
+  "ceramic16": {
+    "armorThickness": 16.0,
     "armorThrough": 25.0,
     "restrainDamage": 0.2,
     "ricochetAngle": 60.0,

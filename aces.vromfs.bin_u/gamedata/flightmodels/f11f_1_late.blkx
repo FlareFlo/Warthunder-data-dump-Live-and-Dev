@@ -2362,6 +2362,12 @@
     },
     {
       "preset": {
+        "name": "f11f_1_late_default_aim_9",
+        "blk": "gameData/FlightModels/weaponPresets/f11f_1_late_default_aim_9.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f11f_1_late_bomb_mk82",
         "blk": "gameData/FlightModels/weaponPresets/f11f_1_late_bomb_mk82.blk",
         "reqModification": "us_500lb_mk82"

@@ -798,6 +798,7 @@
         "speed": 762.0,
         "maxDistance": 60000.0,
         "speedDispersion": 0.012,
+        "Cx": 0.635,
         "normalizationPreset": "apbc",
         "ricochetPreset": "apbc",
         "secondaryShattersPreset": "ap",

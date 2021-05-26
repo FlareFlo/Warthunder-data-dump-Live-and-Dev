@@ -2252,6 +2252,12 @@
     },
     {
       "preset": {
+        "name": "f_100d_default_2x_aim9b",
+        "blk": "gameData/flightModels/weaponPresets/f_100d_default_2x_aim9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f_100_4xAero7",
         "blk": "gameData/flightModels/weaponPresets/f_100d_4xAero7.blk",
         "reqModification": "us_2_75_in_ffar_lau_3a"

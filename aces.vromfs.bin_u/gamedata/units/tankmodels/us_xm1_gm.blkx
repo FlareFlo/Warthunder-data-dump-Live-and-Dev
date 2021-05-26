@@ -2157,10 +2157,17 @@
         "role": "loader",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2742,7 +2749,8 @@
             "head": "bone_turret",
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
-            "gunnerDm": "gunner_dm"
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm"
           },
           "limits": {
             "yaw": [-180.0,180.0],
@@ -2857,7 +2865,8 @@
             "turret": {
               "head": "bone_mg_gun_twin_02",
               "gun": "bone_mg_gun_twin_02",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -2898,7 +2907,7 @@
           "turret": {
             "head": "bone_mg_aa_h",
             "gun": "bone_mg_aa_v",
-            "gunnerDm": "commander_dm"
+            "gunnerDm": "loader_dm"
           },
           "limits": {
             "yaw": [-120.0,120.0],
