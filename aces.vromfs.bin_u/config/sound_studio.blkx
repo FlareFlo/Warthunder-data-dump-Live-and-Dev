@@ -19,7 +19,7 @@
   "defGame": "master",
   "waitForMenuMusic": true,
   "useOneshotForAirGunSound": true,
-  "minShotStep": 0.037,
+  "minShotStep": 0.1,
   "maxAltFallBullets": 20.0,
   "maxSpeedFallBullets": 50.0,
   "event_time_to_live": 12.0,

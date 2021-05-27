@@ -2099,6 +2099,7 @@
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "rotatedTurret": "bone_turret",
             "linkedAnimPart": {
               "verNode": "bone_camera_gunner",
@@ -2234,6 +2235,7 @@
               "head": "bone_mg_gun_twin_01",
               "gun": "bone_mg_gun_twin_01",
               "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm",
               "verDriveDm": "drive_turret_v_dm",
               "horDriveDm": "drive_turret_h_dm"
             }
@@ -2281,6 +2283,7 @@
             "head": "bone_mg_gun_twin_02",
             "gun": "bone_mg_gun_twin_02",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "verDriveDm": "drive_turret_v_dm",
             "horDriveDm": "drive_turret_h_dm"
           },

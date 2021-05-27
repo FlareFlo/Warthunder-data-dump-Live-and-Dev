@@ -3942,14 +3942,16 @@
     "rocketCameraViscosity": 0.02,
     "cameraShakeMultiplier": 2.0,
     "followBullet": {
-      "coneRadius": 15.0,
-      "bulletDistance": 20.0,
+      "coneRadius": 11.0,
+      "bulletDistance": 18.0,
       "bulletZoomDistanceRange": [0.5,1.3],
       "returnSpeed": 4500.0,
-      "fov": 60.0,
+      "fov": 45.0,
       "traceFxName": "bullet_distortion",
       "timeAfterBulletDied": 2.0,
-      "watchExplosionDistance": 100.0
+      "watchExplosionDistance": 100.0,
+      "maxHeight": 4000.0,
+      "maxTimeToLive": 40.0
     }
   },
   "weapon_aim_camera": {

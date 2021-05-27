@@ -1727,10 +1727,17 @@
         }
       },
       {
-        "commander": {
-          "dmPart": "commander_dm",
-          "role": "commander"
-        }
+        "commander": [
+          {
+            "dmPart": "commander_dm"
+          },
+          {
+            "role": "commander"
+          },
+          {
+            "role": "tank_gunner"
+          }
+        ]
       }
     ]
   },
@@ -2315,6 +2322,7 @@
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "rotatedTurret": "bone_turret"
           },
           "limits": {
@@ -2431,7 +2439,8 @@
             "turret": {
               "head": "bone_mg_twin_01",
               "gun": "bone_mg_twin_01",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -2484,6 +2493,7 @@
             "head": "bone_gun_01",
             "gun": "bone_gun_01",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "rotatedTurret": "bone_turret"
           },
           "limits": {
@@ -3245,6 +3255,7 @@
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "rotatedTurret": "bone_turret"
                 },
                 "limits": {
@@ -3361,7 +3372,8 @@
                   "turret": {
                     "head": "bone_mg_twin_01",
                     "gun": "bone_mg_twin_01",
-                    "gunnerDm": "gunner_dm"
+                    "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm"
                   }
                 },
                 {
@@ -3414,6 +3426,7 @@
                   "head": "bone_gun_01",
                   "gun": "bone_gun_01",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "rotatedTurret": "bone_turret"
                 },
                 "limits": {

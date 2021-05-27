@@ -66,7 +66,7 @@
       "wingAreaMult": 1.35
     },
     {
-      "CxK": 2.5
+      "CxK": 2.6
     },
     {
       "WdK": [0.1,0.1,0.1]
@@ -436,7 +436,8 @@
         "workTime": 100.0,
         "uncageBeforeLaunch": true,
         "lockAfterLaunch": true,
-        "lockTimeOut": 3.0,
+        "lockTimeOut": 1.7,
+        "afterLaunchSpeedUp": 450.0,
         "breakLockMaxTime": 3.0,
         "radarSeeker": {
           "band": 8,
@@ -477,7 +478,7 @@
           }
         },
         "guidanceAutopilot": {
-          "timeOut": 3.0,
+          "timeOut": 1.7,
           "propNavMult": 4.0,
           "reqAccelMax": 17.0,
           "baseIndSpeed": 1580.0,
@@ -524,7 +525,7 @@
     },
     {
       "proximityFuse": {
-        "timeOut": 3.0,
+        "timeOut": 1.7,
         "radius": 10.0,
         "detectShells": false
       }

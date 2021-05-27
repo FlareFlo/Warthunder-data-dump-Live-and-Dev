@@ -17810,6 +17810,34 @@
         "bulletMod": "countermeasures_launcher_chaff_only"
       }
     },
+    "q5_countermeasures_launcher_chaff_priority": {
+      "reqModification": "q_5b_ltc",
+      "group": "countermeasures",
+      "effects": {
+        "bulletMod": "countermeasures_launcher_chaff_priority"
+      }
+    },
+    "q5_countermeasures_launcher_flare_priority": {
+      "reqModification": "q_5b_ltc",
+      "group": "countermeasures",
+      "effects": {
+        "bulletMod": "countermeasures_launcher_flare_priority"
+      }
+    },
+    "q5_countermeasures_launcher_flare_only": {
+      "reqModification": "q_5b_ltc",
+      "group": "countermeasures",
+      "effects": {
+        "bulletMod": "countermeasures_launcher_flare_only"
+      }
+    },
+    "q5_countermeasures_launcher_chaff_only": {
+      "reqModification": "q_5b_ltc",
+      "group": "countermeasures",
+      "effects": {
+        "bulletMod": "countermeasures_launcher_chaff_only"
+      }
+    },
     "maw_countermeasures_launcher_chaff_priority": {
       "reqModification": "MAW_system_heli_false_thermal_targets",
       "group": "countermeasures",

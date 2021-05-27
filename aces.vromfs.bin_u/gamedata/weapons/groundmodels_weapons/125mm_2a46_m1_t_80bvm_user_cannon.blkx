@@ -490,149 +490,6 @@
       }
     }
   },
-  "125mm_ussr_Practice": {
-    "bullet": {
-      "mass": 19.0,
-      "caliber": 0.125,
-      "Cx": 0.025,
-      "speed": 905.0,
-      "maxDistance": 7000.0,
-      "normalizationPreset": "heat",
-      "ricochetPreset": "heat_fs",
-      "secondaryShattersPreset": "ap",
-      "stabilityThreshold": 0.05,
-      "stabilityCaliberToArmorThreshold": 5.0,
-      "stabilityReductionAfterRicochet": 0.5,
-      "stabilityReductionAfterPenetration": 0.15,
-      "bulletType": "practice_tank",
-      "slopeEffectPreset": "ap",
-      "fresnel": [0.23,0.1,2.0],
-      "bulletName": "125mm_practice",
-      "relativeVelHitShift": [300.0,1000.0],
-      "hitPowerMult": 1500.0,
-      "relativeVelArmorShift": [200.0,1000.0],
-      "explodeTreshold": 0.1,
-      "explosionEffect": "hit_106_132mm_dirt_ap",
-      "groundCollisionEffect": "hit_106_132mm_dirt_ap",
-      "ricochetEffect": "hit_106_132mm_metal_ap",
-      "waterCollisionEffect": "hit_106_132mm_water",
-      "explosionPatchRadius": 2.8,
-      "stabilityRicochetModifier": [
-        {
-          "mod1": [0.0,0.05]
-        },
-        {
-          "mod2": [20.0,0.1]
-        },
-        {
-          "mod3": [30.0,0.2]
-        },
-        {
-          "mod3": [45.0,0.3]
-        }
-      ],
-      "hitpower": {
-        "HitPower0m": [1.0,0.0],
-        "HitPower1000m": [0.9,0.0],
-        "HitPower10000m": [0.8,10000.0]
-      },
-      "damage": {
-        "kinetic": {
-          "damageType": "generic",
-          "demarrePenetrationK": 0.9,
-          "demarreSpeedPow": 1.43,
-          "demarreMassPow": 0.71,
-          "demarreCaliberPow": 1.07
-        }
-      },
-      "visual": {
-        "range_percent_of_ammo": [100.0,0.0],
-        "traceFreq": 1,
-        "tracer": "100mmRed",
-        "trail": "black"
-      },
-      "collisions": {
-        "default": {
-          "fx": "hit_106_132mm_dirt_ap"
-        },
-        "horLandMesh": {
-          "fx": "hit_106_132mm_dirt_ap"
-        },
-        "soil": {
-          "fx": "hit_106_132mm_dirt_ap"
-        },
-        "dirt": {
-          "fx": "hit_106_132mm_dirt_ap"
-        },
-        "road": {
-          "fx": "hit_106_132mm_dirt_ap"
-        },
-        "roadSoil": {
-          "fx": "hit_106_132mm_dirt_ap"
-        },
-        "bricks_red": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "sand": {
-          "fx": "hit_106_132mm_sand_ap"
-        },
-        "duneSand": {
-          "fx": "hit_106_132mm_sand_ap"
-        },
-        "roadSand": {
-          "fx": "hit_106_132mm_sand_ap"
-        },
-        "quickSand": {
-          "fx": "hit_106_132mm_sand_ap"
-        },
-        "snow": {
-          "fx": "hit_106_132mm_snow_ap"
-        },
-        "ice": {
-          "fx": "hit_106_132mm_snow_ap"
-        },
-        "roadSnow": {
-          "fx": "hit_106_132mm_snow_ap"
-        },
-        "snowLower": {
-          "fx": "hit_106_132mm_snow_ap"
-        },
-        "glass": {
-          "fx": "hit_106_132mm_metal_ap"
-        },
-        "wood": {
-          "fx": "hit_106_132mm_wood_ap"
-        },
-        "steel": {
-          "fx": "hit_106_132mm_metal_ap"
-        },
-        "metal": {
-          "fx": "hit_106_132mm_metal_ap"
-        },
-        "buildings": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "verLandMesh": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "concrete": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "rocks": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "rocksSlippery": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "fabric": {
-          "fx": "hit_106_132mm_stone_ap"
-        },
-        "stone_snow": {
-          "fx": "hit_106_132mm_snow_ap"
-        }
-      }
-    }
-  },
   "125mm_ussr_3BM42_APDS_FS": {
     "bullet": {
       "mass": 4.85,
@@ -1176,7 +1033,7 @@
   },
   "125mm_ussr_ATGM": {
     "bullet": {
-      "mass": 16.5,
+      "mass": 17.2,
       "normalizationPreset": "heat",
       "ricochetPreset": "atgm",
       "secondaryShattersPreset": "ap",
@@ -1184,17 +1041,17 @@
       "stabilityCaliberToArmorThreshold": 5.0,
       "stabilityReductionAfterRicochet": 0.3,
       "stabilityReductionAfterPenetration": 0.15,
-      "bulletType": "atgm_tank",
+      "bulletType": "atgm_tandem_tank",
       "cumulativeSecondaryShattersPreset": "atgm",
       "explodeOnRendinst": true,
       "fresnel": [0.23,0.1,2.0],
-      "shellAnimation": "video/shells_animations/atgm.ivf",
-      "bulletName": "125mm_9m_119",
+      "shellAnimation": "video/shells_animations/atgm_tandem.ivf",
+      "bulletName": "125mm_9m_119m1",
       "caliber": 0.125,
       "sound_path": "tanks/weapon_tanks/atgm",
       "sound_pathStudio": "ground/weapon/atgm",
-      "sound": "atgm_cannon",
-      "sound_inside": "atgm_cannon_interior",
+      "sound": "atgm",
+      "sound_inside": "atgm_interior",
       "sfxReloadBullet": "grd_cannon_reload_auto",
       "recoilMultiplier": 0.05,
       "shotFxType": "muzzle_ground_40mm_slow",
@@ -1208,10 +1065,10 @@
       },
       "rocket": {
         "caliber": 0.125,
-        "mass": 23.3,
-        "explosiveType": "a_ix_1",
+        "mass": 17.2,
+        "explosiveType": "comp_b",
         "explosiveMass": 3.6,
-        "massEnd": 23.3,
+        "massEnd": 17.2,
         "normalizationPreset": "heat",
         "ricochetPreset": "atgm",
         "secondaryShattersPreset": "ap",
@@ -1219,11 +1076,11 @@
         "stabilityCaliberToArmorThreshold": 5.0,
         "stabilityReductionAfterRicochet": 0.3,
         "stabilityReductionAfterPenetration": 0.15,
-        "bulletType": "atgm_tank",
+        "bulletType": "atgm_tandem_tank",
         "cumulativeSecondaryShattersPreset": "atgm",
         "explodeOnRendinst": true,
         "fresnel": [0.23,0.1,2.0],
-        "shellAnimation": "video/shells_animations/atgm.ivf",
+        "shellAnimation": "video/shells_animations/atgm_tandem.ivf",
         "isBeamRider": true,
         "maxDeltaAngle": 0.02,
         "dragCx": 0.027,
@@ -1231,7 +1088,7 @@
         "distFromCmToStab": 0.005,
         "CxK": 1.5,
         "WdK": [0.1,0.1,0.1],
-        "force": 5917.0,
+        "force": 2000.0,
         "timeFire": 20.0,
         "thrustDeviation": 0.01,
         "operated": true,
@@ -1252,18 +1109,21 @@
         "spawnExplosionWreckage": false,
         "spawnExplosionFx": false,
         "hitPowerMult": 100.0,
+        "fuseDelayDist": 0.4,
+        "nearHitPower": [1.0,50.0],
+        "midHitPower": [0.9,400.0],
+        "farHitPower": [0.1,1000.0],
+        "endHitPower": [0.01,1500.0],
         "relativeVelHitShift": [300.0,1000.0],
         "relativeVelArmorShift": [200.0,1000.0],
-        "hitPower": 260.0,
-        "fuseDelayDist": 0.05,
-        "explodeTreshold": 0.1,
         "distanceFuse": false,
+        "explodeTreshold": 0.01,
         "rendinstDamageRadius": 2.0,
         "statType": "hydra",
         "advancedMissiles": false,
         "useStartSpeed": true,
         "startSpeed": 150.0,
-        "endSpeed": 400.0,
+        "endSpeed": 350.0,
         "price": 3000.0,
         "mesh": "125mm_9m119m",
         "stabilityRicochetModifier": {
@@ -1273,6 +1133,9 @@
         },
         "pressureDamage": {
           "damageType": "pressure"
+        },
+        "kineticDamage": {
+          "damageType": "tandemPrecharge"
         },
         "collisions": {
           "default": {
@@ -1354,16 +1217,9 @@
             "fx": "hit_106_132mm_snow_he"
           }
         },
-        "hitpower": {
-          "HitPower0m": [1.0,500.0],
-          "HitPower1000m": [0.9,1000.0],
-          "HitPower1500m": [0.65,1500.0],
-          "HitPower2500m": [0.5,2500.0],
-          "HitPower7000m": [0.0,7000.0]
-        },
         "armorpower": {
-          "ArmorPower0m": [5.0,10.0],
-          "ArmorPower10000m": [4.0,10000.0]
+          "ArmorPower0m": [50.0,10.0],
+          "ArmorPower10000m": [50.0,10000.0]
         },
         "damage": {
           "explosive": {
@@ -1459,8 +1315,8 @@
           "breachConeAngle": 45.0
         },
         "cumulativeDamage": {
-          "armorPower": 700.0,
-          "distance": 6.5,
+          "armorPower": 850.0,
+          "distance": 7.5,
           "damage": 600.0,
           "onHitChanceMultFire": 25.0
         }

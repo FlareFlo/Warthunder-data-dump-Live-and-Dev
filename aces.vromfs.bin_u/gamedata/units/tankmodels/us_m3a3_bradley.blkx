@@ -1772,29 +1772,27 @@
   {
     "tank_crew": {
       "changeTimeMult": 1.0,
-      "gunner": [
-        {
-          "dmPart": "gunner_dm"
-        },
-        {
-          "role": "tank_gunner"
-        },
-        {
-          "role": "loader"
-        },
-        {
-          "substitute": "commander"
-        }
-      ],
+      "gunner": {
+        "dmPart": "gunner_dm",
+        "role": "tank_gunner",
+        "substitute": "commander"
+      },
       "driver": {
         "dmPart": "driver_dm",
         "role": "driver",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2402,6 +2400,9 @@
               "gunnerDm": "gunner_dm"
             },
             {
+              "secondGunnerDm": "commander_dm"
+            },
+            {
               "rotatedTurret": "bone_turret"
             },
             {
@@ -2532,7 +2533,8 @@
             "turret": {
               "head": "bone_mg_twin_01",
               "gun": "bone_mg_twin_01",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -2591,6 +2593,7 @@
             "head": "bone_gun_01",
             "gun": "bone_gun_01",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "rotatedTurret": "bone_turret"
           },
           "limits": {
@@ -3385,6 +3388,9 @@
                     "gunnerDm": "gunner_dm"
                   },
                   {
+                    "secondGunnerDm": "commander_dm"
+                  },
+                  {
                     "rotatedTurret": "bone_turret"
                   },
                   {
@@ -3515,7 +3521,8 @@
                   "turret": {
                     "head": "bone_mg_twin_01",
                     "gun": "bone_mg_twin_01",
-                    "gunnerDm": "gunner_dm"
+                    "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm"
                   }
                 },
                 {
@@ -3574,6 +3581,7 @@
                   "head": "bone_gun_01",
                   "gun": "bone_gun_01",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "rotatedTurret": "bone_turret"
                 },
                 "limits": {

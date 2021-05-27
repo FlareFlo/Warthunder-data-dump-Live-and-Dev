@@ -2091,10 +2091,17 @@
         "role": "driver",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2670,6 +2677,7 @@
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel_01",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "verDriveDm": "drive_turret_v_dm",
             "horDriveDm": "drive_turret_h_dm",
             "rotatedTurret": "bone_turret",
@@ -2725,6 +2733,7 @@
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel_02",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "verDriveDm": "drive_turret_v_dm",
             "horDriveDm": "drive_turret_h_dm"
           },
@@ -3551,6 +3560,7 @@
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel_01",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "verDriveDm": "drive_turret_v_dm",
                   "horDriveDm": "drive_turret_h_dm",
                   "rotatedTurret": "bone_turret",
@@ -3606,6 +3616,7 @@
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel_02",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "verDriveDm": "drive_turret_v_dm",
                   "horDriveDm": "drive_turret_h_dm"
                 },

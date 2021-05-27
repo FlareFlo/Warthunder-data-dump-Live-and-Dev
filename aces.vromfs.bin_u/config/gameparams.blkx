@@ -15743,6 +15743,69 @@
     ],
     "leaveLod0": [
       {
+        "ri": "phi_cliff_a"
+      },
+      {
+        "ri": "phi_cliff_b"
+      },
+      {
+        "ri": "phi_cliff_c"
+      },
+      {
+        "ri": "phi_column_a"
+      },
+      {
+        "ri": "phi_column_b"
+      },
+      {
+        "ri": "phi_land_a"
+      },
+      {
+        "ri": "phi_land_b"
+      },
+      {
+        "ri": "phi_land_c"
+      },
+      {
+        "ri": "phi_land_d"
+      },
+      {
+        "ri": "phi_land_e"
+      },
+      {
+        "ri": "phi_land_f"
+      },
+      {
+        "ri": "phi_octahedron_a"
+      },
+      {
+        "ri": "phi_octahedron_b"
+      },
+      {
+        "ri": "phi_peak_a"
+      },
+      {
+        "ri": "phi_peak_b"
+      },
+      {
+        "ri": "phi_peak_c"
+      },
+      {
+        "ri": "phi_plate_a"
+      },
+      {
+        "ri": "phi_plate_b"
+      },
+      {
+        "ri": "phi_wall_a"
+      },
+      {
+        "ri": "phi_wall_b"
+      },
+      {
+        "ri": "phi_wall_c"
+      },
+      {
         "ri": "finland_cliff_a"
       },
       {
@@ -16478,22 +16541,22 @@
         "initialPoint": [1000.0,0.0,1000.0],
         "finalPoint": [600.0,0.0,400.0],
         "initialTarget": [0.0,-10.0,300.0],
-        "finalTarget": [0.0,0.0,400.0],
+        "finalTarget": [0.0,0.0,200.0],
         "time": 6.0,
         "needBlackness": false
       },
       "cam02": {
-        "initialPoint": [600.0,0.0,300.0],
-        "finalPoint": [-200.0,100.0,-1100.0],
-        "initialTarget": [0.0,0.0,400.0],
-        "finalTarget": [0.0,0.0,0.0],
-        "time": 4.0,
+        "initialPoint": [600.0,0.0,400.0],
+        "finalPoint": [1400.0,100.0,1400.0],
+        "initialTarget": [0.0,0.0,200.0],
+        "finalTarget": [0.0,200.0,0.0],
+        "time": 6.0,
         "needBlackness": false
       },
       "cam03": {
-        "initialPoint": [-200.0,100.0,-1100.0],
-        "finalPoint": [-1800.0,200.0,-1100.0],
-        "initialTarget": [0.0,0.0,0.0],
+        "initialPoint": [1400.0,100.0,1400.0],
+        "finalPoint": [1800.0,200.0,2000.0],
+        "initialTarget": [0.0,200.0,0.0],
         "finalTarget": [0.0,600.0,0.0],
         "time": 8.0,
         "needBlackness": false

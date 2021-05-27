@@ -39,6 +39,9 @@
     "useSimpleDeathConditionsAndEffects": false
   },
   {
+    "radarDeployTime": 3.0
+  },
+  {
     "autoSightDistanceCorrection": true
   },
   {
@@ -770,7 +773,7 @@
     "radarAnimations": [
       {
         "anim": {
-          "animatedRadarIdx": 1,
+          "animatedRadarIdx": 0,
           "radarAnimVar": "radar_drive",
           "radarAntenaSpeed": 720.0
         }
@@ -2348,8 +2351,9 @@
           "sleeveMesh": "auto_cannon_cartridge_case",
           "openHatchTime": 0.0,
           "sleevesLifeTime": 5.0,
-          "sleeveImpulse": [1.0,-8.0,-4.0],
+          "sleeveImpulse": [1.0,-5.0,-2.0],
           "linkSleeveToGun": true,
+          "sleevesImpulseOffset": 0.1,
           "aimingFromBoneGun": true,
           "recoilMultiplier": 0.2,
           "recoilOffset": 0.045,
@@ -2437,8 +2441,9 @@
           "sleeveMesh": "auto_cannon_cartridge_case",
           "openHatchTime": 0.0,
           "sleevesLifeTime": 5.0,
-          "sleeveImpulse": [1.0,-8.0,4.0],
+          "sleeveImpulse": [1.0,-5.0,2.0],
           "linkSleeveToGun": true,
+          "sleevesImpulseOffset": 0.1,
           "aimingFromBoneGun": true,
           "recoilMultiplier": 0.2,
           "recoilOffset": 0.045,
@@ -2523,10 +2528,16 @@
             "node": "antenna_target_location"
           },
           {
+            "node": "antenna_target_location_mount"
+          },
+          {
             "node": "antenna_target_tagging"
           },
           {
             "node": "antenna_target_tagging_mount"
+          },
+          {
+            "node": "antenna_target_location_piston"
           }
         ]
       },
@@ -3336,8 +3347,9 @@
                 "sleeveMesh": "auto_cannon_cartridge_case",
                 "openHatchTime": 0.0,
                 "sleevesLifeTime": 5.0,
-                "sleeveImpulse": [1.0,-8.0,-4.0],
+                "sleeveImpulse": [1.0,-5.0,-2.0],
                 "linkSleeveToGun": true,
+                "sleevesImpulseOffset": 0.1,
                 "aimingFromBoneGun": true,
                 "recoilMultiplier": 0.2,
                 "recoilOffset": 0.045,
@@ -3425,8 +3437,9 @@
                 "sleeveMesh": "auto_cannon_cartridge_case",
                 "openHatchTime": 0.0,
                 "sleevesLifeTime": 5.0,
-                "sleeveImpulse": [1.0,-8.0,4.0],
+                "sleeveImpulse": [1.0,-5.0,2.0],
                 "linkSleeveToGun": true,
+                "sleevesImpulseOffset": 0.1,
                 "aimingFromBoneGun": true,
                 "recoilMultiplier": 0.2,
                 "recoilOffset": 0.045,
@@ -3511,10 +3524,16 @@
                   "node": "antenna_target_location"
                 },
                 {
+                  "node": "antenna_target_location_mount"
+                },
+                {
                   "node": "antenna_target_tagging"
                 },
                 {
                   "node": "antenna_target_tagging_mount"
+                },
+                {
+                  "node": "antenna_target_location_piston"
                 }
               ]
             },

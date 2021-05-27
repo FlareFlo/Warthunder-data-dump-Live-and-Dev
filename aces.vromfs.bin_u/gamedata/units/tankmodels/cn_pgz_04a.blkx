@@ -212,6 +212,16 @@
           "armorThickness": 8.0,
           "hidableInViewer": true,
           "hidableInXrayViewer": true
+        },
+        "composite_armor_hull_03_dm": {
+          "armorThickness": 5.0,
+          "hidableInViewer": true,
+          "hidableInXrayViewer": true
+        },
+        "composite_armor_hull_04_dm": {
+          "armorThickness": 5.0,
+          "hidableInViewer": true,
+          "hidableInXrayViewer": true
         }
       },
       "turret": {
@@ -728,6 +738,28 @@
           "armorArrayText": {
             "layer": {
               "dmPart": "composite_armor_hull_02_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_03_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_03_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_04_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_04_dm"
             }
           }
         }
@@ -2299,6 +2331,7 @@
           "openHatchTime": 0.0,
           "sleevesLifeTime": 5.0,
           "sleeveImpulse": [3.0,0.0,0.0],
+          "sleevesImpulseOffset": 0.1,
           "linkSleeveToGun": true,
           "aimingFromBoneGun": true,
           "jammedReloadTime": 12.0,
@@ -2401,6 +2434,7 @@
           "openHatchTime": 0.0,
           "sleevesLifeTime": 5.0,
           "sleeveImpulse": [4.0,0.0,0.0],
+          "sleevesImpulseOffset": 0.1,
           "linkSleeveToGun": true,
           "aimingFromBoneGun": true,
           "jammedReloadTime": 12.0,
@@ -2479,6 +2513,7 @@
           "openHatchTime": 0.0,
           "sleevesLifeTime": 5.0,
           "sleeveImpulse": [4.0,0.0,0.0],
+          "sleevesImpulseOffset": 0.1,
           "linkSleeveToGun": true,
           "aimingFromBoneGun": true,
           "jammedReloadTime": 12.0,
@@ -2557,6 +2592,7 @@
           "openHatchTime": 0.0,
           "sleevesLifeTime": 5.0,
           "sleeveImpulse": [4.0,0.0,0.0],
+          "sleevesImpulseOffset": 0.1,
           "linkSleeveToGun": true,
           "aimingFromBoneGun": true,
           "jammedReloadTime": 12.0,
@@ -3447,6 +3483,7 @@
                 "openHatchTime": 0.0,
                 "sleevesLifeTime": 5.0,
                 "sleeveImpulse": [3.0,0.0,0.0],
+                "sleevesImpulseOffset": 0.1,
                 "linkSleeveToGun": true,
                 "aimingFromBoneGun": true,
                 "jammedReloadTime": 12.0,
@@ -3549,6 +3586,7 @@
                 "openHatchTime": 0.0,
                 "sleevesLifeTime": 5.0,
                 "sleeveImpulse": [4.0,0.0,0.0],
+                "sleevesImpulseOffset": 0.1,
                 "linkSleeveToGun": true,
                 "aimingFromBoneGun": true,
                 "jammedReloadTime": 12.0,
@@ -3627,6 +3665,7 @@
                 "openHatchTime": 0.0,
                 "sleevesLifeTime": 5.0,
                 "sleeveImpulse": [4.0,0.0,0.0],
+                "sleevesImpulseOffset": 0.1,
                 "linkSleeveToGun": true,
                 "aimingFromBoneGun": true,
                 "jammedReloadTime": 12.0,
@@ -3705,6 +3744,7 @@
                 "openHatchTime": 0.0,
                 "sleevesLifeTime": 5.0,
                 "sleeveImpulse": [4.0,0.0,0.0],
+                "sleevesImpulseOffset": 0.1,
                 "linkSleeveToGun": true,
                 "aimingFromBoneGun": true,
                 "jammedReloadTime": 12.0,

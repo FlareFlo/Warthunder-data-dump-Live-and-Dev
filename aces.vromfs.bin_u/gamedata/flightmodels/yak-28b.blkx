@@ -2350,6 +2350,90 @@
     "Engine": "engine05",
     "gun": "gun_default"
   },
+  "cockpit": {
+    "headPos": [3.27,1.282,0.0],
+    "headPosOnShooting": [3.37,1.282,0.0],
+    "shadowSphereMultiplier": 2.0,
+    "gunLightRadiusMul": 0.05,
+    "lightPos": [3.96,0.764,-0.01],
+    "lightColor": [0.0,0.25,0.0],
+    "lightRadius": 0.5,
+    "lightPos1": [3.994,0.846,-0.141],
+    "lightColor1": [0.35,0.1,0.1],
+    "lightRadius1": 0.3,
+    "lightPos2": [4.0,0.875,0.238],
+    "lightColor2": [0.35,0.1,0.1],
+    "lightRadius2": 0.3,
+    "devices": {
+      "stick_ailerons": [-1.0,1.0],
+      "stick_elevator": [-1.0,1.0],
+      "pedals": [-1.0,1.0],
+      "pedals1": [-1.0,1.0],
+      "pedals2": [-1.0,1.0],
+      "pedals3": [-1.0,1.0],
+      "pedals4": [-1.0,1.0],
+      "throttle": [0.0,1.0],
+      "throttle1": [0.0,1.0],
+      "weapon2": [0.0,1.0],
+      "trimmer": [-1.0,1.0],
+      "trimmer_indicator": [-1.0,1.0],
+      "flaps": [0.0,1.0],
+      "flaps_fixed": false,
+      "gear_fixed": false,
+      "speed": [0.0,694.444],
+      "mach": [0.4,2.5],
+      "vario": [-300.0,300.0],
+      "g_meter": [-5.0,10.0],
+      "g_meter_min": [-5.0,10.0],
+      "g_meter_max": [-5.0,10.0],
+      "compass": [0.0,360.0],
+      "compass1": [0.0,360.0],
+      "altitude_hour": [0.0,20000.0],
+      "altitude_min": [0.0,1000.0],
+      "altitude1_hour": [0.0,20000.0],
+      "altitude1_10k": [0.0,20000.0],
+      "radio_altitude": [0.0,1000.0],
+      "altitude_koef": 1.0,
+      "aviahorizon_pitch": [-30.0,30.0],
+      "aviahorizon_roll": [-180.0,180.0],
+      "aviahorizon_pitch1": [-20.0,20.0],
+      "aviahorizon_roll1": [-180.0,180.0],
+      "bank": [-8.0,8.0],
+      "bank1": [-8.0,8.0],
+      "turn": [-0.23562,0.23562],
+      "clock_hour": [0.0,12.0],
+      "clock_min": [0.0,60.0],
+      "clock_sec": [0.0,60.0],
+      "rpm": [0.0,13000.0],
+      "rpm1": [0.0,13000.0],
+      "rpm_hour": [0.0,13000.0],
+      "rpm1_hour": [0.0,13000.0],
+      "oil_pressure": [0.0,120.0],
+      "oil_pressure1": [0.0,120.0],
+      "oil_temperature": [0.0,150.0],
+      "water_temperature": [0.0,1000.0],
+      "water_temperature1": [0.0,1000.0],
+      "fuel_pressure": [0.0,15.0],
+      "fuel": [0.0,3750.0]
+    },
+    "parts_holes_dmg": {
+      "part": "fuse"
+    },
+    "parts_oil_dmg": [
+      {
+        "part": "engine1"
+      },
+      {
+        "part": "engine2"
+      },
+      {
+        "part": "engine3"
+      },
+      {
+        "part": "engine4"
+      }
+    ]
+  },
   "propellers": {
     "prop0": -1,
     "prop1": -1,

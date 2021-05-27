@@ -1151,10 +1151,17 @@
         "role": "loader",
         "substitute": "commander"
       },
-      "commander": {
-        "dmPart": "commander_dm",
-        "role": "commander"
-      }
+      "commander": [
+        {
+          "dmPart": "commander_dm"
+        },
+        {
+          "role": "tank_gunner"
+        },
+        {
+          "role": "commander"
+        }
+      ]
     }
   },
   {
@@ -2352,7 +2359,7 @@
           "armorThickness": 45.0
         },
         "turret_02_front_dm": {
-          "armorThickness": 70.9
+          "armorThickness": 16.0
         },
         "gun_mask_02_dm": {
           "armorThickness": 127.0,
@@ -3355,6 +3362,8 @@
             "head": "bone_turret",
             "gun": "bone_gun",
             "barrel": "bone_gun_barrel",
+            "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "linkedAnimPart": {
               "verNode": "bone_camera_gunner",
               "verLimits": [-10.0,20.0],
@@ -3577,6 +3586,7 @@
               "head": "bone_mg_gun_twin",
               "gun": "bone_mg_gun_twin",
               "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm",
               "verDriveDm": "drive_turret_v_dm",
               "horDriveDm": "drive_turret_h_dm"
             }
@@ -3708,6 +3718,8 @@
                   "head": "bone_turret",
                   "gun": "bone_gun",
                   "barrel": "bone_gun_barrel",
+                  "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "linkedAnimPart": {
                     "verNode": "bone_camera_gunner",
                     "verLimits": [-10.0,20.0],
@@ -3930,6 +3942,7 @@
                     "head": "bone_mg_gun_twin",
                     "gun": "bone_mg_gun_twin",
                     "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm",
                     "verDriveDm": "drive_turret_v_dm",
                     "horDriveDm": "drive_turret_h_dm"
                   }
