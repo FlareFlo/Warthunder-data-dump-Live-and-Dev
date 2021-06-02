@@ -1,7 +1,4 @@
 "@override:graphics"{
-  "@delete:riGpuObjects":b=yes
-  riGpuObjects:b=no
-}
-"@override:unitedVdata.dynModel" {
-  "@override:use":b=yes
+  "@delete:riGpuObjects":b=no
+  riGpuObjects:b=yes
 }
