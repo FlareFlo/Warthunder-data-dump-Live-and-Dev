@@ -2489,13 +2489,10 @@
         "armorThickness": 10.0,
         "stopChanceOnDeadPart": 0.5,
         "fuel_tank_01_dm": {
-          "hp": 6270.0
+          "hp": 7000.0
         },
         "fuel_tank_02_dm": {
-          "hp": 6286.0
-        },
-        "fuel_tank_03_dm": {
-          "hp": 7000.0
+          "hp": 3000.0
         }
       },
       "coal_bunkers": {
@@ -2515,18 +2512,18 @@
           "hp": 10000.0
         },
         "armor_cit_02_dm": {
-          "armorClass": "ship_RHA",
+          "armorClass": "ship_STS",
           "armorThickness": 25.4,
           "hp": 10000.0
         },
         "armor_cit_03_dm": {
-          "armorClass": "ship_RGA",
+          "armorClass": "ship_RHA",
           "armorThickness": 76.2,
           "hp": 10000.0
         },
         "armor_cit_04_dm": {
           "armorClass": "ship_STS",
-          "armorThickness": 31.7,
+          "armorThickness": 31.75,
           "hp": 10000.0
         },
         "armor_cit_05_dm": {
@@ -2550,18 +2547,33 @@
           "hp": 10000.0
         },
         "armor_cit_09_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 51.0,
+          "armorClass": "ship_STS",
+          "armorThickness": 50.8,
           "hp": 10000.0
         },
         "armor_cit_10_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 63.5,
+          "armorClass": "ship_STS",
+          "armorThickness": 25.4,
           "hp": 10000.0
         },
         "armor_cit_11_dm": {
-          "armorClass": "ship_RGA",
+          "armorClass": "ship_STS",
           "armorThickness": 38.1,
+          "hp": 10000.0
+        },
+        "armor_cit_12_dm": {
+          "armorClass": "ship_RHA",
+          "armorThickness": 24.4,
+          "hp": 10000.0
+        },
+        "armor_cit_13_dm": {
+          "armorClass": "ship_RHA",
+          "armorThickness": 50.8,
+          "hp": 10000.0
+        },
+        "armor_cit_14_dm": {
+          "armorClass": "ship_RHA",
+          "armorThickness": 50.8,
           "hp": 10000.0
         }
       },
@@ -2583,42 +2595,34 @@
         "armorClass": "ship_RHA",
         "armorThickness": 15.0,
         "turret_01_front_dm": {
-          "armorClass": "ship_RGA",
-          "armorThickness": 25.4,
-          "hp": 10000.0
-        },
-        "turret_02_front_dm": {
-          "armorClass": "ship_RGA",
-          "armorThickness": 25.4,
-          "hp": 10000.0
-        },
-        "turret_03_front_dm": {
-          "armorClass": "ship_RGA",
-          "armorThickness": 25.4,
-          "hp": 10000.0
-        },
-        "turret_04_front_dm": {
-          "armorClass": "ship_RGA",
           "armorThickness": 25.4,
           "hp": 10000.0
         },
         "turret_01_side_dm": {
-          "armorClass": "ship_RGA",
+          "armorThickness": 25.4,
+          "hp": 10000.0
+        },
+        "turret_02_front_dm": {
           "armorThickness": 25.4,
           "hp": 10000.0
         },
         "turret_02_side_dm": {
-          "armorClass": "ship_RGA",
+          "armorThickness": 25.4,
+          "hp": 10000.0
+        },
+        "turret_03_front_dm": {
           "armorThickness": 25.4,
           "hp": 10000.0
         },
         "turret_03_side_dm": {
-          "armorClass": "ship_RGA",
+          "armorThickness": 25.4,
+          "hp": 10000.0
+        },
+        "turret_04_front_dm": {
           "armorThickness": 25.4,
           "hp": 10000.0
         },
         "turret_04_side_dm": {
-          "armorClass": "ship_RGA",
           "armorThickness": 25.4,
           "hp": 10000.0
         },

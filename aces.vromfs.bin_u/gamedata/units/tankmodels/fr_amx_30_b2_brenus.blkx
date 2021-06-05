@@ -2331,7 +2331,12 @@
       "optics": "commander_optics_square",
       "zoomOutFov": 7.47,
       "zoomInFov": 7.37,
-      "sightSize": [0.146,0.103]
+      "sightSize": [0.146,0.103],
+      "ircmProjector": {
+        "node": "bone_commander_sight_v",
+        "beamRadius": [600.0,50.0],
+        "projectorPower": [0.02,0.04]
+      }
     }
   },
   {

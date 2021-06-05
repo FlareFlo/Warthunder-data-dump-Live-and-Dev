@@ -4404,7 +4404,6 @@
       {
         "anim": {
           "radarAnimVar": "radar_target_yaw_rotate",
-          "radarAntenaSpeed": 50.0,
           "animatedRadarIdx": 0
         }
       },

@@ -124,6 +124,9 @@
         },
         "body_front_dm": {
           "armorThickness": 76.2
+        },
+        "turret_03_top_dm": {
+          "armorThickness": 22.2
         }
       },
       "hull_RHA": {

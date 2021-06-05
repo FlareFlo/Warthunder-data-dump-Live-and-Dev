@@ -120,15 +120,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -775,6 +766,13 @@
         "anim": {
           "animatedRadarIdx": 0,
           "radarAnimVar": "radar_drive",
+          "radarAntenaSpeed": 720.0
+        }
+      },
+      {
+        "anim": {
+          "animatedRadarIdx": 1,
+          "radarAnimVar": "radar_drive_tagging",
           "radarAntenaSpeed": 720.0
         }
       },
@@ -2394,12 +2392,12 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-10.0,85.0]
+            "pitch": [-2.0,85.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-140.0,-6.0,85.0],
-            "lim2": [-140.0,140.0,-10.0,85.0],
-            "lim3": [140.0,180.0,-6.0,85.0]
+            "lim1": [-180.0,-140.0,-2.0,85.0],
+            "lim2": [-140.0,140.0,-2.0,85.0],
+            "lim3": [140.0,180.0,-2.0,85.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": false,
@@ -2486,12 +2484,12 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-10.0,85.0]
+            "pitch": [-2.0,85.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-140.0,-6.0,85.0],
-            "lim2": [-140.0,140.0,-10.0,85.0],
-            "lim3": [140.0,180.0,-6.0,85.0]
+            "lim1": [-180.0,-140.0,-2.0,85.0],
+            "lim2": [-140.0,140.0,-2.0,85.0],
+            "lim3": [140.0,180.0,-2.0,85.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": false,
@@ -2620,9 +2618,9 @@
   {
     "VehiclePhys": {
       "Mass": {
-        "Empty": 34000.0,
+        "Empty": 37000.0,
         "Fuel": 1000.0,
-        "TakeOff": 35000.0,
+        "TakeOff": 38000.0,
         "momentOfInertia": [2.0,2.0,5.0],
         "CenterOfGravity": [0.0,0.5,0.0],
         "CenterOfGravityClampY": [0.4,0.6],
@@ -2675,7 +2673,7 @@
             "ratio": 1.667
           },
           {
-            "ratio": 1.18
+            "ratio": 1.0
           }
         ]
       },
@@ -3390,12 +3388,12 @@
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
-                  "pitch": [-10.0,85.0]
+                  "pitch": [-2.0,85.0]
                 },
                 "limitsTable": {
-                  "lim1": [-180.0,-140.0,-6.0,85.0],
-                  "lim2": [-140.0,140.0,-10.0,85.0],
-                  "lim3": [140.0,180.0,-6.0,85.0]
+                  "lim1": [-180.0,-140.0,-2.0,85.0],
+                  "lim2": [-140.0,140.0,-2.0,85.0],
+                  "lim3": [140.0,180.0,-2.0,85.0]
                 },
                 "gunStabilizer": {
                   "hasVerticalGunFreeMode": false,
@@ -3482,12 +3480,12 @@
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
-                  "pitch": [-10.0,85.0]
+                  "pitch": [-2.0,85.0]
                 },
                 "limitsTable": {
-                  "lim1": [-180.0,-140.0,-6.0,85.0],
-                  "lim2": [-140.0,140.0,-10.0,85.0],
-                  "lim3": [140.0,180.0,-6.0,85.0]
+                  "lim1": [-180.0,-140.0,-2.0,85.0],
+                  "lim2": [-140.0,140.0,-2.0,85.0],
+                  "lim3": [140.0,180.0,-2.0,85.0]
                 },
                 "gunStabilizer": {
                   "hasVerticalGunFreeMode": false,

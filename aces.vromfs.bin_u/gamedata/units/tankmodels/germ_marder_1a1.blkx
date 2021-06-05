@@ -120,15 +120,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "CHA_tank_modern",
@@ -3280,6 +3271,53 @@
       "projectorPower": [0.03,0.07],
       "projectorGlowOffset": [0.5,0.2,0.0],
       "glowOffset": [0.2,0.0,0.0]
+    }
+  },
+  {
+    "ammoStowages": {
+      "ammo1": {
+        "weaponTrigger": "gunner0",
+        "removeLoadedAmmo": false,
+        "fatalFire": true,
+        "fatalExplosion": true,
+        "shells": {
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
+          "ammo_body_13_dm": {
+            "count": 400
+          },
+          "ammo_body_14_dm": {
+            "count": 400
+          },
+          "ammo_turret_01_dm": {
+            "count": 400
+          }
+        }
+      },
+      "ammo2": {
+        "weaponTrigger": "gunner2",
+        "removeLoadedAmmo": false,
+        "fatalFire": true,
+        "fatalExplosion": true,
+        "shells": {
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
+          "ammo_body_r_01_dm": {
+            "count": 1
+          },
+          "ammo_body_r_02_dm": {
+            "count": 1
+          },
+          "ammo_body_r_03_dm": {
+            "count": 1
+          },
+          "ammo_body_r_04_dm": {
+            "count": 1
+          }
+        }
+      }
     }
   },
   {

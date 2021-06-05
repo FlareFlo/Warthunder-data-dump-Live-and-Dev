@@ -270,7 +270,7 @@
       "bulletCount": 25,
       "mass": 394.62,
       "explosiveType": "exp_d",
-      "explosiveMass": 10.2,
+      "explosiveMass": 11.34,
       "caliber": 0.305,
       "speed": 884.0,
       "maxDistance": 100000.0,

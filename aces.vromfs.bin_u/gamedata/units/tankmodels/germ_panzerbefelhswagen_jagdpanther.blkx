@@ -2461,7 +2461,7 @@
         "trackCntPeriod": 2,
         "trackMaxSinking": 0.1,
         "trackMaxHeight": 1.45,
-        "trackStartOffset": 0.12
+        "trackStartOffset": 0.15
       },
       "collisionProps": {
         "cls_body_01": "convex_hull",

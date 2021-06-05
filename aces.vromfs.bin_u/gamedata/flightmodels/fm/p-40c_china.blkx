@@ -986,7 +986,7 @@
       "SpringHeight": 0.1,
       "SpringCoeff": 170000.0,
       "WheelRadus": 0.146,
-      "Retractable": false,
+      "Retractable": true,
       "LeftBrake": false,
       "RightBrake": false,
       "FullBrakeSlidingFrictionMult": 0.32,

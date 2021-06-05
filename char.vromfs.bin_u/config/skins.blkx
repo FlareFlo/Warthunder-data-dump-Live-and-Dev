@@ -524,6 +524,20 @@
     "costGold": -1,
     "hideUntilUnlocked": true
   },
+  "f-5e/425tftc": {
+    "category": "aircraft_usa",
+    "costGold": 200,
+    "unlock": "f-5e/425tftc"
+  },
+  "f-5e/brown": {
+    "category": "aircraft_usa",
+    "costGold": 200,
+    "unlock": "f-5e/brown"
+  },
+  "f-5e/gray": {
+    "category": "aircraft_usa",
+    "costGold": 200
+  },
   "f-84f/aerobatic": {
     "category": "aircraft_usa",
     "costGold": 200
@@ -1521,6 +1535,10 @@
     "category": "aircraft_ussr",
     "costGold": -1,
     "hideUntilUnlocked": true
+  },
+  "mig_23m/camo": {
+    "category": "aircraft_ussr",
+    "costGold": 200
   },
   "mig_3_series_1_15/1941_nostandard": {
     "category": "aircraft_ussr",
@@ -15770,6 +15788,50 @@
   "ussr_t_80b/ussr_parade": {
     "category": "tanks_ussr",
     "costGold": 500
+  },
+  "ussr_t_80bvm/modern_desert": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_80bvm/modern_forest": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_t_80bvm/modern_forest"
+  },
+  "ussr_t_80bvm/modern_winter": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_t_80bvm/modern_winter"
+  },
+  "ussr_t_80bvm/ussr_camo_czechoslovak_yellow_green": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_80bvm/ussr_camo_deform": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_80bvm/ussr_camo_desert_syrian_green_brown_yellow": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_80bvm/ussr_camo_desert_yellow_brown": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_t_80bvm/ussr_camo_desert_yellow_brown"
+  },
+  "ussr_t_80bvm/ussr_camo_finland_polygonal_threecolor": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_80bvm/ussr_camo_modern_desert_deform": {
+    "category": "tanks_ussr",
+    "costGold": 200
+  },
+  "ussr_t_80bvm/ussr_modern_green": {
+    "category": "tanks_ussr",
+    "costGold": 200,
+    "unlock": "ussr_t_80bvm/ussr_modern_green"
   },
   "ussr_t_80u/modern_desert": {
     "category": "tanks_ussr",

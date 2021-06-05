@@ -3997,8 +3997,42 @@
     "ReflexLowLatency": {
       "condition": ""
     },
+    "delayedDownloadContent": [],
     "enableFollowBulletCamera": {
       "condition": ""
-    }
+    },
+    "TankSupportPlane": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
+    "TankStealth": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
+    "DebugEnterUrl": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ]
   }
 }

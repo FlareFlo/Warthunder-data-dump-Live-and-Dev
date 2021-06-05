@@ -27,6 +27,36 @@
     "gearSinkRangeC": 0.308
   },
   {
+    "haveCCIPForRocket": true
+  },
+  {
+    "haveCCIPForBombs": true
+  },
+  {
+    "haveCCIPForGun": true
+  },
+  {
+    "haveCCRPForBombs": true
+  },
+  {
+    "isBwOpticSight": true
+  },
+  {
+    "havePointOfInterestDesignator": true
+  },
+  {
+    "ilsAVQ7": true
+  },
+  {
+    "ilsHaveAVQ7CCIP": true
+  },
+  {
+    "ilsHaveAVQ7CCRP": true
+  },
+  {
+    "ilsHaveJ7ERadar": true
+  },
+  {
     "standardExhaustFxType": "jet_exhaust"
   },
   {
@@ -2215,8 +2245,8 @@
   },
   {
     "cockpit": {
-      "headPos": [3.62,0.76,0.0],
-      "headPosOnShooting": [3.62,0.76,0.0],
+      "headPos": [3.62,0.78,0.0],
+      "headPosOnShooting": [3.62,0.78,0.0],
       "shadowSphereMultiplier": 2.0,
       "gunLightRadiusMul": 0.05,
       "lightPos": [4.122984,0.33512,0.00737],
@@ -2273,6 +2303,17 @@
         "water_temperature": [0.0,900.0],
         "fuel_pressure": [0.0,15.0],
         "fuel": [0.0,4000.0]
+      },
+      "multifunctionDisplays": {
+        "display": {
+          "textureArea": [0.0,0.0,1.0,1.0],
+          "page": {
+            "type": "plane_ils",
+            "ilsSize": [0.2,0.2],
+            "ilsOffsetForce": 0.0,
+            "brightnessMult": 3.5
+          }
+        }
       },
       "parts_holes_dmg": {
         "part": "fuse"
@@ -3094,7 +3135,7 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/su_srd-5.blk",
+          "blk": "gameData/sensors/uk_marconi_type_226.blk",
           "dmPart": "radar_dm"
         }
       },

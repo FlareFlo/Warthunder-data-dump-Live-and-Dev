@@ -9,7 +9,7 @@
       "rangeMax": 10000.0,
       "visibilityType": "infraRed",
       "antenna": {
-        "angleHalfSens": 0.5,
+        "angleHalfSens": 1.0,
         "sideLobesSensitivity": -60.0
       }
     }
@@ -23,9 +23,9 @@
       "pitchStabLimit": 10.0,
       "rollStabLimit": 10.0,
       "period": 0.25,
-      "width": 0.25,
-      "barHeight": 0.5,
-      "barsCount": 1,
+      "width": 2.0,
+      "barHeight": 2.0,
+      "barsCount": 2,
       "rowMajor": false,
       "indicate": true
     },

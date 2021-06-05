@@ -9,12 +9,7 @@
   "JetNozzlesAnim2": [0.5,1.0],
   "JetNozzlesAnim3": [1.0,0.0],
   "isBwOpticSight": true,
-  "haveCCIPForRocket": true,
-  "haveCCIPForBombs": true,
-  "haveCCIPForGun": true,
-  "haveCCRPForBombs": true,
   "ilsLCOSS": true,
-  "havePointOfInterestDesignator": true,
   "gyroscopicSightOverSensors": true,
   "type": "typeFighter",
   "paratrooper": "usa_para",
@@ -33,7 +28,7 @@
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
-  "fireParamsPreset": "1500kph",
+  "fireParamsPreset": "1800kph",
   "fightAiBehaviour": "fighter",
   "laserDesignator": true,
   "autopilotImpl": "FBW",
@@ -1888,18 +1883,6 @@
     },
     "multifunctionDisplays": [
       {
-        "display": {
-          "textureArea": [0.0,0.0,1.0,1.0],
-          "page": {
-            "type": "plane_ils",
-            "ilsSize": [0.15,0.15],
-            "ilsOffsetForce": 0.0,
-            "brightnessMult": 3.5,
-            "ilsColor": "#ca1e0ac8"
-          }
-        }
-      },
-      {
         "display": [
           {
             "textureArea": [0.5,0.5,1.0,1.0]
@@ -1918,8 +1901,8 @@
           },
           {
             "page": {
-              "type": "thermal",
-              "turretIdx": 0
+              "type": "radar",
+              "radarScale": 0.85
             }
           }
         ]
@@ -1930,6 +1913,18 @@
           "page": {
             "type": "rwr",
             "radarScale": 1.35
+          }
+        }
+      },
+      {
+        "display": {
+          "textureArea": [0.0,0.0,1.0,1.0],
+          "page": {
+            "type": "plane_ils",
+            "ilsSize": [0.15,0.15],
+            "ilsOffsetForce": 0.0,
+            "brightnessMult": 3.5,
+            "ilsColor": "#ca1e0ac8"
           }
         }
       }
@@ -2651,7 +2646,7 @@
     "radiusSpeed": 2.0
   },
   "fireParams": {
-    "engineExtinguishFireSpeed": [383.0,427.0],
+    "engineExtinguishFireSpeed": [467.0,511.0],
     "engineExtinguishFireSpeedChance": [0.01,0.1],
     "fireDamagePowerRel": 0.05,
     "nonExtinguishFireTime": 5.0
@@ -2814,14 +2809,9 @@
       "effects": {
         "commonWeapons": [
           {
-            "hideNodes": [
-              {
-                "node": "an_ale_40_dispenser"
-              },
-              {
-                "node": "fuse2"
-              }
-            ]
+            "hideNodes": {
+              "node": "fuse2"
+            }
           },
           {
             "Weapon": {

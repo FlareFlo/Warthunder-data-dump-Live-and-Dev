@@ -2700,8 +2700,8 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "parkInDeadzone": false,
-          "speedYaw": 40.0,
-          "speedPitch": 30.0,
+          "speedYaw": 60.0,
+          "speedPitch": 60.0,
           "turret": {
             "head": "bone_commander_sight_h",
             "gun": "bone_commander_sight_v",
@@ -4039,8 +4039,8 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "parkInDeadzone": false,
-                "speedYaw": 40.0,
-                "speedPitch": 30.0,
+                "speedYaw": 60.0,
+                "speedPitch": 60.0,
                 "turret": {
                   "head": "bone_commander_sight_h",
                   "gun": "bone_commander_sight_v",

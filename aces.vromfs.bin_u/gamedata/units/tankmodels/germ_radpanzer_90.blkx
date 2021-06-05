@@ -2734,7 +2734,7 @@
             "horDriveDm": "commander_panoramic_sight_dm"
           },
           "limits": {
-            "yaw": [-90.0,90.0],
+            "yaw": [-180.0,180.0],
             "pitch": [-10.0,15.0]
           }
         }
@@ -3670,7 +3670,7 @@
                   "horDriveDm": "commander_panoramic_sight_dm"
                 },
                 "limits": {
-                  "yaw": [-90.0,90.0],
+                  "yaw": [-180.0,180.0],
                   "pitch": [-10.0,15.0]
                 }
               }

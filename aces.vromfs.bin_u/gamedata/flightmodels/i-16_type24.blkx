@@ -42,7 +42,7 @@
         "hp": 15.0
       }
     },
-    "armor6": {
+    "armor8_5": {
       "armor1_dm": {
         "hp": 35.0
       }
@@ -1119,11 +1119,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1132,12 +1127,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1170,11 +1159,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1183,12 +1167,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1221,11 +1199,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1234,12 +1207,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {

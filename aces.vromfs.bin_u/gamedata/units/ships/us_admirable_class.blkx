@@ -1250,24 +1250,24 @@
       },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
-        "armorThickness": 15.0,
+        "armorThickness": 1.0,
         "main_caliber_turret_01_dm": {
-          "hp": 250.0
+          "hp": 150.0
         }
       },
       "turrets_aux_caliber": {
         "armorClass": "ship_structural_steel",
-        "armorThickness": 12.7,
+        "armorThickness": 1.0,
         "auxiliary_caliber_turret_01_dm": {
-          "hp": 150.0
+          "hp": 100.0
         },
         "auxiliary_caliber_turret_02_dm": {
-          "hp": 150.0
+          "hp": 100.0
         }
       },
       "turrets_aa_caliber": {
         "armorClass": "ship_structural_steel",
-        "armorThickness": 10.0,
+        "armorThickness": 1.0,
         "aa_turret_01_dm": {
           "hp": 80.0
         },
@@ -4155,6 +4155,9 @@
           "weaponTrigger": "gunner7"
         },
         {
+          "removeLoadedAmmo": false
+        },
+        {
           "fatalFire": false
         },
         {
@@ -4506,6 +4509,192 @@
           "shells": {
             "damageEffect": "ammunition_depth_charges",
             "depth_charge_54_dm": {
+              "count": 1
+            }
+          }
+        }
+      ],
+      "ammo7": [
+        {
+          "weaponTrigger": "bombs"
+        },
+        {
+          "removeLoadedAmmo": false
+        },
+        {
+          "fatalFire": false
+        },
+        {
+          "fatalExplosion": false
+        },
+        {
+          "fireEvent": "torpedo_fire"
+        },
+        {
+          "explosionEvent": "torpedo_explosion"
+        },
+        {
+          "fireParamsPreset": "ship_torpedo_fire"
+        },
+        {
+          "shatterRadiusConstraint": 25.0
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_12_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_22_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_11_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_21_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_10_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_20_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_09_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_19_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_08_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_18_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_07_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_17_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_06_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_16_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_05_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_15_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_04_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_14_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_03_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "damageEffect": "ammunition_depth_charges",
+            "depth_charge_13_dm": {
               "count": 1
             }
           }

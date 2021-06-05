@@ -49,6 +49,11 @@
     ]
   },
   {
+    "hideDmParts": {
+      "node": "tank1_dm"
+    }
+  },
+  {
     "Weapon": {
       "trigger": "aam",
       "external": true,

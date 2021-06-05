@@ -2586,7 +2586,7 @@
             "triggerGroup": "coaxial"
           },
           {
-            "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Beretta_MG42_59_user_machinegun.blk"
+            "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Browning_MG4_user_machinegun.blk"
           },
           {
             "emitter": "bone_mg_gun_twin_01"
@@ -2616,7 +2616,7 @@
             "fireConeAngle": 1.0
           },
           {
-            "bullets": 800
+            "bullets": 6600
           },
           {
             "isBulletBelt": true
@@ -3727,7 +3727,7 @@
                   "triggerGroup": "coaxial"
                 },
                 {
-                  "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Beretta_MG42_59_user_machinegun.blk"
+                  "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Browning_MG4_user_machinegun.blk"
                 },
                 {
                   "emitter": "bone_mg_gun_twin_01"
@@ -3757,7 +3757,7 @@
                   "fireConeAngle": 1.0
                 },
                 {
-                  "bullets": 800
+                  "bullets": 6600
                 },
                 {
                   "isBulletBelt": true

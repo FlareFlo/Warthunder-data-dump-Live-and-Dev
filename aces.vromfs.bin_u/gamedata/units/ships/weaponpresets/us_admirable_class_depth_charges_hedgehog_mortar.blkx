@@ -178,11 +178,11 @@
       "trigger": "bombs",
       "triggerGroup": "depth_charge",
       "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_18",
+      "emitter": "bone_bomb_08",
       "bullets": 1,
       "external": true,
       "dropSpeed": 6.3,
-      "ammoDP": "depth_charge_18_dm"
+      "ammoDP": "depth_charge_08_dm"
     }
   },
   {
@@ -190,11 +190,11 @@
       "trigger": "bombs",
       "triggerGroup": "depth_charge",
       "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_08",
+      "emitter": "bone_bomb_18",
       "bullets": 1,
       "external": true,
       "dropSpeed": 6.3,
-      "ammoDP": "depth_charge_08_dm"
+      "ammoDP": "depth_charge_18_dm"
     }
   },
   {
@@ -226,11 +226,11 @@
       "trigger": "bombs",
       "triggerGroup": "depth_charge",
       "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_16",
+      "emitter": "bone_bomb_06",
       "bullets": 1,
       "external": true,
       "dropSpeed": 7.7,
-      "ammoDP": "depth_charge_16_dm"
+      "ammoDP": "depth_charge_06_dm"
     }
   },
   {
@@ -238,11 +238,11 @@
       "trigger": "bombs",
       "triggerGroup": "depth_charge",
       "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_06",
+      "emitter": "bone_bomb_16",
       "bullets": 1,
       "external": true,
       "dropSpeed": 7.7,
-      "ammoDP": "depth_charge_06_dm"
+      "ammoDP": "depth_charge_16_dm"
     }
   },
   {
@@ -274,11 +274,11 @@
       "trigger": "bombs",
       "triggerGroup": "depth_charge",
       "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_14",
+      "emitter": "bone_bomb_04",
       "bullets": 1,
       "external": true,
       "dropSpeed": 9.1,
-      "ammoDP": "depth_charge_14_dm"
+      "ammoDP": "depth_charge_04_dm"
     }
   },
   {
@@ -286,11 +286,11 @@
       "trigger": "bombs",
       "triggerGroup": "depth_charge",
       "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_04",
+      "emitter": "bone_bomb_14",
       "bullets": 1,
       "external": true,
       "dropSpeed": 9.1,
-      "ammoDP": "depth_charge_04_dm"
+      "ammoDP": "depth_charge_14_dm"
     }
   },
   {
@@ -315,30 +315,6 @@
       "external": true,
       "dropSpeed": 9.8,
       "ammoDP": "depth_charge_13_dm"
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "triggerGroup": "depth_charge",
-      "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_01",
-      "bullets": 1,
-      "external": true,
-      "dropSpeed": 10.5,
-      "ammoDP": "depth_charge_01_dm"
-    }
-  },
-  {
-    "Weapon": {
-      "trigger": "bombs",
-      "triggerGroup": "depth_charge",
-      "blk": "gameData/weapons/bombguns/depth_charge_mk_6.blk",
-      "emitter": "bone_bomb_02",
-      "bullets": 1,
-      "external": true,
-      "dropSpeed": 10.5,
-      "ammoDP": "depth_charge_02_dm"
     }
   }
 ]

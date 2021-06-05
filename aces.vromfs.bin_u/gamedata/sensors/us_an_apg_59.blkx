@@ -549,7 +549,7 @@
             "command": "modeSwitch",
             "stateTo": "pulseDopplerBoresightLock",
             "actions": {
-              "setPulseDopplerSearchMode": []
+              "setPulseDopplerBoresightLockMode": []
             }
           }
         },
@@ -559,7 +559,7 @@
             "command": "modeSwitch",
             "stateTo": "pulseBoresightLock",
             "actions": {
-              "setPulseSearchMode": []
+              "setPulseBoresightLockMode": []
             }
           }
         },
@@ -977,26 +977,6 @@
                 "active": false
               },
               "setPulseDopplerStandbyMode": []
-            }
-          }
-        },
-        {
-          "pulseToPulseDopplerBoresightLock": {
-            "stateFrom": "pulseBoresightLock",
-            "command": "modeSwitch",
-            "stateTo": "pulseDopplerSearch",
-            "actions": {
-              "setPulseDopplerBoresightLockMode": []
-            }
-          }
-        },
-        {
-          "pulseToPulseDopplerBoresightLock": {
-            "stateFrom": "pulseBoresightLock",
-            "command": "modeSwitch",
-            "stateTo": "pulseDopplerSearch",
-            "actions": {
-              "setPulseBoresightLockMode": []
             }
           }
         },

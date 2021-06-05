@@ -524,7 +524,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65b.blk",
-      "emitter": "us_agm_65a_001",
+      "emitter": "us_lau_117a_agm_65a_001",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -535,7 +535,7 @@
     "Weapon": {
       "trigger": "atgm",
       "blk": "gameData/Weapons/rocketGuns/us_agm_65b.blk",
-      "emitter": "us_agm_65a_004",
+      "emitter": "us_lau_117a_agm_65a_002",
       "bullets": 1,
       "external": true,
       "separate": true,

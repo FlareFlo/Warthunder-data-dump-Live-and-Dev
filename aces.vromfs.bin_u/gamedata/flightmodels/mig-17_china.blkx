@@ -1101,11 +1101,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1114,12 +1109,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1152,11 +1141,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1165,12 +1149,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1203,11 +1181,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1216,12 +1189,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {

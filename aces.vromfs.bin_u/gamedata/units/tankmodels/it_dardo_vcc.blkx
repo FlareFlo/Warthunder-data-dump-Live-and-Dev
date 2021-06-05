@@ -120,15 +120,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -145,6 +136,9 @@
           "armorThickness": 25.0
         },
         "body_back_dm": {
+          "armorThickness": 38.0
+        },
+        "turret_08_side_dm": {
           "armorThickness": 38.0
         },
         "body_side_dm": {
@@ -167,6 +161,29 @@
         },
         "turret_01_top_dm": {
           "armorThickness": 5.0,
+          "armorClass": "RHA_tank"
+        },
+        "turret_07_back_dm": {
+          "armorThickness": 6.0,
+          "armorClass": "RHA_tank"
+        },
+        "turret_03_bottom_dm": {
+          "armorThickness": 25.0
+        },
+        "composite_armor_hull_01_dm": {
+          "armorThickness": 6.0,
+          "armorClass": "RHA_tank"
+        },
+        "composite_armor_hull_02_dm": {
+          "armorThickness": 6.0,
+          "armorClass": "RHA_tank"
+        },
+        "composite_armor_hull_03_dm": {
+          "armorThickness": 6.0,
+          "armorClass": "RHA_tank"
+        },
+        "composite_armor_hull_04_dm": {
+          "armorThickness": 6.0,
           "armorClass": "RHA_tank"
         }
       },
@@ -768,17 +785,52 @@
     }
   },
   {
-    "xray_viewer_data": {
-      "armorArrayHull": {
-        "xrayDmPart": "composite_armor_hull_01_dm",
-        "titleLoc": "RHA_tank_modern",
-        "armorArrayText": {
-          "layer": {
-            "dmPart": "composite_armor_hull_01_dm"
+    "xray_viewer_data": [
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_01_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_01_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_02_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_02_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_03_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_03_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_04_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_04_dm"
+            }
           }
         }
       }
-    }
+    ]
   },
   {
     "sound": {
@@ -1801,10 +1853,17 @@
         }
       },
       {
-        "commander": {
-          "dmPart": "commander_dm",
-          "role": "commander"
-        }
+        "commander": [
+          {
+            "dmPart": "commander_dm"
+          },
+          {
+            "role": "commander"
+          },
+          {
+            "role": "tank_gunner"
+          }
+        ]
       }
     ]
   },
@@ -2366,10 +2425,10 @@
           "barrelDP": "gun_barrel_dm",
           "breechDP": "cannon_breech_dm",
           "jammedReloadTime": 8.0,
-          "speedYaw": 28.6,
+          "speedYaw": 57.3,
           "speedPitch": 28.6,
           "fireConeAngle": 1.0,
-          "bullets": 432,
+          "bullets": 400,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -2397,6 +2456,9 @@
             },
             {
               "gunnerDm": "gunner_dm"
+            },
+            {
+              "secondGunnerDm": "commander_dm"
             },
             {
               "rotatedTurret": "bone_turret"
@@ -2529,7 +2591,8 @@
             "turret": {
               "head": "bone_mg_gun_twin",
               "gun": "bone_mg_gun_twin",
-              "gunnerDm": "gunner_dm"
+              "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm"
             }
           },
           {
@@ -2584,6 +2647,7 @@
             "head": "bone_gun_01",
             "gun": "bone_gun_01",
             "gunnerDm": "gunner_dm",
+            "secondGunnerDm": "commander_dm",
             "rotatedTurret": "bone_turret"
           },
           "limits": {
@@ -3244,6 +3308,68 @@
     }
   },
   {
+    "ammoStowages": {
+      "ammo1": {
+        "weaponTrigger": "gunner0",
+        "removeLoadedAmmo": true,
+        "fatalFire": true,
+        "fatalExplosion": true,
+        "shells": {
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
+          "ammo_body_01_dm": {
+            "count": 100
+          },
+          "ammo_body_02_dm": {
+            "count": 100
+          },
+          "ammo_body_03_dm": {
+            "count": 100
+          },
+          "ammo_body_dm": {
+            "count": 100
+          }
+        }
+      },
+      "ammo2": {
+        "weaponTrigger": "gunner2",
+        "removeLoadedAmmo": false,
+        "fatalFire": true,
+        "fatalExplosion": true,
+        "shells": {
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
+          "ammo_turret_08_dm": {
+            "count": 1
+          },
+          "ammo_turret_05_dm": {
+            "count": 1
+          },
+          "ammo_turret_04_dm": {
+            "count": 1
+          },
+          "ammo_turret_06_dm": {
+            "count": 1
+          },
+          "ammo_turret_07_dm": {
+            "count": 1
+          },
+          "ammo_turret_03_dm": {
+            "count": 1
+          },
+          "ammo_turret_02_dm": {
+            "count": 1
+          },
+          "ammo_turret_01_dm": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  {
     "modifications": {
       "new_tank_tracks": [],
       "new_tank_suspension": [],
@@ -3287,10 +3413,10 @@
                 "barrelDP": "gun_barrel_dm",
                 "breechDP": "cannon_breech_dm",
                 "jammedReloadTime": 8.0,
-                "speedYaw": 28.6,
+                "speedYaw": 57.3,
                 "speedPitch": 28.6,
                 "fireConeAngle": 1.0,
-                "bullets": 432,
+                "bullets": 400,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -3318,6 +3444,9 @@
                   },
                   {
                     "gunnerDm": "gunner_dm"
+                  },
+                  {
+                    "secondGunnerDm": "commander_dm"
                   },
                   {
                     "rotatedTurret": "bone_turret"
@@ -3450,7 +3579,8 @@
                   "turret": {
                     "head": "bone_mg_gun_twin",
                     "gun": "bone_mg_gun_twin",
-                    "gunnerDm": "gunner_dm"
+                    "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm"
                   }
                 },
                 {
@@ -3505,6 +3635,7 @@
                   "head": "bone_gun_01",
                   "gun": "bone_gun_01",
                   "gunnerDm": "gunner_dm",
+                  "secondGunnerDm": "commander_dm",
                   "rotatedTurret": "bone_turret"
                 },
                 "limits": {
@@ -3563,8 +3694,10 @@
           ]
         }
       },
+      "25mm_M242_HE": [],
       "25mm_M242_APDS": [],
       "25mm_M242_APDS_FS": [],
+      "25mm_M242_HE_ammo_pack": [],
       "25mm_M242_APDS_ammo_pack": {
         "tier": 1
       },

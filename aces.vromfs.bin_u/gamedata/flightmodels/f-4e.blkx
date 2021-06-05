@@ -4689,13 +4689,13 @@
                   {
                     "tier": {
                       "idx": 3,
-                      "iconType": "missile_type_c_air_to_air"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   },
                   {
                     "tier": {
                       "idx": 9,
-                      "iconType": "missile_type_c_air_to_air"
+                      "iconType": "missile_type_c_air_to_air_group"
                     }
                   }
                 ]

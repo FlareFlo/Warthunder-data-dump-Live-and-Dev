@@ -144,15 +144,6 @@
     "smokeScreenFxType": "tank_smokescreen"
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -284,7 +275,11 @@
         "ex_decor_body_l_05_dm": [],
         "ex_decor_body_r_05_dm": [],
         "ex_decor_body_l_01_dm": [],
-        "ex_decor_body_r_01_dm": []
+        "ex_decor_body_r_01_dm": [],
+        "ex_decor_r_01_dm": [],
+        "ex_decor_l_01_dm": [],
+        "ex_decor_r_03_dm": [],
+        "ex_decor_l_03_dm": []
       },
       "sensor": {
         "armorClass": "tank_structural_steel",
@@ -318,6 +313,12 @@
         "armorClass": "tank_steel_wheels",
         "hp": 300.0,
         "armorThickness": 20.0,
+        "wheel_r_top_01_dm": [],
+        "wheel_l_top_01_dm": [],
+        "wheel_r_top_02_dm": [],
+        "wheel_l_top_02_dm": [],
+        "wheel_r_top_03_dm": [],
+        "wheel_l_top_03_dm": [],
         "wheel_r_01_dm": [],
         "wheel_r_02_dm": [],
         "wheel_r_03_dm": [],
@@ -332,8 +333,8 @@
         "wheel_l_06_dm": [],
         "wheel_r_drive_dm": [],
         "wheel_l_drive_dm": [],
-        "wheel_r_front_dm": [],
-        "wheel_l_front_dm": [],
+        "wheel_r_back_dm": [],
+        "wheel_l_back_dm": [],
         "wheel_support_dm": {
           "armorThickness": 22.0
         }
@@ -342,6 +343,10 @@
         "armorClass": "tank_traks",
         "armorThickness": 15.0,
         "hp": 150.0,
+        "ex_armor_l_01_dm": [],
+        "ex_armor_l_02_dm": [],
+        "ex_armor_r_01_dm": [],
+        "ex_armor_r_02_dm": [],
         "ex_armor_body_01_dm": [],
         "ex_armor_02_dm": {
           "armorClass": "tank_structural_steel",
@@ -2441,7 +2446,7 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_02_dm",
-          "breechDP": "cannon_breech_01_dm",
+          "breechDP": "cannon_breech_02_dm",
           "speedYaw": 80.0,
           "speedPitch": 60.0,
           "bullets": 258,
@@ -2520,7 +2525,7 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_03_dm",
-          "breechDP": "cannon_breech_02_dm",
+          "breechDP": "cannon_breech_03_dm",
           "speedYaw": 80.0,
           "speedPitch": 60.0,
           "bullets": 258,
@@ -2599,7 +2604,7 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_04_dm",
-          "breechDP": "cannon_breech_02_dm",
+          "breechDP": "cannon_breech_04_dm",
           "speedYaw": 80.0,
           "speedPitch": 60.0,
           "bullets": 258,
@@ -2672,10 +2677,10 @@
           "createGunEffects": true,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
-          "barrelDP": "gun_barrel_03_dm",
+          "barrelDP": "gun_barrel_dm",
           "brokenBarrelAllowShoot": true,
-          "speedYaw": 24.0,
-          "speedPitch": 15.0,
+          "speedYaw": 80.0,
+          "speedPitch": 60.0,
           "fireConeAngle": 1.0,
           "bullets": 4,
           "salvoAmount": 100.0,
@@ -2820,7 +2825,7 @@
             "ratio": 1.667
           },
           {
-            "ratio": 1.18
+            "ratio": 1.34
           }
         ]
       },
@@ -3593,7 +3598,7 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "barrelDP": "gun_barrel_02_dm",
-                "breechDP": "cannon_breech_01_dm",
+                "breechDP": "cannon_breech_02_dm",
                 "speedYaw": 80.0,
                 "speedPitch": 60.0,
                 "bullets": 258,
@@ -3672,7 +3677,7 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "barrelDP": "gun_barrel_03_dm",
-                "breechDP": "cannon_breech_02_dm",
+                "breechDP": "cannon_breech_03_dm",
                 "speedYaw": 80.0,
                 "speedPitch": 60.0,
                 "bullets": 258,
@@ -3751,7 +3756,7 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "barrelDP": "gun_barrel_04_dm",
-                "breechDP": "cannon_breech_02_dm",
+                "breechDP": "cannon_breech_04_dm",
                 "speedYaw": 80.0,
                 "speedPitch": 60.0,
                 "bullets": 258,
@@ -3824,10 +3829,10 @@
                 "createGunEffects": true,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
-                "barrelDP": "gun_barrel_03_dm",
+                "barrelDP": "gun_barrel_dm",
                 "brokenBarrelAllowShoot": true,
-                "speedYaw": 24.0,
-                "speedPitch": 15.0,
+                "speedYaw": 80.0,
+                "speedPitch": 60.0,
                 "fireConeAngle": 1.0,
                 "bullets": 4,
                 "salvoAmount": 100.0,

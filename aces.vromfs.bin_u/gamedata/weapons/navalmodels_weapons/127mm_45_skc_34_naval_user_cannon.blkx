@@ -513,7 +513,7 @@
       "slopeEffectPreset": "ap",
       "fresnel": [0.23,0.1,2.0],
       "explodeOnRendinst": true,
-      "shellAnimation": "video/shells_animations/aphe.ivf",
+      "shellAnimation": "video/shells_animations/sap.ivf",
       "bulletName": "128mm_sprgr_l44_bdz",
       "dynamicKv": true,
       "explodeTreshold": 5.0,

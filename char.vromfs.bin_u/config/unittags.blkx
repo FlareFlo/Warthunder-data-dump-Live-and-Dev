@@ -536,7 +536,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_wake_island_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "general_electric",
@@ -593,7 +593,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_wake_island_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "general_electric",
@@ -634,15 +634,15 @@
     },
     "Shop": {
       "maxAltitude": 15240.0,
-      "maxSpeed": 401.0,
-      "turnTime": 25.0,
+      "maxSpeed": 494.0,
+      "turnTime": 26.0,
       "airfieldLen": 850.0,
       "climbTime": 60.0,
-      "maxSpeedAlt": 10668.0,
+      "maxSpeedAlt": 11582.0,
       "climbAlt": 6096.0,
       "climbSpeed": 150.0,
       "wingLoading": 303.0,
-      "thrustToWeightRatio": 0.46,
+      "thrustToWeightRatio": 0.55,
       "rollRate": 180.0
     }
   },
@@ -1422,7 +1422,7 @@
     "hangar_place": "aircraft",
     "testFlight": "testFlight_berlin_Jet",
     "operatorCountry": "country_germany_modern",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "mtu_aero_engines",
@@ -3931,7 +3931,7 @@
     "type": "helicopter",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_mozdok_heli",
-    "operatorCountry": "country_gdr",
+    "operatorCountry": "country_germany_modern",
     "releaseDate": "2019-09-10 00:00:00",
     "info": {
       "engine1_dm": {
@@ -4216,7 +4216,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_britain_navy_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "rolls-royce",
@@ -6846,7 +6846,7 @@
     "hangar_place": "aircraft",
     "testFlight": "testFlight_denmark",
     "operatorCountry": "country_finland",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "daimler_benz",
@@ -12957,7 +12957,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_peleliu",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "packard",
@@ -21310,9 +21310,9 @@
     "tags": {
       "axis": true,
       "country_japan": true,
+      "type_fighter": true,
       "type_jet_fighter": true,
       "pacific": true,
-      "type_fighter": true,
       "not_in_dynamic_campaign": true,
       "air": true
     },
@@ -40851,7 +40851,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_sicily_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "rolls-royce",
@@ -54441,7 +54441,7 @@
     "hangar_place": "aircraft",
     "testFlight": "testFlight_krymsk_Jet",
     "operatorCountry": "country_egypt",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "saturn",
@@ -54811,7 +54811,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_krymsk_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "tumansky",
@@ -55020,12 +55020,12 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_zhengzhou_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "shenyang_liming",
-        "model": "wp-7f",
-        "mass": 1170.0
+        "model": "wp-13f",
+        "mass": 1200.0
       },
       "tanks_params": {
         "protected": true
@@ -57065,7 +57065,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_krymsk_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "tumansky",
@@ -57111,7 +57111,7 @@
       "turnTime": 32.0,
       "airfieldLen": 1500.0,
       "climbTime": 130.0,
-      "maxSpeedAlt": 0.0,
+      "maxSpeedAlt": 12000.0,
       "climbAlt": 6096.0,
       "climbSpeed": 75.0,
       "wingLoading": 335.0,
@@ -59475,7 +59475,7 @@
     "type": "aircraft",
     "hangar_place": "aircraft",
     "testFlight": "testFlight_france_Jet",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "info": {
       "engine1_dm": {
         "manufacturer": "hispano-suiza",
@@ -62913,7 +62913,8 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_ussr_tft",
-    "releaseDate": "2019-03-12 00:00:00",
+    "operatorCountry": "country_russia",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_ussr": true,
       "tank": true,
@@ -64247,7 +64248,8 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "operatorCountry": "country_finland",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_france": true,
       "tank": true,
@@ -65005,7 +65007,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_italy": true,
       "tank": true,
@@ -65014,8 +65016,8 @@
       "canRepairAnyAlly": true
     },
     "Shop": {
-      "armorThicknessHull": [8.0,8.0,8.0],
-      "armorThicknessTurret": [15.0,8.0,8.0]
+      "armorThicknessHull": [72.0,52.0,38.0],
+      "armorThicknessTurret": [40.0,40.0,40.0]
     }
   },
   "it_m11_39": {
@@ -67672,7 +67674,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_germany_modern",
     "testFlight": "testFlight_ERA_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_germany": true,
       "tank": true,
@@ -67722,7 +67724,7 @@
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
     "operatorCountry": "country_argentina",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_germany": true,
       "tank": true,
@@ -68077,7 +68079,7 @@
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
     "operatorCountry": "country_finland",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_sweden": true,
       "tank": true,
@@ -69206,7 +69208,7 @@
     "hangar_place": "tank",
     "operatorCountry": "country_south_africa",
     "testFlight": "testFlight_ussr_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_britain": true,
       "tank": true,
@@ -72029,7 +72031,7 @@
     "hangar_place": "tank",
     "testFlight": "testFlight_japan_tft",
     "operatorCountry": "country_japan_modern",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_japan": true,
       "tank": true,
@@ -72495,7 +72497,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_germ_tfs",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_germany": true,
       "type_minelayer": true,
@@ -78406,7 +78408,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_china_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_china": true,
       "tank": true,
@@ -78417,7 +78419,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_china_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_china": true,
       "tank": true,
@@ -78445,7 +78447,7 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_china_tft",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_china": true,
       "tank": true,
@@ -80771,7 +80773,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_usa_tfs",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_usa": true,
       "type_torpedo_gun_boat": true,
@@ -80789,7 +80791,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_uk_tfs",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_britain": true,
       "type_frigate": true,
@@ -80808,7 +80810,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_ussr_tfs",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_ussr": true,
       "type_destroyer": true,
@@ -80827,7 +80829,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_uk_tfs",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_britain": true,
       "type_light_cruiser": true,
@@ -80849,7 +80851,7 @@
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_it_tfs",
     "operatorCountry": "country_italy_kingdom",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_italy": true,
       "type_battleship": true,
@@ -80869,7 +80871,7 @@
     "type": "ship",
     "hangar_place": "ship",
     "testFlight": "testFlight_destroyer_usa_tfs",
-    "releaseDate": "2021-05-25 00:00:00",
+    "releaseDate": "2021-06-02 00:00:00",
     "tags": {
       "country_usa": true,
       "type_battleship": true,

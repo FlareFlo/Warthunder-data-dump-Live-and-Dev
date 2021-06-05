@@ -78,6 +78,9 @@
     "expClass": "exp_SPAA"
   },
   {
+    "radarDeployTime": 3.0
+  },
+  {
     "mass": 5500.0
   },
   {
@@ -102,34 +105,13 @@
     "type": "typeSPAA"
   },
   {
-    "rearmSmokeTimeOnField": 60.0
-  },
-  {
-    "rearmTimeOnField": 120.0
+    "rearmTimeOnField": 90.0
   },
   {
     "canReloadNonGuns": true
   },
   {
-    "drowningCheckHeightMultiplier": 1.8
-  },
-  {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
+    "drowningCheckHeightMultiplier": 0.5
   },
   {
     "controlDevices": [
@@ -2267,6 +2249,27 @@
     }
   },
   {
+    "radarAnimations": [
+      {
+        "anim": {
+          "animatedRadarIdx": 0,
+          "radarAnimVar": "radar_drive",
+          "radarAntenaSpeed": 720.0
+        }
+      },
+      {
+        "anim": {
+          "animatedRadarIdx": 0,
+          "radarElevationScan": true,
+          "pitchByTurret": true,
+          "pitchLimits": [-10.0,85.0],
+          "radarAntenaSpeed": 50.0,
+          "radarAnimPitchVar": "target_tagging_pitch_rotate"
+        }
+      }
+    ]
+  },
+  {
     "sound": {
       "EngineName": "engine_patria",
       "TrackSoundPath": "tanks/engines_tanks",
@@ -2338,6 +2341,12 @@
         },
         {
           "node": "antenna_target_location_mount"
+        },
+        {
+          "node": "antenna_target_tagging"
+        },
+        {
+          "node": "antenna_target_tagging_mount"
         }
       ]
     }
@@ -2379,8 +2388,8 @@
         "cls_body": "convex_hull"
       },
       "engine": {
-        "horsePowers": 236.0,
-        "maxRPM": 2000.0,
+        "horsePowers": 274.0,
+        "maxRPM": 2100.0,
         "minRPM": 600.0,
         "rpmTau": 1.9
       },
@@ -2413,7 +2422,7 @@
             "ratio": 1.375
           },
           {
-            "ratio": 0.96
+            "ratio": 0.875
           }
         ]
       },
@@ -3018,10 +3027,10 @@
   },
   {
     "cockpit": {
-      "zoomOutFov": 9.217,
-      "zoomInFov": 6.141,
-      "sightFov": 4.5,
-      "sightName": "centauro",
+      "zoomOutFov": 12.3,
+      "zoomInFov": 6.14,
+      "sightFov": 6.0,
+      "sightName": "roland_sight",
       "openedCockpit": true,
       "headPos": [0.0,4.5,-8.8],
       "headPosOnShooting": [-1.0,4.5,-0.1],
@@ -3123,6 +3132,310 @@
     ]
   },
   {
+    "ikGunner": [
+      {
+        "model": "sweden_gunner_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "4"
+      },
+      {
+        "dmName": "gunner_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
+  },
+  {
+    "ikGunner": [
+      {
+        "model": "sweden_gunner_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "1"
+      },
+      {
+        "dmName": "loader_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
+  },
+  {
+    "ikGunner": [
+      {
+        "model": "sweden_gunner_officer_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "3"
+      },
+      {
+        "dmName": "commander_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
+  },
+  {
+    "ikGunner": [
+      {
+        "model": "sweden_gunner_char"
+      },
+      {
+        "maxHeadHorAngle": 60.0
+      },
+      {
+        "maxHeadDownAngle": 60.0
+      },
+      {
+        "maxHeadUpAngle": 10.0
+      },
+      {
+        "headNode": "Bip01 Head"
+      },
+      {
+        "pelvisNode": "Bip01 Pelvis"
+      },
+      {
+        "pelvisTargetNode": "Bip01 Pelvis_"
+      },
+      {
+        "crouchDelta": [0.0,0.0,0.0]
+      },
+      {
+        "suffix": "2"
+      },
+      {
+        "dmName": "driver_dm"
+      },
+      {
+        "deadHeadAttitudeMin": -40.0
+      },
+      {
+        "deadHeadAttitudeMax": -55.0
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "lefthand_",
+          "flexionDir": [0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "righthand_",
+          "flexionDir": [-0.5,-0.5,0.3]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [-0.2,1.0,-1.0]
+        }
+      },
+      {
+        "ikNode": {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [-0.6,1.0,-1.0]
+        }
+      }
+    ]
+  },
+  {
     "modifications": {
       "new_wheels": [],
       "new_car_suspension": [],
@@ -3217,11 +3530,11 @@
   {
     "skin": {
       "name": "sw_camo_winter_green_white",
-      "nameLocId": "skin/sw_camo_winter_green_white",
-      "descLocId": "skin/sw_camo_winter_green_white/desc",
+      "nameLocId": "skin/fr_camo_winter_green_white",
+      "descLocId": "skin/fr_camo_winter_green_white/desc",
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
-        "to": "sw_camo_winter_green_white*"
+        "to": "fr_camo_winter_green_white*"
       }
     }
   }

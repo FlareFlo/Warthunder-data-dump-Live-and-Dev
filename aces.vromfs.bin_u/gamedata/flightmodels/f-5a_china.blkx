@@ -1985,6 +1985,12 @@
     },
     {
       "preset": {
+        "name": "f_5a_default_aim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/f_5a_default_aim_9b.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "f_5a_bomb_mk81",
         "blk": "gameData/FlightModels/weaponPresets/f_5a_bomb_mk81.blk",
         "reqModification": "us_500lb_mk82",

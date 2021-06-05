@@ -1774,15 +1774,6 @@
     ]
   },
   {
-    "commanderView": {
-      "aimModeAvailable": true,
-      "optics": "commander_optics_square",
-      "zoomOutFov": 80.0,
-      "zoomInFov": 9.2,
-      "sightSize": [1.775,1.25]
-    }
-  },
-  {
     "ircmProjector": {
       "node": "ex_decor_01",
       "beamRadius": [1400.0,100.0],

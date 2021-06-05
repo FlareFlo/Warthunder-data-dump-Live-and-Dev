@@ -149,6 +149,9 @@
           "armorThickness": 45.0,
           "genericArmorQuality": 1.24,
           "armorQuality": 1.01
+        },
+        "turret_03_side_dm": {
+          "armorThickness": 10.0
         }
       },
       "driver_protection": {
@@ -272,12 +275,6 @@
           "cumulativeArmorQuality": 0.0,
           "createSecondaryShatters": false,
           "armorEffectiveThicknessMax": 210.0
-        },
-        "turret_03_side_dm": {
-          "armorThickness": 110.0,
-          "cumulativeArmorQuality": 0.0,
-          "createSecondaryShatters": false,
-          "armorEffectiveThicknessMax": 200.0
         },
         "turret_03_bottom_dm": {
           "armorThickness": 105.0,

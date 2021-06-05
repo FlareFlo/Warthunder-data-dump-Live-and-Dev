@@ -34,15 +34,15 @@
         "hp": 15.0
       }
     },
-    "armor13_5": {
+    "armor16": {
       "armor2_dm": {
-        "hp": 40.0
+        "hp": 45.0
       },
       "armor3_dm": {
-        "hp": 40.0
+        "hp": 45.0
       },
       "armor4_dm": {
-        "hp": 40.0
+        "hp": 45.0
       }
     },
     "armor_engine": {
@@ -150,6 +150,11 @@
       },
       "spar_r_dm": {
         "hp": 52.4
+      }
+    },
+    "dural5": {
+      "radar_dm": {
+        "hp": 35.0
       }
     },
     "glass40": {
@@ -1094,6 +1099,11 @@
     {
       "part": {
         "name": "pilot_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "radar_dm"
       }
     },
     {
@@ -2370,7 +2380,7 @@
       "preset": {
         "name": "md_454_matra61",
         "blk": "gameData/flightModels/weaponPresets/md_454_matra61.blk",
-        "reqModification": "fr_matra_type116",
+        "reqModification": "fr_matra_type61",
         "weaponConfig": [
           {
             "Weapon": [
@@ -2469,79 +2479,90 @@
       }
     },
     {
-      "preset": {
-        "name": "md_454_matra101_matra61",
-        "blk": "gameData/flightModels/weaponPresets/md_454_matra101_matra61.blk",
-        "reqModification": "fr_matra_type116",
-        "weaponConfig": [
-          {
-            "Weapon": {
-              "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
-              "amountPerTier": 55.0,
-              "tier": {
-                "idx": 6,
-                "iconType": "nar_ap_rocket_b"
+      "preset": [
+        {
+          "name": "md_454_matra101_matra61"
+        },
+        {
+          "blk": "gameData/flightModels/weaponPresets/md_454_matra101_matra61.blk"
+        },
+        {
+          "reqModification": "fr_matra_type116"
+        },
+        {
+          "reqModification": "fr_matra_type61"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/fr_sneb_type23_md_460.blk",
+                "amountPerTier": 55.0,
+                "tier": {
+                  "idx": 6,
+                  "iconType": "nar_ap_rocket_b"
+                }
               }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151b.blk"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 3,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151a.blk"
+                },
+                {
+                  "amountPerTier": 2.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 8,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 9,
+                    "iconType": "rockets_ap_large_group_x2"
+                  }
+                }
+              ]
             }
-          },
-          {
-            "Weapon": [
-              {
-                "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151b.blk"
-              },
-              {
-                "amountPerTier": 2.0
-              },
-              {
-                "tier": {
-                  "idx": 3,
-                  "iconType": "rockets_ap_large_group_x2"
-                }
-              },
-              {
-                "tier": {
-                  "idx": 4,
-                  "iconType": "rockets_ap_large_group_x2"
-                }
-              },
-              {
-                "tier": {
-                  "idx": 5,
-                  "iconType": "rockets_ap_large_group_x2"
-                }
-              }
-            ]
-          },
-          {
-            "Weapon": [
-              {
-                "blk": "gameData/Weapons/rocketGuns/fr_matra_t_10_151a.blk"
-              },
-              {
-                "amountPerTier": 2.0
-              },
-              {
-                "tier": {
-                  "idx": 7,
-                  "iconType": "rockets_ap_large_group_x2"
-                }
-              },
-              {
-                "tier": {
-                  "idx": 8,
-                  "iconType": "rockets_ap_large_group_x2"
-                }
-              },
-              {
-                "tier": {
-                  "idx": 9,
-                  "iconType": "rockets_ap_large_group_x2"
-                }
-              }
-            ]
-          }
-        ]
-      }
+          ]
+        }
+      ]
     },
     {
       "preset": {
@@ -2635,6 +2656,12 @@
   "arcadeOverride": {
     "maxSpeedMultiplier": 1.3,
     "wepOverspeed": 1.3
+  },
+  "sensors": {
+    "sensor": {
+      "blk": "gameData/sensors/us_an_apg_30.blk",
+      "dmPart": "radar_dm"
+    }
   },
   "wiki": {
     "general": {

@@ -433,7 +433,7 @@
         "workTime": 100.0,
         "uncageBeforeLaunch": true,
         "lockAfterLaunch": true,
-        "lockTimeOut": 1.8,
+        "lockTimeOut": 0.75,
         "breakLockMaxTime": 5.0,
         "radarSeeker": {
           "band": 8,
@@ -470,7 +470,7 @@
           },
           "dopplerSpeedGate": {
             "filterAlpha": 0.8,
-            "filterBetta": 0.005
+            "filterBetta": 0.05
           }
         },
         "guidanceAutopilot": {

@@ -2256,10 +2256,10 @@
           "hp": 5004.0
         },
         "fuel_tank_05_dm": {
-          "hp": 6834.0
+          "hp": 7000.0
         },
         "fuel_tank_06_dm": {
-          "hp": 6834.0
+          "hp": 7000.0
         }
       },
       "coal_bunkers": {
@@ -2332,6 +2332,10 @@
         "turret_02_top_dm": {
           "armorClass": "ship_RHA",
           "armorThickness": 14.0,
+          "hp": 10000.0
+        },
+        "turret_01_front_dm": {
+          "armorThickness": 70.0,
           "hp": 10000.0
         },
         "turret_01_side_dm": {

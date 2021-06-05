@@ -2603,7 +2603,7 @@
             "rotatedTurret": "bone_mg_aa_h_01"
           },
           "limits": {
-            "yaw": [-120.0,120.0],
+            "yaw": [-180.0,180.0],
             "pitch": [-5.0,15.0]
           }
         }
@@ -3477,7 +3477,7 @@
                   "rotatedTurret": "bone_mg_aa_h_01"
                 },
                 "limits": {
-                  "yaw": [-120.0,120.0],
+                  "yaw": [-180.0,180.0],
                   "pitch": [-5.0,15.0]
                 }
               }

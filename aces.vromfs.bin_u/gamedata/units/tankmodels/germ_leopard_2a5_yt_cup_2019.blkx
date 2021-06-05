@@ -134,7 +134,7 @@
         "armorClass": "leopard_2a5_turret_nera",
         "body_front_dm": {
           "armorThickness": 400.0,
-          "cumulativeArmorQuality": 1.0,
+          "cumulativeArmorQuality": 1.097,
           "genericArmorQuality": 0.59,
           "createSecondaryShatters": false
         }

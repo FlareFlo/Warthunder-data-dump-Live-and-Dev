@@ -25038,6 +25038,153 @@
   },
   {
     "dmg": {
+      "name": "phi_cliff_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_cliff_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_cliff_c",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_column_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_column_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_land_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_land_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_land_c",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_land_d",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_land_e",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_land_f",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_octahedron_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_octahedron_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_peak_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_peak_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_peak_c",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_plate_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_plate_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_wall_a",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_wall_b",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "phi_wall_c",
+      "immortal": true,
+      "useVsm": true
+    }
+  },
+  {
+    "dmg": {
       "name": "floating_cliff_a",
       "immortal": true,
       "useVsm": true

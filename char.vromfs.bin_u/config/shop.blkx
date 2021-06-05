@@ -1556,11 +1556,11 @@
             "rank": 2
           },
           "germ_pzkpfw_IV_ausf_G": {
-            "rank": 3,
-            "reqAir": ""
+            "rank": 2
           },
           "pzkpfw_iv_late_group": {
             "image": "#ui/unitskin#germ_pzkpfw_iv_late_group",
+            "reqAir": "",
             "germ_pzkpfw_IV_ausf_H": {
               "rank": 3
             },
@@ -2050,15 +2050,13 @@
             }
           },
           "bf-109f_group": {
-            "reqAir": "",
             "image": "#ui/unitskin#bf-109f_group",
+            "reqAir": "",
             "bf-109f-4": {
-              "rank": 3,
-              "reqAir": ""
+              "rank": 3
             },
             "bf-109f-4_trop": {
-              "rank": 3,
-              "reqAir": ""
+              "rank": 3
             }
           },
           "bf-109g-2": {
@@ -2477,11 +2475,10 @@
             "reqAir": ""
           },
           "sm_79_group": {
-            "reqAir": "",
             "image": "#ui/unitskin#sm-79_group",
+            "reqAir": "",
             "sm_79_1936": {
               "rank": 2,
-              "reqAir": "",
               "showOnlyWhenResearch": true
             },
             "sm_79_1939": {
@@ -2560,7 +2557,7 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;ps5;xboxOne;xboxScarlett"
+            "showOnlyWhenBought": true
           },
           "fiat_g91_r4_german": {
             "rank": 5,
@@ -4951,12 +4948,10 @@
             "image": "#ui/unitskin#hurricane_group",
             "reqAir": "",
             "hurricanemkii": {
-              "rank": 2,
-              "reqAir": ""
+              "rank": 2
             },
             "hurricane_mk4": {
-              "rank": 2,
-              "reqAir": ""
+              "rank": 2
             }
           },
           "hurricane_mk1": {
@@ -5025,11 +5020,10 @@
             "rank": 2
           },
           "spitfire_mk5_group": {
-            "reqAir": "",
             "image": "#ui/unitskin#spitfire_mk5_group",
+            "reqAir": "",
             "spitfire_mk5b": {
-              "rank": 3,
-              "reqAir": ""
+              "rank": 3
             },
             "spitfire_mk5b_notrop": {
               "rank": 3
@@ -5967,19 +5961,16 @@
             "rank": 2
           },
           "a6m3_mod22_group": {
-            "reqAir": "",
             "image": "#ui/unitskin#a6m3_mod22_group",
+            "reqAir": "",
             "a6m3_zero": {
-              "rank": 3,
-              "reqAir": ""
+              "rank": 3
             },
             "a6m3_mod22_zero": {
-              "rank": 3,
-              "reqAir": ""
+              "rank": 3
             },
             "a6m3_mod22ko_zero": {
-              "rank": 3,
-              "reqAir": ""
+              "rank": 3
             }
           },
           "a6m5_group": {
@@ -6062,15 +6053,13 @@
             "rank": 1
           },
           "ki-43_group": {
-            "reqAir": "",
             "image": "#ui/unitskin#ki-43_group",
+            "reqAir": "",
             "ki_43_1": {
-              "rank": 2,
-              "reqAir": ""
+              "rank": 2
             },
             "ki_43_2": {
-              "rank": 2,
-              "reqAir": ""
+              "rank": 2
             }
           },
           "ki_44_group": {
@@ -6743,7 +6732,7 @@
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;ps5;xboxOne;xboxScarlett"
+            "showOnlyWhenBought": true
           },
           "cn_t_34_85_zis_53_no215": {
             "rank": 4,
@@ -7324,7 +7313,7 @@
             "reqAir": "",
             "rankPosXY": [6,1],
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;ps5;xboxOne;xboxScarlett"
+            "showOnlyWhenBought": true
           }
         }
       }
@@ -7577,9 +7566,7 @@
           },
           "fiat_g91_r4": {
             "rank": 5,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showByPlatform": "ps4;ps5;xboxOne;xboxScarlett"
+            "reqAir": ""
           }
         }
       },
@@ -7927,7 +7914,7 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;ps5"
+            "showOnlyWhenBought": true
           },
           "fr_pzkpfw_V_panther_dauphine": {
             "rank": 4,
@@ -8337,8 +8324,7 @@
             "rank": 2
           },
           "sw_pvkv_II": {
-            "rank": 3,
-            "reqAir": ""
+            "rank": 3
           },
           "sw_ikv_103": {
             "rank": 4
@@ -8417,8 +8403,7 @@
             "rank": 2
           },
           "sw_l_62_anti_II": {
-            "rank": 3,
-            "reqAir": ""
+            "rank": 3
           },
           "sw_lvkv_42": {
             "rank": 4
@@ -8487,7 +8472,7 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;ps5;xboxOne;xboxScarlett"
+            "showOnlyWhenBought": true
           },
           "sw_cv_90105_tml": {
             "rank": 6,

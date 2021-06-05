@@ -2236,7 +2236,7 @@
               "amountPerTier": 1.0
             },
             {
-              "iconType": "missile_air_to_air"
+              "iconType": "missile_type_b_air_to_air"
             },
             {
               "tier": {
@@ -2464,7 +2464,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {
@@ -2546,7 +2546,7 @@
                   "amountPerTier": 1.0
                 },
                 {
-                  "iconType": "missile_air_to_air"
+                  "iconType": "missile_type_b_air_to_air"
                 },
                 {
                   "tier": {

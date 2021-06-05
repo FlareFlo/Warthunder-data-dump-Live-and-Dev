@@ -2,9 +2,9 @@
   "model": "yak_28b",
   "fmFile": "fm/yak-28b.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
-  "gearSinkRangeLR": 0.364,
-  "gearSinkRangeC": 0.521,
-  "gearSinkRange2C": 0.15,
+  "gearSinkRangeLR": 1.0,
+  "gearSinkRangeC": 0.45,
+  "gearSinkRange2C": 0.01,
   "haveCCIPForRocket": true,
   "haveCCIPForGun": true,
   "haveCCIPForBombs": true,
@@ -1241,11 +1241,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1254,12 +1249,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1292,11 +1281,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1305,12 +1289,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {

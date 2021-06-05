@@ -3047,6 +3047,7 @@
               "head": "bone_mg_twin_02",
               "gun": "bone_mg_twin_02",
               "gunnerDm": "gunner_dm",
+              "secondGunnerDm": "commander_dm",
               "verDriveDm": "drive_turret_v_dm",
               "horDriveDm": "drive_turret_h_dm"
             }
@@ -3201,7 +3202,7 @@
             "horDriveDm": "commander_panoramic_sight_dm"
           },
           "limits": {
-            "yaw": [-90.0,90.0],
+            "yaw": [-180.0,180.0],
             "pitch": [-10.0,15.0]
           }
         }
@@ -4308,6 +4309,7 @@
                     "head": "bone_mg_twin_02",
                     "gun": "bone_mg_twin_02",
                     "gunnerDm": "gunner_dm",
+                    "secondGunnerDm": "commander_dm",
                     "verDriveDm": "drive_turret_v_dm",
                     "horDriveDm": "drive_turret_h_dm"
                   }
@@ -4462,7 +4464,7 @@
                   "horDriveDm": "commander_panoramic_sight_dm"
                 },
                 "limits": {
-                  "yaw": [-90.0,90.0],
+                  "yaw": [-180.0,180.0],
                   "pitch": [-10.0,15.0]
                 }
               }

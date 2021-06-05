@@ -1086,7 +1086,7 @@
     "WaterRudderSpeedRange": [8.33333,13.8889],
     "StrutL": {
       "SpringHeight": 0.4,
-      "SpringCoeff": 550000.0,
+      "SpringCoeff": 650000.0,
       "WheelRadus": 0.39,
       "Retractable": true,
       "LeftBrake": true,
@@ -1097,7 +1097,7 @@
     },
     "StrutR": {
       "SpringHeight": 0.4,
-      "SpringCoeff": 550000.0,
+      "SpringCoeff": 650000.0,
       "WheelRadus": 0.39,
       "Retractable": true,
       "LeftBrake": false,
@@ -1108,7 +1108,7 @@
     },
     "StrutC": {
       "SpringHeight": 0.35,
-      "SpringCoeff": 400000.0,
+      "SpringCoeff": 200000.0,
       "WheelRadus": 0.295,
       "Retractable": true,
       "LeftBrake": false,

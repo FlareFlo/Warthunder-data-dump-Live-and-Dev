@@ -1,5 +1,6 @@
 {
   "type": "radar",
+  "showMissileLaunchZone": true,
   "transivers": {
     "pulse": {
       "sideLobesAttenuation": -22.0,
@@ -87,11 +88,12 @@
       "azimuthLimits": [-52.0,52.0],
       "elevationLimits": [-38.0,43.0],
       "rollStabLimit": 70.0,
-      "period": 0.5,
-      "width": 6.0,
+      "period": 1.15,
+      "width": 15.0,
       "barHeight": 2.0,
-      "barsCount": 2,
-      "rowMajor": false,
+      "barsCount": 4,
+      "rowMajor": true,
+      "barsOneWay": false,
       "indicate": true
     },
     "track": {
@@ -105,6 +107,7 @@
       "elevationLimits": [-30.0,30.0],
       "rollStabLimit": 70.0,
       "period": 2.0,
+      "centerElevation": -7.0,
       "width": 30.0,
       "barHeight": 2.15,
       "barsCount": 7,
@@ -114,9 +117,10 @@
     "searchOLST2": {
       "type": "pyramide",
       "azimuthLimits": [-30.0,30.0],
-      "elevationLimits": [-30.0,30.0],
+      "elevationLimits": [-30.0,5.0],
       "rollStabLimit": 70.0,
       "period": 0.2,
+      "centerElevation": -2.0,
       "width": 7.5,
       "barHeight": 2.15,
       "barsCount": 3,
@@ -126,19 +130,21 @@
     "designationLockOLS": {
       "type": "pyramide",
       "azimuthLimits": [-30.0,30.0],
-      "elevationLimits": [-30.0,30.0],
+      "elevationLimits": [-30.0,5.0],
       "rollStabLimit": 70.0,
       "period": 0.2,
-      "width": 2.5,
+      "centerElevation": -2.0,
+      "width": 7.5,
       "barHeight": 2.15,
-      "barsCount": 2,
-      "rowMajor": false,
+      "barsCount": 3,
+      "rowMajor": true,
+      "barsOneWay": false,
       "indicate": true
     },
     "trackOLS": {
       "type": "no",
       "azimuthLimits": [-30.0,30.0],
-      "elevationLimits": [-30.0,30.0]
+      "elevationLimits": [-30.0,5.0]
     }
   },
   "signals": {
@@ -725,18 +731,14 @@
           },
           {
             "setCenterAzimuth": {
-              "source": "targetDesignation"
-            }
-          },
-          {
-            "setCenterElevation": {
-              "source": "targetDesignation"
+              "source": "constant",
+              "value": 0.0
             }
           },
           {
             "setDistGatePos": {
               "source": "targetDesignation",
-              "width": 1000.0
+              "width": 5000.0
             }
           },
           {
@@ -788,6 +790,10 @@
           "setDesignationLockModeCommon": [],
           "setPulseTrackModeCommon": [],
           "setHighAltModeCommon": [],
+          "setCenterElevation": {
+            "source": "constant",
+            "value": 4.0
+          },
           "setModeName": {
             "name": "acquisition"
           }
@@ -796,6 +802,10 @@
           "setDesignationLockModeCommon": [],
           "setPulseTrackModeCommon": [],
           "setHighAltModeCommon": [],
+          "setCenterElevation": {
+            "source": "constant",
+            "value": -4.0
+          },
           "setModeName": {
             "name": "LD acquisition"
           }
@@ -804,6 +814,10 @@
           "setDesignationLockModeCommon": [],
           "setPulseTrackModeCommon": [],
           "setLowAltModeCommon": [],
+          "setCenterElevation": {
+            "source": "constant",
+            "value": 4.0
+          },
           "setModeName": {
             "name": "acquisition"
           }
@@ -812,6 +826,10 @@
           "setDesignationLockModeCommon": [],
           "setPulseDopplerModeCommon": [],
           "setLowAltModeCommon": [],
+          "setCenterElevation": {
+            "source": "constant",
+            "value": 0.0
+          },
           "setModeName": {
             "name": "MTI acquisition"
           }
@@ -820,6 +838,10 @@
           "setDesignationLockModeCommon": [],
           "setOlsModeCommon": [],
           "setHighAltModeCommon": [],
+          "setCenterElevation": {
+            "source": "constant",
+            "value": 0.0
+          },
           "setModeName": {
             "name": "IRST acquisition"
           }

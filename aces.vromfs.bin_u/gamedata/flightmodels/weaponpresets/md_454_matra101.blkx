@@ -61,6 +61,11 @@
     ]
   },
   {
+    "hideDmParts": {
+      "node": "tank1_dm"
+    }
+  },
+  {
     "Weapon": {
       "trigger": "rockets",
       "external": false,

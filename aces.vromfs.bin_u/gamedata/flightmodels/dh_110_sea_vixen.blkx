@@ -15,6 +15,9 @@
     "gearSinkRangeC": 0.155
   },
   {
+    "gyroscopicSightOverSensors": true
+  },
+  {
     "type": "typeFighter"
   },
   {
@@ -2338,6 +2341,22 @@
         }
       },
       {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_1000lbs_500lbs_bombs"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_500lbs_bombs.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x1000lb"
+          },
+          {
+            "reqModification": "sea_hawk_2x500lb"
+          }
+        ]
+      },
+      {
         "preset": {
           "name": "dh110_sea_vixen_agm12_bullpup",
           "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup.blk",
@@ -2362,13 +2381,54 @@
         "preset": {
           "name": "dh110_sea_vixen_rp3",
           "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_rp3.blk",
-          "reqModification": "uk_rp3_mk12"
+          "reqModification": "sea_hawk_60lb_rocket_mk1"
+        }
+      },
+      {
+        "preset": {
+          "name": "dh110_sea_vixen_rp3_25lb_ap",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_rp3_25lb_ap.blk",
+          "reqModification": "sea_hawk_25lb_rocket_ap_mk2",
+          "weaponConfig": {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/uk_25lb_ap_mk2_late.blk"
+              },
+              {
+                "amountPerTier": 6.0
+              },
+              {
+                "tier": {
+                  "idx": 4,
+                  "iconType": "rockets_ap_small_group"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "rockets_ap_small_group"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "rockets_ap_small_group"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8,
+                  "iconType": "rockets_ap_small_group"
+                }
+              }
+            ]
+          }
         }
       },
       {
         "preset": {
           "name": "dh110_sea_vixen_agm12_bullpup_firestreak",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_firestreak",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_firestreak.blk",
           "reqModification": "fj_4b_agm_12b"
         }
       },
@@ -2378,7 +2438,7 @@
             "name": "dh110_sea_vixen_agm12_bullpup_matra7"
           },
           {
-            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_matra7"
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_matra7.blk"
           },
           {
             "reqModification": "fj_4b_agm_12b"
@@ -2391,16 +2451,126 @@
       {
         "preset": [
           {
-            "name": "dh110_sea_vixen_redtop_matra7"
+            "name": "dh110_sea_vixen_redtop_rp3"
           },
           {
-            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_redtop_matra7"
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_redtop_rp3.blk"
           },
           {
             "reqModification": "aam_redtop"
           },
           {
-            "reqModification": "uk_matra_7"
+            "reqModification": "sea_hawk_60lb_rocket_mk1"
+          },
+          {
+            "weaponConfig": [
+              {
+                "Weapon": [
+                  {
+                    "blk": "gameData/Weapons/rocketGuns/uk_redtop.blk"
+                  },
+                  {
+                    "amountPerTier": 1.0
+                  },
+                  {
+                    "tier": {
+                      "idx": 4,
+                      "iconType": "missile_type_b_air_to_air"
+                    }
+                  },
+                  {
+                    "tier": {
+                      "idx": 8,
+                      "iconType": "missile_type_b_air_to_air"
+                    }
+                  }
+                ]
+              },
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/rocketGuns/uk_rp3_2_late.blk",
+                  "amountPerTier": 4.0,
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "rockets_he_small_group"
+                  }
+                }
+              },
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/rocketGuns/uk_rp3_late.blk",
+                  "amountPerTier": 4.0,
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "rockets_he_small_group"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_redtop_rp3_25lb_ap"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_redtop_rp3_25lb_ap.blk"
+          },
+          {
+            "reqModification": "aam_redtop"
+          },
+          {
+            "reqModification": "sea_hawk_25lb_rocket_ap_mk2"
+          },
+          {
+            "weaponConfig": [
+              {
+                "Weapon": [
+                  {
+                    "blk": "gameData/Weapons/rocketGuns/uk_redtop.blk"
+                  },
+                  {
+                    "amountPerTier": 1.0
+                  },
+                  {
+                    "tier": {
+                      "idx": 4,
+                      "iconType": "missile_type_b_air_to_air"
+                    }
+                  },
+                  {
+                    "tier": {
+                      "idx": 8,
+                      "iconType": "missile_type_b_air_to_air"
+                    }
+                  }
+                ]
+              },
+              {
+                "Weapon": [
+                  {
+                    "blk": "gameData/Weapons/rocketGuns/uk_25lb_ap_mk2_late.blk"
+                  },
+                  {
+                    "amountPerTier": 4.0
+                  },
+                  {
+                    "tier": {
+                      "idx": 5,
+                      "iconType": "rockets_ap_small_group"
+                    }
+                  },
+                  {
+                    "tier": {
+                      "idx": 7,
+                      "iconType": "rockets_ap_small_group"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -2410,7 +2580,7 @@
             "name": "dh110_sea_vixen_agm12_bullpup_redtop"
           },
           {
-            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_redtop"
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_agm12_bullpup_redtop.blk"
           },
           {
             "reqModification": "aam_redtop"
@@ -2423,8 +2593,246 @@
       {
         "preset": {
           "name": "dh110_sea_vixen_firestreak_matra7",
-          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_firestreak_matra7",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_firestreak_matra7.blk",
           "reqModification": "uk_matra_7"
+        }
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_redtop_matra7"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_redtop_matra7.blk"
+          },
+          {
+            "reqModification": "uk_matra_7"
+          },
+          {
+            "reqModification": "aam_redtop"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_500lbs_bombs_rp3"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_500lbs_bombs_rp3.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x500lb"
+          },
+          {
+            "reqModification": "sea_hawk_60lb_rocket_mk1"
+          },
+          {
+            "weaponConfig": [
+              {
+                "Weapon": [
+                  {
+                    "blk": "gameData/Weapons/BombGuns/uk_500lb_he_mc_mk2.blk"
+                  },
+                  {
+                    "amountPerTier": 1.0
+                  },
+                  {
+                    "tier": {
+                      "idx": 4,
+                      "iconType": "bombs_middle"
+                    }
+                  },
+                  {
+                    "tier": {
+                      "idx": 8,
+                      "iconType": "bombs_middle"
+                    }
+                  }
+                ]
+              },
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/rocketGuns/uk_rp3_2_late.blk",
+                  "amountPerTier": 4.0,
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "rockets_he_small_group"
+                  }
+                }
+              },
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/rocketGuns/uk_rp3_late.blk",
+                  "amountPerTier": 4.0,
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "rockets_he_small_group"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_500lbs_bombs_25lb_ap"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_500lbs_bombs_25lb_ap.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x500lb"
+          },
+          {
+            "reqModification": "sea_hawk_25lb_rocket_ap_mk2"
+          },
+          {
+            "weaponConfig": [
+              {
+                "Weapon": [
+                  {
+                    "blk": "gameData/Weapons/BombGuns/uk_500lb_he_mc_mk2.blk"
+                  },
+                  {
+                    "amountPerTier": 1.0
+                  },
+                  {
+                    "tier": {
+                      "idx": 4,
+                      "iconType": "bombs_middle"
+                    }
+                  },
+                  {
+                    "tier": {
+                      "idx": 8,
+                      "iconType": "bombs_middle"
+                    }
+                  }
+                ]
+              },
+              {
+                "Weapon": [
+                  {
+                    "blk": "gameData/Weapons/rocketGuns/uk_25lb_ap_mk2_late.blk"
+                  },
+                  {
+                    "amountPerTier": 6.0
+                  },
+                  {
+                    "tier": {
+                      "idx": 5,
+                      "iconType": "rockets_ap_small_group"
+                    }
+                  },
+                  {
+                    "tier": {
+                      "idx": 7,
+                      "iconType": "rockets_ap_small_group"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "preset": {
+          "name": "dh110_sea_vixen_1000lbs_agm12_bullpup_redtop",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_agm12_bullpup_redtop.blk",
+          "reqModification": "sea_hawk_2x500lb"
+        }
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_1000lbs__agm12_bullpup_matra7"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs__agm12_bullpup_matra7.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x500lb"
+          },
+          {
+            "reqModification": "aam_redtop"
+          },
+          {
+            "reqModification": "fj_4b_agm_12b"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_1000lbs__agm12_bullpup_firestreak"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs__agm12_bullpup_firestreak.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x500lb"
+          },
+          {
+            "reqModification": "fj_4b_agm_12b"
+          }
+        ]
+      },
+      {
+        "preset": {
+          "name": "dh110_sea_vixen_1000lbs_bombs_firestreak",
+          "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_bombs_firestreak.blk",
+          "reqModification": "sea_hawk_2x1000lb"
+        }
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_1000lbs_bombs_redtop"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_bombs_redtop.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x1000lb"
+          },
+          {
+            "reqModification": "aam_redtop"
+          }
+        ]
+      },
+      {
+        "preset": [
+          {
+            "name": "dh110_sea_vixen_1000lbs_matra7"
+          },
+          {
+            "blk": "gameData/FlightModels/weaponPresets/dh110_sea_vixen_1000lbs_matra7.blk"
+          },
+          {
+            "reqModification": "sea_hawk_2x1000lb"
+          },
+          {
+            "reqModification": "uk_matra_7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sensors": [
+      {
+        "sensor": {
+          "blk": "gameData/sensors/uk_ai_mk18.blk",
+          "dmPart": "radar_dm"
+        }
+      },
+      {
+        "sensor": {
+          "blk": "gameData/sensors/us_an_apr_36.blk"
         }
       }
     ]
@@ -2551,14 +2959,19 @@
           "elevatorBooster": 0.9
         }
       },
-      "uk_rp3_mk12": {
+      "sea_hawk_25lb_rocket_ap_mk2": {
         "modClass": "weapon",
         "tier": 1
+      },
+      "sea_hawk_60lb_rocket_mk1": {
+        "modClass": "weapon",
+        "tier": 2,
+        "reqModification": "sea_hawk_25lb_rocket_ap_mk2"
       },
       "uk_matra_7": {
         "modClass": "weapon",
         "tier": 3,
-        "reqModification": "uk_rp3_mk12"
+        "reqModification": "sea_hawk_60lb_rocket_mk1"
       },
       "sea_hawk_2x500lb": {
         "modClass": "weapon",

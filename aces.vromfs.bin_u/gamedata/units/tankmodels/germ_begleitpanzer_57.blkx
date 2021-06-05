@@ -2487,8 +2487,8 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "parkInDeadzone": false,
-          "speedYaw": 30.0,
-          "speedPitch": 20.0,
+          "speedYaw": 40.0,
+          "speedPitch": 30.0,
           "turret": {
             "head": "bone_commander_sight_h",
             "gun": "bone_commander_sight_v",
@@ -2497,8 +2497,30 @@
             "horDriveDm": "commander_panoramic_sight_dm"
           },
           "limits": {
-            "yaw": [-90.0,90.0],
-            "pitch": [-10.0,15.0]
+            "yaw": [-180.0,180.0],
+            "pitch": [-10.0,20.0]
+          },
+          "gunStabilizer": {
+            "hasVerticalGunFreeMode": false,
+            "forceEnabled": true,
+            "hasHorizontal": true,
+            "horizontalOmegaMult": 1.0,
+            "horizontalSpeedLimitKPH": 75.0,
+            "hasVertical": true,
+            "verticalOmegaMult": 1.0,
+            "verticalSpeedLimitKPH": 75.0,
+            "speedFromVehicleVerticalMult": -1.0,
+            "errorKPHToDegrees": [
+              {
+                "row": [5.0,0.0]
+              },
+              {
+                "row": [45.0,0.00015]
+              },
+              {
+                "row": [80.0,0.0002]
+              }
+            ]
           }
         }
       }
@@ -3143,9 +3165,10 @@
   },
   {
     "commanderView": {
+      "aimModeAvailable": true,
       "optics": "commander_optics_square",
       "zoomOutFov": 18.5,
-      "zoomInFov": 3.68,
+      "zoomInFov": 6.14,
       "sightSize": [0.355,0.25]
     }
   },
@@ -3388,8 +3411,8 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "parkInDeadzone": false,
-                "speedYaw": 30.0,
-                "speedPitch": 20.0,
+                "speedYaw": 40.0,
+                "speedPitch": 30.0,
                 "turret": {
                   "head": "bone_commander_sight_h",
                   "gun": "bone_commander_sight_v",
@@ -3398,8 +3421,30 @@
                   "horDriveDm": "commander_panoramic_sight_dm"
                 },
                 "limits": {
-                  "yaw": [-90.0,90.0],
-                  "pitch": [-10.0,15.0]
+                  "yaw": [-180.0,180.0],
+                  "pitch": [-10.0,20.0]
+                },
+                "gunStabilizer": {
+                  "hasVerticalGunFreeMode": false,
+                  "forceEnabled": true,
+                  "hasHorizontal": true,
+                  "horizontalOmegaMult": 1.0,
+                  "horizontalSpeedLimitKPH": 75.0,
+                  "hasVertical": true,
+                  "verticalOmegaMult": 1.0,
+                  "verticalSpeedLimitKPH": 75.0,
+                  "speedFromVehicleVerticalMult": -1.0,
+                  "errorKPHToDegrees": [
+                    {
+                      "row": [5.0,0.0]
+                    },
+                    {
+                      "row": [45.0,0.00015]
+                    },
+                    {
+                      "row": [80.0,0.0002]
+                    }
+                  ]
                 }
               }
             }

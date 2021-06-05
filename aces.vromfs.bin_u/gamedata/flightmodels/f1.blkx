@@ -2484,7 +2484,13 @@
       "preset": {
         "name": "f1_4xaim9p",
         "blk": "gameData/flightModels/weaponPresets/f1_4xaim9p.blk",
-        "reqModification": "us_aim_9p"
+        "reqModification": "us_aim_9p",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/us_aim9p_sidewinder.blk",
+            "iconType": "missile_type_c_air_to_air"
+          }
+        }
       }
     },
     {
@@ -2672,6 +2678,14 @@
         },
         {
           "reqModification": "us_aim_9p"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9p_sidewinder.blk",
+              "iconType": "missile_type_c_air_to_air"
+            }
+          }
         }
       ]
     },
@@ -2688,6 +2702,14 @@
         },
         {
           "reqModification": "us_aim_9p"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9p_sidewinder.blk",
+              "iconType": "missile_type_c_air_to_air"
+            }
+          }
         }
       ]
     },
@@ -3256,6 +3278,14 @@
         },
         {
           "reqModification": "us_aim_9p"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9p_sidewinder.blk",
+              "iconType": "missile_type_c_air_to_air"
+            }
+          }
         }
       ]
     },
@@ -3272,6 +3302,14 @@
         },
         {
           "reqModification": "us_aim_9p"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9p_sidewinder.blk",
+              "iconType": "missile_type_c_air_to_air"
+            }
+          }
         }
       ]
     },
@@ -3380,6 +3418,14 @@
         },
         {
           "reqModification": "us_aim_9p"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9p_sidewinder.blk",
+              "iconType": "missile_type_c_air_to_air"
+            }
+          }
         }
       ]
     }

@@ -433,7 +433,7 @@
         "workTime": 100.0,
         "uncageBeforeLaunch": true,
         "lockAfterLaunch": true,
-        "lockTimeOut": 2.0,
+        "lockTimeOut": 0.75,
         "breakLockMaxTime": 5.0,
         "radarSeeker": {
           "band": 8,
@@ -470,11 +470,11 @@
           },
           "dopplerSpeedGate": {
             "filterAlpha": 0.8,
-            "filterBetta": 0.005
+            "filterBetta": 0.05
           }
         },
         "guidanceAutopilot": {
-          "timeOut": 2.0,
+          "timeOut": 1.8,
           "propNavMult": 4.0,
           "reqAccelMax": 15.0,
           "baseIndSpeed": 1600.0,
@@ -521,7 +521,7 @@
     },
     {
       "proximityFuse": {
-        "timeOut": 2.0,
+        "timeOut": 1.8,
         "radius": 8.0
       }
     },

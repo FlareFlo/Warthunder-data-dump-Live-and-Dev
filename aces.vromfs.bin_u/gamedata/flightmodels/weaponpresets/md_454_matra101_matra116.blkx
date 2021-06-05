@@ -25,6 +25,11 @@
     ]
   },
   {
+    "hideDmParts": {
+      "node": "tank1_dm"
+    }
+  },
+  {
     "RocketCap": [
       {
         "name": "cap_1"

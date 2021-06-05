@@ -33,7 +33,7 @@
   "seekerPostArretTimeOut": 0.5,
   "minFreeCrewIntegrity": -1.0,
   "avionicsDamageTreshold": 0.7,
-  "maxShipCalcDistanceTimeout": 0.01,
+  "maxShipCalcDistanceTimeout": 1.5,
   "ai": {
     "outerSphereMul": 3.0,
     "effectiveness": {
@@ -3105,7 +3105,7 @@
     "adaptivePitchPropCoeffBase": 1.0,
     "adaptivePitchDerrCoeffBase": 1.0,
     "ailDegToPredict": 14.0,
-    "elevonDegToPredict": -10.0,
+    "elevonDegToPredict": -18.0,
     "maxCvtAngle": 1.5,
     "instructorSmoothness": 0.29,
     "instructorAlphaPrediction": 5.0,
@@ -3876,6 +3876,7 @@
     "alphaRudderMin": 0.1,
     "alphaElevatorMin": 0.2,
     "allowStrongControlsRestrictions": true,
+    "setupWingSweepOnSpawn": true,
     "ufoHoverAlt": 15.0,
     "ufoHoverOmegaKp": 2.0,
     "ufoHoverOmegaKd": 0.0,

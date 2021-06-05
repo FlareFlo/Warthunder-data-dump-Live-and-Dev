@@ -55,6 +55,11 @@
     ]
   },
   {
+    "hideDmParts": {
+      "node": "tank1_dm"
+    }
+  },
+  {
     "Weapon": {
       "trigger": "bombs",
       "blk": "gameData/Weapons/BombGuns/fr_400_samp_type_21.blk",

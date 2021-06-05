@@ -838,7 +838,7 @@
   },
   "Mass": {
     "EmptyMass": 5920.0,
-    "MaxFuelMass0": 1660.0,
+    "MaxFuelMass0": 1960.0,
     "FuelAccumulatorCapacity0": 18.0,
     "MinimalLoadFactor0": -0.2,
     "FuelAccumulatorFlowRate0": 10.0,
@@ -855,7 +855,7 @@
     "FlapsDestructionIndSpeedP0": [0.2,620.0],
     "FlapsDestructionIndSpeedP1": [1.0,408.0],
     "Parts": {
-      "tank1_capacity": 0.0,
+      "tank1_capacity": 300.0,
       "tank1_system": 0,
       "tank1_external": false,
       "tank1_priority": 0,

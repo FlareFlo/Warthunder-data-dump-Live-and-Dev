@@ -3,6 +3,9 @@
   "weaponType": 1,
   "maxDeltaAngle": 0.7,
   "maxDeltaAngleVertical": 0.15,
+  "aimMinDist": 0.05,
+  "aimMaxDist": 10000.0,
+  "attackMaxDist": 10000.0,
   "shotFreq": 0.15,
   "recoilOffset": 0.38,
   "recoilTimes": [0.12,0.5],
@@ -16,6 +19,15 @@
   "fxMultipleSpawn": true,
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
+  "attackShipsPriority": {
+    "type_boat": true,
+    "type_heavy_boat": true,
+    "type_barge": true,
+    "type_frigate": true,
+    "type_destroyer": true,
+    "type_light_cruiser": true,
+    "type_heavy_cruiser": true
+  },
   "bullet": {
     "bulletCount": 25,
     "mass": 22.68,

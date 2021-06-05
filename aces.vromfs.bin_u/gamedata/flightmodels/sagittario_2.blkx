@@ -1157,11 +1157,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1170,12 +1165,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1208,11 +1197,6 @@
         },
         {
           "onHit": {
-            "tailcontrol_dm": 0.001
-          }
-        },
-        {
-          "onHit": {
             "damage": 30.0,
             "cut": 0.6
           }
@@ -1221,12 +1205,6 @@
           "onHit": {
             "damage": 60.0,
             "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "tailcontrol_dm": 1.0,
-            "nothing": 9.0
           }
         },
         {
@@ -1944,6 +1922,9 @@
         "midNode": "Bip01 L Forearm",
         "upNode": "Bip01 L UpperArm",
         "targetNode": "throttle_lhand_1",
+        "type": "leftHand",
+        "detachedNodeYpr": [0.0,-15.0,-90.0],
+        "detachedNodeScale": [1.0,-1.0,1.0],
         "flexionDir": [0.0,-1.0,0.2]
       }
     },
@@ -1953,6 +1934,9 @@
         "midNode": "Bip01 R Forearm",
         "upNode": "Bip01 R UpperArm",
         "targetNode": "stick_rhand_1",
+        "type": "rightHand",
+        "detachedNodeYpr": [0.0,-15.0,90.0],
+        "detachedNodeScale": [1.0,-1.0,1.0],
         "flexionDir": [0.0,-1.0,-0.5]
       }
     },
@@ -1986,13 +1970,22 @@
     "gun": "gun_default"
   },
   "cockpit": {
-    "headPos": [1.385,0.625,-0.0],
-    "headPosOnShooting": [1.385,0.625,-0.0],
+    "headPos": [0.25,1.01,0.0],
+    "headPosOnShooting": [0.35,1.01,0.0],
     "shadowSphereMultiplier": 2.0,
     "gunLightRadiusMul": 0.05,
-    "lightPos": [1.88675,0.366551,0.266284],
-    "lightColor": [0.62,0.3,0.21],
-    "lightAttenuation": 8.0,
+    "lightPos": [0.806,0.7,0.001],
+    "lightColor": [0.0,0.25,0.0],
+    "lightRadius": 0.3,
+    "lightPos1": [0.791,0.367,-0.012],
+    "lightColor1": [0.0,0.25,0.0],
+    "lightRadius1": 0.35,
+    "lightPos2": [0.719,0.464,0.457],
+    "lightColor2": [0.35,0.3,0.2],
+    "lightRadius2": 0.35,
+    "lightPos3": [0.639,0.473,-0.376],
+    "lightColor3": [0.35,0.3,0.2],
+    "lightRadius3": 0.35,
     "devices": {
       "stick_elevator": [-1.0,1.0],
       "stick_ailerons": [-1.0,1.0],
@@ -2002,38 +1995,36 @@
       "flaps_fixed": true,
       "trimmer": [-1.0,1.0],
       "throttle": [0.0,1.2],
-      "weapon1": [0.0,1.0],
       "weapon2": [0.0,1.0],
+      "weapon3": [0.0,1.0],
       "gears": [0.0,1.0],
-      "gear_fixed": true,
-      "gears_lamp": [0.0,0.0],
-      "airbrake_lever": [0.0,1.0],
-      "airbrake_fixed": true,
+      "aviahorizon_pitch": [-90.0,90.0],
+      "aviahorizon_pitch1": [-90.0,90.0],
+      "aviahorizon_roll": [-180.0,180.0],
       "altitude_10k": [0.0,100000.0],
       "altitude_hour": [0.0,10000.0],
       "altitude_min": [0.0,1000.0],
+      "altitude1_hour": [0.0,50000.0],
       "altitude_koef": 3.28,
-      "speed": [30.866,308.666],
-      "vario": [-20.32,20.32],
-      "aviahorizon_pitch": [-45.0,45.0],
-      "aviahorizon_roll": [-180.0,180.0],
-      "bank": [-8.0,8.0],
-      "turn": [-0.23562,0.23562],
+      "compass": [0.0,360.0],
       "compass1": [0.0,360.0],
-      "compass3": [0.0,360.0],
+      "g_meter": [-5.0,10.0],
+      "g_meter_min": [-5.0,10.0],
+      "g_meter_max": [-5.0,10.0],
+      "speed": [0.0,334.389],
+      "mach": [0.5,1.6],
+      "turn": [-0.23562,0.23562],
+      "bank": [-8.0,8.0],
+      "vario": [-30.48,30.48],
+      "rpm_hour": [2000.0,20000.0],
+      "rpm_min": [0.0,1000.0],
+      "oil_pressure": [0.0,60.0],
+      "water_temperature": [0.0,800.0],
+      "fuel": [0.0,900.0],
+      "fuel1": [0.0,600.0],
       "clock_hour": [0.0,12.0],
       "clock_min": [0.0,60.0],
-      "clock_sec": [0.0,60.0],
-      "ammo_counter1": [600.0,0.0],
-      "rpm_hour": [0.0,20000.0],
-      "rpm_min": [0.0,1000.0],
-      "oil_pressure": [0.0,80.0],
-      "oil_temperature": [0.0,120.0],
-      "fuel1": [0.0,328.5],
-      "fuel2": [0.0,189.8],
-      "fuel3": [0.0,189.8],
-      "fuel4": [0.0,200.7],
-      "fuel5": [0.0,200.7]
+      "clock_sec": [0.0,60.0]
     },
     "parts_holes_dmg": {
       "part": "fuse"
