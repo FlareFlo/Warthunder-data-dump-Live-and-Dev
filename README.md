@@ -8,3 +8,5 @@ Additional updates to the Repo are of course always possible.
 
 For any questions/suggestions/etc. you can reach me under 
 FlareFlo🦆#2800 -Discord
+or
+https://discord.gg/dzBnTYsG6E -Discord mining server with repository notifications
