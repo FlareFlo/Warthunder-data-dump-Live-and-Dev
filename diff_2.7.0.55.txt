@@ -1,0 +1,2941 @@
+{
+  "lang.vromfs.bin": {
+    "old": {
+      "sha1": "aba1d43caf042aedd947e4b0160f43903e9085b4",
+      "time": "2021-06-16 07:50:37"
+    },
+    "new": {
+      "sha1": "ab372a3a87a65c62d2fc2c499f07a307f22fe16a",
+      "time": "2021-06-16 16:24:52"
+    }
+  },
+  "aces.vromfs.bin": {
+    "old": {
+      "sha1": "b8db1f8f51d795d5983ed2a6b66d6738140da6b7",
+      "time": "2021-06-16 07:50:25",
+      "size": 5919169
+    },
+    "new": {
+      "sha1": "2324848867edb3d86cb1382982f668c5aa87bc68",
+      "time": "2021-06-16 16:24:41",
+      "size": 5919152
+    }
+  },
+  "mis.vromfs.bin": {
+    "old": {
+      "sha1": "72850f295194682234c8389b7c10c8b3f424762a",
+      "time": "2021-06-16 07:50:34",
+      "size": 5709725
+    },
+    "new": {
+      "sha1": "05df05c57e8ca80e7ade28ea58902b5f80f98f32",
+      "time": "2021-06-16 16:24:49",
+      "size": 5709851
+    }
+  },
+  "gui.vromfs.bin": {
+    "old": {
+      "sha1": "8a480d0a615a621c499949701c9724d160d06185",
+      "time": "2021-06-16 07:50:43",
+      "size": 2605743
+    },
+    "new": {
+      "sha1": "fa332319f7d85583bfe3c6dadf8dc0dcc5357a70",
+      "time": "2021-06-16 16:24:56",
+      "size": 2605748
+    }
+  },
+  "webUi.vromfs.bin": {
+    "old": {
+      "sha1": "a0d59a60676d3df3c023e9b4385223c0fb128998",
+      "time": "2021-06-16 07:50:44"
+    },
+    "new": {
+      "sha1": "2c7d794a70672d3f289900ee37a11e1e17537039",
+      "time": "2021-06-16 16:24:56"
+    }
+  },
+  "char.vromfs.bin": {
+    "old": {
+      "sha1": "05cf88090fa92a5dfa88efef77e828f812c3ea49",
+      "time": "2021-06-16 07:50:26",
+      "size": 757921
+    },
+    "new": {
+      "sha1": "950265901ba146e992a409d836d9f71bf766db8e",
+      "time": "2021-06-16 16:24:42",
+      "size": 758113
+    }
+  },
+  "wwdata.vromfs.bin": {
+    "old": {
+      "sha1": "81fb2135e3087d86373acee3409738aa883903ed",
+      "time": "2021-06-16 07:50:37",
+      "size": 148313
+    },
+    "new": {
+      "sha1": "9d7071d808e1bd82665a0a62c576cc260bba81bc",
+      "time": "2021-06-16 16:24:52",
+      "size": 148314
+    }
+  },
+  "game.vromfs.bin": {
+    "old": {
+      "sha1": "9b0e64b71ae95c02252b2032055cd35efd8bff96",
+      "time": "2021-06-16 07:50:44"
+    },
+    "new": {
+      "sha1": "5fbb626f0098ce70dedf79863ca0b0d89aeeb26a",
+      "time": "2021-06-16 16:24:57"
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\grp_hdr.vromfs.bin": {
+    "new": {
+      "sha1": "443a6c224dd9d9eb8f6ea438307133667e395f8d",
+      "time": "2021-05-26 02:36:00",
+      "size": 42346
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\a_20.dxp.bin": {
+    "new": {
+      "sha1": "186b19e995912fd1b0b20d5613ce5e9a154e9725",
+      "time": "2021-04-23 15:46:51",
+      "size": 23521128
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\a_4m.dxp.bin": {
+    "new": {
+      "sha1": "a170f682374291e9fadc0b782d63d4af1a22be13",
+      "time": "2020-06-22 16:08:28",
+      "size": 2992520
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\a_7e.dxp.bin": {
+    "new": {
+      "sha1": "5ce5466ed054f96ae02c4d4fbd5d5618981dd8a3",
+      "time": "2021-05-20 18:19:46",
+      "size": 2964200
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\ah_56.dxp.bin": {
+    "new": {
+      "sha1": "5ed3f7109f3e0714e6c3f72c123a07a8b406b7b0",
+      "time": "2020-02-23 19:04:00",
+      "size": 5237744
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\ah_6m.dxp.bin": {
+    "new": {
+      "sha1": "810cda3b60dcf07611ae4c1ba24a958297f7e372",
+      "time": "2020-06-05 12:43:47",
+      "size": 3876096
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\baltimore.dxp.bin": {
+    "new": {
+      "sha1": "e7fd4aa93a7d1af099d9462590a03c3009159e6a",
+      "time": "2020-02-23 19:04:00",
+      "size": 22990824
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\bf_110c_3.dxp.bin": {
+    "new": {
+      "sha1": "de69247713f584c64bd0eef75a9f3734182a3e02",
+      "time": "2020-09-30 17:15:55",
+      "size": 3850416
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\cao_200.dxp.bin": {
+    "new": {
+      "sha1": "c3306477610cddacd45d6cc1b07f4226d4d620ae",
+      "time": "2020-02-23 19:04:00",
+      "size": 2973760
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\cessna_172.dxp.bin": {
+    "new": {
+      "sha1": "71e0cd51ae23c61c116c729041380dc1af8a1282",
+      "time": "2020-11-02 21:07:32",
+      "size": 6560592
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\cessna_208.dxp.bin": {
+    "new": {
+      "sha1": "958ce02dde0cb8191ade1074d25c352c61df1e3f",
+      "time": "2020-11-02 21:07:32",
+      "size": 636032
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\db_3_il_4.dxp.bin": {
+    "new": {
+      "sha1": "fcd06c5e9198c2676f7727285567779b69754a99",
+      "time": "2021-04-23 15:46:51",
+      "size": 1639168
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\dev.dxp.bin": {
+    "new": {
+      "sha1": "10dcbc7cfd03d48d4611f252599f7f95d41cf34d",
+      "time": "2021-04-23 18:06:40",
+      "size": 56736344
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\f13t_2s.dxp.bin": {
+    "new": {
+      "sha1": "4013218aaa06ce878c59df49f6dd6b342dea1c03",
+      "time": "2021-04-20 20:54:11",
+      "size": 2772640
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\f4u.dxp.bin": {
+    "new": {
+      "sha1": "fa0dd54f9065911f4ebc79bd203abb6b32a72a45",
+      "time": "2020-11-06 11:37:56",
+      "size": 3078264
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\f_105.dxp.bin": {
+    "new": {
+      "sha1": "f917fc67a5e0f2e921fcfb03472cb681a89686bc",
+      "time": "2021-05-15 10:04:15",
+      "size": 3239432
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\f_5e_aidc.dxp.bin": {
+    "new": {
+      "sha1": "95fa3c5b42471279c89c426bf91c7ad4186f0ac4",
+      "time": "2021-05-15 10:04:15",
+      "size": 2400728
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\f_89j.dxp.bin": {
+    "new": {
+      "sha1": "9caba971746d3c26f3e3446ee285180118cbf6c8",
+      "time": "2020-02-23 19:04:00",
+      "size": 1734904
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\g8n.dxp.bin": {
+    "new": {
+      "sha1": "72a7bc68dff6aef7b7ee72d3ddb08f7a78004a2d",
+      "time": "2021-04-23 15:46:51",
+      "size": 11596680
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\g_91.dxp.bin": {
+    "new": {
+      "sha1": "48cdfa2b56079ff7c8c517eb11d028e113ccec49",
+      "time": "2021-04-23 15:46:51",
+      "size": 2812144
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\gauges.dxp.bin": {
+    "new": {
+      "sha1": "0bd7a977c42410bdac0dc5f416d534b3e125987e",
+      "time": "2021-04-02 14:02:56",
+      "size": 1760
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\h145.dxp.bin": {
+    "new": {
+      "sha1": "43a4b30618de43e5613a7cf5f23e72f4e29583ae",
+      "time": "2020-08-12 11:25:19",
+      "size": 4822976
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\hkp3c.dxp.bin": {
+    "new": {
+      "sha1": "7043af3eed63d9bff09ed3278959d64059449544",
+      "time": "2020-08-24 14:31:17",
+      "size": 2442560
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\il_2.dxp.bin": {
+    "new": {
+      "sha1": "b72afcf3713242bcfee0c747a6dcaa2250caf7a0",
+      "time": "2021-04-23 18:06:40",
+      "size": 2915000
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\j2m.dxp.bin": {
+    "new": {
+      "sha1": "2d506922e644de2068d19c57799d1692b290e0de",
+      "time": "2021-04-23 15:46:51",
+      "size": 3968192
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\j5n1_late.dxp.bin": {
+    "new": {
+      "sha1": "f1f72abd8bd0deff5385bb374b496e0e538c88c8",
+      "time": "2020-02-23 19:04:00",
+      "size": 2994672
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\ki_45.dxp.bin": {
+    "new": {
+      "sha1": "68ebdc5808031db497aff2852a8a143e87648947",
+      "time": "2021-04-23 15:46:51",
+      "size": 2132200
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\la_5.dxp.bin": {
+    "new": {
+      "sha1": "6db3e8d98901beecb7717ea97c92557c07e2151d",
+      "time": "2021-04-23 18:06:40",
+      "size": 3135312
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\la_7.dxp.bin": {
+    "new": {
+      "sha1": "774234b50818b13d8287767f3d997a363c116fc2",
+      "time": "2021-04-23 18:06:40",
+      "size": 1509432
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\lagg_3.dxp.bin": {
+    "new": {
+      "sha1": "f564afe96073b874a00059bbdc90b127d59eacf6",
+      "time": "2021-04-23 22:01:00",
+      "size": 1463424
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\mb_3.dxp.bin": {
+    "new": {
+      "sha1": "818b88d3a71578ea004a6e24b5dc6d429bbf00ad",
+      "time": "2021-04-20 20:54:11",
+      "size": 7498776
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\md_460_super_mystere_b2_saar.dxp.bin": {
+    "new": {
+      "sha1": "3235692b5721f49bd80f1d0a8e56a0a4ceaace24",
+      "time": "2020-09-15 10:20:35",
+      "size": 6515184
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\md_460_super_mystere_b2_sambad.dxp.bin": {
+    "new": {
+      "sha1": "5e65ae8c38392813b409834917f0930f9ce60d16",
+      "time": "2020-09-14 10:44:09",
+      "size": 6162864
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\mdr_6.dxp.bin": {
+    "new": {
+      "sha1": "e7fc04c1e85af523bedb65cd9ef972f55de6edc6",
+      "time": "2020-06-25 12:34:05",
+      "size": 11710904
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\p_35.dxp.bin": {
+    "new": {
+      "sha1": "2a8c93c034305fce1c95354b3c0b5fdd297881bf",
+      "time": "2020-02-23 19:04:00",
+      "size": 5321808
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\p_36.dxp.bin": {
+    "new": {
+      "sha1": "3db2651502fec43be088c33bfe1e3c40443732e5",
+      "time": "2021-04-23 18:06:40",
+      "size": 35693072
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\p_39.dxp.bin": {
+    "new": {
+      "sha1": "f8f9c1775c6be98f1073bb0dff565f931d78501e",
+      "time": "2021-04-23 15:46:51",
+      "size": 1377968
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\p_47d_22_re_ussr.dxp.bin": {
+    "new": {
+      "sha1": "1c780fe39e089047d505de5681f8fb77643f7df4",
+      "time": "2020-10-29 17:59:53",
+      "size": 1423456
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\p_51b.dxp.bin": {
+    "new": {
+      "sha1": "fe66d6622e215ca027b37a5152f3cb44bf3ada40",
+      "time": "2021-04-23 15:46:51",
+      "size": 4661760
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\pa_18.dxp.bin": {
+    "new": {
+      "sha1": "6d9a0b2cc1899deb0c5b628143bdb31c86ec2aae",
+      "time": "2021-04-14 14:20:28",
+      "size": 24118872
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\pantera.dxp.bin": {
+    "new": {
+      "sha1": "23ef0ebb52f682546a52ba314d6a16303f5db048",
+      "time": "2021-04-20 20:54:11",
+      "size": 486264
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\pbl_161.dxp.bin": {
+    "new": {
+      "sha1": "7e6b2a2211843061123da0b7304a8f9569cd0ccd",
+      "time": "2021-04-20 20:54:11",
+      "size": 443576
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\pbm_5a.dxp.bin": {
+    "new": {
+      "sha1": "2342eb50ea7f8e179003af53c6bda550098043c5",
+      "time": "2020-02-23 19:04:00",
+      "size": 8005920
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\pbr_test.dxp.bin": {
+    "new": {
+      "sha1": "caa53138cf51caec1b5a8a94c00f954a5a139a82",
+      "time": "2020-02-23 19:04:00",
+      "size": 278904
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\pe_2.dxp.bin": {
+    "new": {
+      "sha1": "d8689e3d638c46802594a6d930c8f68e88fb22ec",
+      "time": "2021-04-23 15:46:51",
+      "size": 1609152
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\q_5d.dxp.bin": {
+    "new": {
+      "sha1": "a04738f01c3b30be1678d6fb3c1cb4f3d7442d76",
+      "time": "2021-04-23 18:06:40",
+      "size": 2612536
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\saab_ja37.dxp.bin": {
+    "new": {
+      "sha1": "fcf9cbbae2bfa416f86a8ee9576342c0516fe28f",
+      "time": "2020-08-04 14:56:02",
+      "size": 3696256
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\sb_2.dxp.bin": {
+    "new": {
+      "sha1": "23fdedf92665793da734cf16d06c548434b76bfe",
+      "time": "2021-05-05 12:59:43",
+      "size": 5385640
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\shackleton.dxp.bin": {
+    "new": {
+      "sha1": "76336a0bae42deb7cb26f9b4ae599ecae554d8e2",
+      "time": "2020-02-23 19:04:00",
+      "size": 17500640
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\skins.dxp.bin": {
+    "new": {
+      "sha1": "a8a692d68ce3cbfe7230b9501c73d9e1b65a1507",
+      "time": "2021-05-15 10:04:15",
+      "size": 3729696
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\spitfire.dxp.bin": {
+    "new": {
+      "sha1": "1b35513dcc3ae18709d825315568eb0808760665",
+      "time": "2020-02-23 19:04:01",
+      "size": 2808000
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\stirling.dxp.bin": {
+    "new": {
+      "sha1": "d85e09cfb07bd52234c84b6672728d07db74b27e",
+      "time": "2021-04-23 15:46:51",
+      "size": 5565040
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\swift_f2.dxp.bin": {
+    "new": {
+      "sha1": "bdb81f9e17456cb7eb0e8e2ea730a23bfe2649eb",
+      "time": "2020-02-23 19:04:01",
+      "size": 2401056
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\test_chute.dxp.bin": {
+    "new": {
+      "sha1": "bab953c1d736684718693a3f0a9e76d165b44dee",
+      "time": "2020-02-23 19:04:01",
+      "size": 256
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\tornado.dxp.bin": {
+    "new": {
+      "sha1": "db5a9c5831d143835fdb6775bc9be36c577203d6",
+      "time": "2021-04-20 20:54:11",
+      "size": 1211536
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\trike.dxp.bin": {
+    "new": {
+      "sha1": "6dbb923504dace86da6abab94d34220642354837",
+      "time": "2021-02-04 08:16:54",
+      "size": 609224
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\uav.dxp.bin": {
+    "new": {
+      "sha1": "10cef2d749805ec6f7a33f428151c528671e4086",
+      "time": "2021-04-20 20:54:11",
+      "size": 3731976
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\weaponry.dxp.bin": {
+    "new": {
+      "sha1": "349440daa24f50b6b5299f5ed961c744ea15be89",
+      "time": "2021-04-20 20:54:11",
+      "size": 9747600
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\welkin_fmk1.dxp.bin": {
+    "new": {
+      "sha1": "2e6e4cd75cfffef77a0108e3b0905e71470e5732",
+      "time": "2020-02-23 19:04:01",
+      "size": 3085952
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\welkin_fmk1_late.dxp.bin": {
+    "new": {
+      "sha1": "90e613c4b3f2debc47167b41a8d3da9a2270e431",
+      "time": "2020-02-23 19:04:01",
+      "size": 2566824
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\wessex_mk5.dxp.bin": {
+    "new": {
+      "sha1": "7f6827ddd874e37d03aaaa4481108dba33c63658",
+      "time": "2020-03-16 15:49:12",
+      "size": 4082056
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\whirlwind_mk2.dxp.bin": {
+    "new": {
+      "sha1": "9766c25535e09915ae44fbd69135c6b3151f3701",
+      "time": "2020-02-23 19:04:01",
+      "size": 1269288
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\wts.dxp.bin": {
+    "new": {
+      "sha1": "c30b5d920038b5b7a90c76e557d956c0ed67bb99",
+      "time": "2020-02-23 19:04:01",
+      "size": 6438400
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\x_bee.dxp.bin": {
+    "new": {
+      "sha1": "cd220e0b3814be78931e9824b90af5456d2663ae",
+      "time": "2021-04-20 20:54:11",
+      "size": 3515688
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\yf2l_1.dxp.bin": {
+    "new": {
+      "sha1": "f4b07f7021f28d7abbb782e14ad12c4ad503d1d6",
+      "time": "2020-02-23 19:04:01",
+      "size": 2504368
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\yk_27.dxp.bin": {
+    "new": {
+      "sha1": "1b636a07db0305a957a12a2076ee3ddc902659ba",
+      "time": "2021-04-20 20:54:11",
+      "size": 4915464
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_aircrafts\\yk_37.dxp.bin": {
+    "new": {
+      "sha1": "55989c4958f13866171fbf29824ad52f19fb24dc",
+      "time": "2021-04-20 20:54:11",
+      "size": 4854344
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_airship_ca_104.dxp.bin": {
+    "new": {
+      "sha1": "fa38abf7877040644156979bec061fc02a434dff",
+      "time": "2021-04-13 16:34:30",
+      "size": 3541656
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_avg_breslau.dxp.bin": {
+    "new": {
+      "sha1": "c922850af1e80cd52ceee7c12c6cbb8a5a66e0a0",
+      "time": "2021-05-18 10:23:34",
+      "size": 43171904
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_avg_italy_village_wts.dxp.bin": {
+    "new": {
+      "sha1": "7fb848b7ced5eb8d6a8fdd578d497a73f529b2d1",
+      "time": "2020-02-23 19:03:53",
+      "size": 18127064
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_avg_kharkov.dxp.bin": {
+    "new": {
+      "sha1": "c0ab597f80db25981af54a2718e88db82adb89ba",
+      "time": "2020-02-23 19:03:53",
+      "size": 8036080
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_avg_messina_sicily.dxp.bin": {
+    "new": {
+      "sha1": "6fe6df23c5840272fbda786f94ceae3decab1947",
+      "time": "2020-02-23 19:03:53",
+      "size": 13525824
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_avg_western_europe.dxp.bin": {
+    "new": {
+      "sha1": "4cd631d7b36ed98dc91c9bc30dd5c07e61a66b94",
+      "time": "2021-04-19 14:21:03",
+      "size": 4512000
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_bulge_wts.dxp.bin": {
+    "new": {
+      "sha1": "ba9c9ce21565a19516d9c944b8373e8c79efd97a",
+      "time": "2020-02-23 19:03:53",
+      "size": 11868624
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_dev_castle_siege.dxp.bin": {
+    "new": {
+      "sha1": "a832f556cb067079d60553a7273df8565547dcca",
+      "time": "2020-02-23 19:03:53",
+      "size": 17780240
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_dev_forest_railroad.dxp.bin": {
+    "new": {
+      "sha1": "1532e927fd73b7cbcd2a66d7a8b0cb05a0b7a893",
+      "time": "2020-02-23 19:03:53",
+      "size": 34286568
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_dev_hd_normandy_countryside.dxp.bin": {
+    "new": {
+      "sha1": "dec7b8155131a668574145f1e8460387d2521038",
+      "time": "2020-02-23 19:03:53",
+      "size": 16907336
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_dust.dxp.bin": {
+    "new": {
+      "sha1": "f524f9d3751685167617fdfbdeff955fae8170be",
+      "time": "2020-02-23 19:03:53",
+      "size": 7304360
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_earth.dxp.bin": {
+    "new": {
+      "sha1": "231da7c28cab403f32883de8d06a253d5ded5dc8",
+      "time": "2020-02-23 19:03:53",
+      "size": 4811360
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_floating_islands.dxp.bin": {
+    "new": {
+      "sha1": "ed47b7b8e59deb459546f3bcf0e0baf7c5903d9a",
+      "time": "2021-04-14 22:31:36",
+      "size": 16257928
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_flying_taxi_airbus.dxp.bin": {
+    "new": {
+      "sha1": "cfa87234a79ec5e241aa5b0cd1ff0130b91ac6fc",
+      "time": "2021-04-13 16:34:30",
+      "size": 565280
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_flying_taxi_bell_nexus.dxp.bin": {
+    "new": {
+      "sha1": "de9971c0ea382493045088ad448bd77e5b5f860f",
+      "time": "2021-04-13 16:34:30",
+      "size": 787048
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_frame_houses.dxp.bin": {
+    "new": {
+      "sha1": "5d8de7c4f8d98b6db0122680ef5ab892357767c1",
+      "time": "2020-02-23 19:03:53",
+      "size": 256
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_gm_lvl_assets.dxp.bin": {
+    "new": {
+      "sha1": "a9527bfdcd40cd13f9e8aab774492e62110d9f8d",
+      "time": "2021-05-14 15:11:59",
+      "size": 211643520
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_grey_layered_cliff.dxp.bin": {
+    "new": {
+      "sha1": "767b04ab26665ffb214f034de6c683fcdc4c8187",
+      "time": "2020-02-23 19:03:53",
+      "size": 27609168
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_hangar_field_winter.dxp.bin": {
+    "new": {
+      "sha1": "d158308602d23c435aa998b15ef88d203810e440",
+      "time": "2021-05-24 12:58:53",
+      "size": 186823904
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_hangar_repair_workshop.dxp.bin": {
+    "new": {
+      "sha1": "bec988369e863ee5f1b72b45316b540a449f6ea9",
+      "time": "2020-04-21 17:36:29",
+      "size": 194914616
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_landscape_extra.dxp.bin": {
+    "new": {
+      "sha1": "2a9d8304d691a523280b82a9e3f41dff6e72ae08",
+      "time": "2020-02-23 19:03:54",
+      "size": 51398024
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_locations.dxp.bin": {
+    "new": {
+      "sha1": "abf08be0b25d4e2113bc75860bb44297cedc77b7",
+      "time": "2021-05-14 14:14:28",
+      "size": 7055496
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_locations_maps.dxp.bin": {
+    "new": {
+      "sha1": "b9b19f541e04eec49f53f5b90e1a1b909afaca04",
+      "time": "2021-05-17 10:48:26",
+      "size": 48539144
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_add_weapons_tex.dxp.bin": {
+    "new": {
+      "sha1": "3373c33fd3a1ca0e4429a0174fbab6724e01f4e6",
+      "time": "2020-02-23 19:03:54",
+      "size": 3707280
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_combat_space_unit.dxp.bin": {
+    "new": {
+      "sha1": "b56ee34731d7e04c08e49071fbcee907d941434b",
+      "time": "2020-02-23 19:03:54",
+      "size": 384
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_fr_lbm_bat.dxp.bin": {
+    "new": {
+      "sha1": "58f780c63b63e2055b8dc02812e127c5017bdcf1",
+      "time": "2020-04-13 13:38:44",
+      "size": 13944056
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_ger_hbm_m1942.dxp.bin": {
+    "new": {
+      "sha1": "3f83ce37a9def15e7b54bfd877cc524a863ecb93",
+      "time": "2020-02-23 19:03:54",
+      "size": 9211472
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_ger_hbm_tiger_ausf_b_4l.dxp.bin": {
+    "new": {
+      "sha1": "6776410525a1142b99af61d7ee6e958a540d13f6",
+      "time": "2020-02-23 19:03:54",
+      "size": 28078288
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_ger_mbm_trixter.dxp.bin": {
+    "new": {
+      "sha1": "6245315d71607b5b9fa31293cdc22f9dca622105",
+      "time": "2020-04-16 18:22:51",
+      "size": 14991192
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_us_lbm_bulldog.dxp.bin": {
+    "new": {
+      "sha1": "62809e735dc93f0b405cf96ab0bf91a237e1a8fd",
+      "time": "2020-04-20 16:21:30",
+      "size": 36205432
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_us_lbm_m1941.dxp.bin": {
+    "new": {
+      "sha1": "920ef64fc4c551560a1db49330a6d01a702ae21b",
+      "time": "2020-02-23 19:03:54",
+      "size": 9053104
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_us_mbm_m1941.dxp.bin": {
+    "new": {
+      "sha1": "102b808a0d531d3ef27482bff7f020ff6b31f6d4",
+      "time": "2020-02-23 19:03:54",
+      "size": 9091200
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_us_mbm_patton.dxp.bin": {
+    "new": {
+      "sha1": "45b49777d667ac9f91cf5faaefbd4fdf024778dd",
+      "time": "2020-05-19 12:16:14",
+      "size": 22964248
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_mech_ussr_hbm_isuver.dxp.bin": {
+    "new": {
+      "sha1": "53e665e6d94cf41d7e4806a1c8311d6a778711af",
+      "time": "2020-04-22 12:08:21",
+      "size": 22490848
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_north_port_assets.dxp.bin": {
+    "new": {
+      "sha1": "90b7edba4fb6bc11abb7fb4f2fc76a75ea378580",
+      "time": "2020-11-03 18:51:34",
+      "size": 5022576
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_pilots.dxp.bin": {
+    "new": {
+      "sha1": "2fca5f573a9d4c1377cb76d68292e0f6438b1f83",
+      "time": "2021-04-20 20:54:11",
+      "size": 448
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_promo_chars.dxp.bin": {
+    "new": {
+      "sha1": "004640cf2c4c5401a0601a9a3c0e944e1c54282b",
+      "time": "2020-02-23 19:03:54",
+      "size": 192
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tank_poligon.dxp.bin": {
+    "new": {
+      "sha1": "e374c2b758b7f67aca47c656e67c92a6234250e6",
+      "time": "2020-02-23 19:03:54",
+      "size": 669664
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\cn_ztl_11.dxp.bin": {
+    "new": {
+      "sha1": "2427a24d09c8406cda0228b28ee90a6158e22e58",
+      "time": "2021-04-19 18:04:17",
+      "size": 10253616
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\cn_ztz_99_w.dxp.bin": {
+    "new": {
+      "sha1": "1b1c3d6f075832dfb913cd60b464f6a3431ad3be",
+      "time": "2021-05-14 07:02:54",
+      "size": 4132280
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\ger_pzkpfw_38_na.dxp.bin": {
+    "new": {
+      "sha1": "f6521e859855cb4721e198947a03d07f9ae92e16",
+      "time": "2020-04-27 11:38:26",
+      "size": 7683648
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\germ_leopard_2_pt14.dxp.bin": {
+    "new": {
+      "sha1": "a6c8f14f7f5f05a118a17cae7dcf5617afdb3c76",
+      "time": "2021-04-27 16:38:13",
+      "size": 676848
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\germ_marder_1a3.dxp.bin": {
+    "new": {
+      "sha1": "747761ad10f7d843964be52b504cf0a849db8e41",
+      "time": "2021-05-07 12:40:02",
+      "size": 9732728
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\germ_marder_df_105.dxp.bin": {
+    "new": {
+      "sha1": "0896f5ec4563b48960bac0368583088ebe550880",
+      "time": "2020-11-19 18:07:50",
+      "size": 9455520
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\germ_schutzenpanzer_puma.dxp.bin": {
+    "new": {
+      "sha1": "3e7dcfe1f5dc8e31d46c2787ecead868fa280951",
+      "time": "2020-04-27 11:38:26",
+      "size": 9240232
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\germ_sdkfz_251_22.dxp.bin": {
+    "new": {
+      "sha1": "70e6fe338757a40a5d1bdbf7354faa2203fd37d2",
+      "time": "2021-02-03 12:24:40",
+      "size": 7585776
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\germ_sdkfz_251_9.dxp.bin": {
+    "new": {
+      "sha1": "8e366241868c3e64d8f2bc4bbb046b58426b216f",
+      "time": "2021-01-27 14:26:43",
+      "size": 6934392
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\gm.dxp.bin": {
+    "new": {
+      "sha1": "f2add08a5b3f73f6f97b7132ed5ea378b3184325",
+      "time": "2021-04-30 10:55:32",
+      "size": 1632
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\it_c13_t90.dxp.bin": {
+    "new": {
+      "sha1": "6e71ace4995c0f4bd40cea0cb6c0af4e8319a391",
+      "time": "2021-03-11 07:21:09",
+      "size": 7774176
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\it_semovente_m43_75_bersaglieri.dxp.bin": {
+    "new": {
+      "sha1": "6efa62d3c679c20f7c2841605a8aab914d44fd4c",
+      "time": "2020-02-23 19:04:03",
+      "size": 416
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\phys_tracks.dxp.bin": {
+    "new": {
+      "sha1": "bd00e23213efe999ea3b1ff6e31476a24f21702a",
+      "time": "2021-04-20 20:54:12",
+      "size": 384
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\se_pbv_301.dxp.bin": {
+    "new": {
+      "sha1": "2df153f41acfdec26992abdd7ece82b92ddc2d39",
+      "time": "2021-05-12 11:01:30",
+      "size": 10187464
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\se_pvkv_iii.dxp.bin": {
+    "new": {
+      "sha1": "8862ff523b00a862abd64f42c9edad489ae5e1c2",
+      "time": "2021-04-02 09:49:32",
+      "size": 4909888
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\se_pvkv_iv.dxp.bin": {
+    "new": {
+      "sha1": "7c3cc53ade76275f1899d63cc0908077ad7e4617",
+      "time": "2021-04-01 16:28:03",
+      "size": 890608
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\se_sdi.dxp.bin": {
+    "new": {
+      "sha1": "33a0e76dcd20b515c98884510a0874c6bf542d10",
+      "time": "2021-04-20 20:54:12",
+      "size": 30946928
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\se_strf_90b.dxp.bin": {
+    "new": {
+      "sha1": "23ad887f44de715275c76c3ab875db5eff53b38d",
+      "time": "2021-01-25 12:43:33",
+      "size": 1348848
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\uk_rooikat_za_hvm.dxp.bin": {
+    "new": {
+      "sha1": "1a350b4131f20f72b91b2e72f65c4fb8154a76e5",
+      "time": "2021-02-08 14:30:12",
+      "size": 6144032
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\uk_vickers_mk_3.dxp.bin": {
+    "new": {
+      "sha1": "9cdb712bf18cda8e8a9acd3a352fe2a9c0530350",
+      "time": "2020-07-01 18:23:44",
+      "size": 10695992
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\usa_m4_sherman_fake.dxp.bin": {
+    "new": {
+      "sha1": "5710cf4c6f3d37b9c5b4cab62b24b77808f77ef8",
+      "time": "2020-04-06 16:55:54",
+      "size": 4082432
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\ussr_combat_space_unit_ausf.dxp.bin": {
+    "new": {
+      "sha1": "fa14b9ff2f194ec6d288feb29b9393b33293eef4",
+      "time": "2021-03-23 02:21:12",
+      "size": 8121248
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\ussr_gaz_75.dxp.bin": {
+    "new": {
+      "sha1": "5152f9738280bd539aaef7dd6dafb5f5c60491df",
+      "time": "2020-02-23 19:04:03",
+      "size": 6871040
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tanks\\ussr_illum_color.dxp.bin": {
+    "new": {
+      "sha1": "06bac50c85f4efb08ea52609a975bbe4dda9e0cf",
+      "time": "2021-03-23 02:21:12",
+      "size": 256
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_templates.dxp.bin": {
+    "new": {
+      "sha1": "2c23b25b70bbaab02157880ac9a8c25456def684",
+      "time": "2021-05-14 11:38:56",
+      "size": 60155080
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_tile_textures_mch.dxp.bin": {
+    "new": {
+      "sha1": "0be3c0b4a60afad7c15d355fdeada097da20a39a",
+      "time": "2021-03-12 18:32:44",
+      "size": 65674552
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_toon_stylized.dxp.bin": {
+    "new": {
+      "sha1": "613a3e9e5343e49ffc2828236a422161cddd41ed",
+      "time": "2021-04-15 11:42:26",
+      "size": 2886432
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_units.dxp.bin": {
+    "new": {
+      "sha1": "75bff73baa075c1cb618240d30e84777b4af84e1",
+      "time": "2020-02-23 19:03:55",
+      "size": 12782792
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_vegetation.dxp.bin": {
+    "new": {
+      "sha1": "c01612070e11aa27f4a32c439b054727e2a0f0b0",
+      "time": "2021-05-19 13:05:48",
+      "size": 31452000
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_water_mining_factory.dxp.bin": {
+    "new": {
+      "sha1": "d7868a269d72b09862e4d638ffdc4f1fbdcde0a0",
+      "time": "2020-04-16 12:13:56",
+      "size": 93595736
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_worldwar_maps.dxp.bin": {
+    "new": {
+      "sha1": "5d0c943e36dfcb70bfbf6a72aa365551efd2f2f9",
+      "time": "2020-06-22 13:06:08",
+      "size": 27304
+    }
+  },
+  "content.hq\\pkg_dev_hq\\res\\pkg_dev_hq_wts.dxp.bin": {
+    "new": {
+      "sha1": "1581aae566820c684e6f3a7456034b8868037f61",
+      "time": "2020-02-23 19:03:55",
+      "size": 20574024
+    }
+  },
+  "content\\pkg_dev\\res\\caribbean_islands_tankmap.jpg": {
+    "new": {
+      "sha1": "f008161e64433993ec47d904c43aef6aa1e1cc8c",
+      "time": "2018-10-11 17:57:58",
+      "size": 455611
+    }
+  },
+  "content\\pkg_dev\\res\\grp_hdr.vromfs.bin": {
+    "new": {
+      "sha1": "a64f18f95519379703fd1512f3313e95ba5d39b3",
+      "time": "2021-05-29 15:54:07",
+      "size": 140588
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev__weaponry.grp": {
+    "new": {
+      "sha1": "f4b9817ade31b5ffee98fa70898a212d057bc320",
+      "time": "2021-04-21 10:11:35",
+      "size": 40996
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aces.grp": {
+    "new": {
+      "sha1": "8af1df3aa26061ba9259c2de1a1d3c46fba29365",
+      "time": "2021-05-07 00:25:32",
+      "size": 23803622
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\a_20a.grp": {
+    "new": {
+      "sha1": "2a3ca38f1b35b761314aff0550cb953751002246",
+      "time": "2021-05-07 13:35:21",
+      "size": 329919
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\a_26b.grp": {
+    "new": {
+      "sha1": "60eef60f95d1850c5494bf3b7924447eae46c556",
+      "time": "2021-05-07 13:35:21",
+      "size": 2287869
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\ah_6m-hq.dxp.bin": {
+    "new": {
+      "sha1": "d876eaea0274117a209ac48948dcd0e74b5642e4",
+      "time": "2020-06-03 15:41:55",
+      "size": 5894968
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\aircrafts.dxp.bin": {
+    "new": {
+      "sha1": "6d88f9a02aa2d004ef933d440c70e58c7391c253",
+      "time": "2020-07-24 16:50:30",
+      "size": 368
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\baltimore.grp": {
+    "new": {
+      "sha1": "48b174b18de3ceca10590af575c1b6ccb3670230",
+      "time": "2021-04-14 14:50:00",
+      "size": 748695
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\bf_110c_3_cockpit.grp": {
+    "new": {
+      "sha1": "5c293c2a4d6c4d79a5384efcb305203c6df206a0",
+      "time": "2021-05-07 13:35:21",
+      "size": 601289
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\cao_200-hq.dxp.bin": {
+    "new": {
+      "sha1": "ad6ed213bdde3ba2fc72f09089077dc928805a89",
+      "time": "2018-10-11 10:09:01",
+      "size": 6762800
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\cao_200.grp": {
+    "new": {
+      "sha1": "667cdf7b7f98fe2a498df56cddf98b78645569d3",
+      "time": "2021-05-07 13:35:21",
+      "size": 1334082
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\cessna_172.dxp.bin": {
+    "new": {
+      "sha1": "b1c1f3c1b83a8968ee2996c312b23f23d1736faf",
+      "time": "2020-11-02 21:07:29",
+      "size": 464104
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\cessna_208.dxp.bin": {
+    "new": {
+      "sha1": "bf4dad74d2906015e15935058c1d92df1f74e6a2",
+      "time": "2020-11-02 21:07:29",
+      "size": 69608
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\chn_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "e54b799421f6fa55ca5f98e02c286043f5a634b1",
+      "time": "2021-04-23 18:06:37",
+      "size": 621288
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\dags.grp": {
+    "new": {
+      "sha1": "ae55a9c601d455cbe72f1922549e52e3c59bbb65",
+      "time": "2020-07-28 10:29:27",
+      "size": 498335
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\dev.grp": {
+    "new": {
+      "sha1": "28c81524bfbcc6ebf8f10364cc1006660515bd9d",
+      "time": "2021-05-07 13:35:21",
+      "size": 4097190
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\f13t_2s.dxp.bin": {
+    "new": {
+      "sha1": "ed0c42c98ee3d1fbcb3362af31e06c4cce3aae7d",
+      "time": "2021-04-20 20:54:05",
+      "size": 299616
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\f_105-hq.dxp.bin": {
+    "new": {
+      "sha1": "fe14214ea9c04f9ec68b35433fa3706d7a692bc4",
+      "time": "2020-01-27 12:28:22",
+      "size": 8912864
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\f_105.grp": {
+    "new": {
+      "sha1": "f41d34fe43773992e2d5a280f2920ed44bea716b",
+      "time": "2021-03-10 10:35:45",
+      "size": 2578046
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\f_89j.grp": {
+    "new": {
+      "sha1": "2fd9273e33ce9603a99a507b9af6c36d579173a6",
+      "time": "2021-05-07 13:35:21",
+      "size": 1660280
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\fr_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "a50e077f5273d4d7967e92da45c62a355db9231e",
+      "time": "2021-04-23 15:46:47",
+      "size": 2955696
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\fury_mk1_adm-hq.dxp.bin": {
+    "new": {
+      "sha1": "120e9976b564ae8b48f471b6e65c161099b235cf",
+      "time": "2021-04-23 15:46:47",
+      "size": 4951928
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\fw_190-hq.dxp.bin": {
+    "new": {
+      "sha1": "c1862e842a47946198b9980c1adcaad82cbfbdbc",
+      "time": "2020-01-16 20:04:47",
+      "size": 2264848
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\g_55-hq.dxp.bin": {
+    "new": {
+      "sha1": "b17e9bff33ae02cc1740f0813c45241a5a9ef237",
+      "time": "2020-01-15 18:04:14",
+      "size": 2456952
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\gauges.dxp.bin": {
+    "new": {
+      "sha1": "409fe42520853451290ca760d31a2f65c5e32be4",
+      "time": "2021-04-02 14:02:55",
+      "size": 830888
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\ger_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "0edcc6f4a6d415992690ef5e964e6baff846ef19",
+      "time": "2020-09-30 17:15:53",
+      "size": 1202600
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\gladiator_mk2_adm-hq.dxp.bin": {
+    "new": {
+      "sha1": "7b9810a3eb5206061d63bbdbcd6190744d5fbc71",
+      "time": "2020-01-16 20:04:47",
+      "size": 3507408
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\h_75a_3.grp": {
+    "new": {
+      "sha1": "107b789f827c66197ab4f6b97dbeefff6b4ecdbe",
+      "time": "2021-05-07 13:35:21",
+      "size": 403021
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\h_75a_5.grp": {
+    "new": {
+      "sha1": "982740e4ffee1bc5109ca2b27f46ec780ca606b0",
+      "time": "2021-05-07 13:35:21",
+      "size": 342928
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\h_75a_6.grp": {
+    "new": {
+      "sha1": "d242ce644e1e89458558f4039900118c2da8f0f6",
+      "time": "2021-05-07 13:35:21",
+      "size": 395049
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\h_75a_7.grp": {
+    "new": {
+      "sha1": "ac81c7e8fcb707a692922bf0d7a8d72734a2a6bc",
+      "time": "2021-05-07 13:35:21",
+      "size": 341333
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\h_75n.grp": {
+    "new": {
+      "sha1": "43d3ee931ce7d029a0335aed399e1cf32798527b",
+      "time": "2021-05-07 13:35:21",
+      "size": 337823
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\heli_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "67b148eefc690ae6b391433fdcbf58c21cbfdc7a",
+      "time": "2020-12-02 13:14:57",
+      "size": 4875496
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\il_2serie3.grp": {
+    "new": {
+      "sha1": "dd8393ba7ae33be94e78d3a4995d6ea718c601cf",
+      "time": "2021-05-07 13:35:21",
+      "size": 190518
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\it_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "884246df53e171b6a6eb3b126e9b23672420073b",
+      "time": "2021-04-23 15:46:47",
+      "size": 581024
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\j5n1_late-hq.dxp.bin": {
+    "new": {
+      "sha1": "943e7dc47f235272123f5fc3837cd9a57204e67a",
+      "time": "2019-06-03 13:25:49",
+      "size": 605872
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\j5n1_late.grp": {
+    "new": {
+      "sha1": "568b29b207d4e45af69578220fdce04ec07dd47d",
+      "time": "2020-11-18 14:38:04",
+      "size": 1565607
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\jap_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "a48f4b94644fdc407b9b5006731e1d1d51c8f598",
+      "time": "2021-04-23 15:46:47",
+      "size": 1826768
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\jap_airc_bq.dxp.bin": {
+    "new": {
+      "sha1": "9e8e276663204603bc416d12022298ac6b13c5a2",
+      "time": "2019-06-03 13:25:49",
+      "size": 252648
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\ju_88-hq.dxp.bin": {
+    "new": {
+      "sha1": "99d90fdae53fde44150e44dad91c6186cf9a5652",
+      "time": "2020-01-16 20:04:47",
+      "size": 8103544
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\mb_3.dxp.bin": {
+    "new": {
+      "sha1": "f1e1041a7f48ba51112683af1c840c3ff8f6f386",
+      "time": "2021-04-20 20:54:05",
+      "size": 906280
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\md_460_super_mystere_b2_saar.grp": {
+    "new": {
+      "sha1": "e6cdd4079c06c5631f510c61b57caf9820bd83ec",
+      "time": "2020-11-18 14:38:04",
+      "size": 2025302
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\mdr_6.grp": {
+    "new": {
+      "sha1": "ac179f78bcfc8d0089584840e0ec1068cac29cb8",
+      "time": "2020-11-18 14:38:05",
+      "size": 725196
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\mig_21_smt_adm-hq.dxp.bin": {
+    "new": {
+      "sha1": "2fba73f05451570f09c1eac3be6345632c8ce586",
+      "time": "2020-01-16 20:04:47",
+      "size": 2299776
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\nc_223_3_adm-hq.dxp.bin": {
+    "new": {
+      "sha1": "e6979c2f40f34bc3b624ac43202346d20ac00335",
+      "time": "2020-01-16 20:04:47",
+      "size": 7714864
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\night_fighter_mk_2.grp": {
+    "new": {
+      "sha1": "446f539948c3df7e9f18a01e255bbf60f3cb1960",
+      "time": "2021-05-07 13:35:21",
+      "size": 450384
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\p_26-hq.dxp.bin": {
+    "new": {
+      "sha1": "e83cf16de5c62b407aa0a771f1124ae7bc883eb5",
+      "time": "2021-05-05 12:59:42",
+      "size": 5395248
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\p_26.grp": {
+    "new": {
+      "sha1": "3543252b5370c15a1a04c15c919d3db71146bb5f",
+      "time": "2021-05-07 13:35:21",
+      "size": 538242
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\p_36-hq.dxp.bin": {
+    "new": {
+      "sha1": "2d0c08ae19987642a56fafc2a0778d391d5fbbcc",
+      "time": "2018-10-11 10:09:01",
+      "size": 2066696
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\pa_18.dxp.bin": {
+    "new": {
+      "sha1": "b611bbb0dd7f6ade96fe170860fd355de3170a30",
+      "time": "2021-04-14 14:20:26",
+      "size": 1168080
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\pandora_mk_1.grp": {
+    "new": {
+      "sha1": "9112c6f9b874315f2c727117d115328f09752117",
+      "time": "2021-05-07 13:35:21",
+      "size": 278035
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\pantera.dxp.bin": {
+    "new": {
+      "sha1": "234a57d2315c1a0330bf9de24f7558fd1fe48794",
+      "time": "2021-04-20 20:54:05",
+      "size": 12008
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\pbl_161.dxp.bin": {
+    "new": {
+      "sha1": "28e94d8cdd88fc22ae4ae04902c3641cdf4ecad5",
+      "time": "2021-04-20 20:54:05",
+      "size": 34560
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\pbm_5a.grp": {
+    "new": {
+      "sha1": "6f072af62bf638053f70974fec7e5401b1886277",
+      "time": "2021-05-07 13:35:21",
+      "size": 1096529
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\saab_a21a_3_adm-hq.dxp.bin": {
+    "new": {
+      "sha1": "bc6bab63b2dd5a2dcdcff49e7b09b22ab73cc123",
+      "time": "2020-01-16 20:04:47",
+      "size": 2265880
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\saab_j32b_adm-hq.dxp.bin": {
+    "new": {
+      "sha1": "85989f4367c6162e3f196ccfd24895f2f4a53069",
+      "time": "2020-01-16 20:04:47",
+      "size": 2374656
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\sb_2m_100a_spain.grp": {
+    "new": {
+      "sha1": "8200302d7b5d4f3fa08aee02300e147ab91149f7",
+      "time": "2021-05-29 15:54:08",
+      "size": 263970
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\skins.dxp.bin": {
+    "new": {
+      "sha1": "5550470c525ec6664aea6b6a8cc84551b24846f2",
+      "time": "2021-05-15 10:04:13",
+      "size": 3062384
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\sm_79-hq.dxp.bin": {
+    "new": {
+      "sha1": "cd4c43ff5aee25c46741d4bc98c981f1bdcc14e9",
+      "time": "2020-01-16 20:04:47",
+      "size": 3001280
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\spitfire_mk7.grp": {
+    "new": {
+      "sha1": "b6820d016eacae3b454e312a9da506de46074730",
+      "time": "2020-11-18 14:38:05",
+      "size": 484603
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\swd_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "141ba6ca1e1780072ffc7bd47c64acd02a9ef12f",
+      "time": "2020-10-19 23:47:59",
+      "size": 1114704
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\test.grp": {
+    "new": {
+      "sha1": "ee07b0bd93e18093cafd45c5ccd07f6f610af83e",
+      "time": "2020-12-11 09:00:56",
+      "size": 988811
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\tornado.dxp.bin": {
+    "new": {
+      "sha1": "593f030d285ce6a7acd68d807680b689dd2a2d79",
+      "time": "2021-04-20 20:54:05",
+      "size": 205360
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\trike.dxp.bin": {
+    "new": {
+      "sha1": "b9353ad05e9423e214a6cc781b3ddbb2dc86dd64",
+      "time": "2021-02-04 08:16:53",
+      "size": 58408
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\uk_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "04577ee2c49ce70952bb696cf1419400552649cb",
+      "time": "2021-05-11 07:55:40",
+      "size": 5199272
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\uk_airc_bq.dxp.bin": {
+    "new": {
+      "sha1": "7762790e8315a2c38d70232ba80390db6b7086f0",
+      "time": "2021-05-11 07:55:40",
+      "size": 561904
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\usa_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "70deefdf23404843a8d87948b3d337f69607aa13",
+      "time": "2021-05-20 18:19:45",
+      "size": 11853056
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\usa_airc_bq.dxp.bin": {
+    "new": {
+      "sha1": "a3657679e0d7c1070734ade6ca05fc40f96223e3",
+      "time": "2021-04-23 15:46:47",
+      "size": 995856
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\ussr_air_bq.dxp.bin": {
+    "new": {
+      "sha1": "c4c96f4244a7ee926ad5006f645b56e223e86a4c",
+      "time": "2021-05-05 19:06:10",
+      "size": 3857416
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\weaponry.dxp.bin": {
+    "new": {
+      "sha1": "f39eba4c57b9227971abbf488f0a9d3f5e17dd40",
+      "time": "2021-04-20 20:54:05",
+      "size": 1816080
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\welkin-hq.dxp.bin": {
+    "new": {
+      "sha1": "6cabd556baf71c9e28e2d121b2597ad402f2f680",
+      "time": "2019-09-19 12:40:48",
+      "size": 9721488
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\welkin.grp": {
+    "new": {
+      "sha1": "5805207d203e7f22a606805722e8b5d3df256d85",
+      "time": "2020-11-18 14:38:05",
+      "size": 3732891
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\whirlwind_mk2.grp": {
+    "new": {
+      "sha1": "83527f9d1df327cd69893c8d1dd93beeeb3bb6d4",
+      "time": "2020-11-18 14:38:05",
+      "size": 1351814
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\x_bee.dxp.bin": {
+    "new": {
+      "sha1": "f13e991e574de4bef115ead829394ca9eff6fc55",
+      "time": "2021-04-20 20:54:05",
+      "size": 433008
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\yak_3_test.grp": {
+    "new": {
+      "sha1": "e1e56a8f2e8c9987a17223ba54e64057bd60ee9d",
+      "time": "2020-11-18 14:38:05",
+      "size": 139721
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\yf2l.grp": {
+    "new": {
+      "sha1": "556ef4f6deaaf3c70ef5737c142657ffc476e728",
+      "time": "2021-05-07 13:35:21",
+      "size": 1394304
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\yk_27.dxp.bin": {
+    "new": {
+      "sha1": "0e0aa7bf9a7bedf0add6497a6a1afb5fc4254dbb",
+      "time": "2021-04-20 20:54:05",
+      "size": 512000
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_aircrafts\\yk_37.dxp.bin": {
+    "new": {
+      "sha1": "f09e264ea8be71819287391cf340c52679243df2",
+      "time": "2021-04-20 20:54:05",
+      "size": 599568
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_airship_gm.grp": {
+    "new": {
+      "sha1": "ad370f17060205ab4d57adbaa09542300d66aef5",
+      "time": "2021-04-13 16:34:27",
+      "size": 601396
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_airship_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "c913dc0db456bc9b3b80b8847b7efdf37f51f00e",
+      "time": "2021-04-13 16:34:27",
+      "size": 292296
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_anim_pack.grp": {
+    "new": {
+      "sha1": "578c573b280ffaae2f6f614c36aa02f2e86b2a4d",
+      "time": "2021-05-29 15:54:07",
+      "size": 14460356
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_avg_breslau.dxp.bin": {
+    "new": {
+      "sha1": "3c2b4308846c3b221ae17112f819e90db1ab8984",
+      "time": "2021-05-18 10:23:31",
+      "size": 2613336
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_avg_italy_village_wts.dxp.bin": {
+    "new": {
+      "sha1": "133a8bf41e664215b1717147831b403dd13a7fed",
+      "time": "2018-10-11 10:08:54",
+      "size": 381984
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_avg_kharkov.dxp.bin": {
+    "new": {
+      "sha1": "04d4a180c3d84d286c9d3f631474b962487cc22c",
+      "time": "2018-10-11 10:08:54",
+      "size": 214272
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_avg_messina_sicily.dxp.bin": {
+    "new": {
+      "sha1": "7708b5d26b79b0a0ab44a850a3c766afd4bb7fdd",
+      "time": "2018-10-11 10:08:54",
+      "size": 294200
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_avg_western_europe.dxp.bin": {
+    "new": {
+      "sha1": "5de0cd49a0cf959718194d05d2a5f8d8bf4be480",
+      "time": "2021-04-19 14:21:02",
+      "size": 1065048
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_britainaircrafts.grp": {
+    "new": {
+      "sha1": "ed39b07ae3b50935ee32822891c42dc58d088822",
+      "time": "2021-05-11 07:55:39",
+      "size": 9089800
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_bulge_wts.dxp.bin": {
+    "new": {
+      "sha1": "3c5321670049e76abab8ee5731fc702fc52e838d",
+      "time": "2019-04-12 09:51:47",
+      "size": 592992
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_chinaaircrafts.grp": {
+    "new": {
+      "sha1": "776b11212a22c2d3d7890f22ec74b0f7b40f49a4",
+      "time": "2021-04-23 18:06:36",
+      "size": 1546498
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_cn_gm.grp": {
+    "new": {
+      "sha1": "6563a4da510c475dd2c1ce4dfd50da289ae5c3b7",
+      "time": "2021-05-21 14:35:20",
+      "size": 5614143
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_collision_pack.grp": {
+    "new": {
+      "sha1": "0da6df66d7c2118af5507c7ee437279f12ef0431",
+      "time": "2021-05-25 07:30:07",
+      "size": 83171336
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_destr_european.grp": {
+    "new": {
+      "sha1": "7fcf812c48eeb402df1617927008f2744b2348cd",
+      "time": "2018-09-20 15:15:43",
+      "size": 740
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_dev_castle_siege.dxp.bin": {
+    "new": {
+      "sha1": "4af489b8db37dfa034510b38224c1ad6c141eee7",
+      "time": "2018-10-11 10:08:54",
+      "size": 374568
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_dev_forest_railroad.dxp.bin": {
+    "new": {
+      "sha1": "fbc7cea74a326d8df50198e3799f0d03f6a8fed3",
+      "time": "2018-10-11 10:08:54",
+      "size": 666888
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_dev_hd_normandy_countryside.dxp.bin": {
+    "new": {
+      "sha1": "91e405ff8b9943f2defab7f273ca390294fe0d9c",
+      "time": "2018-10-11 10:08:54",
+      "size": 339184
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_dust.dxp.bin": {
+    "new": {
+      "sha1": "2a5dff4a1e56cdd17f6e3c2483e2591879a1335d",
+      "time": "2018-10-11 10:08:55",
+      "size": 10154928
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_earth.dxp.bin": {
+    "new": {
+      "sha1": "737c4f3cd62831fef198bc5e6bbccb5802939c8a",
+      "time": "2018-10-11 10:08:55",
+      "size": 95424
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_floating_islands.dxp.bin": {
+    "new": {
+      "sha1": "59b98345e0fb3883a15db4578af8c3772083c1bf",
+      "time": "2021-04-14 22:31:34",
+      "size": 1832344
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_floating_islands.grp": {
+    "new": {
+      "sha1": "2aaa9510735685da98fd82db064e37d9637894d1",
+      "time": "2021-04-14 22:31:34",
+      "size": 3320949
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_flying_taxi_airbus.dxp.bin": {
+    "new": {
+      "sha1": "c514f8db0ecada89c0f66676559bd154be1f6ac9",
+      "time": "2021-04-13 16:34:27",
+      "size": 315760
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_flying_taxi_airbus.grp": {
+    "new": {
+      "sha1": "567216867232f0fb8dfc657d9258366387b99cb8",
+      "time": "2021-04-13 16:34:27",
+      "size": 310600
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_flying_taxi_bell_nexus.dxp.bin": {
+    "new": {
+      "sha1": "2240e906b6c65c3a7bf6c66a287b41af25c82f39",
+      "time": "2021-04-13 16:34:27",
+      "size": 339344
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_flying_taxi_bell_nexus.grp": {
+    "new": {
+      "sha1": "7998f4bff5b1e5b9ffc1684a90cf1b43a540f0f0",
+      "time": "2021-04-13 16:34:27",
+      "size": 324760
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_fr_gm.grp": {
+    "new": {
+      "sha1": "a7c0a28a2fa0c2de411c134e7c06b7e03bfa6955",
+      "time": "2021-05-07 10:30:05",
+      "size": 5992357
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_frame_houses.dxp.bin": {
+    "new": {
+      "sha1": "cf43bc266e2421bfb18323aae15ef2143004ace7",
+      "time": "2019-12-05 10:11:20",
+      "size": 471504
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_frame_houses.grp": {
+    "new": {
+      "sha1": "cb052100582649b20c846f20d3d24cefeb611438",
+      "time": "2020-10-22 18:39:23",
+      "size": 495852
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_franceaircrafts.grp": {
+    "new": {
+      "sha1": "10496d8c246cb1b8f779e24da17cbaaf9e1fbdf9",
+      "time": "2021-05-07 13:35:20",
+      "size": 3240930
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ger_bluewater_ships.grp": {
+    "new": {
+      "sha1": "73f7c59bf8017f8174badb72801575e7dc96215a",
+      "time": "2021-05-07 00:25:32",
+      "size": 57138064
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ger_gm.grp": {
+    "new": {
+      "sha1": "13feefff90367eaaa8f5a93e9226399af1246d03",
+      "time": "2021-05-07 00:25:32",
+      "size": 1269997
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ger_ships.grp": {
+    "new": {
+      "sha1": "5c895fd26661e3623163d9f67ce1b876eeb27980",
+      "time": "2021-05-07 00:25:32",
+      "size": 6981808
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_germ_gm.grp": {
+    "new": {
+      "sha1": "5be5ee923da83795d2acfc7e7d69522e680a218c",
+      "time": "2021-05-07 12:39:59",
+      "size": 13441015
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_germanyaircrafts.grp": {
+    "new": {
+      "sha1": "25373e9a995e41a8f6422a22830ab8811e7fda47",
+      "time": "2021-05-07 13:35:20",
+      "size": 2492513
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_gm_logic.grp": {
+    "new": {
+      "sha1": "37ec230bf015b3af0780a12c6766b238ca2469a7",
+      "time": "2021-05-25 07:30:07",
+      "size": 3637088
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_gm_lvl_assets.dxp.bin": {
+    "new": {
+      "sha1": "847bafeeb1404a43fde8b2b36143a0e3505de73b",
+      "time": "2021-05-14 15:11:54",
+      "size": 9132416
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_gm_lvl_assets.grp": {
+    "new": {
+      "sha1": "d7ea6ba1085e3e2582eb4983514b59c36b82a267",
+      "time": "2021-05-14 15:11:54",
+      "size": 10310886
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_gm_xray.grp": {
+    "new": {
+      "sha1": "6f84edb0fa3b04540f88a255677ce66b3b27e5f8",
+      "time": "2021-05-25 07:30:07",
+      "size": 6109594
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_grey_layered_cliff.dxp.bin": {
+    "new": {
+      "sha1": "2cd118068f8da263df2aee414575c5b393f4f719",
+      "time": "2018-10-11 10:08:55",
+      "size": 581472
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_grey_layered_cliff.grp": {
+    "new": {
+      "sha1": "5e2b3ef9a393b14c93af3fc3c72d73e7ce8fdc78",
+      "time": "2020-09-17 15:22:38",
+      "size": 880134
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_field_winter.dxp.bin": {
+    "new": {
+      "sha1": "5c1d4c14a1d074c9fcb12eff1fbec2470785e27f",
+      "time": "2021-05-24 12:58:51",
+      "size": 14490960
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_field_winter.grp": {
+    "new": {
+      "sha1": "4e2b00fbc38e4345116d69cf7da51f78a4c343db",
+      "time": "2021-05-24 12:58:51",
+      "size": 11477898
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_military_base-hq.dxp.bin": {
+    "new": {
+      "sha1": "527d38915d6e383595de8ca996159b02b39dff0e",
+      "time": "2020-12-24 09:05:35",
+      "size": 77734088
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_military_base.dxp.bin": {
+    "new": {
+      "sha1": "8087ab20b5d8c7ab0f246428abd622de659cb6ee",
+      "time": "2020-12-24 09:05:35",
+      "size": 12901584
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_military_base.grp": {
+    "new": {
+      "sha1": "9fc27b1aae473ff63708bf7dab10b8c765fe43ce",
+      "time": "2020-12-24 09:05:35",
+      "size": 11400739
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_military_base_ny-hq.dxp.bin": {
+    "new": {
+      "sha1": "76f8433cd732c0d18900c4dd038044d86be73e16",
+      "time": "2021-05-19 13:05:45",
+      "size": 92072072
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_military_base_ny.dxp.bin": {
+    "new": {
+      "sha1": "2f87b4b52a2c8e9ee883302ac1ece85da11b46f5",
+      "time": "2021-05-19 13:05:45",
+      "size": 7785336
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_military_base_ny.grp": {
+    "new": {
+      "sha1": "e13d66fff000ed7d1f255f5b5af578acc14bea42",
+      "time": "2021-05-19 13:05:45",
+      "size": 5467219
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_repair_workshop.dxp.bin": {
+    "new": {
+      "sha1": "73b7c93be15f20aa9067fb9e0109a7b2bdc67940",
+      "time": "2020-04-21 17:36:16",
+      "size": 19793184
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_hangar_repair_workshop.grp": {
+    "new": {
+      "sha1": "792297bab9989e4f5dc0defc2ae0314301ee7459",
+      "time": "2020-11-17 17:43:23",
+      "size": 13824854
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_heliaircrafts.grp": {
+    "new": {
+      "sha1": "e4905129819737971dc2b06d57f09fd77cf1e72f",
+      "time": "2021-05-07 13:35:20",
+      "size": 23433098
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_iceberg.grp": {
+    "new": {
+      "sha1": "d514c092b3706064d24107f8c65aaa4b04d10e65",
+      "time": "2020-06-05 10:34:12",
+      "size": 8059
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_it_coastal_ships.grp": {
+    "new": {
+      "sha1": "ccc8a7a228099099ce588c7b931a985f6a7f6638",
+      "time": "2021-05-07 00:25:32",
+      "size": 5811424
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_it_gm.grp": {
+    "new": {
+      "sha1": "a9ea0130a22d77e0016b8cc92683c892c764b183",
+      "time": "2021-05-18 10:23:31",
+      "size": 2895487
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_italyaircrafts.grp": {
+    "new": {
+      "sha1": "c8cef884d5c4050386201cf832440df744d29441",
+      "time": "2020-11-18 14:38:03",
+      "size": 598294
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_jap_bluewater_ships.grp": {
+    "new": {
+      "sha1": "8388cf4f6be92c669aefcc899b51c2062cbd3292",
+      "time": "2021-05-07 00:25:32",
+      "size": 33355856
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_japanaircrafts.grp": {
+    "new": {
+      "sha1": "864332b1c56edf77e7fd3dd3ce59e56218eccd8c",
+      "time": "2021-04-23 15:46:45",
+      "size": 1731709
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_jp_gm.grp": {
+    "new": {
+      "sha1": "f3210fc85bf05c7db56b7898d376236901ad470f",
+      "time": "2021-05-07 00:25:32",
+      "size": 3623224
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_landc_pack.grp": {
+    "new": {
+      "sha1": "c2e798e9bcb146f4e927ec278cc866d5ab5f3dcd",
+      "time": "2021-05-20 13:29:25",
+      "size": 6652372
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_landscape_extra.dxp.bin": {
+    "new": {
+      "sha1": "57f2588287e582a03c1afc695a3788da6d6d12dc",
+      "time": "2018-10-11 10:08:56",
+      "size": 3837240
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_locations.dxp.bin": {
+    "new": {
+      "sha1": "55f4b4dfa5419a2582d3806c48781bac51cfbffc",
+      "time": "2021-05-14 14:14:26",
+      "size": 905248
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_locations.grp": {
+    "new": {
+      "sha1": "4b788c8bed5e05b22472cbb80681d311c7d97727",
+      "time": "2021-05-14 14:14:26",
+      "size": 1829
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_locations_maps-hq.dxp.bin": {
+    "new": {
+      "sha1": "b0bd4422406b27b2572f6e7a930f439a11bf8a56",
+      "time": "2020-11-09 17:45:00",
+      "size": 2101136
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_locations_maps.dxp.bin": {
+    "new": {
+      "sha1": "3e374a070010f64a3ed5a4a712f9df52a367cd3a",
+      "time": "2021-05-17 10:48:25",
+      "size": 16325672
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_log_houses.grp": {
+    "new": {
+      "sha1": "429cabc36a41bcb5bb19a4f51e7d8dd6dfb1ccdf",
+      "time": "2020-09-17 15:22:38",
+      "size": 559733
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_mech_gm.grp": {
+    "new": {
+      "sha1": "343cd9fd235dc1c2d2fe02a7b658e4d741e067dc",
+      "time": "2021-05-29 15:54:07",
+      "size": 42198997
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_mech_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "2ef2525002353bb4d26f8bdd55e0fd7c4194394f",
+      "time": "2021-03-28 15:54:47",
+      "size": 33614424
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_north_port_assets.dxp.bin": {
+    "new": {
+      "sha1": "14b303a32ddf22e71d6f437bfbbb8e45eb6c26c6",
+      "time": "2021-03-05 18:03:38",
+      "size": 247480
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_phys_tracks.grp": {
+    "new": {
+      "sha1": "a74f177e1e694ff17ae22487b3df25ff65a6a010",
+      "time": "2021-05-07 00:25:32",
+      "size": 122366
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_pilots-hq.dxp.bin": {
+    "new": {
+      "sha1": "5ee144a461fca5517bd5c7f947522c8c0ecd0b75",
+      "time": "2021-03-29 15:37:43",
+      "size": 1144608
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_pilots.dxp.bin": {
+    "new": {
+      "sha1": "7f60620a05dab68318690809bffd8d78d5089400",
+      "time": "2021-04-20 20:54:02",
+      "size": 1312832
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_pilots.grp": {
+    "new": {
+      "sha1": "df0572c3ba849048ccf42416dd60517de9e20466",
+      "time": "2021-04-20 20:54:02",
+      "size": 695917
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_promo_chars.dxp.bin": {
+    "new": {
+      "sha1": "74d58def36446b1a599040b00e9c8e31caf1ed99",
+      "time": "2018-10-11 10:08:56",
+      "size": 240
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_promo_chars.grp": {
+    "new": {
+      "sha1": "bed4f466d9f06341dabc27d18aad29da16056fbd",
+      "time": "2020-10-14 15:29:33",
+      "size": 12291450
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_pships.grp": {
+    "new": {
+      "sha1": "2485c49279a25df67c35e37f72a28f5978862dc5",
+      "time": "2020-07-28 10:29:26",
+      "size": 83088
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_pships_weaponry.grp": {
+    "new": {
+      "sha1": "160bfc347363ca375a9eb1f60a9b18a1790d4fbc",
+      "time": "2021-05-07 00:25:32",
+      "size": 230372
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_se_gm.grp": {
+    "new": {
+      "sha1": "babddb6c0b6ee1d8dcc8a6dd00483248b8c12908",
+      "time": "2021-05-11 14:29:08",
+      "size": 12445288
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ship_logic.grp": {
+    "new": {
+      "sha1": "669abe89b6689e61276ad4e32aa9f71b4d9ef8bb",
+      "time": "2021-05-15 19:26:27",
+      "size": 5742200
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ship_xray.grp": {
+    "new": {
+      "sha1": "bc2539fb1a43199387f92d217daa4552eaf8940d",
+      "time": "2021-05-15 19:26:27",
+      "size": 12151335
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\_weaponry-hq.dxp.bin": {
+    "new": {
+      "sha1": "3357c447957e685825175c1b7aae1ed55e35a35c",
+      "time": "2021-04-21 10:11:37",
+      "size": 397368
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\_weaponry.dxp.bin": {
+    "new": {
+      "sha1": "c7f79267f76ca30f35806ddfe3b6977be33e2ab2",
+      "time": "2021-04-21 10:11:37",
+      "size": 315640
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ger_battleship_gneisenau-hq.dxp.bin": {
+    "new": {
+      "sha1": "99ff6dfb66e84b5aeaa2d9ad11bb051f6e805915",
+      "time": "2020-11-26 13:20:16",
+      "size": 18333584
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ger_battleship_nassau-hq.dxp.bin": {
+    "new": {
+      "sha1": "800ccc6a5d2ba2aff9da269cbc3b4b33e8079794",
+      "time": "2021-03-04 15:03:41",
+      "size": 17956768
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ger_battleship_scharnhorst-hq.dxp.bin": {
+    "new": {
+      "sha1": "5e133f8ee5b27e2c6bde2a40bb698011ba76e8de",
+      "time": "2020-11-26 13:20:16",
+      "size": 17125760
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ger_battleship_tirpitz_1944-hq.dxp.bin": {
+    "new": {
+      "sha1": "3375b7d4c837a42ecedad554b56f326072de7ec4",
+      "time": "2020-11-26 13:20:16",
+      "size": 19717960
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ger_ship_bq.dxp.bin": {
+    "new": {
+      "sha1": "a944b2294034c2277f03caadfbd9c7813e954994",
+      "time": "2021-03-04 15:03:41",
+      "size": 2586832
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ger_tirpitz-hq.dxp.bin": {
+    "new": {
+      "sha1": "2f404cc8cea70c8c2c1aae02ee45f9cb3f2c0a30",
+      "time": "2020-11-26 13:20:16",
+      "size": 122927736
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\it_p420_sparviero_art-hq.dxp.bin": {
+    "new": {
+      "sha1": "5a8221e0aded96fc8b5f7de78c3afe26231baca0",
+      "time": "2020-11-26 13:20:17",
+      "size": 5070360
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\it_ship_bq.dxp.bin": {
+    "new": {
+      "sha1": "e791cb6fdd7da771e6801734c47a242d2c827231",
+      "time": "2021-05-15 19:26:28",
+      "size": 351312
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\jap_battleship_fuso-hq.dxp.bin": {
+    "new": {
+      "sha1": "79da56cc4aa1fca01e5875e90e2d66a1cf0b3bb9",
+      "time": "2020-10-07 18:14:15",
+      "size": 21205608
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\jap_battleship_ise-hq.dxp.bin": {
+    "new": {
+      "sha1": "ae716caea452819b2d949aeb573898c7e6416742",
+      "time": "2021-03-23 17:42:18",
+      "size": 21403608
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\jap_battleship_yamashiro-hq.dxp.bin": {
+    "new": {
+      "sha1": "67aa25bb49ac1308657472fc511712da00df4ebe",
+      "time": "2021-04-26 14:19:20",
+      "size": 20561512
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\jap_cruiser_yubari-hq.dxp.bin": {
+    "new": {
+      "sha1": "9fbc0b9c30c904363bcd6a99dc37ad263fc5bc18",
+      "time": "2020-04-07 12:06:46",
+      "size": 24851688
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\jap_ship_bq.dxp.bin": {
+    "new": {
+      "sha1": "0c62106e51378d3ec445a33cfe483a13c20bc88e",
+      "time": "2021-04-26 14:19:20",
+      "size": 1388584
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\pships-hq.dxp.bin": {
+    "new": {
+      "sha1": "646aca9c75fb47243a5be8b72d0cc6fdeb40ec61",
+      "time": "2020-10-28 12:42:59",
+      "size": 480
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\pships.dxp.bin": {
+    "new": {
+      "sha1": "c650c2a6380e79f7553f0f8c996d8d339707647f",
+      "time": "2020-10-28 12:42:59",
+      "size": 581472
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\pships_weaponry-hq.dxp.bin": {
+    "new": {
+      "sha1": "73235e7160b5068a484118d4ed7e18aab759dab8",
+      "time": "2021-05-10 02:03:06",
+      "size": 21888440
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\pships_weaponry.dxp.bin": {
+    "new": {
+      "sha1": "d6b9788e86f9a297d17c5b6d19afbdff5df1b8d1",
+      "time": "2021-05-10 02:03:06",
+      "size": 4491664
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ufo-hq.dxp.bin": {
+    "new": {
+      "sha1": "44385d74816bbd613af468d34cf30e6423873bc7",
+      "time": "2021-04-21 10:11:37",
+      "size": 39765168
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ufo.dxp.bin": {
+    "new": {
+      "sha1": "6c46ed51519010dfd01643116005d82d675bdf0d",
+      "time": "2021-04-21 10:11:37",
+      "size": 552520
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\uk_battlecruiser_hood-hq.dxp.bin": {
+    "new": {
+      "sha1": "44673749299b883c9e53c95c486c2809120f212b",
+      "time": "2021-01-27 15:13:48",
+      "size": 21293952
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\uk_battlecruiser_renown-hq.dxp.bin": {
+    "new": {
+      "sha1": "2c20392c9110e39aa6bd1e95232479b9993fa199",
+      "time": "2021-04-09 10:03:57",
+      "size": 22683472
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\uk_fairmile_d_601_616_bigcaptain-hq.dxp.bin": {
+    "new": {
+      "sha1": "d7e280c58197216b6c3dccb18712f49dcf41f216",
+      "time": "2020-11-26 15:31:51",
+      "size": 4025008
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\uk_s30_vigilant-hq.dxp.bin": {
+    "new": {
+      "sha1": "26655a0437fa2cb7028d6de5763c803afe33bcf2",
+      "time": "2020-11-26 15:31:51",
+      "size": 17722128
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\uk_ship_bq.dxp.bin": {
+    "new": {
+      "sha1": "206c1a72a8f830e931bc09cbd97ae0aafa4d7dd7",
+      "time": "2021-04-09 10:03:57",
+      "size": 1072808
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\usa_battlecruiser_alaska_class-hq.dxp.bin": {
+    "new": {
+      "sha1": "16d1ff64854d3404de7ec82a3d0d30b885a9540c",
+      "time": "2020-11-26 15:31:51",
+      "size": 18782296
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\usa_battleship_arizona_1931-hq.dxp.bin": {
+    "new": {
+      "sha1": "15d9872f75cee028de56fdecbea4b7857a9be268",
+      "time": "2020-12-11 13:29:09",
+      "size": 24072912
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\usa_cruiser_baltimore_class_pittsburgh-hq.dxp.bin": {
+    "new": {
+      "sha1": "fe27309b31501554c1b0200a90f12271f9058473",
+      "time": "2021-04-28 14:31:14",
+      "size": 20969320
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\usa_cruiser_indianapolis_class-hq.dxp.bin": {
+    "new": {
+      "sha1": "304297d8d6748e90b3d38564a8d94978c70cca2c",
+      "time": "2021-01-11 12:24:06",
+      "size": 22052224
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\usa_ship_bq.dxp.bin": {
+    "new": {
+      "sha1": "0291c26d972cc91a32b190fd507f77fb1ae0cd41",
+      "time": "2021-05-13 19:44:26",
+      "size": 1328968
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\usa_ssn_774_virginia-hq.dxp.bin": {
+    "new": {
+      "sha1": "2a19a4b75dc0368a03a0f933658c5054771f0922",
+      "time": "2020-11-26 15:31:51",
+      "size": 8132736
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ussr_battlecruiser_kronshtadt-hq.dxp.bin": {
+    "new": {
+      "sha1": "444c5c3ae85df65d1ff5ec73c9dc61fa804e5a9e",
+      "time": "2020-11-26 13:20:17",
+      "size": 19635744
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ussr_battlecruiser_stalingrad-hq.dxp.bin": {
+    "new": {
+      "sha1": "c1464a2b2a522612b64398ecb51a2ea54bedbbdc",
+      "time": "2020-06-03 15:41:56",
+      "size": 19030120
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ussr_battleship_parizhskaya_kommuna-hq.dxp.bin": {
+    "new": {
+      "sha1": "527b7d611ddb0c187d290057e215a001397e8118",
+      "time": "2021-04-05 22:07:43",
+      "size": 21492768
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ussr_p885_yasen-hq.dxp.bin": {
+    "new": {
+      "sha1": "04d57ace39ec26577c973aa6ccaef5d2259bae0e",
+      "time": "2020-11-26 13:20:17",
+      "size": 16074408
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ships\\ussr_ship_bq.dxp.bin": {
+    "new": {
+      "sha1": "5666cc071d1c33f96a4377ffe08fc2c7bc66a3d9",
+      "time": "2021-05-13 19:44:26",
+      "size": 1173464
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_swedenaircrafts.grp": {
+    "new": {
+      "sha1": "da27f5576e18343be67f354b6cf62c7b1d95f179",
+      "time": "2021-03-10 10:35:43",
+      "size": 4176824
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tank_poligon.dxp.bin": {
+    "new": {
+      "sha1": "5aba8b6573ef9c3e36febc75c7901dd1fa9a1c1a",
+      "time": "2018-10-11 10:08:56",
+      "size": 45904
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\cn_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "19510e633b058c62a4bbe25f1224ed23656ac971",
+      "time": "2021-05-14 07:02:52",
+      "size": 1271656
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\fr_amx_50_1950-hq.dxp.bin": {
+    "new": {
+      "sha1": "3a0a0a4ae27f36328b3b4b8e1c5a5039cdeb3d3a",
+      "time": "2019-04-30 15:36:35",
+      "size": 6487000
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\fr_amx_elc_bis-hq.dxp.bin": {
+    "new": {
+      "sha1": "0dba490db03c3f6ba70d9e648e8ec994d277d014",
+      "time": "2020-07-30 19:38:59",
+      "size": 8504840
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\fr_citroen_kegresse_p19t-hq.dxp.bin": {
+    "new": {
+      "sha1": "58c9b5a5774ec8f43bad4339079dd6d3cb7e3c55",
+      "time": "2018-10-11 10:09:11",
+      "size": 11576064
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\fr_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "440420113b6a13c08aa828271b2c65eae80ce8e4",
+      "time": "2021-05-07 10:30:07",
+      "size": 3379808
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\fr_leclerc_sxxi-hq.dxp.bin": {
+    "new": {
+      "sha1": "a4b635a3dd6834a70836d178c3b11663620a01ce",
+      "time": "2021-04-21 10:46:14",
+      "size": 1542840
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\ger_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "dd1e651c44c325e7047187630fdc33a7ec482680",
+      "time": "2020-04-27 11:38:24",
+      "size": 1094584
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\germ_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "9df3eec8bd14f8d7213f968f4533d6f405b5da58",
+      "time": "2021-05-07 12:40:01",
+      "size": 5459592
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\gm.dxp.bin": {
+    "new": {
+      "sha1": "88597de97457dab0b2214f132c3e6cc7e753ba00",
+      "time": "2021-04-30 10:55:30",
+      "size": 1223960
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\it_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "19fba6adc27fcc34a94ecaff5cf2d0dfd91eebdf",
+      "time": "2021-05-18 10:23:33",
+      "size": 1280240
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\jp_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "d72770a7b8397b34b64ebf3b6492b179e187ed28",
+      "time": "2021-02-04 10:53:52",
+      "size": 2830408
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\jp_towed_at_47mm_type_1-hq.dxp.bin": {
+    "new": {
+      "sha1": "97b86233451a5dcbf7223eca827b4f5315b1c4bb",
+      "time": "2020-04-09 18:42:10",
+      "size": 1776064
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\jp_type_10-hq.dxp.bin": {
+    "new": {
+      "sha1": "1a79a444cd7f99bc8a1fe4be613d742361a6879e",
+      "time": "2019-10-18 10:08:33",
+      "size": 10862464
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\jp_type_3_ka_chi-hq.dxp.bin": {
+    "new": {
+      "sha1": "2f27281e11d152dceddc7264d0903494c44291cd",
+      "time": "2020-06-05 18:42:01",
+      "size": 14463280
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\phys_tracks.dxp.bin": {
+    "new": {
+      "sha1": "52a66c9f2f83c0ccda452273cc056b8a2a7b3eda",
+      "time": "2021-04-20 20:54:07",
+      "size": 326840
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\se_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "264cfb14393d9cec3b4dec51c3b713b0a1712cad",
+      "time": "2021-05-12 11:01:28",
+      "size": 5586072
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\uk_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "6216a58f2dfc30705e24d5b30e942f38ec4d8988",
+      "time": "2021-05-07 10:30:07",
+      "size": 1434496
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\usa_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "1d07688a2decdabbaf8dbdff229921d1e2371c8d",
+      "time": "2021-05-25 15:45:02",
+      "size": 1623328
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\usa_t54e2-hq.dxp.bin": {
+    "new": {
+      "sha1": "4e154ce776fb88715d7cb8e514a5bd4bafc3c099",
+      "time": "2021-05-25 15:45:02",
+      "size": 10050472
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\usa_xm_975_roland-hq.dxp.bin": {
+    "new": {
+      "sha1": "8b3a94a2f596affbcc77090ff83782cee8a6af9e",
+      "time": "2020-04-13 15:09:40",
+      "size": 6664832
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tanks\\ussr_gm_bq.dxp.bin": {
+    "new": {
+      "sha1": "96117bfe8f53045dd1cdad3843f026d74347e2a9",
+      "time": "2021-05-25 07:30:08",
+      "size": 2185168
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_templates.dxp.bin": {
+    "new": {
+      "sha1": "ee1076aa093f766cc8d4070e6df667f5790bb77d",
+      "time": "2021-05-14 11:38:53",
+      "size": 15175640
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_templates.grp": {
+    "new": {
+      "sha1": "f77f134b9ce7059684104ee4747b8569243353e5",
+      "time": "2021-05-29 15:54:07",
+      "size": 42736392
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_tile_textures_mch.dxp.bin": {
+    "new": {
+      "sha1": "ffd2ac652fdf78fd76293ab86bca91860ebf404a",
+      "time": "2021-03-12 18:32:40",
+      "size": 4873960
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_toon_stylized.dxp.bin": {
+    "new": {
+      "sha1": "e54a8d34d0dfec1894a0e6048a1c5b3f1dac837b",
+      "time": "2021-04-15 11:42:24",
+      "size": 798128
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ufo.grp": {
+    "new": {
+      "sha1": "683305b17f45772316f26eb68c98c4c13b27440a",
+      "time": "2021-04-21 10:11:35",
+      "size": 335284
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_uk_bluewater_ships.grp": {
+    "new": {
+      "sha1": "621938810342ead139b7694cc2f18f7d1c225830",
+      "time": "2021-05-13 19:44:25",
+      "size": 18366400
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_uk_coastal_ships.grp": {
+    "new": {
+      "sha1": "acb41d3c238a0cf06815fc40cee99132e68744d5",
+      "time": "2021-05-07 00:25:32",
+      "size": 10518692
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_uk_gm.grp": {
+    "new": {
+      "sha1": "99cec5edd5397391075c57c1d92332dc7a45ee39",
+      "time": "2021-05-07 10:30:05",
+      "size": 3927194
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_units.dxp.bin": {
+    "new": {
+      "sha1": "1151d0efa0daff6e310b07226db236af4929348e",
+      "time": "2018-10-11 10:08:57",
+      "size": 951200
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_units.grp": {
+    "new": {
+      "sha1": "7a6af2c78c638d4badb7d13842c7eded8408b55a",
+      "time": "2021-05-07 00:25:32",
+      "size": 121772
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_usa_bluewater_ships.grp": {
+    "new": {
+      "sha1": "4e62c07f73704bd572c0e8cc2f71cb34b39e6a52",
+      "time": "2021-05-13 19:44:25",
+      "size": 43710928
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_usa_coastal_ships.grp": {
+    "new": {
+      "sha1": "4d1fce8a0ca128fc10a306e7d9cebb82e1dd23f2",
+      "time": "2021-01-19 16:08:06",
+      "size": 2006548
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_usa_gm.grp": {
+    "new": {
+      "sha1": "3cdd959a0b6cbc6c25ecf82e9f1dd5615a3e5f9a",
+      "time": "2021-05-07 00:25:32",
+      "size": 4062742
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_usaaircrafts.grp": {
+    "new": {
+      "sha1": "77239b4190fec2e9a25af986b77e19b81b5795fc",
+      "time": "2021-05-24 11:55:27",
+      "size": 23588051
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ussr_bluewater_ships.grp": {
+    "new": {
+      "sha1": "55caa6298b41047d3f8df62ea05261a4d15c33eb",
+      "time": "2021-05-13 19:44:25",
+      "size": 37372784
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ussr_coastal_ships.grp": {
+    "new": {
+      "sha1": "6dc693c01bfe45f41394b3765a66b9e8f40698f7",
+      "time": "2021-02-02 12:48:38",
+      "size": 3318964
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ussr_gm.grp": {
+    "new": {
+      "sha1": "683af27ddedd50db27eb54b6f544409e59ee5386",
+      "time": "2021-05-25 07:30:07",
+      "size": 9844945
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_ussraircrafts.grp": {
+    "new": {
+      "sha1": "369f41ff7f0bd358855dce5693b2df29a87ab647",
+      "time": "2021-05-29 15:54:07",
+      "size": 4949116
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_vegetation.dxp.bin": {
+    "new": {
+      "sha1": "e00cebd71d4d1f50138ce80cf13cc0df7046b299",
+      "time": "2021-05-19 13:05:46",
+      "size": 9354808
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_vegetation.grp": {
+    "new": {
+      "sha1": "5c8068518bdab4c82d1588ad7028083c16eea852",
+      "time": "2021-05-19 13:05:46",
+      "size": 5974182
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_water_mining_factory.dxp.bin": {
+    "new": {
+      "sha1": "7b886870a850d64eabcb3beac050bc3968ef3229",
+      "time": "2020-04-16 12:13:49",
+      "size": 11772464
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_water_mining_factory.grp": {
+    "new": {
+      "sha1": "29b350b27c2eaedeecf04ffd94c68f9129791256",
+      "time": "2020-10-29 02:37:19",
+      "size": 7922629
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_worldwar_maps.dxp.bin": {
+    "new": {
+      "sha1": "ca107e7196a7fc12a71d53abab2625da754c998f",
+      "time": "2020-06-22 13:06:07",
+      "size": 16272
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_wts.dxp.bin": {
+    "new": {
+      "sha1": "37c06af23ae80db892396775e3554e1d8bcf6816",
+      "time": "2019-04-10 17:11:44",
+      "size": 1332360
+    }
+  },
+  "content\\pkg_dev\\res\\pkg_dev_wts.grp": {
+    "new": {
+      "sha1": "6c47f30d598944e433b993c2fdd60b6150b080a9",
+      "time": "2019-04-10 08:44:06",
+      "size": 508
+    }
+  },
+  "content\\pkg_dev\\res\\riDesc.bin": {
+    "new": {
+      "sha1": "a7fe4b57e794ed21a31f5b0b265a17891af11139",
+      "time": "2021-05-29 15:54:07",
+      "size": 38095
+    }
+  },
+  "content\\pkg_local\\levels\\empty_location_map.jpg": {
+    "new": {
+      "sha1": "abcfb6f7d0f4570f7c8e8c05d28638441af65dd1",
+      "time": "2017-09-12 13:38:05",
+      "size": 275163
+    }
+  },
+  "content\\pkg_local\\levels\\flat_location_4_tests.jpg": {
+    "new": {
+      "sha1": "436a74e4e959993dc5187e62511f915061bdcc3e",
+      "time": "2019-04-04 12:53:30",
+      "size": 13022
+    }
+  },
+  "content\\pkg_local\\levels\\location_sample_map.jpg": {
+    "new": {
+      "sha1": "cf3e60f7abdc2a67b3309c2c45c2a410798a23b9",
+      "time": "2014-04-18 23:40:40",
+      "size": 586346
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\africa_oil_rig.dxp.bin": {
+    "new": {
+      "sha1": "0ac6950f0889697e9cbf54d180748cf0add440d4",
+      "time": "2020-01-17 13:02:17",
+      "size": 6927184
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\africa_oil_rig.grp": {
+    "new": {
+      "sha1": "9b7e40ec6c2ca08e3bb86886744d0a34c6d6acec",
+      "time": "2020-06-05 14:43:07",
+      "size": 151644
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\amazon.dxp.bin": {
+    "new": {
+      "sha1": "e5fc3283af140252710613034f110693f73b1b3f",
+      "time": "2020-01-17 13:02:17",
+      "size": 988736
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\amz_textile_factory.dxp.bin": {
+    "new": {
+      "sha1": "08e294af7b349c2651d007c8fb674e59682de5ab",
+      "time": "2020-01-17 13:02:17",
+      "size": 2185304
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\amz_textile_factory.grp": {
+    "new": {
+      "sha1": "7039c25f1d2ebbf4ece0dc5bff14cbb168bf4acd",
+      "time": "2020-06-05 14:43:07",
+      "size": 28758
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\amz_villa.grp": {
+    "new": {
+      "sha1": "e1d2aa7275cb8e1622605eccb33c4c6c6d9aa990",
+      "time": "2020-06-05 14:43:07",
+      "size": 4635
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\animatedunits.dxp.bin": {
+    "new": {
+      "sha1": "31606a97d9ef78d792e060a6b003d01c1cbc04ec",
+      "time": "2020-01-17 13:02:17",
+      "size": 292848
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\animatedunits.grp": {
+    "new": {
+      "sha1": "283e861d2e4f8ab5f732b6665856d44aaabac5ae",
+      "time": "2020-06-05 14:43:07",
+      "size": 175208
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\bus_stop.dxp.bin": {
+    "new": {
+      "sha1": "67f841632af5b9dd52ba884e11e848617d8bc793",
+      "time": "2020-01-17 13:02:17",
+      "size": 1640376
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\bus_stop.grp": {
+    "new": {
+      "sha1": "7e748a0d6a30defebaf3e0b58975d94abdc14aad",
+      "time": "2020-06-05 14:43:07",
+      "size": 16960
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\gm_logic.grp": {
+    "new": {
+      "sha1": "38231c922abe49310d8a578a59361f60dab6e67f",
+      "time": "2018-11-29 18:08:03",
+      "size": 247796
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\player_ships.dxp.bin": {
+    "new": {
+      "sha1": "b1afcd0804cc660d597a18332a606a07fb48a246",
+      "time": "2020-01-17 13:02:18",
+      "size": 18598944
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\player_ships.grp": {
+    "new": {
+      "sha1": "18ea23ff1ab95703ec9836dac9093239a25de5ad",
+      "time": "2020-06-05 14:43:07",
+      "size": 6019060
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\player_vehicles.grp": {
+    "new": {
+      "sha1": "c7cf7853fa37d5e25112d77f61981b6e529403f7",
+      "time": "2020-06-05 14:43:07",
+      "size": 3104
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_camo.dxp.bin": {
+    "new": {
+      "sha1": "c15d0ab27fe9c3c6812877a94e752e1dd6345a1d",
+      "time": "2020-01-17 13:02:18",
+      "size": 3935680
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_details.dxp.bin": {
+    "new": {
+      "sha1": "ef2ecff1c18c5d68b15df5bcb88d05f0f3197202",
+      "time": "2020-01-17 13:02:18",
+      "size": 9238552
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_i_185.dxp.bin": {
+    "new": {
+      "sha1": "cca4ab358cee9a6d4fd1e29014edd4ebd9f8cb9b",
+      "time": "2020-01-17 13:02:18",
+      "size": 13726240
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_i_185.grp": {
+    "new": {
+      "sha1": "b564898bfa09a0341bec328c6f567c61e96878e8",
+      "time": "2020-06-05 14:43:07",
+      "size": 1146148
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_m60a1.dxp.bin": {
+    "new": {
+      "sha1": "36c064e3626326e1dab0ecf561cbaff0d4a4b88b",
+      "time": "2020-01-17 13:02:18",
+      "size": 11789120
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_m60a1.grp": {
+    "new": {
+      "sha1": "ed77b9c2063e00ee9bc428d671c1a733e43d7949",
+      "time": "2020-06-05 14:43:07",
+      "size": 2429546
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_textures.dxp.bin": {
+    "new": {
+      "sha1": "82ee991c71c6a6dc4577eaf1283ffed4c3b9e72e",
+      "time": "2020-01-17 13:02:18",
+      "size": 2619560
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\sample_weaponry.dxp.bin": {
+    "new": {
+      "sha1": "67ad37dc5e4f92cf41b4f8137a5bae583779ee37",
+      "time": "2020-01-17 13:02:18",
+      "size": 6633152
+    }
+  },
+  "content\\pkg_local\\res\\pkg_local_\\ship_logic.grp": {
+    "new": {
+      "sha1": "fc39389b422e43608f5875e9b52bc334ff01760f",
+      "time": "2018-11-29 18:08:03",
+      "size": 223752
+    }
+  }
+}
